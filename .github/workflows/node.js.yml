@@ -7,8 +7,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
-    - TestingInitial
+      - '*'
+    #- main
+    #- TestingInitial
     - release/*
   pull_request:
     branches: [ "main" ]
