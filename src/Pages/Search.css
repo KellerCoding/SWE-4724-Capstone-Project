@@ -1,5 +1,17 @@
 .SearchHead{
+    background-color: #f9f9f9;
+    width: 100dvmax;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+h1{
+    color: black;
+}
+button{
+    background-color: #888888;
+    color: #1a1a1a;
 }
