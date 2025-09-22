@@ -40,3 +40,126 @@
 .read-the-docs {
   color: #888;
 }
+/*  ChatGPT code, disregard for now.
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  background: #4caf50;
+  color: white;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 0.5rem auto 0;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filters input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-light {
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-light:hover {
+  background: #eaeaea;
+}
+
+.hospital-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hospital-table th,
+.hospital-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.hospital-table th {
+  background: #f4f4f4;
+}
+
+.btn-view {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-view:hover {
+  background: #3d9141;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.page-link {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+}
+
+.page-link.active {
+  font-weight: bold;
+  background: #4caf50;
+  color: white;
+}
+*/
