@@ -1,0 +1,33 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: MyFont, serif;
+}
+
+.banner{
+    width: 100dvmax;
+    height: 200px;
+    background-color: #6fb353;
+}
+
+.banner h1{
+    padding-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: xxx-large;
+}
+.banner hr{
+    color: #FFFFFF;
+    width: 10%;
+}
+.objective{
+    top:0;
+    padding-top: 50px;
+}
+.objective p{
+    font-weight: bold;
+    color: #7A7A7A;
+    text-align: center;
+}
+
+
