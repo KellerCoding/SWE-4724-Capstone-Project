@@ -4,6 +4,19 @@ html, body {
     font-family: MyFont, serif;
 }
 
+:root{
+    --accent-green: #76d28a;
+    --accent-dark: #1fa23a;
+    --muted-green: #dff8e8;
+    --border: rgba(0,0,0,0.12);
+    --row-bg: #ffffff;
+    --table-bg: #f6fbfa;
+    --header-green: #c9f3d7;
+    --left-green: #8fdf9e;
+    --left-green-darker:#3fb96a;
+    font-family: MyFont, serif;
+}
+
 .banner{
     width: 100dvmax;
     height: 200px;
@@ -28,6 +41,103 @@ html, body {
     font-weight: bold;
     color: #7A7A7A;
     text-align: center;
+    text-shadow: 2px 2px 4px #f48810;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 
+.left{
+    display: block;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.left h5{
+    color: #000000;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.left h6{
+    color: #000000;
+    font-size: 20px;
+
+}
+
+.left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    max-height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.right{
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+}
+.table, td {
+    color: #000000;
+    border: 1px groove #38E078;
+}
+
+.thead{
+    background-color: #38E078;
+}
+
+.th0{
+    width: 50px;
+    background-color: #38E078;
+}
+
+.th1{
+    width: 380px;
+    text-align: left;
+}
+.th2{
+    width: 100px;
+}
+
+.numRow{
+    background-color: #27C840;
+    font-size: 30px;
+    text-align: center;
+}
+
+td{
+    text-align: left;
+}
+
+.viewButton{
+    background-color: #38E078;
+}
+
+.Hospital{
+    font-size: 25px;
+}
+
+.Grade{
+    text-align: center;
+}
 

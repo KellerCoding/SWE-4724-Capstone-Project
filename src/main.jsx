@@ -6,6 +6,6 @@ import {Scorecard} from "./Pages/Scorecard.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
+    <Scorecard/>
   </StrictMode>,
 )
