@@ -1,6 +1,5 @@
 import "./SubNavbar.css"
-import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export function SubNavbar(){
     const [showGetAssistanceDropdown, setShowGetAssistanceDropdown] = useState(false)
@@ -33,21 +32,11 @@ export function SubNavbar(){
                         </div>
                     )}
                 </li>
-                <div onMouseEnter={() => setShowGetAssistanceDropdown(true)}
-                    onMouseLeave={() => setShowGetAssistanceDropdown(false)}>
-                <li className="nav-item dropdown-container" 
-                    >
-                    <a href="" className="nav-link">
+                <li className="nav-item">
+                    <Link to="/resource-directory" className="nav-link">
                         GET ASSISTANCE
                         <span className="dropdown-arrow">▼</span>
-                    </a>
-                    {showGetAssistanceDropdown && (
-                        <div className="dropdown-menu">
-                            <a href="" className="dropdown-item">EDUCATIONAL WORKSHOP</a>
-                            <a href="" className="dropdown-item">DISPUTE RESOLUTION TIPS</a>
-                            <a href="" className="dropdown-item">RESOURCE DIRECTORY</a>
-                        </div>
-                    )}
+                    </Link>
                 </li>
                 </div>
                 <li className="nav-item">
