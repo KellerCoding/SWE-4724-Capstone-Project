@@ -1,7 +1,6 @@
 import "./Scorecard.css"
-import hospitalData from "../data/testData.json"
 
-export function Scorecard(){
+export function TestPageA(){
     return (
         <div className="Scorecard">
             <div className={"banner"}>
@@ -40,40 +39,49 @@ export function Scorecard(){
                         </button>
                     </div>
                 </div>
-
-                
                 <div className={"right"}>
                     <table className={"table"}>
                         <thead className={"thead"}>
                             <tr>
-                                <th className={"th0"}>Rank</th>
+                                <th className={"th0"}></th>
                                 <th className={"th1"}>Hospital</th>
                                 <th className={"th2"}>Grade</th>
                                 <th className={"th3"}>Details</th>
                             </tr>
                         </thead>
                         <tbody>
-                        {Object.entries(hospitalData).map(([hospitalName, data], index) => {
-                            
-                            const info = data.hospitalInfo;
-                            return(
-                                <tr key={hospitalName}>
-                                        <td className={"numRow"}>{index + 1}</td>
-                                        <td>
-                                            <span className={"Hospital"}>{hospitalName}</span>
-                                            <br />
-                                            {info.city}
-                                        </td>
-                                        <td className={"Grade"}>A</td>
-                                        <td>
-                                            <button className={"viewButton"}>View</button>
-                                        </td>
-                                    </tr>
-                            );
-                        })}
+                            <tr>
+                                <td className={"numRow"}>1</td>
+                                <td><span className={"Hospital"}>Emory Hospital</span><br />Atlanta</td>
+                                <td className={"Grade"}>A</td>
+                                <td><button className={"viewButton"}>View</button></td>
+                            </tr>
+                            <tr>
+                                <td className={"numRow"}>2</td>
+                                <td><span className={"Hospital"}>Emory St. Joseph's</span><br />Atlanta</td>
+                                <td className={"Grade"}>A</td>
+                                <td><button className={"viewButton"}>View</button></td>
+                            </tr>
+                            <tr>
+                                <td className={"numRow"}>3</td>
+                                <td><span className={"Hospital"}>North Georgia Medical</span><br />Gainesville</td>
+                                <td className={"Grade"}>A</td>
+                                <td><button className={"viewButton"}>View</button></td>
+                            </tr>
+                            <tr>
+                                <td className={"numRow"}>4</td>
+                                <td><span className={"Hospital"}>Piedmont Atlanta</span><br />Atlanta</td>
+                                <td className={"Grade"}>A</td>
+                                <td><button className={"viewButton"}>View</button></td>
+                            </tr>
+                            <tr>
+                                <td className={"numRow"}>5</td>
+                                <td><span className={"Hospital"}>Emory University Midtown</span><br />Atlanta</td>
+                                <td className={"Grade"}>A</td>
+                                <td><button className={"viewButton"}>View</button></td>
+                            </tr>
                         </tbody>
                     </table>
-                        
                     {/*Previous, 1, 2, 3... Next*/}
 
                 </div>
