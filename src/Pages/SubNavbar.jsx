@@ -1,4 +1,5 @@
 import "./SubNavbar.css"
+import { Link } from "react-router-dom"
 
 export function SubNavbar(){
     return (
@@ -19,10 +20,10 @@ export function SubNavbar(){
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <Link to="/resource-directory" className="nav-link">
                         GET ASSISTANCE
                         <span className="dropdown-arrow">▼</span>
-                    </a>
+                    </Link>
                 </li>
                 <li className="nav-item">
                     <a href="" className="nav-link">
