@@ -1,0 +1,108 @@
+.homepage-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.homepage-header h1 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.homepage-header p {
+    margin: 0;
+    color: #666;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Carousel full width styles */
+.carousel {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100% !important;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Carousel arrow styling */
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    width: 60px !important;
+    height: 60px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    opacity: 1 !important;
+    background: none !important;
+    border: none !important;
+    z-index: 10 !important;
+    position: absolute !important;
+}
+
+.carousel .carousel-control-prev {
+    left: 50px !important;
+}
+
+.carousel .carousel-control-next {
+    right: 50px !important;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: #6fb353 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    filter: none !important;
+    background-size: 24px 24px !important;
+}
+
+.carousel .carousel-control-prev-icon::before {
+    content: "‹" !important;
+    font-size: 30px !important;
+    color: white !important;
+    font-weight: bold !important;
+    background: none !important;
+}
+
+.carousel .carousel-control-next-icon::before {
+    content: "›" !important;
+    font-size: 30px !important;
+    color: white !important;
+    font-weight: bold !important;
+    background: none !important;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+    background-image: none !important;
+}

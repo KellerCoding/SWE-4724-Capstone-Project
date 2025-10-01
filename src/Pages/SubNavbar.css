@@ -1,0 +1,125 @@
+.subnavbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo-circle {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+
+.logo-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.logo-badge {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    background-color: #6fb353;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transform: rotate(-15deg);
+}
+
+.badge-text {
+    font-size: 7px;
+    letter-spacing: 0.5px;
+}
+
+.gavel-icon {
+    font-size: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #6fb353;
+}
+
+.dropdown-arrow {
+    font-size: 10px;
+    color: #666;
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover .dropdown-arrow {
+    transform: translateY(2px);
+}
+
+.donate-container {
+    display: flex;
+    align-items: center;
+}
+
+.donate-btn {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+.donate-btn:hover {
+    background-color: #d35400;
+}
