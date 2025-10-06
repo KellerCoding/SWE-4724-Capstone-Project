@@ -5,6 +5,7 @@ import { SubNavbar } from "./Pages/SubNavbar.jsx"
 import { Homepage } from "./Pages/Homepage.jsx"
 import { Scorecard } from "./Pages/Scorecard.jsx"
 import { ResourceDirectory } from "./Pages/ResourceDirectory.jsx"
+import {Footer} from "./Pages/Footer.jsx"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
             </Routes>
+            <Footer/>
         </div>
     </Router>
 )
