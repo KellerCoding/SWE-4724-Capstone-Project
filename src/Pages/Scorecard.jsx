@@ -1,5 +1,7 @@
 import "./Scorecard.css"
 import hospitalData from "../data/testData.json"
+import star from "../assets/Images/ratingStar.png"
+import dullStar from "../assets/Images/ratingStarGrey.png"
 
 export function Scorecard(){
     return (
@@ -60,11 +62,18 @@ export function Scorecard(){
                                 <tr key={hospitalName}>
                                         <td className={"numRow"}>{index + 1}</td>
                                         <td>
-                                            <span className={"Hospital"}>{hospitalName}</span>
+                                            <span className={"Hospital"}>{info.name}</span>
                                             <br />
                                             {info.city}
                                         </td>
-                                        <td className={"Grade"}>A</td>
+                                        <td className={"Grade"}>
+                                            <img src={star} alt="A" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                        </td>
+                                        {/* <td className={"Grade"}>A</td> */}
                                         <td>
                                             <button className={"viewButton"}>View</button>
                                         </td>
