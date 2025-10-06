@@ -1,9 +1,15 @@
 import "./Scorecard.css"
+import { useNavigate } from "react-router-dom"
 import hospitalData from "../data/testData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 
 export function Scorecard(){
+    const navigate = useNavigate()
+    const hospitalViewClick = () => {
+        navigate('/hospital-score')
+    }
+
     return (
         <div className="Scorecard">
             <div className={"banner"}>
@@ -75,7 +81,7 @@ export function Scorecard(){
                                         </td>
                                         {/* <td className={"Grade"}>A</td> */}
                                         <td>
-                                            <button className={"viewButton"}>View</button>
+                                            <button onClick={hospitalViewClick} className={"viewButton"}>View</button>
                                         </td>
                                     </tr>
                             );

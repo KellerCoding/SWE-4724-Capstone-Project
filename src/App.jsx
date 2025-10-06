@@ -6,6 +6,7 @@ import { Homepage } from "./Pages/Homepage.jsx"
 import { Scorecard } from "./Pages/Scorecard.jsx"
 import { ResourceDirectory } from "./Pages/ResourceDirectory.jsx"
 import {Footer} from "./Pages/Footer.jsx"
+import { HospitalScore } from "./Pages/HospitalScore.jsx"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/resource-directory" element={<ResourceDirectory/>}/>
                 <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
+                <Route path="/hospital-score" element={<HospitalScore/>}/>
             </Routes>
             <Footer/>
         </div>
