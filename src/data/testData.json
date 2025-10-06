@@ -2,11 +2,11 @@
     "1":{
         "hospitalInfo":{
             "name":"Emory Hospital",
-            "website": "https://yetron.net",
-            "city": "Sankalp",
-            "address": "1100 S Marietta Pkwy",
+            "website": "https://www.emoryhealthcare.org/",
+            "city": "Atlanta",
+            "address": "1364 Clifton Rd NE",
             "county": "Forsyth",
-            "zipcode": 30060,
+            "zipcode": 30322,
             "hospitalSystem":"N/A",
             "systemName":"N/A",
             "areaType": "0",
@@ -21,10 +21,10 @@
         "commBenefitSpending":{
 
         },
-        "Affordability":{
+        "healthcareAffordability":{
 
         },
-        "Access":{
+        "healthcareAccess":{
 
         }
     }, 
