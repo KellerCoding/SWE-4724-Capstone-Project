@@ -1,11 +1,12 @@
 {
-    "Emory Hospital":{
+    "1":{
         "hospitalInfo":{
-            "website": "https://yetron.net",
+            "name":"Emory Hospital",
+            "website": "https://www.emoryhealthcare.org/",
             "city": "Atlanta",
-            "address": "1100 S Marietta Pkwy",
+            "address": "1364 Clifton Rd NE",
             "county": "Forsyth",
-            "zipcode": 30060,
+            "zipcode": 30322,
             "hospitalSystem":"N/A",
             "systemName":"N/A",
             "areaType": "0",
@@ -13,10 +14,23 @@
             "criticalAccess":"9",
             "bedSize":64,
             "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "healthcareAffordability":{
+
+        },
+        "healthcareAccess":{
+
         }
     }, 
-    "Kennestone Hospital":{
+    "2":{
         "hospitalInfo":{
+            "name":"Kennestone Hospital",
             "website": "https://yetron.net",
             "city": "Marietta",
             "address": "1100 S Marietta Pkwy",
@@ -29,10 +43,23 @@
             "criticalAccess":"9",
             "bedSize":64,
             "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "Affordability":{
+
+        },
+        "Access":{
+
         }
     }, 
-    "Northside Hospital":{
+    "3":{
         "hospitalInfo":{
+            "name": "Northside Hospital",
             "website": "https://yetron.net",
             "city": "Cumming",
             "address": "1100 S Marietta Pkwy",
@@ -45,6 +72,18 @@
             "criticalAccess":"9",
             "bedSize":64,
             "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "Affordability":{
+
+        },
+        "Access":{
+
         }
     }
 }
