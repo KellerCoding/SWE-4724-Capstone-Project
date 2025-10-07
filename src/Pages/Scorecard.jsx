@@ -1,14 +1,35 @@
 import "./Scorecard.css"
 import { useNavigate } from "react-router-dom"
+import { useState, useMemo } from "react"
 import hospitalData from "../data/testData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 
 export function Scorecard(){
     const navigate = useNavigate()
+    const [sortByName, setSortByName] = useState(false)
+    
     const hospitalViewClick = () => {
         navigate('/hospital-score')
     }
+    
+    const handleHospitalNameSort = () => {
+        setSortByName(!sortByName)
+    }
+    
+    // Sort hospital data based on current sort state
+    const sortedHospitalData = useMemo(() => {
+        const entries = Object.entries(hospitalData)
+        
+        if (sortByName) {
+            return entries.sort(([, a], [, b]) => {
+                return a.hospitalInfo.name.localeCompare(b.hospitalInfo.name)
+            })
+        }
+        
+        // Return original order
+        return entries
+    }, [sortByName])
 
     return (
         <div className="Scorecard">
@@ -37,8 +58,11 @@ export function Scorecard(){
                     </div>
                     <div className={"sort"}>
                         <h5>Sort By</h5>
-                        <button>
-                            <h6>Hospital Name</h6>
+                        <button 
+                            onClick={handleHospitalNameSort}
+                            className={sortByName ? "active-sort" : ""}
+                        >
+                            <h6>Hospital Name {sortByName ? "(A-Z)" : ""}</h6>
                         </button>
                         <button>
                             <h6>Grade / Score</h6>
@@ -61,7 +85,7 @@ export function Scorecard(){
                             </tr>
                         </thead>
                         <tbody>
-                        {Object.entries(hospitalData).map(([hospitalName, data], index) => {
+                        {sortedHospitalData.map(([hospitalName, data], index) => {
                             
                             const info = data.hospitalInfo;
                             return(

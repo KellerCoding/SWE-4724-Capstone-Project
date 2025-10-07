@@ -30,6 +30,35 @@
     }, 
     "2":{
         "hospitalInfo":{
+            "name":"Piedmont Hospital",
+            "website": "https://piedmont.org",
+            "city": "Atlanta",
+            "address": "1968 Peachtree Rd NW",
+            "county": "Fulton",
+            "zipcode": 30309,
+            "hospitalSystem":"N/A",
+            "systemName":"N/A",
+            "areaType": "0",
+            "hospitalAuthority": "1",
+            "criticalAccess":"9",
+            "bedSize":64,
+            "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "Affordability":{
+
+        },
+        "Access":{
+
+        }
+    }, 
+    "3":{
+        "hospitalInfo":{
             "name":"Kennestone Hospital",
             "website": "https://yetron.net",
             "city": "Marietta",
@@ -57,7 +86,7 @@
 
         }
     }, 
-    "3":{
+    "4":{
         "hospitalInfo":{
             "name": "Northside Hospital",
             "website": "https://yetron.net",

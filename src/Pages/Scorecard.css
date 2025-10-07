@@ -138,6 +138,28 @@ td{
     background-color: #38E078;
 }
 
+/* Active sort button styling */
+.active-sort {
+    background-color: #6fb353 !important;
+    color: white !important;
+    border: 2px solid #5a9845 !important;
+}
+
+.active-sort h6 {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Add hover effect for sort buttons */
+.sort button:hover {
+    background-color: #e8f5e8;
+    transition: background-color 0.3s ease;
+}
+
+.sort button:hover h6 {
+    color: #333;
+}
+
 .Hospital{
     font-size: 25px;
 }

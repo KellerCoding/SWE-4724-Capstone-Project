@@ -1,11 +1,11 @@
 import "./ResourceDirectory.css"
 import { useNavigate } from "react-router-dom"
-import GWatchTab1 from "../assets/Images/gwatchtab1.png"
-import GWatchTab2 from "../assets/Images/gwatchtab2.png"
-import GWatchTab3 from "../assets/Images/gwatchtab3.png"
-import GWatchTab4 from "../assets/Images/gwatchtab4.png"
-import GWatchTab5 from "../assets/Images/gwatchtab5.png"
-import GWatchTab6 from "../assets/Images/gwatchtab6.png"    
+import GWatchTab1 from "../assets/Images/resourceDirectory/gwatchtab1.png"
+import GWatchTab2 from "../assets/Images/resourceDirectory/gwatchtab2.png"
+import GWatchTab3 from "../assets/Images/resourceDirectory/gwatchtab3.png"
+import GWatchTab4 from "../assets/Images/resourceDirectory/gwatchtab4.png"
+import GWatchTab5 from "../assets/Images/resourceDirectory/gwatchtab5.png"
+import GWatchTab6 from "../assets/Images/resourceDirectory/gwatchtab6.png"    
 
 export function ResourceDirectory(){
     const navigate = useNavigate()

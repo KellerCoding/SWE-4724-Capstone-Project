@@ -1,5 +1,6 @@
 import "./HospitalScore.css"
 import { useState } from "react"
+import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
 
 export function HospitalScore(){
     const [expandedSections, setExpandedSections] = useState({
@@ -33,8 +34,7 @@ export function HospitalScore(){
                 </div>
                 
                 <div className="emory-header">
-                    <h1>EMORY</h1>
-                    <h2>HEALTHCARE</h2>
+                    <img className="hospitalLogo" src={EmoryHospital} alt="" />
                 </div>
                 
                 <div className="overall-score-card">
