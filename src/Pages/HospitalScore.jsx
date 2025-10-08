@@ -1,6 +1,7 @@
 import "./HospitalScore.css"
 import { useState } from "react"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
+import HospitalData from "../data/testData.json"
 
 export function HospitalScore(){
     const [expandedSections, setExpandedSections] = useState({
