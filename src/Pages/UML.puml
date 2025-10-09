@@ -1,0 +1,40 @@
+```plantuml
+@startuml
+title Georgia Hospital Information Model
+
+' Main Hospital class
+class Hospital {
+    +identifier : int
+    +name : string
+    +website : string
+    +hospitalSystem : boolean
+    +hospitalAuthority : boolean
+    +criticalAccess : boolean
+    +bedSize : int
+    +sizeGroup : string
+}
+
+' Supporting classes
+class System {
+    +name : string
+}
+
+class Location {
+    +city : string
+    +address : string
+    +zipCode : string
+    +areaType : AreaType
+}
+
+enum AreaType {
+    Urban
+    Rural
+}
+
+' Relationships
+Hospital --> Location : has >
+Hospital --> System : belongs to >
+Hospital --> AreaType : Is in >
+
+@enduml
+```

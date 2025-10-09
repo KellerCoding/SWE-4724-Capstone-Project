@@ -1,0 +1,118 @@
+{
+    "1":{
+        "hospitalInfo":{
+            "name":"Emory Hospital",
+            "website": "https://www.emoryhealthcare.org/",
+            "city": "Atlanta",
+            "address": "1364 Clifton Rd NE",
+            "county": "Forsyth",
+            "zipcode": 30322,
+            "hospitalSystem":"N/A",
+            "systemName":"N/A",
+            "areaType": "0",
+            "hospitalAuthority": "1",
+            "criticalAccess":"9",
+            "bedSize":64,
+            "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "healthcareAffordability":{
+
+        },
+        "healthcareAccess":{
+
+        }
+    }, 
+    "2":{
+        "hospitalInfo":{
+            "name":"Piedmont Hospital",
+            "website": "https://piedmont.org",
+            "city": "Atlanta",
+            "address": "1968 Peachtree Rd NW",
+            "county": "Fulton",
+            "zipcode": 30309,
+            "hospitalSystem":"N/A",
+            "systemName":"N/A",
+            "areaType": "0",
+            "hospitalAuthority": "1",
+            "criticalAccess":"9",
+            "bedSize":64,
+            "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "Affordability":{
+
+        },
+        "Access":{
+
+        }
+    }, 
+    "3":{
+        "hospitalInfo":{
+            "name":"Kennestone Hospital",
+            "website": "https://yetron.net",
+            "city": "Marietta",
+            "address": "1100 S Marietta Pkwy",
+            "county": "Forsyth",
+            "zipcode": 30060,
+            "hospitalSystem":"N/A",
+            "systemName":"N/A",
+            "areaType": "0",
+            "hospitalAuthority": "1",
+            "criticalAccess":"9",
+            "bedSize":64,
+            "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "Affordability":{
+
+        },
+        "Access":{
+
+        }
+    }, 
+    "4":{
+        "hospitalInfo":{
+            "name": "Northside Hospital",
+            "website": "https://yetron.net",
+            "city": "Cumming",
+            "address": "1100 S Marietta Pkwy",
+            "county": "Forsyth",
+            "zipcode": 30060,
+            "hospitalSystem":"N/A",
+            "systemName":"N/A",
+            "areaType": "0",
+            "hospitalAuthority": "1",
+            "criticalAccess":"9",
+            "bedSize":64,
+            "sizeGroup":67
+        },
+        "financialTransparency":{
+
+        },
+        "commBenefitSpending":{
+
+        },
+        "Affordability":{
+
+        },
+        "Access":{
+
+        }
+    }
+}

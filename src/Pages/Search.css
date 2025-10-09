@@ -1,0 +1,32 @@
+
+.SearchHead{
+    background-color: #f9f9f9;
+    width: 100dvmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+
+}
+
+.buttonset{
+    margin-left: 25lh;
+
+}
+
+.Donate{
+    background-color: orange;
+    opacity: 100%;
+}
+
+h1{
+    color: black;
+    font-family: MyFont;
+    font-size: large;
+}
+button{
+    background-color: #f1f1f1;
+    color: #1a1a1a;
+    margin: 30px;
+}
