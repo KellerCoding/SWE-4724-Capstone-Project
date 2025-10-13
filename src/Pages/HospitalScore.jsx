@@ -1,9 +1,13 @@
 import "./HospitalScore.css"
 import { useState } from "react"
+import { useParams } from "react-router-dom"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
 import HospitalData from "../data/testData.json"
 
 export function HospitalScore(){
+    const { hospitalId } = useParams()
+    const hospitalInfo = HospitalData[hospitalId]?.hospitalInfo || {}
+    
     const [expandedSections, setExpandedSections] = useState({
         financial: false,
         community: false,
@@ -23,7 +27,7 @@ export function HospitalScore(){
         <div className="hospital-score-page">
             
             <div className="banner">
-                <h1><strong>Emory University Hospital</strong></h1>
+                <h1><strong>{hospitalInfo.name || "Error Displaying Hospital Name"}</strong></h1>
             </div>
             
             {/* First Row - Individual Cards */}
@@ -31,7 +35,7 @@ export function HospitalScore(){
                 <div className="hospital-info-card">
                     <h3>Hospital Contact Information</h3>
                     <p><strong>Ph #:</strong> (404)712-2000</p>
-                    <p><strong>Email:</strong> emoryhos@gmail.com</p>
+                    <p><strong>Email:</strong> {hospitalInfo.email}</p>
                 </div>
                 
                 <div className="emory-header">
@@ -56,7 +60,7 @@ export function HospitalScore(){
                 <div className="left-sidebar">
                     <div className="about-card">
                         <h3>About</h3>
-                        <p><strong>County:</strong> Cobb</p>
+                        <p><strong>County:</strong> {hospitalInfo.county}</p>
                         <p><strong>Beds available:</strong> 853</p>
                         <p><strong>Hospital System:</strong> Emory</p>
                         
@@ -73,7 +77,7 @@ export function HospitalScore(){
                         
                         <div className="address">
                             <p><strong>Address:</strong></p>
-                            <p>1364 Clifton Rd NE<br/>Atlanta, GA, 30322</p>
+                            <p>{hospitalInfo.address}<br/>{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
                         </div>
                         
                         <p className="more-info">More information will go here</p>

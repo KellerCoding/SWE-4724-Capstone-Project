@@ -9,8 +9,8 @@ export function Scorecard(){
     const navigate = useNavigate()
     const [sortByName, setSortByName] = useState(false)
     
-    const hospitalViewClick = () => {
-        navigate('/hospital-score')
+    const hospitalViewClick = (hospitalId) => {
+        navigate(`/hospital-score/${hospitalId}`)
     }
     
     const handleHospitalNameSort = () => {
@@ -105,7 +105,7 @@ export function Scorecard(){
                                         </td>
                                         {/* <td className={"Grade"}>A</td> */}
                                         <td>
-                                            <button onClick={hospitalViewClick} className={"viewButton"}>View</button>
+                                            <button onClick={() => hospitalViewClick(hospitalName)} className={"viewButton"}>View</button>
                                         </td>
                                     </tr>
                             );

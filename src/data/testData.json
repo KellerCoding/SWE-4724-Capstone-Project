@@ -7,6 +7,7 @@
             "address": "1364 Clifton Rd NE",
             "county": "Forsyth",
             "zipcode": 30322,
+            "phoneNumber": "404-712-2000",
             "hospitalSystem":"N/A",
             "systemName":"N/A",
             "areaType": "0",
@@ -16,7 +17,7 @@
             "sizeGroup":67
         },
         "financialTransparency":{
-
+            
         },
         "commBenefitSpending":{
 

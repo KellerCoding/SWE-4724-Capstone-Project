@@ -20,7 +20,7 @@ function App() {
                 <Route path="/resource-directory" element={<ResourceDirectory/>}/>
                 <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
-                <Route path="/hospital-score" element={<HospitalScore/>}/>
+                <Route path="/hospital-score/:hospitalId" element={<HospitalScore/>}/>
             </Routes>
             <Footer/>
         </div>
