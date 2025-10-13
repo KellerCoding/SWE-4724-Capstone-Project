@@ -7,6 +7,7 @@ import { Scorecard } from "./Pages/Scorecard.jsx"
 import { ResourceDirectory } from "./Pages/ResourceDirectory.jsx"
 import {Footer} from "./Pages/Footer.jsx"
 import { HospitalScore } from "./Pages/HospitalScore.jsx"
+import GeorgiaMap from "./Pages/GeorgiaMap.jsx"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
                 <Route path="/hospital-score/:hospitalId" element={<HospitalScore/>}/>
+                <Route path="/georgia-map" element={<GeorgiaMap/>}/>
             </Routes>
             <Footer/>
         </div>

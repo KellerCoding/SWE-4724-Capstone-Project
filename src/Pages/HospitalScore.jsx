@@ -1,4 +1,5 @@
 import "./HospitalScore.css"
+import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 import { useParams } from "react-router-dom"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
@@ -7,6 +8,11 @@ import HospitalData from "../data/testData.json"
 export function HospitalScore(){
     const { hospitalId } = useParams()
     const hospitalInfo = HospitalData[hospitalId]?.hospitalInfo || {}
+
+    const navigate = useNavigate()
+    const MapViewClick = () => {
+        navigate('/georgia-map')
+    }
     
     const [expandedSections, setExpandedSections] = useState({
         financial: false,
@@ -82,7 +88,7 @@ export function HospitalScore(){
                         
                         <p className="more-info">More information will go here</p>
                         
-                        <button className="map-button">See on Map</button>
+                        <button onClick={MapViewClick} className="map-button">See on Map</button>
                     </div>
                 </div>
                 
