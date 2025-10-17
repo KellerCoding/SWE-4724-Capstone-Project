@@ -1,8 +1,23 @@
 import './Comparison.css'
 import { useState } from "react"
 import Tooltip from "../pages/Tooltip.jsx"
+import HospitalDropdown from "../pages/dropdown.jsx"
 
 export function Comparison() {
+    const georgiaHospitals = [
+        "Emory University Hospital",
+        "Grady Memorial Hospital",
+        "Piedmont Atlanta Hospital",
+        "Northside Hospital",
+        "Augusta University Medical Center",
+        "WellStar Kennestone Hospital",
+        "Navicent Health Medical Center",
+      ];
+
+      const handleHospitalSelect = (hospital) => {
+        console.log("Selected hospital:", hospital);
+      };
+
     return (
         <div className="comparison-page">
             <div className="banner">
@@ -39,16 +54,36 @@ export function Comparison() {
                     </div>
                 </div>
                 <div className="right">
-                    <div className="hospital-cards">
-                        {/* Example hospital card */}
-                        <div className="hospital-card">
-                            <h3>Hospital Name</h3>
-                            <p>Location: City, State</p>
-                            <p>Beds Available: 150</p>
-                            <p>Trauma Level: Level 1</p>
-                            <p>Rating: ★★★★☆</p>
-                        </div>
-                        {/* Add more hospital cards as needed */}
+                    <div className="comparison-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div className="dropdown-section">
+                                            <HospitalDropdown hospitals={georgiaHospitals} onSelect={handleHospitalSelect} />
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div className="dropdown-section">
+                                            <HospitalDropdown hospitals={georgiaHospitals} onSelect={handleHospitalSelect} />
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div className="dropdown-section">
+                                            <HospitalDropdown hospitals={georgiaHospitals} onSelect={handleHospitalSelect} />
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div className="dropdown-section">
+                                            <HospitalDropdown hospitals={georgiaHospitals} onSelect={handleHospitalSelect} />
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
