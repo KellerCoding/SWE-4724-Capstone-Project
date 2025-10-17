@@ -15,12 +15,14 @@
 }
 
 .dropdowns {
+  background-color: #f9f9f9;
   display: flex;
   justify-content: space-around;
   margin-bottom: 1.5rem;
 }
 
 .dropdowns select {
+  background-color: #fff;
   padding: 0.5rem;
   font-size: 1rem;
   border-radius: 4px;
@@ -67,7 +69,7 @@
     background-color: #ffffff;
     font: MyFont;
     text-color: #042069;
-    height: 200px;
+    height: 20px;
     width: 100%;
 }
 .content h1{
@@ -89,6 +91,7 @@
     margin-bottom: 50px;
     margin-right: 20px;
     margin-left: 20px;
+    background-color: #ffffff;
 }
 .left{
     display: flex;
@@ -116,18 +119,43 @@
     display: flex;
     flex-direction: column;
     justify-content: right;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-right: 100px;
     float: right;
     background-color: #ffffff;
     font: MyFont;
     text-color: #042069;
-    height: 200px;
-    width: 300px;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
 }
+
+.right h5{
+    color: #042069;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.right p{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.right button{
+    background-color: #042069;
+    text-color: white;
+    }
+
+.right h6{
+    color: #042069;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    }
+
 .section-header:hover {
     background-color: #f8f9fa;
 }
@@ -150,17 +178,46 @@
     background-color: #f8f9fa;
     border-top: 1px solid #e0e0e0;
 }
+
 .tooltip-container {
   position: relative;
   display: inline-block; /* Or block, depending on layout */
 }
+
 .hospital-info {
   margin-top: 10px;
   font-size: 14px;
   color: #555;
 }
+
 .hospital-cards {
   display: flex;
   gap: 20px;
   margin-top: 20px;
+}
+
+.right thead {
+  font: MyFont;
+  text-color: #042069;
+  background-color: green;
+  color: white;
+  display: block;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.right tbody {
+  font: MyFont;
+  text-color: #042069;
+  background-color: white;
+  color: black;
+  display: inline-block;
+}
+
+.right table {
+  width: 100%;
+  border-collapse: collapse;
 }
