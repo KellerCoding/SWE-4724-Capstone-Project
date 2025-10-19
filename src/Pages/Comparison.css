@@ -1,11 +1,8 @@
 .container {
-  max-width: 900px;
-  margin: 2rem auto;
+  margin: auto;
   padding: 1rem;
   font: MyFont;
   background-color: #ffffff;
-  border-radius: 8px;
-  border-color: #042069;
 }
 
 .container h1 {
@@ -13,7 +10,21 @@
   margin-bottom: 1.5rem;
   color: #333;
 }
+.container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #555;
+}
 
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.header h1 {
+  font-size: 45px;
+  font: MyFont;
+  color: #222;
+}
 .dropdowns {
   background-color: #f9f9f9;
   display: flex;
@@ -57,10 +68,10 @@
     background-color: #6fb353;
     font: MyFont;
     text-align: flex;
-    text-margin: 120px;
+    text-margin: auto;
     text-decoration: around;
     height: 200px;
-    width: 100%;
+    width: auto;
     margin-top: -20px;
     margin-left: -8px;
     margin-bottom: 20px;
@@ -70,7 +81,6 @@
     font: MyFont;
     text-color: #042069;
     height: 20px;
-    width: 100%;
 }
 .content h1{
     color: #042069;
@@ -84,15 +94,17 @@
     text-align: center;
     padding-top: 20px;
 }
+
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 200px;
     margin-left: 20px;
     background-color: #ffffff;
 }
+
 .left{
     display: flex;
     flex-direction: column;
@@ -103,9 +115,25 @@
 }
 
 .left button{
-    background-color: #042069;
-    text-color: white;
+    background-color: #6fb353;
+    text-color: black;
     }
+
+.left h5{
+    color: #6fb353;
+    font-size: 30px;
+    text-align: left;
+    font: MyFont;
+    padding-top: 100px;
+}
+.left h6{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font: MyFont;
+    padding-top: 10px;
+    }
+
 .section-header {
     display: flex;
     justify-content: space-between;
@@ -117,11 +145,9 @@
 }
 .right{
     display: flex;
-    flex-direction: column;
     justify-content: right;
     margin-top: 5px;
     margin-right: 100px;
-    float: right;
     background-color: #ffffff;
     font: MyFont;
     text-color: #042069;
@@ -131,7 +157,7 @@
 }
 
 .right h5{
-    color: #042069;
+    color: #6fb353;
     font-size: 20px;
     text-align: center;
     padding-top: 100px;
@@ -145,12 +171,12 @@
 }
 
 .right button{
-    background-color: #042069;
+    background-color: white;
     text-color: white;
     }
 
 .right h6{
-    color: #042069;
+    color: #6fb353;
     font-size: 15px;
     text-align: center;
     padding-top: 10px;
@@ -158,13 +184,14 @@
 
 .section-header:hover {
     background-color: #f8f9fa;
+    color: #6fb353;
 }
 
 .section-header h4 {
     margin: 0;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #333;
+    color: #6fb353;
 }
 
 .toggle-arrow {
@@ -196,28 +223,58 @@
   margin-top: 20px;
 }
 
-.right thead {
-  font: MyFont;
-  text-color: #042069;
-  background-color: green;
-  color: white;
-  display: block;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 100%;
+.right{
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+}
+.table, td {
+    color: #000000;
+    border: 1px groove #38E078;
 }
 
-.right tbody {
-  font: MyFont;
-  text-color: #042069;
-  background-color: white;
-  color: black;
-  display: inline-block;
+.table, tr {
+    font-size: 20px;
 }
 
-.right table {
-  width: 100%;
-  border-collapse: collapse;
+.thead{
+    background-color: #38E078;
+}
+
+.th0{
+    width: 50px;
+    background-color: #38E078;
+    color: #6fb353;
+}
+
+.th1{
+    width: 380px;
+    text-align: left;
+    color: #6fb353;
+}
+.th2{
+    width: 160px;
+    color: #6fb353;
+}
+
+.gradeRow{
+    background-color: #27C840;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+}
+
+.numRow{
+    background-color: #C0C6C8;
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+}
+
+.metricRow{
+    background-color: #C0C6C8;
+    font-size: 20px;
+    text-align: left;
+    height: 40px;
 }
