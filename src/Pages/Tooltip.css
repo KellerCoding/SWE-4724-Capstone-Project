@@ -1,0 +1,53 @@
+.tooltip-wrapper {
+  display: inline;
+  position: relative;
+}
+
+.tooltip-trigger {
+  position: relative;
+  display: inline;
+  cursor: pointer;
+}
+
+/* Tooltip box hidden by default */
+.tooltip-box {
+  visibility: hidden;
+  opacity: 60;
+  transition: opacity 0.2s ease-in-out;
+  position: absolute;
+  padding: 6px 10px;
+  border-radius: 8px;
+  white-space: normal;
+  z-index: 10;
+}
+
+/* Show on hover */
+.tooltip-trigger:hover .tooltip-box {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Position variations */
+.tooltip-top {
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip-bottom {
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip-left {
+  right: 125%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tooltip-right {
+  left: 125%;
+  top: 50%;
+  transform: translateY(-50%);
+}
