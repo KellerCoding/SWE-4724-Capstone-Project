@@ -21,13 +21,15 @@ export function Comparison() {
     return (
         <div className="comparison-page">
             <div className="banner">
-                <h1><strong>Comparison Page</strong></h1>
+                <h1><strong>Hospital Accountability Scores</strong></h1>
             </div>
-
+            <div className="header">
+                <h1><strong>Comparison Hospitals</strong></h1>
+            </div>
             <div className="container">
                 <div className="left">
                     <div className="filter">
-                        <h5>Filter By</h5>
+                        <h5>Sort By</h5>
                         <button>
                             <h6>City</h6>
                         </button>
@@ -44,8 +46,7 @@ export function Comparison() {
                             >
                               <button
                                 style={{
-                                  backgroundColor: "#042069",
-                                  color: "white"
+                                  backgroundColor: "#6fb353",
                                 }}
                               >
                                 <h6 style={{ margin: 0 }}>Trauma Level</h6>
@@ -54,10 +55,14 @@ export function Comparison() {
                     </div>
                 </div>
                 <div className="right">
-                    <div className="comparison-table">
-                        <table>
+                        <table className="comparison-table">
                             <thead>
                                 <tr>
+                                    <th>
+                                        <div className="th1">
+                                            Metrics
+                                        </div>
+                                    </th>
                                     <th>
                                         <div className="dropdown-section">
                                             <HospitalDropdown hospitals={georgiaHospitals} onSelect={handleHospitalSelect} />
@@ -81,10 +86,106 @@ export function Comparison() {
                                 </tr>
                             </thead>
                             <tbody>
-
+                                <tr>
+                                <td  className={"metricRow"}>Overall Rating</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Bed Availability</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Balanced Growth</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>A</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Transparency</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Fiscal Health</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Staffing</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Tax Benefits</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Quality of CBS</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Strategic Use</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Financial Burden</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Charity Care</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Medical Debt</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Range of Services</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
+                                <tr>
+                                <td  className={"metricRow"}>Pay Equity Ratio</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                <td className={"gradeRow"}>A</td>
+                                <td className={"gradeRow"}>B</td>
+                                </tr>
                             </tbody>
                         </table>
-                    </div>
                 </div>
             </div>
         </div>
