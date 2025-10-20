@@ -114,29 +114,29 @@ export function Comparison() {
                 return <td key={i}>{areaLabel}</td>;
               })}
             </tr>
-              <tr>
-                <td className="gradeRow">Financial Transparency</td>
+              <tr className ="gradeRow">
+                <td className="metricRow">Financial Transparency</td>
                 {selectedHospitals.map((name, i) => {
                   const data = getHospitalData(name);
                   return <td key={i}>{data.financialTransparency || "-"}</td>;
                 })}
               </tr>
-              <tr>
-                <td className="gradeRow">Community Benefit Spending</td>
+              <tr className="gradeRow">
+                <td className="metricRow">Community Benefit Spending</td>
                 {selectedHospitals.map((name, i) => {
                     const data = getHospitalData(name);
                     return <td key={i}>{data.commBenefitSpending || "-"}</td>;
                 })}
                 </tr>
-                <tr>
-                <td className="gradeRow">Community Benefit Spending</td>
+                <tr className="gradeRow">
+                <td className="metricRow">Community Benefit Spending</td>
                 {selectedHospitals.map((name, i) => {
                     const data = getHospitalData(name);
                     return <td key={i}>{data.healthcareAffordability || "-"}</td>;
                 })}
                 </tr>
-                <tr>
-                <td className="gradeRow">Healthcare Access</td>
+                <tr className="gradeRow">
+                <td className="metricRow">Healthcare Access</td>
                 {selectedHospitals.map((name, i) => {
                     const data = getHospitalData(name);
                     return <td key={i}>{data.healthcareAccess || "-"}</td>;
@@ -149,5 +149,3 @@ export function Comparison() {
     </div>
   );
 }
-
-
