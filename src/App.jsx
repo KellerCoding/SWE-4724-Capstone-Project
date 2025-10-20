@@ -22,7 +22,7 @@ function App() {
                 <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
                 <Route path="/hospital-score/:hospitalId" element={<HospitalScore/>}/>
-                <Route path="/georgia-map" element={<GeorgiaMap/>}/>
+                <Route path="/georgia-map/:hospitalId?" element={<GeorgiaMap />} />
             </Routes>
             <Footer/>
         </div>

@@ -11,8 +11,9 @@ export function HospitalScore(){
 
     const navigate = useNavigate()
     const MapViewClick = () => {
-        navigate('/georgia-map')
-    }
+        navigate(`/georgia-map/${hospitalId}`);
+    };
+    
     
     const [expandedSections, setExpandedSections] = useState({
         financial: false,
@@ -28,6 +29,23 @@ export function HospitalScore(){
             [section]: !prev[section]
         }))
     }
+    const [selected, setSelected] = useState(null);
+
+    // In parent component
+// const flyToHospital = (hospitalId) => {
+//     console.log("HospitalInfo object", hospitalInfo)
+//     console.log("Passed parameter:", hospitalId)
+//     const hospital = hospitalInfo
+//     console.log("Here is is:", hospital)
+//     if (!hospital) return;
+  
+//     setSelected(hospital); // Optional: open popup
+//     setViewState({
+//       latitude: hospital.lat,
+//       longitude: hospital.lng,
+//       zoom: 12,
+//     });
+//   };
     
     return (
         <div className="hospital-score-page">
@@ -89,6 +107,12 @@ export function HospitalScore(){
                         <p className="more-info">More information will go here</p>
                         
                         <button onClick={MapViewClick} className="map-button">See on Map</button>
+                        {/* <button
+                            onClick={() => flyToHospital(hospitalId)}
+                            className="map-button"
+                            >
+                            See on Map
+                            </button> */}
                     </div>
                 </div>
                 

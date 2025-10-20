@@ -14,7 +14,9 @@
             "hospitalAuthority": "1",
             "criticalAccess":"9",
             "bedSize":64,
-            "sizeGroup":67
+            "sizeGroup":67,
+            "lat":33.7914,
+            "lng":-84.3195
         },
         "financialTransparency":{
             
@@ -43,7 +45,9 @@
             "hospitalAuthority": "1",
             "criticalAccess":"9",
             "bedSize":64,
-            "sizeGroup":67
+            "sizeGroup":67,
+            "lat":33.8089,
+            "lng":-84.3949
         },
         "financialTransparency":{
 
@@ -72,7 +76,9 @@
             "hospitalAuthority": "1",
             "criticalAccess":"9",
             "bedSize":64,
-            "sizeGroup":67
+            "sizeGroup":67,
+            "lat":33.969,
+            "lng":-84.5522
         },
         "financialTransparency":{
 
@@ -101,7 +107,9 @@
             "hospitalAuthority": "1",
             "criticalAccess":"9",
             "bedSize":64,
-            "sizeGroup":67
+            "sizeGroup":67,
+            "lat":33.90901,
+            "lng":-84.35394
         },
         "financialTransparency":{
 
