@@ -11,7 +11,7 @@ export function Scorecard(){
     const [sortByName, setSortByName] = useState(false)
     
     const hospitalViewClick = (hospitalId) => {
-        navigate(`/hospital-score/${hospitalId}`)
+        navigate(`/hospital-score/${hospitalId}`) 
     }
     
     const handleHospitalNameSort = () => {
