@@ -1,7 +1,7 @@
 import "./Comparison.module.css";
 import { useState } from "react";
-import Tooltip from "../pages/Tooltip.jsx";
-import HospitalDropdown from "../pages/Dropdown.jsx";
+import Tooltip from "../Pages/Tooltip.jsx";
+import HospitalDropdown from "../Pages/Dropdown.jsx";
 import testData from "../data/testData.json";
 
 export function Comparison() {
