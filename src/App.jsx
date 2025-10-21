@@ -8,6 +8,7 @@ import { ResourceDirectory } from "./Pages/ResourceDirectory.jsx"
 import {Footer} from "./Pages/Footer.jsx"
 import { HospitalScore } from "./Pages/HospitalScore.jsx"
 import GeorgiaMap from "./Pages/GeorgiaMap.jsx"
+import { Comparison } from "./Pages/Comparison.jsx"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/search" element={<Search/>}/>
                 <Route path="/hospital-score/:hospitalId" element={<HospitalScore/>}/>
                 <Route path="/georgia-map/:hospitalId?" element={<GeorgiaMap />} />
+                <Route path="/comparison" element={<Comparison/>}></Route>
             </Routes>
             <Footer/>
         </div>
@@ -30,4 +32,4 @@ function App() {
 )
 }
 
-export default App
+export default App;

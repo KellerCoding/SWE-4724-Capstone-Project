@@ -1,4 +1,4 @@
-import "./Comparison.css";
+import "./Comparison.module.css";
 import { useState } from "react";
 import Tooltip from "../pages/Tooltip.jsx";
 import HospitalDropdown from "../pages/Dropdown.jsx";

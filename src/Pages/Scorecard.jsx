@@ -4,6 +4,7 @@ import { useState, useMemo } from "react"
 import hospitalData from "../data/testData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
+import { Link } from "react-router-dom"
 
 export function Scorecard(){
     const navigate = useNavigate()
@@ -44,6 +45,13 @@ export function Scorecard(){
             <div className={"search-box"}>
                 {/* Implement Search Box as seen
                     - As long as div is here, shadowed rectangle will appear on web page*/}
+            </div>
+            <div>
+                <Link to="/comparison">
+                <button>
+                            <h6>Compare Hospitals</h6>
+                        </button>
+                </Link>
             </div>
             <div className={"container"}>
                 <div className={"left"}>

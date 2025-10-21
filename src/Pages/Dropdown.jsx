@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Dropdown.css";
+import "./Dropdown.module.css";
 
 const HospitalDropdown = ({ hospitals, onSelect, label = "Select a Hospital:" }) => {
   const [selected, setSelected] = useState("");
