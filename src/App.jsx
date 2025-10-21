@@ -3,10 +3,11 @@ import { Search } from "./Pages/Search.jsx"
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import { SubNavbar } from "./Pages/SubNavbar.jsx"
 import { Homepage } from "./Pages/Homepage.jsx"
-import { ScorecardIndividual } from "./Pages/ScorecardIndividual.jsx"
+import { Scorecard } from "./Pages/Scorecard.jsx"
 import { ResourceDirectory } from "./Pages/ResourceDirectory.jsx"
 import {Footer} from "./Pages/Footer.jsx"
 import { HospitalScore } from "./Pages/HospitalScore.jsx"
+import GeorgiaMap from "./Pages/GeorgiaMap.jsx"
 
 function App() {
 
@@ -18,9 +19,10 @@ function App() {
             <Routes>
                 <Route path="/" element={<Homepage/>}/>
                 <Route path="/resource-directory" element={<ResourceDirectory/>}/>
-                <Route path="/ScorecardIndividual" element={<ScorecardIndividual/>}/>
+                <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
-                <Route path="/hospital-score" element={<HospitalScore/>}/>
+                <Route path="/hospital-score/:hospitalId" element={<HospitalScore/>}/>
+                <Route path="/georgia-map/:hospitalId?" element={<GeorgiaMap />} />
             </Routes>
             <Footer/>
         </div>

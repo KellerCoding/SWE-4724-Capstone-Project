@@ -1,10 +1,20 @@
 import "./HospitalScore.css"
+import { useNavigate } from "react-router-dom"
 import { useState } from "react"
+import { useParams } from "react-router-dom"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
 import HospitalData from "../data/testData.json"
-import Tooltip from "../pages/Tooltip.jsx"
 
 export function HospitalScore(){
+    const { hospitalId } = useParams()
+    const hospitalInfo = HospitalData[hospitalId]?.hospitalInfo || {}
+
+    const navigate = useNavigate()
+    const MapViewClick = () => {
+        navigate(`/georgia-map/${hospitalId}`);
+    };
+    
+    
     const [expandedSections, setExpandedSections] = useState({
         financial: false,
         community: false,
@@ -19,12 +29,29 @@ export function HospitalScore(){
             [section]: !prev[section]
         }))
     }
+    const [selected, setSelected] = useState(null);
+
+    // In parent component
+// const flyToHospital = (hospitalId) => {
+//     console.log("HospitalInfo object", hospitalInfo)
+//     console.log("Passed parameter:", hospitalId)
+//     const hospital = hospitalInfo
+//     console.log("Here is is:", hospital)
+//     if (!hospital) return;
+  
+//     setSelected(hospital); // Optional: open popup
+//     setViewState({
+//       latitude: hospital.lat,
+//       longitude: hospital.lng,
+//       zoom: 12,
+//     });
+//   };
     
     return (
         <div className="hospital-score-page">
             
             <div className="banner">
-                <h1><strong>Emory University Hospital</strong></h1>
+                <h1><strong>{hospitalInfo.name || "Error Displaying Hospital Name"}</strong></h1>
             </div>
             
             {/* First Row - Individual Cards */}
@@ -32,7 +59,7 @@ export function HospitalScore(){
                 <div className="hospital-info-card">
                     <h3>Hospital Contact Information</h3>
                     <p><strong>Ph #:</strong> (404)712-2000</p>
-                    <p><strong>Email:</strong> emoryhos@gmail.com</p>
+                    <p><strong>Email:</strong> {hospitalInfo.email}</p>
                 </div>
                 
                 <div className="emory-header">
@@ -57,98 +84,35 @@ export function HospitalScore(){
                 <div className="left-sidebar">
                     <div className="about-card">
                         <h3>About</h3>
-                        <p>
-                            {/* Second Row - Tooltip information */}
-                                <Tooltip
-                                  position="right"
-                                  background="#042069"
-                                  content={
-                                    <ul style={{ margin: 0, paddingLeft: "1.2em" }}>
-                                        Cobb
-                                    </ul>
-                                  }
-                                >
-                                  <span style={{ color: "#6fb353", textDecoration: "underline"}}>
-                                    County
-                                  </span>
-                                </Tooltip>
-                                </p>
-                        <p>
-                            {/* Second Row - Tooltip information */}
-                                <Tooltip
-                                  position="right"
-                                  background="#042069"
-                                  content={
-                                    <ul style={{ margin: 0, paddingLeft: "1.2em" }}>
-                                        853
-                                    </ul>
-                                  }
-                                >
-                                  <span style={{ color: "#6fb353", textDecoration: "underline"}}>
-                                    Beds Available
-                                  </span>
-                                </Tooltip>
-                                </p>
-                        <p> {/* Second Row - Tooltip information */}
-                               <Tooltip
-                                 position="right"
-                                 background="#042069"
-                                 content={
-                                   <ul style={{ margin: 0, paddingLeft: "1.2em" }}>
-                                       Emory Healthcare
-                                   </ul>
-                                 }
-                               >
-                                 <span style={{ color: "#6fb353", textDecoration: "underline"}}>
-                                   Hospital System
-                                 </span>
-                               </Tooltip>
-                               </p>
+                        <p><strong>County:</strong> {hospitalInfo.county}</p>
+                        <p><strong>Beds available:</strong> 853</p>
+                        <p><strong>Hospital System:</strong> Emory</p>
                         
                         <div className="services">
-                            <p>{/* Second Row - Tooltip information */}
-                               <Tooltip
-                                 position="bottom"
-                                 background="#042069"
-                                 content={
-                                   <ul style={{ margin: 0, paddingLeft: "1.2em" }}>
-                                     <li>Cardiology</li>
-                                     <li>Neuroscience</li>
-                                     <li>Cancer Care</li>
-                                     <li>Organ Transplantation</li>
-                                     <li>Orthopedic Surgery</li>
-                                   </ul>
-                                 }
-                               >
-                                 <span style={{ color: "#6fb353", textDecoration: "underline"}}>
-                                   Services Available
-                                 </span>
-                               </Tooltip>
-                               </p>
+                            <p><strong>Services available:</strong></p>
+                            <ul>
+                                <li>Cardiology</li>
+                                <li>Neuroscience</li>
+                                <li>Cancer Care</li>
+                                <li>Organ transplantation</li>
+                                <li>Orthopedic surgery</li>
+                            </ul>
                         </div>
-
-
+                        
                         <div className="address">
-                            <p> {/* Second Row - Tooltip information */}
-                               <Tooltip
-                                 position="right"
-                                 background="#042069"
-                                 content={
-                                   <ul style={{ margin: 0, paddingLeft: "1.2em" }}>
-                                       1364 Clifton Rd NE<br/>Atlanta, GA, 30322
-                                   </ul>
-                                 }
-                               >
-                                 <span style={{ color: "#6fb353", textDecoration: "underline"}}>
-                                   Address
-                                 </span>
-                               </Tooltip>
-                               </p>
+                            <p><strong>Address:</strong></p>
+                            <p>{hospitalInfo.address}<br/>{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
                         </div>
-
+                        
                         <p className="more-info">More information will go here</p>
                         
-                        <button className="map-button">See on Map</button>
+                        <button onClick={MapViewClick} className="map-button">See on Map</button>
+                        {/* <button
+                            onClick={() => flyToHospital(hospitalId)}
+                            className="map-button"
+                            >
+                            See on Map
+                            </button> */}
                     </div>
                 </div>
                 
