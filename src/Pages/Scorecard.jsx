@@ -46,7 +46,7 @@ export function Scorecard(){
                 {/* Implement Search Box as seen
                     - As long as div is here, shadowed rectangle will appear on web page*/}
             </div>
-            <div>
+            <div className="map-comparison">
                 <Link to="/comparison">
                 <button>
                             <h6>Compare Hospitals</h6>

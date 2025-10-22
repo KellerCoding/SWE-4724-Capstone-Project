@@ -168,3 +168,8 @@ td{
     text-align: center;
 }
 
+.map-compare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
