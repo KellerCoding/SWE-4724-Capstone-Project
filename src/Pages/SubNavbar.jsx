@@ -22,7 +22,7 @@ export function SubNavbar(){
             
             <ul className="nav-menu">
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a style={{color:"#333"}} href="" className="nav-link">
                         OUR FOCUS
                         <span className="dropdown-arrow">▼</span>
                     </a>
@@ -30,7 +30,7 @@ export function SubNavbar(){
                 <li className="nav-item dropdown-container"
                     onMouseEnter={() => setShowGetAssistanceDropdown(true)}
                     onMouseLeave={() => setShowGetAssistanceDropdown(false)}>
-                    <Link to="/resource-directory" className="nav-link">
+                    <Link style={{color:"#333"}} to="/resource-directory" className="nav-link">
                         GET ASSISTANCE
                         <span className="dropdown-arrow">▼</span>
                     </Link>
@@ -43,13 +43,13 @@ export function SubNavbar(){
                     )}
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a style={{color:"#333"}} href="" className="nav-link">
                         ADVOCACY
                         <span className="dropdown-arrow">▼</span>
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="" className="nav-link">
+                    <a style={{color:"#333"}} href="" className="nav-link">
                         SUPPORT US
                         <span className="dropdown-arrow">▼</span>
                     </a>
@@ -60,7 +60,6 @@ export function SubNavbar(){
                 <button className="donate-btn" onClick={handleDonateClick}>DONATE</button>
             </div>
         </nav>
-
                 )
     
 }
