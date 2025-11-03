@@ -1,5 +1,5 @@
-import "./Comparison.module.css";
-import { useState } from "react";
+import styles from "./Comparison.module.css";
+import { useState, useEffect } from "react";
 import Tooltip from "../Pages/Tooltip.jsx";
 import HospitalDropdown from "../Pages/Dropdown.jsx";
 import testData from "../data/testData.json";
@@ -10,6 +10,16 @@ export function Comparison() {
   );
 
   const [selectedHospitals, setSelectedHospitals] = useState(["", "", "", ""]);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  // Track window resize
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleHospitalSelect = (index, hospitalName) => {
     const newSelections = [...selectedHospitals];
@@ -24,19 +34,22 @@ export function Comparison() {
     return hospital ? hospital.hospitalInfo : {};
   };
 
+  // Show only 2 hospitals on mobile, 4 on desktop
+  const displayedHospitals = isMobile ? selectedHospitals.slice(0, 2) : selectedHospitals;
+
   return (
-    <div className="comparison-page">
-      <div className="banner">
+    <div className={styles["comparison-page"]}>
+      <div className={styles.banner}>
         <h1><strong>Hospital Accountability Scores</strong></h1>
       </div>
 
-      <div className="header">
+      <div className={styles.header}>
         <h1><strong>Comparison of Hospital</strong></h1>
       </div>
 
-      <div className="container">
-        <div className="left">
-          <div className="filter">
+      <div className={styles.container}>
+        <div className={styles.left}>
+          <div className={styles.filter}>
             <Tooltip
               position="top"
               background="#6fb353"
@@ -49,12 +62,12 @@ export function Comparison() {
           </div>
         </div>
 
-        <div className="right">
-          <table className="comparison-table">
+        <div className={styles.right}>
+          <table className={styles["comparison-table"]}>
             <thead>
               <tr>
                 <th>Metrics</th>
-                {selectedHospitals.map((_, index) => (
+                {displayedHospitals.map((_, index) => (
                   <th key={index}>
                     <HospitalDropdown
                       hospitals={hospitalList}
@@ -67,41 +80,41 @@ export function Comparison() {
 
             <tbody>
               <tr>
-                <td className="metricRow">Hospital Name</td>
-                {selectedHospitals.map((name, i) => (
-                  <td key={i} className="gradeRow">
+                <td className={styles.metricRow}>Hospital Name</td>
+                {displayedHospitals.map((name, i) => (
+                  <td key={i} className={styles.gradeRow}>
                     {name || "-"}
                   </td>
                 ))}
               </tr>
 
               <tr>
-                <td className="metricRow">City</td>
-                {selectedHospitals.map((name, i) => {
+                <td className={styles.metricRow}>City</td>
+                {displayedHospitals.map((name, i) => {
                   const data = getHospitalData(name);
                   return <td key={i}>{data.city || "-"}</td>;
                 })}
               </tr>
 
               <tr>
-                <td className="metricRow">County</td>
-                {selectedHospitals.map((name, i) => {
+                <td className={styles.metricRow}>County</td>
+                {displayedHospitals.map((name, i) => {
                   const data = getHospitalData(name);
                   return <td key={i}>{data.county || "-"}</td>;
                 })}
               </tr>
 
               <tr>
-                <td className="metricRow">Bed Size</td>
-                {selectedHospitals.map((name, i) => {
+                <td className={styles.metricRow}>Bed Size</td>
+                {displayedHospitals.map((name, i) => {
                   const data = getHospitalData(name);
                   return <td key={i}>{data.bedSize || "-"}</td>;
                 })}
               </tr>
 
             <tr>
-              <td className="metricRow">Area Type</td>
-              {selectedHospitals.map((name, i) => {
+              <td className={styles.metricRow}>Area Type</td>
+              {displayedHospitals.map((name, i) => {
                 const data = getHospitalData(name);
                 let areaLabel = "-";
 
@@ -114,30 +127,30 @@ export function Comparison() {
                 return <td key={i}>{areaLabel}</td>;
               })}
             </tr>
-              <tr className ="gradeRow">
-                <td className="metricRow">Financial Transparency</td>
-                {selectedHospitals.map((name, i) => {
+              <tr className={styles.gradeRow}>
+                <td className={styles.metricRow}>Financial Transparency</td>
+                {displayedHospitals.map((name, i) => {
                   const data = getHospitalData(name);
                   return <td key={i}>{data.financialTransparency || "-"}</td>;
                 })}
               </tr>
-              <tr className="gradeRow">
-                <td className="metricRow">Community Benefit Spending</td>
-                {selectedHospitals.map((name, i) => {
+              <tr className={styles.gradeRow}>
+                <td className={styles.metricRow}>Community Benefit Spending</td>
+                {displayedHospitals.map((name, i) => {
                     const data = getHospitalData(name);
                     return <td key={i}>{data.commBenefitSpending || "-"}</td>;
                 })}
                 </tr>
-                <tr className="gradeRow">
-                <td className="metricRow">Community Benefit Spending</td>
-                {selectedHospitals.map((name, i) => {
+                <tr className={styles.gradeRow}>
+                <td className={styles.metricRow}>Healthcare Affordability</td>
+                {displayedHospitals.map((name, i) => {
                     const data = getHospitalData(name);
                     return <td key={i}>{data.healthcareAffordability || "-"}</td>;
                 })}
                 </tr>
-                <tr className="gradeRow">
-                <td className="metricRow">Healthcare Access</td>
-                {selectedHospitals.map((name, i) => {
+                <tr className={styles.gradeRow}>
+                <td className={styles.metricRow}>Healthcare Access</td>
+                {displayedHospitals.map((name, i) => {
                     const data = getHospitalData(name);
                     return <td key={i}>{data.healthcareAccess || "-"}</td>;
                 })}

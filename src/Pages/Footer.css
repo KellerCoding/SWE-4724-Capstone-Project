@@ -82,3 +82,60 @@
 .search-input::placeholder {
     color: #999;
 }
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .footer-1 {
+        padding: 15px 10px;
+        height: auto;
+    }
+    
+    .footer-2 {
+        padding: 20px 15px;
+        height: auto;
+    }
+    
+    .footer-2 p {
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .nav-item {
+        width: 100%;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-1 {
+        padding: 12px 8px;
+    }
+    
+    .footer-2 {
+        padding: 15px 10px;
+    }
+    
+    .footer-2 p {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}

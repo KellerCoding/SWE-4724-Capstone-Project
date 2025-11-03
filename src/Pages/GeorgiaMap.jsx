@@ -118,23 +118,26 @@ export default function GeorgiaMap() {
       </div>
 
       {/* Map */}
-      <Map
-        {...viewState}
-        onMove={(evt) => setViewState(evt.viewState)}
-        transitionDuration={800}
-        transitionEasing={(t) => t * (2 - t)}
-        style={{ width: "100%", height: "500px", borderRadius: "12px" }}
-        mapStyle="mapbox://styles/mapbox/streets-v11"
-        mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
-        maxBounds={
-          maskMode
-            ? undefined
-            : [
-                [-85.6052, 30.5707], // SW
-                [-80.8413, 35.0012], // NE
-              ]
-        }
-      >
+      <div className="map-wrapper">
+        <Map
+          {...viewState}
+          onMove={(evt) => setViewState(evt.viewState)}
+          transitionDuration={800}
+          transitionEasing={(t) => t * (2 - t)}
+          style={{ width: "100%", height: "500px", borderRadius: "12px" }}
+          mapStyle="mapbox://styles/mapbox/streets-v11"
+          mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
+          maxBounds={
+            maskMode
+              ? undefined
+              : [
+                  [-85.6052, 30.5707], // SW
+                  [-80.8413, 35.0012], // NE
+                ]
+          }
+          touchZoomRotate={true}
+          touchPitch={true}
+        >
         {/* Georgia Boundary */}
         <Source id="georgia-boundary" type="geojson" data={georgiaGeoJson}>
           <Layer
@@ -190,7 +193,8 @@ export default function GeorgiaMap() {
             </div>
           </Popup>
         )}
-      </Map>
+        </Map>
+      </div>
     </div>
   );
 }

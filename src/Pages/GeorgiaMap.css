@@ -1,16 +1,21 @@
 .map-container {
     display: flex;
     gap: 12px;
+    padding: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   
   .sidebar {
     width: 250px;
+    min-width: 250px;
     background: white;
     border-radius: 8px;
     padding: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     height: 500px;
     overflow-y: auto;
+    box-sizing: border-box;
   }
   
   .search-input {
@@ -33,6 +38,8 @@
     border-radius: 6px;
     cursor: pointer;
     transition: 0.2s;
+    color: #000000;
+    font-weight: 500;
   }
   
   .location-item:hover {
@@ -66,5 +73,130 @@
     background: #0080ff;
     color: white;
     border-color: #0055aa;
+  }
+  
+  .mode-toggle button:hover {
+    background: #e0e0e0;
+  }
+  
+  .mode-toggle button.active:hover {
+    background: #0066dd;
+  }
+  
+  /* Map wrapper to handle responsive sizing */
+  .map-wrapper {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  /* Marker styling */
+  .mapboxgl-marker {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  /* Popup styling improvements */
+  .mapboxgl-popup-content {
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  }
+  
+  .mapboxgl-popup-content h4 {
+    margin: 0 0 8px 0;
+    color: #333;
+  }
+  
+  .mapboxgl-popup-content p {
+    margin: 0;
+    color: #666;
+  }
+  
+  /* Mobile responsive styles */
+  @media (max-width: 768px) {
+    .map-container {
+      flex-direction: column;
+      padding: 5px;
+      gap: 10px;
+    }
+    
+    .sidebar {
+      width: 100%;
+      min-width: 100%;
+      height: auto;
+      max-height: 300px;
+      order: 1;
+    }
+    
+    .map-wrapper {
+      order: 2;
+      width: 100%;
+    }
+    
+    .map-wrapper > div {
+      height: 400px !important;
+    }
+    
+    .location-item {
+      padding: 12px;
+      font-size: 14px;
+    }
+    
+    .search-input {
+      padding: 10px;
+      font-size: 16px;
+    }
+    
+    .mode-toggle {
+      margin-top: 12px;
+    }
+    
+    .mode-toggle button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .map-container {
+      padding: 5px;
+    }
+    
+    .sidebar {
+      padding: 10px;
+      max-height: 250px;
+    }
+    
+    .map-wrapper > div {
+      height: 350px !important;
+    }
+    
+    .location-item {
+      padding: 10px;
+      font-size: 13px;
+    }
+    
+    .search-input {
+      padding: 8px;
+      font-size: 14px;
+    }
+    
+    .mode-toggle button {
+      padding: 8px;
+      font-size: 12px;
+    }
+    
+    .no-results {
+      font-size: 12px;
+    }
+    
+    /* Larger markers for better touch interaction */
+    .mapboxgl-marker {
+      font-size: 32px;
+    }
+    
+    /* Better popup sizing */
+    .mapboxgl-popup-content {
+      padding: 12px;
+    }
   }
   

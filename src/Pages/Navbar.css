@@ -73,3 +73,106 @@
 .search-input::placeholder {
     color: #999;
 }
+
+/* Hamburger menu label */
+label[for='menu'] {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+    user-select: none;
+}
+
+/* Hide checkbox */
+input[type='checkbox']#menu {
+    display: none;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px 15px;
+        height: auto;
+    }
+    
+    .navbar-brand {
+        font-size: 10px;
+        flex: 1;
+    }
+    
+    /* Show hamburger menu */
+    label[for='menu'] {
+        display: block;
+        order: 2;
+    }
+    
+    /* Hide menu by default */
+    .navbar-nav {
+        display: none !important;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        order: 4;
+        background-color: #6fb353;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+    
+    /* Show menu when checkbox is checked */
+    input[type='checkbox']#menu:checked ~ .navbar-nav {
+        display: flex !important;
+    }
+    
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+    
+    .nav-link {
+        display: block;
+        width: 100%;
+        padding: 12px 20px;
+    }
+    
+    .search-container {
+        order: 3;
+        margin-left: auto;
+    }
+    
+    .search-box {
+        padding: 6px 10px;
+    }
+    
+    .search-input {
+        width: 120px;
+        font-size: 12px;
+    }
+    
+    /* When menu is open, search moves below */
+    input[type='checkbox']#menu:checked ~ .search-container {
+        order: 5;
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    input[type='checkbox']#menu:checked ~ .search-container .search-input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 8px;
+    }
+    
+    .search-input {
+        width: 80px;
+    }
+} 

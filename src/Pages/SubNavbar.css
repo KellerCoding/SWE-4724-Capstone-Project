@@ -171,3 +171,165 @@
     background-color: #5a9845;
     color: white;
 }
+
+/* Mobile hamburger menu */
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+    color: #333;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 992px) {
+    .subnavbar {
+        padding: 10px 20px;
+    }
+    
+    .logo-circle {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #333;
+    }
+    
+    .logo-text {
+        font-size: 9px;
+    }
+    
+    .nav-menu {
+        gap: 20px;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+    }
+    
+    .donate-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .subnavbar {
+        flex-wrap: wrap;
+        padding: 10px 15px;
+        position: relative;
+    }
+    
+    .logo-container {
+        flex: 1;
+    }
+    
+    .logo-container img {
+        width: 8rem !important;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+        order: 2;
+    }
+    
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        order: 4;
+        gap: 0;
+        background-color: white;
+        margin-top: 10px;
+        padding: 10px 0;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+    
+    .nav-menu.active {
+        display: flex;
+    }
+    
+    .nav-item {
+        width: 100%;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+    
+    .nav-link {
+        justify-content: space-between;
+        padding: 15px 20px;
+        width: 100%;
+    }
+    
+    .dropdown-container {
+        width: 100%;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        transform: none;
+        box-shadow: none;
+        border: none;
+        border-top: 1px solid #e0e0e0;
+        border-radius: 0;
+        margin-top: 0;
+        background-color: #f9f9f9;
+    }
+    
+    .donate-container {
+        order: 3;
+        margin-left: auto;
+    }
+    
+    .donate-btn {
+        padding: 8px 16px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .subnavbar {
+        padding: 8px 10px;
+    }
+    
+    .logo-container img {
+        width: 6rem !important;
+    }
+    
+    .logo-circle {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo-text {
+        font-size: 7px;
+    }
+    
+    .logo-badge {
+        padding: 3px 6px;
+        font-size: 6px;
+        right: -8px;
+        top: -3px;
+    }
+    
+    .badge-text {
+        font-size: 6px;
+    }
+    
+    .gavel-icon {
+        font-size: 8px;
+    }
+    
+    .donate-btn {
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+    
+    .mobile-menu-toggle {
+        font-size: 20px;
+    }
+}

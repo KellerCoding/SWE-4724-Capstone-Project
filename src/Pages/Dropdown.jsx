@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Dropdown.module.css";
+import styles from "./Dropdown.module.css";
 
 const HospitalDropdown = ({ hospitals, onSelect, label = "Select a Hospital:" }) => {
   const [selected, setSelected] = useState("");
@@ -11,15 +11,15 @@ const HospitalDropdown = ({ hospitals, onSelect, label = "Select a Hospital:" })
   };
 
   return (
-    <div className="dropdown-container">
-      <label htmlFor="hospital-dropdown" className="dropdown-label">
+    <div className={styles["dropdown-container"]}>
+      <label htmlFor="hospital-dropdown" className={styles["dropdown-label"]}>
         {label}
       </label>
       <select
         id="hospital-dropdown"
         value={selected}
         onChange={handleSelect}
-        className="hospital-dropdown"
+        className={styles["hospital-dropdown"]}
       >
         <option value="">-- Choose a hospital --</option>
         {hospitals.map((hospital, index) => (
