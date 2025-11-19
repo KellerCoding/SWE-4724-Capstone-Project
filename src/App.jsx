@@ -12,7 +12,9 @@ import { Comparison } from "./Pages/Comparison.jsx"
 
 function App() {
 
-  return (
+  return ( /*
+  Something pointless
+  */
     <Router>
         <div width="100%" style={{ backgroundColor: "#fff" }}>
             <Navbar/>
