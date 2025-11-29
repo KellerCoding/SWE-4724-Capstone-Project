@@ -1,7 +1,8 @@
 import "./Scorecard.css"
 import { useNavigate } from "react-router-dom"
 import { useState, useMemo } from "react"
-import hospitalData from "../data/testData.json"
+// import hospitalData from "../data/testData.json"
+import hospitalData from "../data/alphaTestData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 import { Link } from "react-router-dom"
@@ -9,6 +10,8 @@ import { Link } from "react-router-dom"
 export function Scorecard(){
     const navigate = useNavigate()
     const [sortByName, setSortByName] = useState(false)
+    const [currentPage, setCurrentPage] = useState(1)
+    const itemsPerPage = 30
     
     const hospitalViewClick = (hospitalId) => {
         navigate(`/hospital-score/${hospitalId}`) 
@@ -16,6 +19,7 @@ export function Scorecard(){
     
     const handleHospitalNameSort = () => {
         setSortByName(!sortByName)
+        setCurrentPage(1) // Reset to first page when sorting changes
     }
     
     // Sort hospital data based on current sort state
@@ -31,6 +35,58 @@ export function Scorecard(){
         // Return original order
         return entries
     }, [sortByName])
+    
+    // Calculate pagination
+    const totalPages = Math.ceil(sortedHospitalData.length / itemsPerPage)
+    const startIndex = (currentPage - 1) * itemsPerPage
+    const endIndex = startIndex + itemsPerPage
+    const paginatedData = sortedHospitalData.slice(startIndex, endIndex)
+    
+    const handlePageChange = (page) => {
+        setCurrentPage(page)
+        // Scroll to top of table when page changes
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+    
+    const getPageNumbers = () => {
+        const pages = []
+        const maxVisiblePages = 5
+        
+        if (totalPages <= maxVisiblePages) {
+            // Show all pages if total pages is less than max visible
+            for (let i = 1; i <= totalPages; i++) {
+                pages.push(i)
+            }
+        } else {
+            // Show first page, current page range, and last page
+            if (currentPage <= 3) {
+                // Near the beginning
+                for (let i = 1; i <= 4; i++) {
+                    pages.push(i)
+                }
+                pages.push('...')
+                pages.push(totalPages)
+            } else if (currentPage >= totalPages - 2) {
+                // Near the end
+                pages.push(1)
+                pages.push('...')
+                for (let i = totalPages - 3; i <= totalPages; i++) {
+                    pages.push(i)
+                }
+            } else {
+                // In the middle
+                pages.push(1)
+                pages.push('...')
+                for (let i = currentPage - 1; i <= currentPage + 1; i++) {
+                    pages.push(i)
+                }
+                pages.push('...')
+                pages.push(totalPages)
+            }
+        }
+        
+        return pages
+    }
 
     return (
         <div className="Scorecard">
@@ -93,12 +149,13 @@ export function Scorecard(){
                             </tr>
                         </thead>
                         <tbody>
-                        {sortedHospitalData.map(([hospitalName, data], index) => {
+                        {paginatedData.map(([hospitalName, data], index) => {
                             
                             const info = data.hospitalInfo;
+                            const globalIndex = startIndex + index; // Calculate global rank
                             return(
                                 <tr key={hospitalName}>
-                                        <td className={"numRow"}>{index + 1}</td>
+                                        <td className={"numRow"}>{globalIndex + 1}</td>
                                         <td>
                                             <span className={"Hospital"}>{info.name}</span>
                                             <br />
@@ -120,8 +177,44 @@ export function Scorecard(){
                         })}
                         </tbody>
                     </table>
-                        
-                    {/*Previous, 1, 2, 3... Next*/}
+                    
+                    {/* Pagination Controls */}
+                    {totalPages > 1 && (
+                        <div className="pagination">
+                            <button 
+                                className="pagination-btn"
+                                onClick={() => handlePageChange(currentPage - 1)}
+                                disabled={currentPage === 1}
+                            >
+                                Previous
+                            </button>
+                            
+                            <div className="pagination-numbers">
+                                {getPageNumbers().map((page, index) => {
+                                    if (page === '...') {
+                                        return <span key={`ellipsis-${index}`} className="pagination-ellipsis">...</span>
+                                    }
+                                    return (
+                                        <button
+                                            key={page}
+                                            className={`pagination-number ${currentPage === page ? 'active' : ''}`}
+                                            onClick={() => handlePageChange(page)}
+                                        >
+                                            {page}
+                                        </button>
+                                    )
+                                })}
+                            </div>
+                            
+                            <button 
+                                className="pagination-btn"
+                                onClick={() => handlePageChange(currentPage + 1)}
+                                disabled={currentPage === totalPages}
+                            >
+                                Next
+                            </button>
+                        </div>
+                    )}
 
                 </div>
             </div>

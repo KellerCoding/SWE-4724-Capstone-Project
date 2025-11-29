@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 import { useParams } from "react-router-dom"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
-import HospitalData from "../data/testData.json"
+// import HospitalData from "../data/testData.json"
+import HospitalData from "../data/alphaTestData.json"
 
 export function HospitalScore(){
     const { hospitalId } = useParams()

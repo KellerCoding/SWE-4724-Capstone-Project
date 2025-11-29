@@ -19,16 +19,29 @@
             "lng":-84.3195
         },
         "financialTransparency":{
-            
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
         },
-        "commBenefitSpending":{
-
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
         },
-        "healthcareAffordability":{
-
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
         },
-        "healthcareAccess":{
-
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     }, 
     "2":{
