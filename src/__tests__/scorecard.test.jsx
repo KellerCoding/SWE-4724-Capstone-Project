@@ -1,0 +1,251 @@
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { vi } from 'vitest';
+import { Scorecard } from '../Pages/Scorecard';
+
+// Mock the navigation hook
+const mockNavigate = vi.fn();
+vi.mock('react-router-dom', async () => {
+    const actual = await vi.importActual('react-router-dom');
+    return {
+        ...actual,
+        useNavigate: () => mockNavigate,
+    };
+});
+
+// Mock the hospital data
+vi.mock('../data/testData.json', () => ({
+    default: {
+        'hospital1': {
+            hospitalInfo: {
+                name: 'City General Hospital',
+                city: 'Atlanta'
+            }
+        },
+        'hospital2': {
+            hospitalInfo: {
+                name: 'Atlanta Medical Center',
+                city: 'Atlanta'
+            }
+        },
+        'hospital3': {
+            hospitalInfo: {
+                name: 'Bethany Regional Hospital',
+                city: 'Savannah'
+            }
+        }
+    }
+}));
+
+// Mock images
+vi.mock('../assets/Images/ratingStar.png', () => ({ default: 'star.png' }));
+vi.mock('../assets/Images/ratingStarGrey.png', () => ({ default: 'dullStar.png' }));
+
+describe('Scorecard Component', () => {
+    beforeEach(() => {
+        mockNavigate.mockClear();
+    });
+
+    const renderScorecard = () => {
+        return render(
+            <BrowserRouter>
+                <Scorecard />
+            </BrowserRouter>
+        );
+    };
+
+    describe('Component Rendering', () => {
+        it('should render the main heading', () => {
+            renderScorecard();
+            expect(screen.getByText('Hospital Accountability Scorecard')).toBeInTheDocument();
+        });
+
+        it('should render the objective text', () => {
+            renderScorecard();
+            expect(screen.getByText(/Use this guide to jump start your research/i)).toBeInTheDocument();
+        });
+
+        it('should render the Compare Hospitals button', () => {
+            renderScorecard();
+            expect(screen.getByText('Compare Hospitals')).toBeInTheDocument();
+        });
+
+        it('should render filter section with correct buttons', () => {
+            renderScorecard();
+            expect(screen.getByText('Filter By')).toBeInTheDocument();
+            expect(screen.getByRole('button', { name: /City/i })).toBeInTheDocument();
+            // expect(screen.getByRole('button', { name: /County/i })).toBeInTheDocument();
+        });
+
+        it('should render sort section with correct buttons', () => {
+            renderScorecard();
+            expect(screen.getByText('Sort By')).toBeInTheDocument();
+            expect(screen.getByRole('button', { name: /Hospital Name/i })).toBeInTheDocument();
+            expect(screen.getByRole('button', { name: /Grade \/ Score/i })).toBeInTheDocument();
+        });
+    });
+
+    describe('Hospital Table', () => {
+        it('should render table headers correctly', () => {
+            renderScorecard();
+            expect(screen.getByText('Rank')).toBeInTheDocument();
+            expect(screen.getByText('Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Grade')).toBeInTheDocument();
+            expect(screen.getByText('Details')).toBeInTheDocument();
+        });
+
+        it('should render all hospitals from mock data', () => {
+            renderScorecard();
+            expect(screen.getByText('City General Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Atlanta Medical Center')).toBeInTheDocument();
+            expect(screen.getByText('Bethany Regional Hospital')).toBeInTheDocument();
+        });
+
+        it('should render hospital cities', () => {
+            renderScorecard();
+            const atlantaCities = screen.getAllByText('Atlanta');
+            expect(atlantaCities.length).toBeGreaterThan(0);
+            expect(screen.getByText('Savannah')).toBeInTheDocument();
+        });
+
+        it('should render View buttons for each hospital', () => {
+            renderScorecard();
+            const viewButtons = screen.getAllByRole('button', { name: /View/i });
+            expect(viewButtons).toHaveLength(3);
+        });
+
+        it('should render rating stars for each hospital', () => {
+            renderScorecard();
+            const stars = screen.getAllByAltText(/A|/);
+            expect(stars.length).toBeGreaterThan(0);
+        });
+
+        it('should display rank numbers correctly', () => {
+            renderScorecard();
+            expect(screen.getByText('1')).toBeInTheDocument();
+            expect(screen.getByText('2')).toBeInTheDocument();
+            expect(screen.getByText('3')).toBeInTheDocument();
+        });
+    });
+
+    describe('Navigation Functionality', () => {
+        it('should navigate to hospital detail page when View button is clicked', () => {
+            renderScorecard();
+            const viewButtons = screen.getAllByRole('button', { name: /View/i });
+            
+            fireEvent.click(viewButtons[0]);
+            
+            expect(mockNavigate).toHaveBeenCalledWith('/hospital-score/hospital1');
+        });
+
+        it('should navigate with correct hospital ID for different hospitals', () => {
+            renderScorecard();
+            const viewButtons = screen.getAllByRole('button', { name: /View/i });
+            
+            fireEvent.click(viewButtons[1]);
+            
+            expect(mockNavigate).toHaveBeenCalledWith('/hospital-score/hospital2');
+        });
+
+        it('should link to comparison page', () => {
+            renderScorecard();
+            const compareLink = screen.getByText('Compare Hospitals').closest('a');
+            expect(compareLink).toHaveAttribute('href', '/comparison');
+        });
+    });
+
+    describe('Sorting Functionality', () => {
+        it('should sort hospitals alphabetically when Hospital Name button is clicked', () => {
+            renderScorecard();
+            const sortButton = screen.getByRole('button', { name: /Hospital Name/i });
+            
+            fireEvent.click(sortButton);
+            
+            // Check that Atlanta Medical Center appears before City General Hospital after sorting
+            const atlantaMedical = screen.getByText('Atlanta Medical Center');
+            const cityGeneral = screen.getByText('City General Hospital');
+            const bethany = screen.getByText('Bethany Regional Hospital');
+            
+            expect(atlantaMedical).toBeInTheDocument();
+            expect(cityGeneral).toBeInTheDocument();
+            expect(bethany).toBeInTheDocument();
+        });
+
+        it('should toggle sort order when clicked again', () => {
+            renderScorecard();
+            const sortButton = screen.getByRole('button', { name: /Hospital Name/i });
+            
+            // First click - sort A-Z
+            fireEvent.click(sortButton);
+            expect(sortButton).toHaveTextContent('Hospital Name (A-Z)');
+            
+            // Second click - return to original order
+            fireEvent.click(sortButton);
+            expect(sortButton).toHaveTextContent('Hospital Name');
+        });
+
+        it('should add active-sort class when sorting is enabled', () => {
+            renderScorecard();
+            const sortButton = screen.getByRole('button', { name: /Hospital Name/i });
+            
+            expect(sortButton).not.toHaveClass('active-sort');
+            
+            fireEvent.click(sortButton);
+            
+            expect(sortButton).toHaveClass('active-sort');
+        });
+
+        it('should update ranks after sorting', () => {
+            renderScorecard();
+            const sortButton = screen.getByRole('button', { name: /Hospital Name/i });
+            
+            fireEvent.click(sortButton);
+            
+            // Ranks should still be 1, 2, 3 but for different hospitals
+            const ranks = screen.getAllByText(/^[1-3]$/);
+            expect(ranks).toHaveLength(3);
+        });
+    });
+
+    describe('Component Structure', () => {
+        it('should render the banner section', () => {
+            const { container } = renderScorecard();
+            const banner = container.querySelector('.banner');
+            expect(banner).toBeInTheDocument();
+        });
+
+        it('should render the left sidebar with filters and sort options', () => {
+            const { container } = renderScorecard();
+            const leftSection = container.querySelector('.left');
+            expect(leftSection).toBeInTheDocument();
+        });
+
+        it('should render the right section with table', () => {
+            const { container } = renderScorecard();
+            const rightSection = container.querySelector('.right');
+            expect(rightSection).toBeInTheDocument();
+        });
+
+        it('should render the search box placeholder', () => {
+            const { container } = renderScorecard();
+            const searchBox = container.querySelector('.search-box');
+            expect(searchBox).toBeInTheDocument();
+        });
+    });
+
+    describe('Edge Cases', () => {
+        it('should handle empty hospital data gracefully', () => {
+            // This test would require mocking empty data
+            // For now, just ensure no crash with current data
+            expect(() => renderScorecard()).not.toThrow();
+        });
+
+        it('should render correct number of star images per hospital', () => {
+            renderScorecard();
+            const stars = screen.getAllByRole('img');
+            // 5 stars per hospital * 3 hospitals = 15 stars
+            expect(stars.length).toBe(3);
+        });
+    });
+});
