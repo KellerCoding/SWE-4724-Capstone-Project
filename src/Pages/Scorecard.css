@@ -53,7 +53,16 @@ html, body {
     display: block;
     align-items: center;
     margin-left: 150px;
-
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
 }
 
 .left h5{
@@ -329,6 +338,9 @@ td:last-child {
         margin-bottom: 20px;
         width: 100%;
         padding: 0 15px;
+        position: static;
+        max-height: none;
+        overflow-y: visible;
     }
     
     .left h5 {
@@ -439,6 +451,9 @@ td:last-child {
     
     .left {
         padding: 0 10px;
+        position: static;
+        max-height: none;
+        overflow-y: visible;
     }
     
     .left h5 {
