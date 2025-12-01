@@ -3,7 +3,7 @@ export function Navbar(){
     return (
         <nav className="navbar">
             <div className="navbar-brand">
-                PROTECTING CONSUMERS SINCE 2002
+                PROTECTING CONSUMERS SINCE
             </div>
             <label htmlFor='menu' tabIndex="0">
                ☰

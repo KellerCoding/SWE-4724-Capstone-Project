@@ -21,7 +21,7 @@ export function SubNavbar(){
             <div className="logo-container">
                 <div className="logo">
                     <div>
-                        <img style={{width:"10rem"}} src="src/assets/Images/gwatchlogo.png" alt="" />
+                        <img style={{width:"10rem"}} src="src/assets/Images/gwatchlogo.png" alt="Georgia Watch Logo" />
                     </div>
                 </div>
             </div>

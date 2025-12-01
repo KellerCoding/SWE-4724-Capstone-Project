@@ -21,7 +21,7 @@ export function Homepage(){
                         <img
                             className="d-block w-100"
                             src={image}
-                            alt={`Georgia Watch Logo ${index + 1}`}
+                            alt={`Georgia Watch Images ${index + 1}`}
                             style={{
                                 marginTop: '50px', 
                                 marginBottom: '50px', 
@@ -33,5 +33,5 @@ export function Homepage(){
                 ))}
             </Carousel>
         </div>
-    )
-}
+    );
+};

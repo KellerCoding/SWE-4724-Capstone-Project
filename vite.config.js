@@ -8,8 +8,10 @@ import {configDefaults} from "vitest/config";
 export default defineConfig({
   plugins: [react()],
   test: {
+    include: ['**/__tests__/**/*.{test,spec}.{js,jsx}'],
     exclude: [...configDefaults.exclude, 'packages/template/*'],
-    global: true,
+    globals: true,
     environment: 'jsdom',
+    setupFiles: ['./src/__tests__/setup.js'],
   },
 })

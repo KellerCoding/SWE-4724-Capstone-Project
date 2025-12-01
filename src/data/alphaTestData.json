@@ -1,0 +1,3127 @@
+{
+    "1": {
+        "hospitalInfo": {
+            "name": "Northside Hospital Atlanta",
+            "website": "https://www.northside.com",
+            "city": "Atlanta",
+            "address": null,
+            "county": null,
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Northside Hospital System",
+            "systemName": "Northside",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "2": {
+        "hospitalInfo": {
+            "name": "Northside Hospital Forsyth",
+            "website": "https://www.northside.com",
+            "city": "Cumming",
+            "address": null,
+            "county": "Forsyth",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Northside Hospital System",
+            "systemName": "Northside",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat":33.90901,
+            "lng":-84.35394
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "3": {
+        "hospitalInfo": {
+            "name": "Emory University Hospital",
+            "website": "https://www.emoryhealthcare.org",
+            "city": "Atlanta",
+            "address": null,
+            "county": "DeKalb",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Emory Healthcare",
+            "systemName": "Emory",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat":33.7914,
+            "lng":-84.3195
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "4": {
+        "hospitalInfo": {
+            "name": "Grady Memorial Hospital",
+            "website": "https://www.gradyhealth.org",
+            "city": "Atlanta",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Grady Health System",
+            "systemName": "Grady",
+            "areaType": "0",
+            "hospitalAuthority": "1",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": 33.752258,
+            "lng": -84.381903
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "5": {
+        "hospitalInfo": {
+            "name": "Piedmont Atlanta Hospital",
+            "website": "https://www.piedmont.org",
+            "city": "Atlanta",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": 33.8091461,
+            "lng": -84.3954735
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "6": {
+        "hospitalInfo": {
+            "name": "Wellstar Kennestone Hospital",
+            "website": "https://www.wellstar.org",
+            "city": "Marietta",
+            "address": null,
+            "county": "Cobb",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Wellstar Health System",
+            "systemName": "Wellstar",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat":33.969,
+            "lng":-84.5522
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "7": {
+        "hospitalInfo": {
+            "name": "Wellstar Cobb Hospital",
+            "website": "https://www.wellstar.org",
+            "city": "Austell",
+            "address": null,
+            "county": "Cobb",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Wellstar Health System",
+            "systemName": "Wellstar",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "8": {
+        "hospitalInfo": {
+            "name": "Wellstar North Fulton Hospital",
+            "website": "https://www.wellstar.org",
+            "city": "Roswell",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Wellstar Health System",
+            "systemName": "Wellstar",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "9": {
+        "hospitalInfo": {
+            "name": "Memorial Health University Medical Center",
+            "website": "https://memorialhealth.com",
+            "city": "Savannah",
+            "address": null,
+            "county": "Chatham",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "10": {
+        "hospitalInfo": {
+            "name": "Saint Joseph's Hospital of Atlanta",
+            "website": "https://www.emoryhealthcare.org",
+            "city": "Atlanta",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Emory Healthcare",
+            "systemName": "Emory",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "11": {
+        "hospitalInfo": {
+            "name": "Atrium Health Navicent The Medical Center",
+            "website": "https://www.navicenthealth.org",
+            "city": "Macon",
+            "address": null,
+            "county": "Bibb",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Atrium Health",
+            "systemName": "Atrium Health Navicent",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "12": {
+        "hospitalInfo": {
+            "name": "Piedmont Columbus Regional",
+            "website": "https://www.piedmont.org",
+            "city": "Columbus",
+            "address": null,
+            "county": "Muscogee",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "13": {
+        "hospitalInfo": {
+            "name": "Egleston Children's Hospital (Children's Healthcare of Atlanta) - Egleston",
+            "website": "https://www.choa.org",
+            "city": "Atlanta",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Children's Healthcare of Atlanta",
+            "systemName": "Children's Healthcare of Atlanta",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "14": {
+        "hospitalInfo": {
+            "name": "Children's Healthcare of Atlanta - Scottish Rite",
+            "website": "https://www.choa.org",
+            "city": "Atlanta",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Children's Healthcare of Atlanta",
+            "systemName": "Children's Healthcare of Atlanta",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "15": {
+        "hospitalInfo": {
+            "name": "Piedmont Macon Medical Center",
+            "website": "https://www.piedmont.org",
+            "city": "Macon",
+            "address": null,
+            "county": "Bibb",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "16": {
+        "hospitalInfo": {
+            "name": "Floyd Medical Center",
+            "website": "https://www.floyd.org",
+            "city": "Rome",
+            "address": null,
+            "county": "Floyd",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Floyd Healthcare",
+            "systemName": "Floyd",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "17": {
+        "hospitalInfo": {
+            "name": "South Georgia Medical Center",
+            "website": "https://www.sgmc.org",
+            "city": "Valdosta",
+            "address": null,
+            "county": "Lowndes",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "18": {
+        "hospitalInfo": {
+            "name": "Hamilton Medical Center",
+            "website": "https://www.hamiltonmedical.org",
+            "city": "Dalton",
+            "address": null,
+            "county": "Whitfield",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        }
+    },
+    "19": {
+        "hospitalInfo": {
+            "name": "AdventHealth Gordon",
+            "website": "https://www.adventhealth.com",
+            "city": "Calhoun",
+            "address": null,
+            "county": "Gordon",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "AdventHealth",
+            "systemName": "AdventHealth",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "20": {
+        "hospitalInfo": {
+            "name": "AdventHealth Murray",
+            "website": "https://www.adventhealth.com",
+            "city": "Chatsworth",
+            "address": null,
+            "county": "Murray",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "AdventHealth",
+            "systemName": "AdventHealth",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "21": {
+        "hospitalInfo": {
+            "name": "AdventHealth Redmond",
+            "website": "https://www.adventhealth.com",
+            "city": "Rome",
+            "address": null,
+            "county": "Floyd",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "AdventHealth",
+            "systemName": "AdventHealth",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "22": {
+        "hospitalInfo": {
+            "name": "Archbold Memorial Hospital",
+            "website": "https://www.archbold.org",
+            "city": "Thomasville",
+            "address": null,
+            "county": "Thomas",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Archbold",
+            "systemName": "Archbold",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "23": {
+        "hospitalInfo": {
+            "name": "Archbold - Brooks County Hospital",
+            "website": "https://www.archbold.org",
+            "city": "Quitman",
+            "address": null,
+            "county": "Brooks",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Archbold",
+            "systemName": "Archbold",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "24": {
+        "hospitalInfo": {
+            "name": "Appling Healthcare System / Appling Hospital",
+            "website": null,
+            "city": "Baxley",
+            "address": null,
+            "county": "Appling",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Appling Healthcare System",
+            "systemName": "Appling",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "25": {
+        "hospitalInfo": {
+            "name": "Bacon County Hospital and Health System",
+            "website": null,
+            "city": "Alma",
+            "address": null,
+            "county": "Bacon",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "26": {
+        "hospitalInfo": {
+            "name": "Bleckley Memorial Hospital",
+            "website": null,
+            "city": "Cochran",
+            "address": null,
+            "county": "Bleckley",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "27": {
+        "hospitalInfo": {
+            "name": "Brooks County Hospital",
+            "website": null,
+            "city": "Quitman",
+            "address": null,
+            "county": "Brooks",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Archbold",
+            "systemName": "Archbold",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "28": {
+        "hospitalInfo": {
+            "name": "Candler County Hospital",
+            "website": null,
+            "city": "Metter",
+            "address": null,
+            "county": "Candler",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "29": {
+        "hospitalInfo": {
+            "name": "Clinch Memorial Hospital",
+            "website": null,
+            "city": "Homerville",
+            "address": null,
+            "county": "Clin",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "30": {
+        "hospitalInfo": {
+            "name": "Chatuge Regional Hospital",
+            "website": null,
+            "city": "Hiawassee",
+            "address": null,
+            "county": "Townsend",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "31": {
+        "hospitalInfo": {
+            "name": "Colquitt Regional Medical Center",
+            "website": "https://www.colquittregional.com",
+            "city": "Moultrie",
+            "address": null,
+            "county": "Colquitt",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "32": {
+        "hospitalInfo": {
+            "name": "Crisp Regional Hospital",
+            "website": null,
+            "city": "Cordele",
+            "address": null,
+            "county": "Crisp",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "33": {
+        "hospitalInfo": {
+            "name": "Doctors Hospital of Augusta",
+            "website": "https://www.doctorshospitalofaugusta.com",
+            "city": "Augusta",
+            "address": null,
+            "county": "Richmond",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "HCA Healthcare",
+            "systemName": "HCA",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "34": {
+        "hospitalInfo": {
+            "name": "Dorminy Medical Center",
+            "website": null,
+            "city": "Fitzgerald",
+            "address": null,
+            "county": "Ben Hill",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "35": {
+        "hospitalInfo": {
+            "name": "East Georgia Regional Medical Center",
+            "website": "https://egrmc.com",
+            "city": "Statesboro",
+            "address": null,
+            "county": "Bulloch",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "36": {
+        "hospitalInfo": {
+            "name": "Effingham Hospital",
+            "website": null,
+            "city": "Springfield",
+            "address": null,
+            "county": "Effingham",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "37": {
+        "hospitalInfo": {
+            "name": "Elbert Memorial Hospital",
+            "website": null,
+            "city": "Elberton",
+            "address": null,
+            "county": "Elbert",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "38": {
+        "hospitalInfo": {
+            "name": "Emanuel Medical Center",
+            "website": null,
+            "city": "Swainsboro",
+            "address": null,
+            "county": "Emanuel",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "39": {
+        "hospitalInfo": {
+            "name": "Fairview Park Hospital",
+            "website": "https://www.fairviewparkhospital.com",
+            "city": "Dublin",
+            "address": null,
+            "county": "Laurens",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "HCA Healthcare",
+            "systemName": "HCA",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "40": {
+        "hospitalInfo": {
+            "name": "Fannin Regional Hospital",
+            "website": null,
+            "city": "Blue Ridge",
+            "address": null,
+            "county": "Fannin",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "41": {
+        "hospitalInfo": {
+            "name": "Flint River Hospital",
+            "website": null,
+            "city": "Montezuma",
+            "address": null,
+            "county": "Macon",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "42": {
+        "hospitalInfo": {
+            "name": "Hamilton Medical Center - Atrium Health",
+            "website": "https://www.hamiltonmedical.org",
+            "city": "Dalton",
+            "address": null,
+            "county": "Whitfield",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Atrium Health",
+            "systemName": "Atrium Health Floyd",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "43": {
+        "hospitalInfo": {
+            "name": "Higgins General Hospital",
+            "website": null,
+            "city": "Bremen",
+            "address": null,
+            "county": "Carroll/Haralson",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Tanner Health System",
+            "systemName": "Tanner",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "44": {
+        "hospitalInfo": {
+            "name": "Houston Healthcare - Houston Medical Center",
+            "website": "https://www.houstonhealthcare.com",
+            "city": "Warner Robins",
+            "address": null,
+            "county": "Houston",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Houston Healthcare",
+            "systemName": "Houston Healthcare",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "45": {
+        "hospitalInfo": {
+            "name": "Houston Healthcare - Perry Hospital",
+            "website": "https://www.houstonhealthcare.com",
+            "city": "Perry",
+            "address": null,
+            "county": "Houston",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Houston Healthcare",
+            "systemName": "Houston Healthcare",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "46": {
+        "hospitalInfo": {
+            "name": "Irwin County Hospital",
+            "website": null,
+            "city": "Ocilla",
+            "address": null,
+            "county": "Irwin",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "47": {
+        "hospitalInfo": {
+            "name": "Jasper Memorial Hospital",
+            "website": null,
+            "city": "Monticello",
+            "address": null,
+            "county": "Jasper",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "48": {
+        "hospitalInfo": {
+            "name": "Jeff Davis Hospital",
+            "website": null,
+            "city": "Hazlehurst",
+            "address": null,
+            "county": "Jeff Davis",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "49": {
+        "hospitalInfo": {
+            "name": "Jefferson Hospital",
+            "website": null,
+            "city": "Louisville",
+            "address": null,
+            "county": "Jefferson",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "50": {
+        "hospitalInfo": {
+            "name": "Kindred Hospital Atlanta (Long-term acute care)",
+            "website": null,
+            "city": "Atlanta",
+            "address": null,
+            "county": "Fulton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Kindred",
+            "systemName": "Kindred",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "51": {
+        "hospitalInfo": {
+            "name": "Landmark Hospital of Athens",
+            "website": null,
+            "city": "Athens",
+            "address": null,
+            "county": "Clarke",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "52": {
+        "hospitalInfo": {
+            "name": "Regency Hospital of Central Georgia",
+            "website": null,
+            "city": "Macon",
+            "address": null,
+            "county": "Bibb",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "53": {
+        "hospitalInfo": {
+            "name": "Roosevelt Warm Springs Institute for Rehabilitation",
+            "website": null,
+            "city": "Warm Springs",
+            "address": null,
+            "county": "Meriwether",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "54": {
+        "hospitalInfo": {
+            "name": "Northeast Georgia Medical Center - Gainesville",
+            "website": "https://www.nghs.com",
+            "city": "Gainesville",
+            "address": null,
+            "county": "Hall",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Northeast Georgia Health System",
+            "systemName": "NGHS",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "55": {
+        "hospitalInfo": {
+            "name": "Northeast Georgia Medical Center - Braselton",
+            "website": "https://www.nghs.com",
+            "city": "Braselton",
+            "address": null,
+            "county": "Barrow",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Northeast Georgia Health System",
+            "systemName": "NGHS",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "56": {
+        "hospitalInfo": {
+            "name": "Northside Hospital Cherokee",
+            "website": "https://www.northside.com",
+            "city": "Canton",
+            "address": null,
+            "county": "Cherokee",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Northside Hospital System",
+            "systemName": "Northside",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "57": {
+        "hospitalInfo": {
+            "name": "Northside Hospital Gwinnett",
+            "website": "https://www.northside.com",
+            "city": "Lawrenceville",
+            "address": null,
+            "county": "Gwinnett",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Northside Hospital System",
+            "systemName": "Northside",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "58": {
+        "hospitalInfo": {
+            "name": "Optim Medical Center - Screven",
+            "website": null,
+            "city": "Sylvania",
+            "address": null,
+            "county": "Screven",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Optim",
+            "systemName": "Optim",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "59": {
+        "hospitalInfo": {
+            "name": "Piedmont Fayette Hospital",
+            "website": "https://www.piedmont.org",
+            "city": "Fayetteville",
+            "address": null,
+            "county": "Fayette",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "60": {
+        "hospitalInfo": {
+            "name": "Piedmont Henry Hospital",
+            "website": "https://www.piedmont.org",
+            "city": "Stockbridge",
+            "address": null,
+            "county": "Henry",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "61": {
+        "hospitalInfo": {
+            "name": "Piedmont Newnan Hospital",
+            "website": "https://www.piedmont.org",
+            "city": "Newnan",
+            "address": null,
+            "county": "Coweta",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "62": {
+        "hospitalInfo": {
+            "name": "Piedmont Walton Hospital",
+            "website": "https://www.piedmont.org",
+            "city": "Monroe",
+            "address": null,
+            "county": "Walton",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Piedmont Healthcare",
+            "systemName": "Piedmont",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "63": {
+        "hospitalInfo": {
+            "name": "Putnam General Hospital",
+            "website": null,
+            "city": "Eatonton",
+            "address": null,
+            "county": "Putnam",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "64": {
+        "hospitalInfo": {
+            "name": "South Georgia Medical Center - Berrien",
+            "website": null,
+            "city": "Nashville",
+            "address": null,
+            "county": "Berrien",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "SGMC",
+            "systemName": "South Georgia Medical Center",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "65": {
+        "hospitalInfo": {
+            "name": "Tanner Medical Center - Carrollton",
+            "website": "https://www.tanner.org",
+            "city": "Carrollton",
+            "address": null,
+            "county": "Carroll",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Tanner Health System",
+            "systemName": "Tanner",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "66": {
+        "hospitalInfo": {
+            "name": "Tanner Medical Center - Villa Rica",
+            "website": "https://www.tanner.org",
+            "city": "Villa Rica",
+            "address": null,
+            "county": "Carroll",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Tanner Health System",
+            "systemName": "Tanner",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "67": {
+        "hospitalInfo": {
+            "name": "Valdosta Regional Medical Center",
+            "website": null,
+            "city": "Valdosta",
+            "address": null,
+            "county": "Lowndes",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": null,
+            "systemName": null,
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "68": {
+        "hospitalInfo": {
+            "name": "Wellstar Paulding Hospital",
+            "website": "https://www.wellstar.org",
+            "city": "Hiram",
+            "address": null,
+            "county": "Paulding",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Wellstar Health System",
+            "systemName": "Wellstar",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "1",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "69": {
+        "hospitalInfo": {
+            "name": "Wellstar West Georgia Medical Center",
+            "website": "https://www.wellstar.org",
+            "city": "LaGrange",
+            "address": null,
+            "county": "Troup",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Wellstar Health System",
+            "systemName": "Wellstar",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    },
+    "70": {
+        "hospitalInfo": {
+            "name": "Phoebe Putney Memorial Hospital",
+            "website": "https://www.phoebehealth.com",
+            "city": "Albany",
+            "address": null,
+            "county": "Dougherty",
+            "zipcode": null,
+            "phoneNumber": null,
+            "hospitalSystem": "Phoebe Putney Health System",
+            "systemName": "Phoebe Putney",
+            "areaType": "0",
+            "hospitalAuthority": "0",
+            "criticalAccess": "0",
+            "bedSize": null,
+            "sizeGroup": null,
+            "lat": null,
+            "lng": null
+        }, 
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
+        }
+    }
+}
