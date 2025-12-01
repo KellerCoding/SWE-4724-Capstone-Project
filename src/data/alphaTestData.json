@@ -17,6 +17,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "2": {
@@ -37,6 +62,31 @@
             "sizeGroup": null,
             "lat":33.90901,
             "lng":-84.35394
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "3": {
@@ -57,6 +107,31 @@
             "sizeGroup": null,
             "lat":33.7914,
             "lng":-84.3195
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "4": {
@@ -77,6 +152,31 @@
             "sizeGroup": null,
             "lat": 33.752258,
             "lng": -84.381903
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "5": {
@@ -97,6 +197,31 @@
             "sizeGroup": null,
             "lat": 33.8091461,
             "lng": -84.3954735
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "6": {
@@ -117,6 +242,31 @@
             "sizeGroup": null,
             "lat":33.969,
             "lng":-84.5522
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "7": {
@@ -137,6 +287,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "8": {
@@ -157,6 +332,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "9": {
@@ -177,6 +377,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "10": {
@@ -197,6 +422,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "11": {
@@ -217,6 +467,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "12": {
@@ -237,6 +512,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "13": {
@@ -257,6 +557,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "14": {
@@ -277,6 +602,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "15": {
@@ -297,6 +647,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "16": {
@@ -317,6 +692,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "17": {
@@ -337,6 +737,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "18": {
@@ -377,6 +802,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "20": {
@@ -397,6 +847,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "21": {
@@ -417,6 +892,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "22": {
@@ -437,6 +937,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "23": {
@@ -457,6 +982,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "24": {
@@ -477,6 +1027,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "25": {
@@ -497,6 +1072,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "26": {
@@ -517,6 +1117,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "27": {
@@ -537,6 +1162,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "28": {
@@ -557,6 +1207,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "29": {
@@ -577,6 +1252,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "30": {
@@ -597,6 +1297,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "31": {
@@ -617,6 +1342,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "32": {
@@ -637,6 +1387,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "33": {
@@ -657,6 +1432,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "34": {
@@ -677,6 +1477,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "35": {
@@ -697,6 +1522,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "36": {
@@ -717,6 +1567,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "37": {
@@ -737,6 +1612,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "38": {
@@ -757,6 +1657,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "39": {
@@ -777,6 +1702,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "40": {
@@ -797,6 +1747,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "41": {
@@ -817,6 +1792,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "42": {
@@ -837,6 +1837,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "43": {
@@ -857,6 +1882,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "44": {
@@ -877,6 +1927,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "45": {
@@ -897,6 +1972,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "46": {
@@ -917,6 +2017,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "47": {
@@ -937,6 +2062,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "48": {
@@ -957,6 +2107,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "49": {
@@ -977,6 +2152,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "50": {
@@ -997,6 +2197,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "51": {
@@ -1017,6 +2242,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "52": {
@@ -1037,6 +2287,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "53": {
@@ -1057,6 +2332,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "54": {
@@ -1077,6 +2377,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "55": {
@@ -1097,6 +2422,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "56": {
@@ -1117,6 +2467,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "57": {
@@ -1137,6 +2512,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "58": {
@@ -1157,6 +2557,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "59": {
@@ -1177,6 +2602,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "60": {
@@ -1197,6 +2647,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "61": {
@@ -1217,6 +2692,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "62": {
@@ -1237,6 +2737,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "63": {
@@ -1257,6 +2782,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "64": {
@@ -1277,6 +2827,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "65": {
@@ -1297,6 +2872,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "66": {
@@ -1317,6 +2917,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "67": {
@@ -1337,6 +2962,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "68": {
@@ -1357,6 +3007,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "69": {
@@ -1377,6 +3052,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        },
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "70": {
@@ -1397,6 +3097,31 @@
             "sizeGroup": null,
             "lat": null,
             "lng": null
+        }, 
+        "financialTransparency":{
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     }
 }
