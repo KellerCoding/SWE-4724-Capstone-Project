@@ -1,0 +1,60 @@
+{
+  "Hospital_Info": [
+  {
+    "Name": "Jasper Memorial Hospital",
+    "Transparency": 0,
+    "Fiscal_Health": 1,
+    "Endowment_Holdings": 1,
+    "Grade_Financial_Transparency": 1,
+    "CB_Spending_Score": 1,
+    "QCB_Spending_Score": 5,
+    "Grade_Comm_Benefit_Spending": 3,
+    "Financial_Burden": 2,
+    "Charity_Care_Policies": 1,
+    "Grade_Healthcare_Affordability": 2,
+    "Demographic_Alignment": 1,
+    "MIUR_score": 1,
+    "LIUR_score": 5,
+    "Pay_Equity": 1,
+    "Grade_Healthcare_Access": 2,
+    "Grade_Final": 2
+  },
+    {
+      "Name": "Atrium Health Navicent Peach",
+      "Transparency": 0,
+      "Fiscal_Health": 1,
+      "Endowment_Holdings": 1,
+      "Grade_Financial_Transparency": 1,
+      "CB_Spending_Score": 2,
+      "QCB_Spending_Score": 5,
+      "Grade_Comm_Benefit_Spending": 4,
+      "Charity_Care_Policies": 1,
+      "Grade_Healthcare_Affordability": 1,
+      "Demographic_Alignment": 1,
+      "MIUR_score": 1,
+      "LIUR_score": 1,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 1,
+      "Grade_Final": 2
+    },
+    {
+      "Name": "Northeast Georgia Medical Center Lumpkin",
+      "Transparency": 0,
+      "Fiscal_Health": 1,
+      "Endowment_Holdings": 1,
+      "Grade_Financial_Transparency": 1,
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 5,
+      "Grade_Comm_Benefit_Spending": 3,
+      "Financial_Burden": 4,
+      "Charity_Care_Policies": 1,
+      "Grade_Healthcare_Affordability": 3,
+      "Demographic_Alignment": 1,
+      "MIUR_score": 1,
+      "LIUR_score": 1,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 1,
+      "Grade_Final": 2
+    }
+  ]
+}
