@@ -15,8 +15,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 33.91023,
+            "lng": -84.35443
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -60,8 +60,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat":33.90901,
-            "lng":-84.35394
+            "lat": 33.90901,
+            "lng": -84.35394
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -105,8 +105,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat":33.7914,
-            "lng":-84.3195
+            "lat": 33.7914,
+            "lng": -84.3195
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -150,8 +150,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": 33.752258,
-            "lng": -84.381903
+            "lat": 33.7522,
+            "lng": -84.3824
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -240,8 +240,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat":33.969,
-            "lng":-84.5522
+            "lat": 33.969,
+            "lng": -84.5522
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -285,8 +285,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 33.85756,
+            "lng": -84.60452
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -330,8 +330,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 34.0121,
+            "lng": -84.3495
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -375,8 +375,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 32.0299,
+            "lng": -81.1565
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -420,8 +420,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 33.9270,
+            "lng": -84.3278
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -465,8 +465,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 32.8381,
+            "lng": -83.6324
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -510,8 +510,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 32.4603,
+            "lng": -84.9877
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -555,8 +555,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 33.7925,
+            "lng": -84.3291
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -600,8 +600,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 33.9213,
+            "lng": -84.3544
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -645,8 +645,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 32.8407,
+            "lng": -83.6324
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -690,8 +690,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 34.2571,
+            "lng": -85.1641
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -735,8 +735,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 30.8327,
+            "lng": -83.2785
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -780,8 +780,33 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 34.7692,
+            "lng": -84.9708
+        },
+        "financialTransparency": {
+            "Transparency": 0,
+            "fiscalHealth": 1,
+            "endowmentHoldings":1,
+            "gradeFinancialTransparency": 1
+        },
+        "commBenefitSpending": {
+            "CB_Spending_Score": 1,
+            "QCB_Spending_Score": 5,
+            "Grade_Comm_Benefit_Spending": 3
+        },
+        "healthcareAffordability": {
+            "Financial_Burden": 2,
+            "Charity_Care_Policies": 1,
+            "Medical_Debt_Policies": "NA",
+            "Grade_Healthcare_Affordability": 2
+        },
+        "healthcareAccess": {
+            "Demographic_Alignment": 1,
+            "MIUR_score": 1,
+            "LIUR_score": 5,
+            "Pay_Equity": 1,
+            "Grade_Healthcare_Access": 2,
+            "Grade_Final": 2
         }
     },
     "19": {
@@ -800,8 +825,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 34.4924,
+            "lng": -84.9514
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -845,8 +870,8 @@
             "criticalAccess": "0",
             "bedSize": null,
             "sizeGroup": null,
-            "lat": null,
-            "lng": null
+            "lat": 34.7640,
+            "lng": -84.7726
         },
         "financialTransparency":{
             "Transparency": 0,
@@ -874,546 +899,296 @@
             "Grade_Final": 2
         }
     },
+
+
     "21": {
-        "hospitalInfo": {
-            "name": "AdventHealth Redmond",
-            "website": "https://www.adventhealth.com",
-            "city": "Rome",
-            "address": null,
-            "county": "Floyd",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": "AdventHealth",
-            "systemName": "AdventHealth",
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "0",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "hospitalInfo": {
+      "name": "AdventHealth Redmond",
+      "website": "https://www.adventhealth.com",
+      "city": "Rome",
+      "address": "501 Redmond Rd NW",
+      "county": "Floyd",
+      "zipcode": "30165",
+      "phoneNumber": "(706) 291-0291",
+      "hospitalSystem": "AdventHealth",
+      "systemName": "AdventHealth",
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "0",
+      "bedSize": 230,
+      "sizeGroup": "Large",
+      "lat": 34.2768,
+      "lng": -85.2045
     },
-    "22": {
-        "hospitalInfo": {
-            "name": "Archbold Memorial Hospital",
-            "website": "https://www.archbold.org",
-            "city": "Thomasville",
-            "address": null,
-            "county": "Thomas",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": "Archbold",
-            "systemName": "Archbold",
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "0",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "22": {
+    "hospitalInfo": {
+      "name": "Archbold Memorial Hospital",
+      "website": "https://www.archbold.org",
+      "city": "Thomasville",
+      "address": "915 Gordon Ave",
+      "county": "Thomas",
+      "zipcode": "31792",
+      "phoneNumber": "(229) 228-2000",
+      "hospitalSystem": "Archbold",
+      "systemName": "Archbold",
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "0",
+      "bedSize": 264,
+      "sizeGroup": "Large",
+      "lat": 30.8272,
+      "lng": -83.9785
     },
-    "23": {
-        "hospitalInfo": {
-            "name": "Archbold - Brooks County Hospital",
-            "website": "https://www.archbold.org",
-            "city": "Quitman",
-            "address": null,
-            "county": "Brooks",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": "Archbold",
-            "systemName": "Archbold",
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "23": {
+    "hospitalInfo": {
+      "name": "Archbold - Brooks County Hospital",
+      "website": "https://www.archbold.org",
+      "city": "Quitman",
+      "address": "903 N Court St",
+      "county": "Brooks",
+      "zipcode": "31643",
+      "phoneNumber": "(229) 263-4171",
+      "hospitalSystem": "Archbold",
+      "systemName": "Archbold",
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 30.7870,
+      "lng": -83.5598
     },
-    "24": {
-        "hospitalInfo": {
-            "name": "Appling Healthcare System / Appling Hospital",
-            "website": null,
-            "city": "Baxley",
-            "address": null,
-            "county": "Appling",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": "Appling Healthcare System",
-            "systemName": "Appling",
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "24": {
+    "hospitalInfo": {
+      "name": "Appling Healthcare System / Appling Hospital",
+      "website": "https://www.applinghealthcare.com",
+      "city": "Baxley",
+      "address": "163 E Tollison St",
+      "county": "Appling",
+      "zipcode": "31513",
+      "phoneNumber": "(912) 367-9841",
+      "hospitalSystem": "Appling Healthcare System",
+      "systemName": "Appling",
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 34,
+      "sizeGroup": "Small",
+      "lat": 31.7767,
+      "lng": -82.3441
     },
-    "25": {
-        "hospitalInfo": {
-            "name": "Bacon County Hospital and Health System",
-            "website": null,
-            "city": "Alma",
-            "address": null,
-            "county": "Bacon",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "25": {
+    "hospitalInfo": {
+      "name": "Bacon County Hospital and Health System",
+      "website": null,
+      "city": "Alma",
+      "address": "302 S Wayne St",
+      "county": "Bacon",
+      "zipcode": "31510",
+      "phoneNumber": "(912) 632-8961",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 31.5391,
+      "lng": -82.4637
     },
-    "26": {
-        "hospitalInfo": {
-            "name": "Bleckley Memorial Hospital",
-            "website": null,
-            "city": "Cochran",
-            "address": null,
-            "county": "Bleckley",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "26": {
+    "hospitalInfo": {
+      "name": "Bleckley Memorial Hospital",
+      "website": null,
+      "city": "Cochran",
+      "address": "145 E Peacock St",
+      "county": "Bleckley",
+      "zipcode": "31014",
+      "phoneNumber": "(478) 934-6211",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 32.3863,
+      "lng": -83.3535
     },
-    "27": {
-        "hospitalInfo": {
-            "name": "Brooks County Hospital",
-            "website": null,
-            "city": "Quitman",
-            "address": null,
-            "county": "Brooks",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": "Archbold",
-            "systemName": "Archbold",
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "27": {
+    "hospitalInfo": {
+      "name": "Brooks County Hospital",
+      "website": null,
+      "city": "Quitman",
+      "address": "903 N Court St",
+      "county": "Brooks",
+      "zipcode": "31643",
+      "phoneNumber": "(229) 263-4171",
+      "hospitalSystem": "Archbold",
+      "systemName": "Archbold",
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 30.7870,
+      "lng": -83.5598
     },
-    "28": {
-        "hospitalInfo": {
-            "name": "Candler County Hospital",
-            "website": null,
-            "city": "Metter",
-            "address": null,
-            "county": "Candler",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "28": {
+    "hospitalInfo": {
+      "name": "Candler County Hospital",
+      "website": "https://www.candlercountyhospital.com",
+      "city": "Metter",
+      "address": "400 Cedar St",
+      "county": "Candler",
+      "zipcode": "30439",
+      "phoneNumber": "(912) 685-5741",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 32.3980,
+      "lng": -82.0601
     },
-    "29": {
-        "hospitalInfo": {
-            "name": "Clinch Memorial Hospital",
-            "website": null,
-            "city": "Homerville",
-            "address": null,
-            "county": "Clin",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "29": {
+    "hospitalInfo": {
+      "name": "Clinch Memorial Hospital",
+      "website": "https://www.clinchmh.org",
+      "city": "Homerville",
+      "address": "1050 Valdosta Hwy",
+      "county": "Clinch",
+      "zipcode": "31634",
+      "phoneNumber": "(912) 487-5211",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 31.0319,
+      "lng": -82.7534
     },
-    "30": {
-        "hospitalInfo": {
-            "name": "Chatuge Regional Hospital",
-            "website": null,
-            "city": "Hiawassee",
-            "address": null,
-            "county": "Townsend",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "30": {
+    "hospitalInfo": {
+      "name": "Chatuge Regional Hospital",
+      "website": "https://www.uniongeneralhealthsystem.com",
+      "city": "Hiawassee",
+      "address": "110 S Main St",
+      "county": "Towns",
+      "zipcode": "30546",
+      "phoneNumber": "(706) 896-2222",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 25,
+      "sizeGroup": "Small",
+      "lat": 34.9490,
+      "lng": -83.7577
     },
-    "31": {
-        "hospitalInfo": {
-            "name": "Colquitt Regional Medical Center",
-            "website": "https://www.colquittregional.com",
-            "city": "Moultrie",
-            "address": null,
-            "county": "Colquitt",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "0",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "31": {
+    "hospitalInfo": {
+      "name": "Colquitt Regional Medical Center",
+      "website": "https://www.colquittregional.com",
+      "city": "Moultrie",
+      "address": "3131 S Main St",
+      "county": "Colquitt",
+      "zipcode": "31768",
+      "phoneNumber": "(229) 985-3420",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "0",
+      "bedSize": 155,
+      "sizeGroup": "Medium",
+      "lat": 31.1479,
+      "lng": -83.7924
     },
-    "32": {
-        "hospitalInfo": {
-            "name": "Crisp Regional Hospital",
-            "website": null,
-            "city": "Cordele",
-            "address": null,
-            "county": "Crisp",
-            "zipcode": null,
-            "phoneNumber": null,
-            "hospitalSystem": null,
-            "systemName": null,
-            "areaType": "0",
-            "hospitalAuthority": "0",
-            "criticalAccess": "1",
-            "bedSize": null,
-            "sizeGroup": null,
-            "lat": null,
-            "lng": null
-        },
-        "financialTransparency":{
-            "Transparency": 0,
-            "fiscalHealth": 1,
-            "endowmentHoldings":1,
-            "gradeFinancialTransparency": 1
-        },
-        "commBenefitSpending": {
-            "CB_Spending_Score": 1,
-            "QCB_Spending_Score": 5,
-            "Grade_Comm_Benefit_Spending": 3
-        },
-        "healthcareAffordability": {
-            "Financial_Burden": 2,
-            "Charity_Care_Policies": 1,
-            "Medical_Debt_Policies": "NA",
-            "Grade_Healthcare_Affordability": 2
-        },
-        "healthcareAccess": {
-            "Demographic_Alignment": 1,
-            "MIUR_score": 1,
-            "LIUR_score": 5,
-            "Pay_Equity": 1,
-            "Grade_Healthcare_Access": 2,
-            "Grade_Final": 2
-        }
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
+  "32": {
+    "hospitalInfo": {
+      "name": "Crisp Regional Hospital",
+      "website": "https://www.crispregional.org",
+      "city": "Cordele",
+      "address": "902 N 7th St",
+      "county": "Crisp",
+      "zipcode": "31015",
+      "phoneNumber": "(229) 276-3100",
+      "hospitalSystem": null,
+      "systemName": null,
+      "areaType": "0",
+      "hospitalAuthority": "0",
+      "criticalAccess": "1",
+      "bedSize": 73,
+      "sizeGroup": "Medium",
+      "lat": 31.9604,
+      "lng": -83.7894
     },
+    "financialTransparency": { "Transparency": 0, "fiscalHealth": 1, "endowmentHoldings": 1, "gradeFinancialTransparency": 1 },
+    "commBenefitSpending": { "CB_Spending_Score": 1, "QCB_Spending_Score": 5, "Grade_Comm_Benefit_Spending": 3 },
+    "healthcareAffordability": { "Financial_Burden": 2, "Charity_Care_Policies": 1, "Medical_Debt_Policies": "NA", "Grade_Healthcare_Affordability": 2 },
+    "healthcareAccess": { "Demographic_Alignment": 1, "MIUR_score": 1, "LIUR_score": 5, "Pay_Equity": 1, "Grade_Healthcare_Access": 2, "Grade_Final": 2 }
+  },
     "33": {
         "hospitalInfo": {
             "name": "Doctors Hospital of Augusta",

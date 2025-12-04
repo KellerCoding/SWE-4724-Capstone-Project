@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Map, { Marker, Popup, Source, Layer } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./GeorgiaMap.css";
 import georgiaGeoJson from "../data/georgia.json";
+import testData from "../data/alphaTestData.json";
+
 import { useParams } from "react-router-dom";
 
 export default function GeorgiaMap() {
@@ -17,12 +19,22 @@ export default function GeorgiaMap() {
 
   const [maskMode, setMaskMode] = useState(true); // toggle true = hole mask
 
-  const locations = [
-    { id: "1", name: "Emory Hospital", lat: 33.7914, lng: -84.3195 },
-    { id: "2", name: "Piedmont Hospital", lat: 33.8089, lng: -84.3949 },
-    { id: "3", name: "Kennestone Hospital", lat: 33.969, lng: -84.5522 },
-    { id: "4", name: "Northside Hospital", lat: 33.90901, lng: -84.35394 },
-  ];
+  // Transform hospital data from alphaTestData.json into locations array
+  // Maintains the order from JSON file (Object.entries preserves insertion order)
+  // Limited to first 32 hospitals
+  const locations = useMemo(() => {
+    return Object.entries(testData)
+      .slice(0, 32) // Only take first 32 hospitals
+      .map(([id, data]) => ({
+        id: id,
+        name: data.hospitalInfo.name,
+        lat: data.hospitalInfo.lat,
+        lng: data.hospitalInfo.lng,
+        city: data.hospitalInfo.city,
+        address: data.hospitalInfo.address,
+        website: data.hospitalInfo.website,
+      }));
+  }, []);
 
   // Automatically fly to hospital if hospitalId is in the URL
   useEffect(() => {
@@ -36,7 +48,7 @@ export default function GeorgiaMap() {
       longitude: hospital.lng,
       zoom: 12,
     });
-  }, [hospitalId]);
+  }, [hospitalId, locations]);
 
   const filteredLocations = locations.filter((loc) =>
     loc.name.toLowerCase().includes(search.toLowerCase())
@@ -189,7 +201,8 @@ export default function GeorgiaMap() {
           >
             <div>
               <h4>{selected.name}</h4>
-              <p>Custom details here!</p>
+              <p>{selected.city}</p>
+              {selected.address && <p>{selected.address}</p>}
             </div>
           </Popup>
         )}
