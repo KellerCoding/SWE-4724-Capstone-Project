@@ -96,18 +96,17 @@ describe('GeorgiaMap Component', () => {
             expect(searchInput).toBeInTheDocument();
         });
 
-        it('should render all location items in the sidebar', () => {
+        it('should render location items in the sidebar', () => {
             renderGeorgiaMap();
-            expect(screen.getByText('Emory Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Piedmont Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Kennestone Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Northside Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
+            expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
         });
 
-        it('should render all markers on the map', () => {
+        it('should render all markers on the map (32 hospitals)', () => {
             renderGeorgiaMap();
             const markers = screen.getAllByTestId('marker');
-            expect(markers).toHaveLength(4);
+            expect(markers).toHaveLength(32);
         });
 
         it('should render mode toggle buttons', () => {
@@ -130,9 +129,9 @@ describe('GeorgiaMap Component', () => {
             
             fireEvent.change(searchInput, { target: { value: 'Emory' } });
             
-            expect(screen.getByText('Emory Hospital')).toBeInTheDocument();
-            expect(screen.queryByText('Piedmont Hospital')).not.toBeInTheDocument();
-            expect(screen.queryByText('Kennestone Hospital')).not.toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
+            expect(screen.queryByText('Northside Hospital Atlanta')).not.toBeInTheDocument();
+            expect(screen.queryByText('Grady Memorial Hospital')).not.toBeInTheDocument();
         });
 
         it('should be case insensitive when filtering', () => {
@@ -141,7 +140,7 @@ describe('GeorgiaMap Component', () => {
             
             fireEvent.change(searchInput, { target: { value: 'EMORY' } });
             
-            expect(screen.getByText('Emory Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
         });
 
         it('should show "No matches found" when no locations match search', () => {
@@ -160,10 +159,10 @@ describe('GeorgiaMap Component', () => {
             fireEvent.change(searchInput, { target: { value: 'Emory' } });
             fireEvent.change(searchInput, { target: { value: '' } });
             
-            expect(screen.getByText('Emory Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Piedmont Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Kennestone Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Northside Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
+            expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Grady Memorial Hospital')).toBeInTheDocument();
         });
 
         it('should filter locations with partial matches', () => {
@@ -180,45 +179,47 @@ describe('GeorgiaMap Component', () => {
     describe('Location Selection and Navigation', () => {
         it('should show popup when location is clicked', () => {
             renderGeorgiaMap();
-            const emoryLocation = screen.getByText('Emory Hospital');
+            const hospitalLocation = screen.getByText('Emory University Hospital');
             
-            fireEvent.click(emoryLocation);
+            fireEvent.click(hospitalLocation);
             
             const popup = screen.getByTestId('popup');
             expect(popup).toBeInTheDocument();
-            expect(popup).toHaveTextContent('Emory Hospital');
+            expect(popup).toHaveTextContent('Emory University Hospital');
         });
 
         it('should close popup when close button is clicked', () => {
             renderGeorgiaMap();
-            const emoryLocation = screen.getByText('Emory Hospital');
+            const hospitalLocation = screen.getByText('Emory University Hospital');
             
-            fireEvent.click(emoryLocation);
+            fireEvent.click(hospitalLocation);
             const closeButton = screen.getByTestId('close-popup');
             fireEvent.click(closeButton);
             
             expect(screen.queryByTestId('popup')).not.toBeInTheDocument();
         });
 
-        it('should show popup with correct details', () => {
+        it('should show popup with correct details including city', () => {
             renderGeorgiaMap();
-            const emoryLocation = screen.getByText('Emory Hospital');
+            const hospitalLocation = screen.getByText('Emory University Hospital');
             
-            fireEvent.click(emoryLocation);
+            fireEvent.click(hospitalLocation);
             
-            expect(screen.getByText('Custom details here!')).toBeInTheDocument();
+            const popup = screen.getByTestId('popup');
+            expect(popup).toHaveTextContent('Emory University Hospital');
+            expect(popup).toHaveTextContent('Atlanta');
         });
 
         it('should update selected location when clicking different markers', () => {
             renderGeorgiaMap();
             
             // Click first location
-            fireEvent.click(screen.getByText('Emory Hospital'));
-            expect(screen.getByTestId('popup')).toHaveTextContent('Emory Hospital');
+            fireEvent.click(screen.getByText('Northside Hospital Atlanta'));
+            expect(screen.getByTestId('popup')).toHaveTextContent('Northside Hospital Atlanta');
             
             // Click second location
-            fireEvent.click(screen.getByText('Piedmont Hospital'));
-            expect(screen.getByTestId('popup')).toHaveTextContent('Piedmont Hospital');
+            fireEvent.click(screen.getByText('Grady Memorial Hospital'));
+            expect(screen.getByTestId('popup')).toHaveTextContent('Grady Memorial Hospital');
         });
     });
 
@@ -273,9 +274,9 @@ describe('GeorgiaMap Component', () => {
                 </MemoryRouter>
             );
             
-            // Should show popup for Emory Hospital (id: "1")
+            // Should show popup for Northside Hospital Atlanta (id: "1")
             await waitFor(() => {
-                expect(screen.getByTestId('popup')).toHaveTextContent('Emory Hospital');
+                expect(screen.getByTestId('popup')).toHaveTextContent('Northside Hospital Atlanta');
             });
         });
 
@@ -322,9 +323,9 @@ describe('GeorgiaMap Component', () => {
             renderGeorgiaMap();
             const markers = screen.getAllByTestId('marker');
             
-            // Check Emory Hospital coordinates
-            expect(markers[0]).toHaveAttribute('data-lat', '33.7914');
-            expect(markers[0]).toHaveAttribute('data-lng', '-84.3195');
+            // Check Northside Hospital Atlanta coordinates (first hospital)
+            expect(markers[0]).toHaveAttribute('data-lat', '33.91023');
+            expect(markers[0]).toHaveAttribute('data-lng', '-84.35443');
         });
 
         it('should render emoji icon for markers', () => {
@@ -356,14 +357,14 @@ describe('GeorgiaMap Component', () => {
             expect(locationList).toBeInTheDocument();
         });
 
-        it('should render all four location items', () => {
+        it('should render first 32 location items', () => {
             renderGeorgiaMap();
             
-            // Check that all 4 hospitals are rendered in the list
-            expect(screen.getByText('Emory Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Piedmont Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Kennestone Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Northside Hospital')).toBeInTheDocument();
+            // Check that first few hospitals from alphaTestData are rendered in the list
+            expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
+            expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Grady Memorial Hospital')).toBeInTheDocument();
         });
     });
 
@@ -385,7 +386,7 @@ describe('GeorgiaMap Component', () => {
             fireEvent.click(screen.getByText('Hard Crop'));
             
             expect(searchInput).toHaveValue('Emory');
-            expect(screen.getByText('Emory Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
         });
     });
 });
