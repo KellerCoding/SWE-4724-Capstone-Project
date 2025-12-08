@@ -28,6 +28,10 @@ This guide recommends installing node and npm, so follow [this](#Installing-Node
 
 # Running the Application
 
+Firstly, you must install the repository either through downloading a zip or cloning the repository on your machine. For the sake of continuity and receiving commits into the future, cloning is preferable.
+
+However, you can access the zip download right below the project header at the code button.
+
 In order to run the application, it is straightforward to clone to repository then access the folder through the command prompt given you have installed node and npm on your machine.
 
 If you have not, please follow the help section on [installing node](#Installing-Node-&-NPM) which will help you make your machine capable of running node applications through your command line.
