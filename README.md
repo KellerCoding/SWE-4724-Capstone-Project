@@ -48,8 +48,8 @@ If you have not, please follow the help section on [installing node](#Installing
 
 Thereafter, follow the instructions provided, and if needed, restart your system. You should be able to utilize npm and node commands. 	
 
-* Type '**node -v**' to check node version and verify installation
-* Type '**npm -v**' to check npm version and verify installation
+* Type '**node -v**' to check node version and verify installation **Min. Version Node 22.14 LTS**
+* Type '**npm -v**' to check npm version and verify installation **Min. Version NPM 11.6.2**
 
 Finally, you should be able to run the application through your command line!
 
