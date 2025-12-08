@@ -20,4 +20,39 @@ to easily access relevant data for non-profit hospitals across the state.
 
 The project is being developed using React and Vite frameworks, and languages include Javascript, HTML, and CSS with JSON for data storage. 
 
+The link to the site is accessible through the following link: <https://georgiawatch.vercel.app/>    
+
+This guide recommends installing node and npm, so follow [this](#Installing Node & NPM) link to quickly navigate to the help guide
+
+
+
+# Running the Application
+
+In order to run the application, it is straightforward to clone to repository then access the folder through the command prompt given you have installed node and npm on your machine.
+
+If you have not, please follow the help section on [installing node](#Installing Node & NPM) which will help you make your machine capable of running node applications through your command line.
+
+1. Navigate to the directory in your command prompt
+2. Enter the command '**npm install**' to update package.json file
+3. Use the command '**npm run dev**' to run an local hosting of the application
+4. Enter **Q** then enter to end the local running server.
+
+### Installing Node & NPM
+
+* Navigate to the following link: <https://nodejs.org/en/download>
+
+* Change the installer to **Chocolatey** 
+* Ensure the Install instruction are fit to your specifications
+
+
+
+Thereafter, follow the instructions provided, and if needed, restart your system. You should be able to utilize npm and node commands. 	
+
+* Type '**node -v**' to check node version and verify installation
+* Type '**npm -v**' to check npm version and verify installation
+
+Finally, you should be able to run the application through your command line!
+
+
+
 ## Documentation
