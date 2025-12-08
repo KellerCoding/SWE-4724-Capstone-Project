@@ -22,7 +22,7 @@ The project is being developed using React and Vite frameworks, and languages in
 
 The link to the site is accessible through the following link: <https://georgiawatch.vercel.app/>    
 
-This guide recommends installing node and npm, so follow [this](#Installing-Node-&-NPM) link to quickly navigate to the help guide
+This guide recommends installing node and npm, so follow [this](#installing-node-&-npm) link to quickly navigate to the help guide
 
 
 
@@ -34,7 +34,7 @@ However, you can access the zip download right below the project header at the c
 
 In order to run the application, it is straightforward to clone to repository then access the folder through the command prompt given you have installed node and npm on your machine.
 
-If you have not, please follow the help section on [installing node](#Installing-Node-&-NPM) which will help you make your machine capable of running node applications through your command line.
+If you have not, please follow the help section on [installing node](#installing-node-&-npm) which will help you make your machine capable of running node applications through your command line.
 
 1. Navigate to the directory in your command prompt
 2. Enter the command '**npm install**' to update package.json file
@@ -60,3 +60,26 @@ Finally, you should be able to run the application through your command line!
 
 
 ## Documentation
+
+\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
