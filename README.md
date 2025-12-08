@@ -36,7 +36,11 @@ If you have not, please follow the help section on [installing node](#Installing
 1. Navigate to the directory in your command prompt
 2. Enter the command '**npm install**' to update package.json file
 3. Use the command '**npm run dev**' to run an local hosting of the application
-4. Enter **Q** then enter to end the local running server.
+4. Enter **O** then enter to open the code to the browser
+5. When the website has opened in your browser, navigate to the "Get Assistance" tab clicking it to access the widgets
+6. Scroll to the bottom and the bottom right widget is the Hospital Accountability Scores.
+7. Click on the "Click Here" button which will lead you into the scorecard.  
+8. When done, enter **Q** into the command prompt then enter to end the local running server.
 
 ### Installing Node & NPM
 
