@@ -5,6 +5,7 @@ as relevant documentation.
 ## Table of Contents
 - [Team Members](#team-members)
 - [Project Description](#project-description)
+- [Running The Application](#running-the-application)
 - [Documentation](#documentation)
 
 ## Team Members
