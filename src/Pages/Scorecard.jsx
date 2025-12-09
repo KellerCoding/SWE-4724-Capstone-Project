@@ -189,10 +189,6 @@ export function Scorecard(){
                             <h6>County</h6>
                         </button>
                     </div>
-                    <div className={"export-buttons"}>
-                        <h5>Export</h5>
-                        <button onClick={exportCSV} className={"export-btn csv"} aria-label="Download CSV">Download CSV</button>
-                    </div>
                     <div className={"sort"}>
                         <h5>Sort By</h5>
                         <button 
@@ -208,6 +204,10 @@ export function Scorecard(){
                             <h6>County</h6>
                         </button>
                     </div>
+                    <div className={"export-buttons"}>
+                        <h6>Export</h6>
+                        <button onClick={exportCSV} className={"export-btn csv"} aria-label="Download CSV">Download CSV</button>
+                    </div>                    
                 </div>
 
                 
