@@ -19,7 +19,7 @@
             "lng": -84.35443
         },
         "financialTransparency":{
-            "Transparency": 0,
+            "Transparency": 2,
             "fiscalHealth": 1,
             "endowmentHoldings":1,
             "gradeFinancialTransparency": 1
