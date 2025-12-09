@@ -307,21 +307,6 @@
     color: white;
 }
 
-/* Star rating styles added for Comparison.jsx */
-.starRow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px; /* small gap between stars */
-}
-
-.ratingStar {
-  width: 25px; /* smaller star width */
-  height: 25px; /* smaller star height */
-  object-fit: contain;
-  vertical-align: middle;
-}
-
 /* Responsive styles */
 @media (max-width: 992px) {
     .banner {
