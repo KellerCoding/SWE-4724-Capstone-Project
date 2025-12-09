@@ -59,11 +59,8 @@ export function Comparison() {
   return (
     <div className={styles["comparison-page"]}>
       <div className={styles.banner}>
-        <h2><strong>Hospital Accountability Scores</strong></h2>
-      </div>
-
-      <div className={styles.header}>
-        <h1><strong>Comparison of Hospital</strong></h1>
+        <h1><strong>Hospital Accountability Scores</strong></h1>
+        <hr/>
       </div>
 
       <div className={styles.container}>
