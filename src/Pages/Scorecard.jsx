@@ -1,27 +1,19 @@
 import "./Scorecard.css"
 import { useNavigate } from "react-router-dom"
 import { useState, useMemo } from "react"
-import alphaData from "../data/alphaTestData.json"
-import testData from "../data/testData.json"
+// import hospitalData from "../data/testData.json"
+import hospitalData from "../data/alphaTestData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 import { Link } from "react-router-dom"
 
 export function Scorecard(){
-     const navigate = useNavigate()
-     const [sortByName, setSortByName] = useState(false)
-     const [sortByGrade, setSortByGrade] = useState(false)
-     const [sortByCounty, setSortByCounty] = useState(false)
-     const [currentPage, setCurrentPage] = useState(1)
-     const itemsPerPage = 30
+    const navigate = useNavigate()
+    const [sortByName, setSortByName] = useState(false)
+    const [currentPage, setCurrentPage] = useState(1)
+    const itemsPerPage = 30
 
-
-    const mergedHospitalData = useMemo(() => {
-      const normalizedAlpha = alphaData && alphaData.default ? alphaData.default : alphaData;
-      const normalizedTest = testData && testData.default ? testData.default : testData;
-      return { ...normalizedTest, ...normalizedAlpha }
-    }, [])
-
+      // Render stars (0-5) using CSS classes from Scorecard.css
       const renderStars = (value) => {
         const num = Number(value);
         const filled = (value === null || value === undefined || value === "NA" || Number.isNaN(num))
@@ -34,19 +26,6 @@ export function Scorecard(){
         }
         return <div className={"starRow"}>{stars}</div>;
       };
-
-      const getOverallGrade = (entry, hospitalKey) => {
-        try {
-          if (testData && testData[hospitalKey] && testData[hospitalKey].finalScore && typeof testData[hospitalKey].finalScore.Grade_Final !== 'undefined') {
-            return testData[hospitalKey].finalScore.Grade_Final;
-          }
-        } catch (e) {
-            console.error("Error accessing testData for hospitalKey:", hospitalKey, e);
-        }
-
-        if (!entry) return null;
-        return entry?.finalScore?.Grade_Final ?? entry?.healthcareAccess?.Grade_Final ?? entry?.finalGrade ?? null;
-      }
 
     const flattenHospital = ([id, entry]) => {
       const info = entry.hospitalInfo || {}
@@ -99,7 +78,7 @@ export function Scorecard(){
     }
 
     const exportCSV = () => {
-      const dataArray = Object.entries(mergedHospitalData).map(flattenHospital)
+      const dataArray = Object.entries(hospitalData).map(flattenHospital)
       const csvString = toCSV(dataArray)
       const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' })
       const url = URL.createObjectURL(blob)
@@ -111,59 +90,29 @@ export function Scorecard(){
       a.remove()
       URL.revokeObjectURL(url)
     }
+    // --- end export helpers ---
 
     const hospitalViewClick = (hospitalId) => {
-         navigate(`/hospital-score/${hospitalId}`)
-     }
+        navigate(`/hospital-score/${hospitalId}`) 
+    }
 
-     const handleHospitalNameSort = () => {
+    const handleHospitalNameSort = () => {
         setSortByName(!sortByName)
-        setSortByGrade(false)
-        setSortByCounty(false)
-        setCurrentPage(1)
-     }
+        setCurrentPage(1) // Reset to first page when sorting changes
+    }
 
-     const handleGradeSort = () => {
-         setSortByGrade(!sortByGrade)
-         setSortByName(false)
-         setSortByCounty(false)
-         setCurrentPage(1)
-     }
-
-     const handleCountySort = () => {
-         setSortByCounty(!sortByCounty)
-         setSortByName(false)
-         setSortByGrade(false)
-         setCurrentPage(1)
-     }
-
+    // Sort hospital data based on current sort state
     const sortedHospitalData = useMemo(() => {
-        const entries = Object.entries(mergedHospitalData)
-
+        const entries = Object.entries(hospitalData)
+        
         if (sortByName) {
-            return [...entries].sort(([, a], [, b]) => {
-                return (a.hospitalInfo?.name || '').localeCompare(b.hospitalInfo?.name || '')
-            })
-        }
-
-        if (sortByGrade) {
-                return [...entries].sort(([keyA, a], [keyB, b]) => {
-                const ga = Number(getOverallGrade(a, keyA))
-                const gb = Number(getOverallGrade(b, keyB))
-                const na = Number.isFinite(ga) ? ga : -1
-                const nb = Number.isFinite(gb) ? gb : -1
-                return nb - na
-            })
-        }
-
-        if (sortByCounty) {
-            return [...entries].sort(([, a], [, b]) => {
-                return (a.hospitalInfo?.county || '').localeCompare(b.hospitalInfo?.county || '')
+            return entries.sort(([, a], [, b]) => {
+                return a.hospitalInfo.name.localeCompare(b.hospitalInfo.name)
             })
         }
 
         return entries
-    }, [sortByName, sortByGrade, sortByCounty, mergedHospitalData])
+    }, [sortByName])
 
     const totalPages = Math.ceil(sortedHospitalData.length / itemsPerPage)
     const startIndex = (currentPage - 1) * itemsPerPage
@@ -248,26 +197,20 @@ export function Scorecard(){
                         >
                             <h6>Hospital Name {sortByName ? "(A-Z)" : ""}</h6>
                         </button>
-                        <button
-                            onClick={handleGradeSort}
-                            className={sortByGrade ? "active-sort" : ""}
-                        >
-                            <h6>Grade / Score {sortByGrade ? "(High-Low)" : ""}</h6>
+                        <button>
+                            <h6>Grade / Score</h6>
                         </button>
-                        <button
-                            onClick={handleCountySort}
-                            className={sortByCounty ? "active-sort" : ""}
-                        >
-                            <h6>County {sortByCounty ? "(A-Z)" : ""}</h6>
+                        <button>
+                            <h6>County</h6>
                         </button>
                     </div>
                     <div className={"export-buttons"}>
                         <h5>Export</h5>
-                        <button onClick={exportCSV} className={"export-btn csv"} aria-label="Download CSV">Download Excel Document</button>
-                    </div>
+                        <button onClick={exportCSV} className={"export-btn csv"} aria-label="Download CSV">Download CSV</button>
+                    </div>                    
                 </div>
 
-
+                
                 <div className={"right"}>
                     <table className={"table"}>
                         <thead className={"thead"}>
@@ -280,39 +223,39 @@ export function Scorecard(){
                         </thead>
                         <tbody>
                         {paginatedData.map(([hospitalName, data], index) => {
-                             const info = (data && data.hospitalInfo) ? data.hospitalInfo : {};
-                             const globalIndex = startIndex + index;
-                             const gradeToShow = getOverallGrade(data, hospitalName);
-                             return (
-                                  <tr key={hospitalName}>
-                                      <td className={"numRow"}>{globalIndex + 1}</td>
-                                      <td>
-                                          <span className={"Hospital"}>{info.name}</span>
-                                          <br />
-                                          {info.city}
-                                      </td>
-                                      <td className={"Grade"}>
-                                         {renderStars(gradeToShow)}
-                                      </td>
-                                      <td>
-                                          <button onClick={() => hospitalViewClick(hospitalName)} className={"viewButton"}>View</button>
-                                      </td>
-                                  </tr>
-                              )
-                         })}
-                 </tbody>
+                            
+                            const info = data.hospitalInfo;
+                            const globalIndex = startIndex + index;
+                            return(
+                                <tr key={hospitalName}>
+                                        <td className={"numRow"}>{globalIndex + 1}</td>
+                                        <td>
+                                            <span className={"Hospital"}>{info.name}</span>
+                                            <br />
+                                            {info.city}
+                                        </td>
+                                        <td className={"Grade"}>
+                                            {renderStars(data?.healthcareAccess?.Grade_Final)}
+                                        </td>
+                                        <td>
+                                            <button onClick={() => hospitalViewClick(hospitalName)} className={"viewButton"}>View</button>
+                                        </td>
+                                    </tr>
+                            );
+                        })}
+                        </tbody>
                     </table>
 
                     {totalPages > 1 && (
                         <div className="pagination">
-                            <button
+                            <button 
                                 className="pagination-btn"
                                 onClick={() => handlePageChange(currentPage - 1)}
                                 disabled={currentPage === 1}
                             >
                                 Previous
                             </button>
-
+                            
                             <div className="pagination-numbers">
                                 {getPageNumbers().map((page, index) => {
                                     if (page === '...') {
@@ -329,8 +272,8 @@ export function Scorecard(){
                                     )
                                 })}
                             </div>
-
-                            <button
+                            
+                            <button 
                                 className="pagination-btn"
                                 onClick={() => handlePageChange(currentPage + 1)}
                                 disabled={currentPage === totalPages}
