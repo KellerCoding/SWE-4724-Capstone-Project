@@ -15,10 +15,11 @@ export function Scorecard(){
 
       // Render stars (0-5) using CSS classes from Scorecard.css
       const renderStars = (value) => {
-        if (value === null || value === undefined || value === "NA") return "-";
+        // Treat missing/invalid values as 0 (show dull stars)
         const num = Number(value);
-        if (Number.isNaN(num)) return "-";
-        const filled = Math.max(0, Math.min(5, Math.round(num)));
+        const filled = (value === null || value === undefined || value === "NA" || Number.isNaN(num))
+          ? 0
+          : Math.max(0, Math.min(5, Math.round(num)));
         const stars = [];
         for (let i = 0; i < 5; i++) {
           const src = i < filled ? star : dullStar;
