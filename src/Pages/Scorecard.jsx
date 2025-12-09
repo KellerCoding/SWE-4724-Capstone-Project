@@ -205,7 +205,7 @@ export function Scorecard(){
                         </button>
                     </div>
                     <div className={"export-buttons"}>
-                        <h6>Export</h6>
+                        <h5>Export</h5>
                         <button onClick={exportCSV} className={"export-btn csv"} aria-label="Download CSV">Download CSV</button>
                     </div>                    
                 </div>
