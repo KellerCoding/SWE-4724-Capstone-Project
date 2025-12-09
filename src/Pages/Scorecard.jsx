@@ -15,7 +15,6 @@ export function Scorecard(){
 
       // Render stars (0-5) using CSS classes from Scorecard.css
       const renderStars = (value) => {
-        // Treat missing/invalid values as 0 (show dull stars)
         const num = Number(value);
         const filled = (value === null || value === undefined || value === "NA" || Number.isNaN(num))
           ? 0
@@ -28,10 +27,75 @@ export function Scorecard(){
         return <div className={"starRow"}>{stars}</div>;
       };
 
+    const flattenHospital = ([id, entry]) => {
+      const info = entry.hospitalInfo || {}
+      const ft = entry.financialTransparency || {}
+      const cb = entry.commBenefitSpending || {}
+      const ha = entry.healthcareAffordability || {}
+      const access = entry.healthcareAccess || {}
+
+      return {
+        id,
+        name: info.name || "",
+        city: info.city || "",
+        county: info.county || "",
+        bedSize: info.bedSize || "",
+        areaType: info.areaType || "",
+        financialTransparency_Transparency: ft.Transparency ?? "",
+        financialTransparency_fiscalHealth: ft.fiscalHealth ?? "",
+        financialTransparency_endowmentHoldings: ft.endowmentHoldings ?? "",
+        financialTransparency_grade: ft.gradeFinancialTransparency ?? "",
+        commBenefit_CB_Spending_Score: cb.CB_Spending_Score ?? "",
+        commBenefit_QCB_Spending_Score: cb.QCB_Spending_Score ?? "",
+        commBenefit_grade: cb.Grade_Comm_Benefit_Spending ?? "",
+        affordability_Financial_Burden: ha.Financial_Burden ?? "",
+        affordability_Charity_Care_Policies: ha.Charity_Care_Policies ?? "",
+        affordability_Medical_Debt_Policies: ha.Medical_Debt_Policies ?? "",
+        affordability_grade: ha.Grade_Healthcare_Affordability ?? "",
+        access_Demographic_Alignment: access.Demographic_Alignment ?? "",
+        access_MIUR_score: access.MIUR_score ?? "",
+        access_LIUR_score: access.LIUR_score ?? "",
+        access_Pay_Equity: access.Pay_Equity ?? "",
+        access_grade: access.Grade_Healthcare_Access ?? "",
+        finalGrade: access.Grade_Final ?? "",
+      }
+    }
+
+    const toCSV = (arr) => {
+      if (!arr || arr.length === 0) return ''
+      const keys = Object.keys(arr[0])
+      const escape = (val) => {
+        if (val === null || val === undefined) return ''
+        const s = String(val)
+        if (s.includes('"') || s.includes(',') || s.includes('\n')) {
+          return '"' + s.replace(/"/g, '""') + '"'
+        }
+        return s
+      }
+      const header = keys.join(',')
+      const rows = arr.map(obj => keys.map(k => escape(obj[k])).join(','))
+      return [header, ...rows].join('\r\n')
+    }
+
+    const exportCSV = () => {
+      const dataArray = Object.entries(hospitalData).map(flattenHospital)
+      const csvString = toCSV(dataArray)
+      const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = 'hospitals.csv'
+      document.body.appendChild(a)
+      a.click()
+      a.remove()
+      URL.revokeObjectURL(url)
+    }
+    // --- end export helpers ---
+
     const hospitalViewClick = (hospitalId) => {
         navigate(`/hospital-score/${hospitalId}`) 
     }
-    
+
     const handleHospitalNameSort = () => {
         setSortByName(!sortByName)
         setCurrentPage(1) // Reset to first page when sorting changes
@@ -46,12 +110,10 @@ export function Scorecard(){
                 return a.hospitalInfo.name.localeCompare(b.hospitalInfo.name)
             })
         }
-        
-        // Return original order
+
         return entries
     }, [sortByName])
-    
-    // Calculate pagination
+
     const totalPages = Math.ceil(sortedHospitalData.length / itemsPerPage)
     const startIndex = (currentPage - 1) * itemsPerPage
     const endIndex = startIndex + itemsPerPage
@@ -59,7 +121,6 @@ export function Scorecard(){
     
     const handlePageChange = (page) => {
         setCurrentPage(page)
-        // Scroll to top of table when page changes
         window.scrollTo({ top: 0, behavior: 'smooth' })
     }
     
@@ -68,28 +129,23 @@ export function Scorecard(){
         const maxVisiblePages = 5
         
         if (totalPages <= maxVisiblePages) {
-            // Show all pages if total pages is less than max visible
             for (let i = 1; i <= totalPages; i++) {
                 pages.push(i)
             }
         } else {
-            // Show first page, current page range, and last page
             if (currentPage <= 3) {
-                // Near the beginning
                 for (let i = 1; i <= 4; i++) {
                     pages.push(i)
                 }
                 pages.push('...')
                 pages.push(totalPages)
             } else if (currentPage >= totalPages - 2) {
-                // Near the end
                 pages.push(1)
                 pages.push('...')
                 for (let i = totalPages - 3; i <= totalPages; i++) {
                     pages.push(i)
                 }
             } else {
-                // In the middle
                 pages.push(1)
                 pages.push('...')
                 for (let i = currentPage - 1; i <= currentPage + 1; i++) {
@@ -114,8 +170,6 @@ export function Scorecard(){
                     and connect with organizations working in your community.</p>
             </div>
             <div className={"search-box"}>
-                {/* Implement Search Box as seen
-                    - As long as div is here, shadowed rectangle will appear on web page*/}
             </div>
             <div className="map-comparison">
                 <Link to="/comparison">
@@ -134,6 +188,10 @@ export function Scorecard(){
                         <button>
                             <h6>County</h6>
                         </button>
+                    </div>
+                    <div className={"export-buttons"}>
+                        <h5>Export</h5>
+                        <button onClick={exportCSV} className={"export-btn csv"} aria-label="Download CSV">Download CSV</button>
                     </div>
                     <div className={"sort"}>
                         <h5>Sort By</h5>
@@ -167,7 +225,7 @@ export function Scorecard(){
                         {paginatedData.map(([hospitalName, data], index) => {
                             
                             const info = data.hospitalInfo;
-                            const globalIndex = startIndex + index; // Calculate global rank
+                            const globalIndex = startIndex + index;
                             return(
                                 <tr key={hospitalName}>
                                         <td className={"numRow"}>{globalIndex + 1}</td>
@@ -179,7 +237,6 @@ export function Scorecard(){
                                         <td className={"Grade"}>
                                             {renderStars(data?.healthcareAccess?.Grade_Final)}
                                         </td>
-                                        {/* <td className={"Grade"}>A</td> */}
                                         <td>
                                             <button onClick={() => hospitalViewClick(hospitalName)} className={"viewButton"}>View</button>
                                         </td>
@@ -188,8 +245,7 @@ export function Scorecard(){
                         })}
                         </tbody>
                     </table>
-                    
-                    {/* Pagination Controls */}
+
                     {totalPages > 1 && (
                         <div className="pagination">
                             <button 

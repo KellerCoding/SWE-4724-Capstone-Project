@@ -82,6 +82,51 @@ html, body {
     height: 20px;
 }
 
+.export-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.export-buttons h5 {
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+}
+
+.export-btn {
+    width: 160px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.export-btn.xlsx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    max-height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.export-btn.csv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    max-height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+.export-btn:hover {
+    opacity: 0.95;
 }
 
 .left button{
