@@ -5,19 +5,17 @@ import { useParams } from "react-router-dom"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
 // import HospitalData from "../data/testData.json"
 import HospitalData from "../data/alphaTestData.json"
-import star from "../assets/Images/ratingStar.png"
-import dullStar from "../assets/Images/ratingStarGrey.png"
 
 export function HospitalScore(){
     const { hospitalId } = useParams()
     const hospitalInfo = HospitalData[hospitalId]?.hospitalInfo || {}
-    const hospitalEntry = HospitalData[hospitalId] || {}
 
     const navigate = useNavigate()
     const MapViewClick = () => {
         navigate(`/georgia-map/${hospitalId}`);
     };
-
+    
+    
     const [expandedSections, setExpandedSections] = useState({
         financial: false,
         community: false,
@@ -34,28 +32,22 @@ export function HospitalScore(){
     }
     const [selected, setSelected] = useState(null);
 
-    // helper to render star images from numerical 0-5 values
-    const renderStars = (value) => {
-        if (value === null || value === undefined || value === "NA") return "-";
-        const num = Number(value);
-        if (Number.isNaN(num)) return "-";
-        const filled = Math.max(0, Math.min(5, Math.round(num)));
-        const stars = [];
-        for (let i = 0; i < 5; i++) {
-            const src = i < filled ? star : dullStar;
-            stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={"ratingStar"} />);
-        }
-        return <div className={"starRow"}>{stars}</div>;
-    }
-
-    // helper to convert 0-5 grade to percent (for progress bar)
-    const gradeToPercent = (value) => {
-        const num = Number(value);
-        if (value === null || value === undefined || value === "NA" || Number.isNaN(num)) return 0;
-        const clamped = Math.max(0, Math.min(5, Math.round(num)));
-        return clamped * 20;
-    }
-
+    // In parent component
+// const flyToHospital = (hospitalId) => {
+//     console.log("HospitalInfo object", hospitalInfo)
+//     console.log("Passed parameter:", hospitalId)
+//     const hospital = hospitalInfo
+//     console.log("Here is is:", hospital)
+//     if (!hospital) return;
+  
+//     setSelected(hospital); // Optional: open popup
+//     setViewState({
+//       latitude: hospital.lat,
+//       longitude: hospital.lng,
+//       zoom: 12,
+//     });
+//   };
+    
     return (
         <div className="hospital-score-page">
             
@@ -77,12 +69,18 @@ export function HospitalScore(){
                 
                 <div className="overall-score-card">
                     <div className="score-header">Overall Score</div>
-                    <div className="overall-stars">
-                        {renderStars(hospitalEntry?.healthcareAccess?.Grade_Final)}
+                    <div className="stars">
+                        <span className="star filled">★</span>
+                        <span className="star filled">★</span>
+                        <span className="star filled">★</span>
+                        <span className="star filled">★</span>
+                        <span className="star">★</span>
                     </div>
+                    <div className="grade">Grade: A</div>
                 </div>
             </div>
-
+            
+            {/* Second Row - Main Content */}
             <div className="hospital-content">
                 <div className="left-sidebar">
                     <div className="about-card">
@@ -110,6 +108,12 @@ export function HospitalScore(){
                         <p className="more-info">More information will go here</p>
                         
                         <button onClick={MapViewClick} className="map-button">See on Map</button>
+                        {/* <button
+                            onClick={() => flyToHospital(hospitalId)}
+                            className="map-button"
+                            >
+                            See on Map
+                            </button> */}
                     </div>
                 </div>
                 
@@ -124,7 +128,10 @@ export function HospitalScore(){
                                 <div className="section-content">
                                     <div className="score-item">
                                         <span>Financial Transparency Score</span>
-                                        <span className="percentage">{renderStars(hospitalEntry?.financialTransparency?.gradeFinancialTransparency)}</span>
+                                        <span className="percentage">100%</span>
+                                    </div>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{width: '100%'}}></div>
                                     </div>
                                     <p className="description">Measures the availability and clarity of financial information.</p>
                                 </div>
@@ -140,7 +147,10 @@ export function HospitalScore(){
                                 <div className="section-content">
                                     <div className="score-item">
                                         <span>Community Spending Benefits Score</span>
-                                        <span className="percentage">{renderStars(hospitalEntry?.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</span>
+                                        <span className="percentage">91%</span>
+                                    </div>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{width: '91%'}}></div>
                                     </div>
                                     <p className="description">Assesses how hospitals' investment in community health programs and services.</p>
                                 </div>
@@ -156,7 +166,10 @@ export function HospitalScore(){
                                 <div className="section-content">
                                     <div className="score-item">
                                         <span>Healthcare Affordability Score</span>
-                                        <span className="percentage">{renderStars(hospitalEntry?.healthcareAffordability?.Grade_Healthcare_Affordability)}</span>
+                                        <span className="percentage">94%</span>
+                                    </div>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{width: '94%'}}></div>
                                     </div>
                                     <p className="description">Measures the hospital's commitment to affordable healthcare and fair billing.</p>
                                 </div>
@@ -172,7 +185,10 @@ export function HospitalScore(){
                                 <div className="section-content">
                                     <div className="score-item">
                                         <span>Healthcare Accessibility and Social Responsibility Score</span>
-                                        <span className="percentage">{renderStars(hospitalEntry?.healthcareAccess?.Grade_Healthcare_Access)}</span>
+                                        <span className="percentage">80%</span>
+                                    </div>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{width: '80%'}}></div>
                                     </div>
                                     <p className="description">Reflects patient feedback on care quality and experience.</p>
                                 </div>
@@ -188,7 +204,10 @@ export function HospitalScore(){
                                 <div className="section-content">
                                     <div className="score-item">
                                         <span>Quality of Care Score</span>
-                                        <span className="percentage">{renderStars(hospitalEntry?.healthcareAccess?.Grade_Final)}</span>
+                                        <span className="percentage">100%</span>
+                                    </div>
+                                    <div className="progress-bar">
+                                        <div className="progress-fill" style={{width: '100%'}}></div>
                                     </div>
                                     <p className="description">Evaluates medical outcomes and adherence to best practices.</p>
                                 </div>

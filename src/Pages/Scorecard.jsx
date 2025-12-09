@@ -12,21 +12,7 @@ export function Scorecard(){
     const [sortByName, setSortByName] = useState(false)
     const [currentPage, setCurrentPage] = useState(1)
     const itemsPerPage = 30
-
-      // Render stars (0-5) using CSS classes from Scorecard.css
-      const renderStars = (value) => {
-        if (value === null || value === undefined || value === "NA") return "-";
-        const num = Number(value);
-        if (Number.isNaN(num)) return "-";
-        const filled = Math.max(0, Math.min(5, Math.round(num)));
-        const stars = [];
-        for (let i = 0; i < 5; i++) {
-          const src = i < filled ? star : dullStar;
-          stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={"ratingStar"} />);
-        }
-        return <div className={"starRow"}>{stars}</div>;
-      };
-
+    
     const hospitalViewClick = (hospitalId) => {
         navigate(`/hospital-score/${hospitalId}`) 
     }
@@ -35,7 +21,7 @@ export function Scorecard(){
         setSortByName(!sortByName)
         setCurrentPage(1) // Reset to first page when sorting changes
     }
-
+    
     // Sort hospital data based on current sort state
     const sortedHospitalData = useMemo(() => {
         const entries = Object.entries(hospitalData)
@@ -176,7 +162,11 @@ export function Scorecard(){
                                             {info.city}
                                         </td>
                                         <td className={"Grade"}>
-                                            {renderStars(data?.healthcareAccess?.Grade_Final)}
+                                            <img src={star} alt="A" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            <img src={star} alt="" className={"ratingStar"}/>
                                         </td>
                                         {/* <td className={"Grade"}>A</td> */}
                                         <td>
