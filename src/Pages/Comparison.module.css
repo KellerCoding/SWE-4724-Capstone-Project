@@ -241,20 +241,20 @@
   }
   .table, td {
       color: #000000;
-      border: 1px groove #38E078;
+      border: 1px groove #6fb353;
   }
-  
+
   .table, tr {
       font-size: 20px;
   }
-  
+
   .thead{
-      background-color: #38E078;
+      background-color: #6fb353;
   }
-  
+
   .th0{
       width: 50px;
-      background-color: #38E078;
+      background-color: #6fb353;
       color: #6fb353;
   }
   
@@ -269,7 +269,7 @@
   }
   
   .gradeRow{
-      background-color: #27C840;
+      background-color: #6fb353;
       font-size: 30px;
       text-align: center;
       height: 50px;
@@ -299,12 +299,12 @@
   .comparison-table th,
   .comparison-table td {
       padding: 12px;
-      border: 1px solid #38E078;
+      border: 1px solid #6fb353;
       text-align: center;
   }
-  
+
   .comparison-table th {
-      background-color: #38E078;
+      background-color: #6fb353;
       color: #333;
       font-weight: bold;
   }

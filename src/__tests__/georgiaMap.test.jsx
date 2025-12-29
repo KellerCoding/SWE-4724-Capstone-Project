@@ -9,9 +9,9 @@
 //     __esModule: true,
 //     default: ({ children, ...props }) => <div data-testid="map" {...props}>{children}</div>,
 //     Marker: ({ children, latitude, longitude, onClick }) => (
-//         <div 
-//             data-testid="marker" 
-//             data-lat={latitude} 
+//         <div
+//             data-testid="marker"
+//             data-lat={latitude}
 //             data-lng={longitude}
 //             onClick={onClick}
 //         >
@@ -19,9 +19,9 @@
 //         </div>
 //     ),
 //     Popup: ({ children, latitude, longitude, onClose }) => (
-//         <div 
-//             data-testid="popup" 
-//             data-lat={latitude} 
+//         <div
+//             data-testid="popup"
+//             data-lat={latitude}
 //             data-lng={longitude}
 //         >
 //             {children}
@@ -360,13 +360,13 @@
 //         it('should render first 32 location items', () => {
 //             renderGeorgiaMap();
             
-//             // Check that first few hospitals from alphaTestData are rendered in the list
-//             expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
-//             expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
-//             expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
-//             expect(screen.getByText('Grady Memorial Hospital')).toBeInTheDocument();
-//         });
-//     });
+            // Check that first few hospitals from finalData are rendered in the list
+            expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
+            expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
+            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
+            expect(screen.getByText('Grady Memorial Hospital')).toBeInTheDocument();
+        });
+    });
 
 //     describe('Edge Cases', () => {
 //         it('should handle clicking on marker directly', () => {
