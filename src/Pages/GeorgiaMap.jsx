@@ -4,10 +4,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "./GeorgiaMap.css";
 import georgiaGeoJson from "../data/georgia.json";
 import testData from "../data/finalData.json";
-import star from "../assets/Images/ratingStar.png";
-import dullStar from "../assets/Images/ratingStarGrey.png";
 
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 export default function GeorgiaMap() {
   const { hospitalId } = useParams();
@@ -19,15 +17,14 @@ export default function GeorgiaMap() {
     zoom: 6,
   });
 
-  // Set to hard crop mode (no mask)
-  const maskMode = false;
+  const [maskMode, setMaskMode] = useState(true); // toggle true = hole mask
 
   // Transform hospital data from finalData.json into locations array
   // Maintains the order from JSON file (Object.entries preserves insertion order)
   // Limited to first 32 hospitals
   const locations = useMemo(() => {
     return Object.entries(testData)
-      .slice(0, 105) // Only take first 32 hospitals
+      .slice(0, 32) // Only take first 32 hospitals
       .map(([id, data]) => ({
         id: id,
         name: data.hospitalInfo.name,
@@ -36,7 +33,6 @@ export default function GeorgiaMap() {
         city: data.hospitalInfo.city,
         address: data.hospitalInfo.address,
         website: data.hospitalInfo.website,
-        grade: data.finalScore?.Grade_Final ?? 0,
       }));
   }, []);
 
@@ -92,19 +88,9 @@ export default function GeorgiaMap() {
   };
 
   return (
-    <div>
-      {/* Navigation Button */}
-      <div className="navigation-buttons">
-        <Link to="/scorecard">
-          <button className="back-button">
-            <h6>Back to Scorecard</h6>
-          </button>
-        </Link>
-      </div>
-      
-      <div className="map-container">
-        {/* Sidebar */}
-        <div className="sidebar">
+    <div className="map-container">
+      {/* Sidebar */}
+      <div className="sidebar">
         <input
           type="text"
           placeholder="Search location..."
@@ -127,6 +113,20 @@ export default function GeorgiaMap() {
           )}
         </div>
 
+        <div className="mode-toggle">
+          <button
+            onClick={() => setMaskMode(true)}
+            className={maskMode ? "active" : ""}
+          >
+            Hole Mask
+          </button>
+          <button
+            onClick={() => setMaskMode(false)}
+            className={!maskMode ? "active" : ""}
+          >
+            Hard Crop
+          </button>
+        </div>
       </div>
 
       {/* Map */}
@@ -186,19 +186,8 @@ export default function GeorgiaMap() {
             latitude={loc.lat}
             longitude={loc.lng}
             onClick={() => flyToLocation(loc)}
-            style={{ cursor: 'pointer' }}
           >
-            <div 
-              onClick={() => flyToLocation(loc)}
-              style={{ 
-                fontSize: '30px', 
-                cursor: 'pointer',
-                filter: 'drop-shadow(0 0 2px rgba(0,0,0,0.3))',
-                userSelect: 'none'
-              }}
-            >
-              📍
-            </div>
+            📍
           </Marker>
         ))}
 
@@ -214,26 +203,11 @@ export default function GeorgiaMap() {
               <h4>{selected.name}</h4>
               <p>{selected.city}</p>
               {selected.address && <p>{selected.address}</p>}
-              <div style={{ marginTop: "8px", display: "flex", alignItems: "center", gap: "4px" }}>
-                <span style={{ marginRight: "4px", fontSize: "14px", fontWeight: "bold" }}>Rating:</span>
-                {Array.from({ length: 5 }, (_, i) => (
-                  <img
-                    key={i}
-                    src={i < selected.grade ? star : dullStar}
-                    alt={i < selected.grade ? "star" : "dull"}
-                    style={{ width: "16px", height: "16px" }}
-                  />
-                ))}
-                <span style={{ marginLeft: "4px", fontSize: "12px", color: "#666" }}>
-                  ({selected.grade}/5)
-                </span>
-              </div>
             </div>
           </Popup>
         )}
         </Map>
       </div>
-    </div>
     </div>
   );
 }
