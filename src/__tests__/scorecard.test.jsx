@@ -15,7 +15,7 @@ vi.mock('react-router-dom', async () => {
 });
 
 // Mock the hospital data with 30 hospitals for pagination testing
-vi.mock('../data/alphaTestData.json', () => {
+vi.mock('../data/finalData.json', () => {
     const hospitalNames = [
         'Northside Hospital Atlanta',
         'Northside Hospital Forsyth',

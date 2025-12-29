@@ -4,11 +4,14 @@ import { useState } from "react"
 import { useParams } from "react-router-dom"
 import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
 // import HospitalData from "../data/testData.json"
-import HospitalData from "../data/alphaTestData.json"
+import HospitalData from "../data/finalData.json"
+import star from "../assets/Images/ratingStar.png"
+import dullStar from "../assets/Images/ratingStarGrey.png"
 
 export function HospitalScore(){
     const { hospitalId } = useParams()
-    const hospitalInfo = HospitalData[hospitalId]?.hospitalInfo || {}
+    const hospitalData = HospitalData[hospitalId] || {}
+    const hospitalInfo = hospitalData.hospitalInfo || {}
 
     const navigate = useNavigate()
     const MapViewClick = () => {
@@ -31,6 +34,35 @@ export function HospitalScore(){
         }))
     }
     const [selected, setSelected] = useState(null);
+
+    // Helper function to render stars (0-5). Non-numeric or out-of-range shows dashes
+    const renderStars = (value) => {
+        if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
+        const num = Number(value);
+        if (Number.isNaN(num)) return "-";
+        const filled = Math.max(0, Math.min(5, Math.round(num)));
+        const stars = [];
+        for (let i = 0; i < 5; i++) {
+            const src = i < filled ? star : dullStar;
+            stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="rating-star" />);
+        }
+        return <div className="star-row">{stars}</div>;
+    };
+
+    // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
+    const renderStarsDividedBy4 = (value) => {
+        if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
+        const num = Number(value);
+        if (Number.isNaN(num)) return "-";
+        const dividedValue = num / 4;
+        const filled = Math.max(0, Math.min(5, Math.round(dividedValue)));
+        const stars = [];
+        for (let i = 0; i < 5; i++) {
+            const src = i < filled ? star : dullStar;
+            stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="rating-star" />);
+        }
+        return <div className="star-row">{stars}</div>;
+    };
 
     // In parent component
 // const flyToHospital = (hospitalId) => {
@@ -57,17 +89,11 @@ export function HospitalScore(){
             
             {/* First Row - Individual Cards */}
             <div className="top-row">
-                <div className="hospital-info-card">
-                    <h3>Hospital Contact Information</h3>
-                    <p><strong>Ph #:</strong> {hospitalInfo.phoneNumber}</p>
-                    <p><strong>Email:</strong> {hospitalInfo.email}</p>
-                </div>
-                
                 <div className="emory-header">
                     <img className="hospitalLogo" src={EmoryHospital} alt="" />
                 </div>
                 
-                <div className="overall-score-card">
+                {/* <div className="overall-score-card">
                     <div className="score-header">Overall Score</div>
                     <div className="stars">
                         <span className="star filled">★</span>
@@ -76,8 +102,7 @@ export function HospitalScore(){
                         <span className="star filled">★</span>
                         <span className="star">★</span>
                     </div>
-                    <div className="grade">Grade: A</div>
-                </div>
+                </div> */}
             </div>
             
             {/* Second Row - Main Content */}
@@ -127,11 +152,20 @@ export function HospitalScore(){
                             {expandedSections.financial && (
                                 <div className="section-content">
                                     <div className="score-item">
-                                        <span>Financial Transparency Score</span>
-                                        <span className="percentage">100%</span>
+                                        <span>Transparency</span>
+                                        <div className="star-display">{renderStars(hospitalData.financialTransparency?.Transparency)}</div>
                                     </div>
-                                    <div className="progress-bar">
-                                        <div className="progress-fill" style={{width: '100%'}}></div>
+                                    <div className="score-item">
+                                        <span>Fiscal Health</span>
+                                        <div className="star-display">{renderStars(hospitalData.financialTransparency?.Fiscal_Health)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Endowment Holdings</span>
+                                        <div className="star-display">{renderStars(hospitalData.financialTransparency?.Endowment_Holdings)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Grade - Financial Transparency</span>
+                                        <div className="star-display">{renderStars(hospitalData.financialTransparency?.Grade_Financial_Transparency)}</div>
                                     </div>
                                     <p className="description">Measures the availability and clarity of financial information.</p>
                                 </div>
@@ -146,11 +180,16 @@ export function HospitalScore(){
                             {expandedSections.community && (
                                 <div className="section-content">
                                     <div className="score-item">
-                                        <span>Community Spending Benefits Score</span>
-                                        <span className="percentage">91%</span>
+                                        <span>CB Spending Score</span>
+                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.CB_Spending_Score)}</div>
                                     </div>
-                                    <div className="progress-bar">
-                                        <div className="progress-fill" style={{width: '91%'}}></div>
+                                    <div className="score-item">
+                                        <span>QCB Spending Score</span>
+                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.QCB_Spending_Score)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Grade - Community Benefit Spending</span>
+                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
                                     </div>
                                     <p className="description">Assesses how hospitals' investment in community health programs and services.</p>
                                 </div>
@@ -165,11 +204,20 @@ export function HospitalScore(){
                             {expandedSections.healthcare && (
                                 <div className="section-content">
                                     <div className="score-item">
-                                        <span>Healthcare Affordability Score</span>
-                                        <span className="percentage">94%</span>
+                                        <span>Financial Burden</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAffordability?.Financial_Burden)}</div>
                                     </div>
-                                    <div className="progress-bar">
-                                        <div className="progress-fill" style={{width: '94%'}}></div>
+                                    <div className="score-item">
+                                        <span>Charity Care Policies</span>
+                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Charity_Care_Policies)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Medical Debt Policies</span>
+                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Grade - Healthcare Affordability</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAffordability?.Grade_Healthcare_Affordability)}</div>
                                     </div>
                                     <p className="description">Measures the hospital's commitment to affordable healthcare and fair billing.</p>
                                 </div>
@@ -184,35 +232,44 @@ export function HospitalScore(){
                             {expandedSections.accessibility && (
                                 <div className="section-content">
                                     <div className="score-item">
-                                        <span>Healthcare Accessibility and Social Responsibility Score</span>
-                                        <span className="percentage">80%</span>
+                                        <span>Demographic Alignment</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Demographic_Alignment)}</div>
                                     </div>
-                                    <div className="progress-bar">
-                                        <div className="progress-fill" style={{width: '80%'}}></div>
+                                    <div className="score-item">
+                                        <span>MIUR Score</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.MIUR_score)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>LIUR Score</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.LIUR_score)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Pay Equity</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Pay_Equity)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Grade - Healthcare Access</span>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Grade_Healthcare_Access)}</div>
+                                    </div>
+                                    <div className="score-item">
+                                        <span>Final Grade</span>
+                                        <div className="star-display">{renderStars(hospitalData.finalScore?.Grade_Final)}</div>
                                     </div>
                                     <p className="description">Reflects patient feedback on care quality and experience.</p>
                                 </div>
                             )}
                         </div>
-                        
-                        <div className="score-section">
+                        {/* <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('quality')}>
                                 <h4>Quality of Care</h4>
                                 <span className="toggle-arrow">{expandedSections.quality ? '▲' : '▼'}</span>
                             </div>
                             {expandedSections.quality && (
                                 <div className="section-content">
-                                    <div className="score-item">
-                                        <span>Quality of Care Score</span>
-                                        <span className="percentage">100%</span>
-                                    </div>
-                                    <div className="progress-bar">
-                                        <div className="progress-fill" style={{width: '100%'}}></div>
-                                    </div>
-                                    <p className="description">Evaluates medical outcomes and adherence to best practices.</p>
+                                    <p className="description">Quality of care metrics will be displayed here when available.</p>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

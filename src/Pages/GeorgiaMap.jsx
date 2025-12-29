@@ -3,7 +3,7 @@ import Map, { Marker, Popup, Source, Layer } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./GeorgiaMap.css";
 import georgiaGeoJson from "../data/georgia.json";
-import testData from "../data/alphaTestData.json";
+import testData from "../data/finalData.json";
 
 import { useParams } from "react-router-dom";
 
@@ -19,7 +19,7 @@ export default function GeorgiaMap() {
 
   const [maskMode, setMaskMode] = useState(true); // toggle true = hole mask
 
-  // Transform hospital data from alphaTestData.json into locations array
+  // Transform hospital data from finalData.json into locations array
   // Maintains the order from JSON file (Object.entries preserves insertion order)
   // Limited to first 32 hospitals
   const locations = useMemo(() => {
