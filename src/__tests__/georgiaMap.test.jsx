@@ -360,7 +360,7 @@ describe('GeorgiaMap Component', () => {
         it('should render first 32 location items', () => {
             renderGeorgiaMap();
             
-            // Check that first few hospitals from alphaTestData are rendered in the list
+            // Check that first few hospitals from finalData are rendered in the list
             expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
             expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
             expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();

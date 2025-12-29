@@ -5,15 +5,15 @@ html, body {
 }
 
 :root{
-    --accent-green: #76d28a;
-    --accent-dark: #1fa23a;
+    --accent-green: #6fb353;
+    --accent-dark: #6fb353;
     --muted-green: #dff8e8;
     --border: rgba(0,0,0,0.12);
     --row-bg: #ffffff;
     --table-bg: #f6fbfa;
     --header-green: #c9f3d7;
-    --left-green: #8fdf9e;
-    --left-green-darker:#3fb96a;
+    --left-green: #6fb353;
+    --left-green-darker:#6fb353;
     font-family: MyFont, serif;
 }
 
@@ -161,16 +161,16 @@ html, body {
 }
 .table, td {
     color: #000000;
-    border: 1px groove #38E078;
+    border: 1px groove #6fb353;
 }
 
 .thead{
-    background-color: #38E078;
+    background-color: #6fb353;
 }
 
 .th0{
     width: 50px;
-    background-color: #38E078;
+    background-color: #6fb353;
 }
 
 .th1{
@@ -187,7 +187,7 @@ html, body {
 }
 
 .numRow{
-    background-color: #27C840;
+    background-color: #6fb353;
     font-size: 30px;
     text-align: center;
 }
@@ -201,7 +201,7 @@ td:last-child {
 }
 
 .viewButton{
-    background-color: #38E078;
+    background-color: #6fb353;
 }
 
 /* Active sort button styling */

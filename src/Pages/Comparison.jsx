@@ -3,12 +3,12 @@ import { useState, useEffect } from "react";
 import Tooltip from "../Pages/Tooltip.jsx";
 import HospitalDropdown from "../Pages/Dropdown.jsx";
 import testData from "../data/testData.json";
-import alphaTestData from "../data/alphaTestData.json";
+import finalData from "../data/finalData.json";
 import star from "../assets/Images/ratingStar.png";
 import dullStar from "../assets/Images/ratingStarGrey.png";
 
 export function Comparison() {
-  const dataSource = { ...testData, ...alphaTestData };
+  const dataSource = { ...testData, ...finalData };
 
   const hospitalList = Object.values(dataSource).map(
     (entry) => entry.hospitalInfo.name
