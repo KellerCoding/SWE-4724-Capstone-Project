@@ -59,7 +59,7 @@ export function HospitalScore(){
             <div className="top-row">
                 <div className="hospital-info-card">
                     <h3>Hospital Contact Information</h3>
-                    <p><strong>Ph #:</strong> (404)712-2000</p>
+                    <p><strong>Ph #:</strong> {hospitalInfo.phoneNumber}</p>
                     <p><strong>Email:</strong> {hospitalInfo.email}</p>
                 </div>
                 
@@ -86,8 +86,8 @@ export function HospitalScore(){
                     <div className="about-card">
                         <h3>About</h3>
                         <p><strong>County:</strong> {hospitalInfo.county}</p>
-                        <p><strong>Beds available:</strong> 853</p>
-                        <p><strong>Hospital System:</strong> Emory</p>
+                        <p><strong>Beds available:</strong> {hospitalInfo.bedSize}</p>
+                        <p><strong>Hospital System:</strong> {hospitalInfo.hospitalSystem}</p>
                         
                         <div className="services">
                             <p><strong>Services available:</strong></p>

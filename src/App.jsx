@@ -9,6 +9,7 @@ import {Footer} from "./Pages/Footer.jsx"
 import { HospitalScore } from "./Pages/HospitalScore.jsx"
 import GeorgiaMap from "./Pages/GeorgiaMap.jsx"
 import { Comparison } from "./Pages/Comparison.jsx"
+import { HealthcareAccess } from "./Pages/HealthcareAccess.jsx"
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/hospital-score/:hospitalId" element={<HospitalScore/>}/>
                 <Route path="/georgia-map/:hospitalId?" element={<GeorgiaMap />} />
                 <Route path="/comparison" element={<Comparison/>}></Route>
+                <Route path="/healthcare-access" element={<HealthcareAccess/>}></Route>
             </Routes>
             <Footer/>
         </div>

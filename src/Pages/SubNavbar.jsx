@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom"
 
 export function SubNavbar(){
     const [showGetAssistanceDropdown, setShowGetAssistanceDropdown] = useState(false)
+    const [showOurFocusDropdown, setShowOurFocusDropdown] = useState(false)
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const navigate = useNavigate()
     
@@ -31,11 +32,36 @@ export function SubNavbar(){
             </button>
             
             <ul className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a style={{color:"#333"}} href="" className="nav-link">
                         OUR FOCUS
                         <span className="dropdown-arrow">▼</span>
                     </a>
+                </li> */}
+                <li className="nav-item dropdown-container"
+                    onMouseEnter={() => setShowOurFocusDropdown(true)}
+                    onMouseLeave={() => setShowOurFocusDropdown(false)}>
+                    <Link 
+                        style={{color:"#333"}} 
+                        to="/healthcare-access" 
+                        className="nav-link"
+                        onClick={(e) => {
+                            if (window.innerWidth <= 768) {
+                                e.preventDefault();
+                                setShowOurFocusDropdown(!showOurFocusDropdown);
+                            }
+                        }}>
+                        OUR FOCUS
+                        <span className="dropdown-arrow">▼</span>
+                    </Link>
+                    {showOurFocusDropdown && (
+                        <div className="dropdown-menu">
+                            <Link to="/healthcare-access" className="dropdown-item highlighted" onClick={() => setMobileMenuOpen(false)}>HEALTHCARE ACCESS</Link>
+                            <Link to="/access-to-civil-justice" className="dropdown-item" onClick={() => setMobileMenuOpen(false)}>ACCESS TO CIVIL JUSTICE</Link>
+                            <Link to="/consumer-energy" className="dropdown-item" onClick={() => setMobileMenuOpen(false)}>CONSUMER ENERGY</Link>
+                            <Link to="/financial-protection" className="dropdown-item" onClick={() => setMobileMenuOpen(false)}>FINANCIAL PROTECTION</Link>
+                        </div>
+                    )}
                 </li>
                 <li className="nav-item dropdown-container"
                     onMouseEnter={() => setShowGetAssistanceDropdown(true)}
