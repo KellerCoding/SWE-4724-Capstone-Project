@@ -295,7 +295,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 75,
-        "sizeGroup": "Small"
+        "sizeGroup": "Small",
+        "hoursOperation": "24/7",
+        "lat": 31.69757,
+        "lng": -83.25998
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -339,7 +342,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 88,
-        "sizeGroup": "Small"
+        "sizeGroup": "Small",
+        "hoursOperation": "24/7",
+        "lat": 32.64343,
+        "lng": -82.40880
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -383,7 +389,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 49,
-        "sizeGroup": "Very Small"
+        "sizeGroup": "Very Small",
+        "hoursOperation": "24/7",
+        "lat": 32.16609,
+        "lng": -81.89886
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -427,7 +436,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 255,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 34.79021,
+        "lng": -84.98415
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -471,7 +483,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 34,
-        "sizeGroup": "Very Small"
+        "sizeGroup": "Very Small",
+        "hoursOperation": "24/7",
+        "lat": 31.60351,
+        "lng": -83.25106
       },
       "financialTransparency": {
         "Transparency": 5,
@@ -515,7 +530,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 37,
-        "sizeGroup": "Very Small"
+        "sizeGroup": "Very Small",
+        "hoursOperation": "24/7",
+        "lat": 33.04597,
+        "lng": -82.38048
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -559,7 +577,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 187,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 30.90270,
+        "lng": -84.55251
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -603,7 +624,10 @@
         "hospitalAuthority": 0,
         "criticalAccess": 0,
         "bedSize": 152,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 33.81015,
+        "lng": -84.39360
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -647,7 +671,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 96,
-        "sizeGroup": "Small"
+        "sizeGroup": "Small",
+        "hoursOperation": "24/7",
+        "lat": 33.81015,
+        "lng": -84.39360
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -691,7 +718,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 181,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 31.47167,
+        "lng": -83.49190
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -735,7 +765,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 115,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 31.47173,
+        "lng": -83.49097
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -779,7 +812,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 104,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 32.88940,
+        "lng": -84.68300
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -823,7 +859,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 56,
-        "sizeGroup": "Small"
+        "sizeGroup": "Small",
+        "hoursOperation": "24/7",
+        "lat": 32.99613,
+        "lng": -82.80385
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -867,7 +906,10 @@
         "hospitalAuthority": 1,
         "criticalAccess": 0,
         "bedSize": 90,
-        "sizeGroup": "Small"
+        "sizeGroup": "Small",
+        "hoursOperation": "24/7",
+        "lat": 31.60135,
+        "lng": -81.89953
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -901,7 +943,7 @@
       "hospitalInfo": {
         "ID": 35,
         "name": "Grady General Hospital",
-        "website": "Organizational & Financial Information | Medical Services Thomasville, GA",
+        "website": "https://www.archbold.org/locations/archbold-grady/",
         "city": "Cairo",
         "address": "1155 5th St SE",
         "zipcode": 39828,
@@ -911,7 +953,10 @@
         "hospitalAuthority": 0,
         "criticalAccess": 0,
         "bedSize": 60,
-        "sizeGroup": "Small"
+        "sizeGroup": "Small",
+        "hoursOperation": "24/7",
+        "lat": 30.86397,
+        "lng": -84.19916
       },
       "financialTransparency": {
         "Transparency": 0,
@@ -945,7 +990,7 @@
       "hospitalInfo": {
         "ID": 47,
         "name": "John D. Archbold Memorial Hospital",
-        "website": "Organizational & Financial Information | Medical Services Thomasville, GA",
+        "website": "https://www.archbold.org",
         "city": "Thomasville",
         "address": "915 Gordon Ave",
         "zipcode": 31792,
@@ -955,7 +1000,10 @@
         "hospitalAuthority": 0,
         "criticalAccess": 0,
         "bedSize": 264,
-        "sizeGroup": "Medium"
+        "sizeGroup": "Medium",
+        "hoursOperation": "24/7",
+        "lat": 30.82519,
+        "lng": -83.97217
       },
       "financialTransparency": {
         "Transparency": 0,
