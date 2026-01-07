@@ -37,6 +37,39 @@
 //         <div data-testid={`layer-${id}`} data-type={type} data-paint={JSON.stringify(paint)} />
 //     ),
 // }));
+// // Mock react-map-gl components
+// vi.mock('react-map-gl', () => ({
+//     __esModule: true,
+//     default: ({ children, ...props }) => <div data-testid="map" {...props}>{children}</div>,
+//     Marker: ({ children, latitude, longitude, onClick }) => (
+//         <div
+//             data-testid="marker"
+//             data-lat={latitude}
+//             data-lng={longitude}
+//             onClick={onClick}
+//         >
+//             {children}
+//         </div>
+//     ),
+//     Popup: ({ children, latitude, longitude, onClose }) => (
+//         <div
+//             data-testid="popup"
+//             data-lat={latitude}
+//             data-lng={longitude}
+//         >
+//             {children}
+//             <button onClick={onClose} data-testid="close-popup">Close</button>
+//         </div>
+//     ),
+//     Source: ({ children, id, data }) => (
+//         <div data-testid={`source-${id}`} data-source-data={JSON.stringify(data)}>
+//             {children}
+//         </div>
+//     ),
+//     Layer: ({ id, type, paint }) => (
+//         <div data-testid={`layer-${id}`} data-type={type} data-paint={JSON.stringify(paint)} />
+//     ),
+// }));
 
 // // Mock Georgia GeoJSON data
 // vi.mock('../data/georgia.json', () => ({
@@ -360,13 +393,13 @@
 //         it('should render first 32 location items', () => {
 //             renderGeorgiaMap();
             
-            // Check that first few hospitals from finalData are rendered in the list
-            expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
-            expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
-            expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
-            expect(screen.getByText('Grady Memorial Hospital')).toBeInTheDocument();
-        });
-    });
+//             // Check that first few hospitals from finalData are rendered in the list
+//             expect(screen.getByText('Northside Hospital Atlanta')).toBeInTheDocument();
+//             expect(screen.getByText('Northside Hospital Forsyth')).toBeInTheDocument();
+//             expect(screen.getByText('Emory University Hospital')).toBeInTheDocument();
+//             expect(screen.getByText('Grady Memorial Hospital')).toBeInTheDocument();
+//         });
+//     });
 
 //     describe('Edge Cases', () => {
 //         it('should handle clicking on marker directly', () => {
