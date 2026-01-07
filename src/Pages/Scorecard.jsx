@@ -162,7 +162,7 @@ export function Scorecard(){
     return (
         <div className="Scorecard">
             <div className={"banner"}>
-                <h1><strong>Hospital Accountability Scorecard</strong></h1>
+                <h1><strong>Georgia Hospital Accountability Scorecard</strong></h1>
                 <hr/>
             </div>
             <div className={"objective"}>
