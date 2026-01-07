@@ -1,6 +1,6 @@
 import "./Scorecard.css"
 import { useNavigate } from "react-router-dom"
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect, useRef } from "react"
 // import hospitalData from "../data/testData.json"
 import hospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
@@ -9,38 +9,178 @@ import { Link } from "react-router-dom"
 
 export function Scorecard(){
     const navigate = useNavigate()
-    const [sortByName, setSortByName] = useState(false)
+    // Sort states: null = not sorted, true = ascending, false = descending
+    const [sortByName, setSortByName] = useState(null) // null, true (A-Z), false (Z-A)
+    const [sortByGrade, setSortByGrade] = useState(null) // null, true (Low-High), false (High-Low)
+    const [sortByCounty, setSortByCounty] = useState(null) // null, true (A-Z), false (Z-A)
     const [currentPage, setCurrentPage] = useState(1)
+    const [searchQuery, setSearchQuery] = useState("")
+    const [selectedCity, setSelectedCity] = useState("")
+    const [selectedCounty, setSelectedCounty] = useState("")
+    const [showCityDropdown, setShowCityDropdown] = useState(false)
+    const [showCountyDropdown, setShowCountyDropdown] = useState(false)
+    const [cityFilterSearch, setCityFilterSearch] = useState("")
+    const [countyFilterSearch, setCountyFilterSearch] = useState("")
     const itemsPerPage = 30
+    const cityDropdownRef = useRef(null)
+    const countyDropdownRef = useRef(null)
+    
+    // Close dropdowns when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (cityDropdownRef.current && !cityDropdownRef.current.contains(event.target)) {
+                setShowCityDropdown(false)
+            }
+            if (countyDropdownRef.current && !countyDropdownRef.current.contains(event.target)) {
+                setShowCountyDropdown(false)
+            }
+        }
+        
+        document.addEventListener('mousedown', handleClickOutside)
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside)
+        }
+    }, [])
     
     const hospitalViewClick = (hospitalId) => {
         navigate(`/hospital-score/${hospitalId}`) 
     }
     
     const handleHospitalNameSort = () => {
-        setSortByName(!sortByName)
-        setCurrentPage(1) // Reset to first page when sorting changes
+        if (sortByName === null) {
+            setSortByName(true) // First click: ascending (A-Z)
+        } else if (sortByName === true) {
+            setSortByName(false) // Second click: descending (Z-A)
+        } else {
+            setSortByName(null) // Third click: no sort
+        }
+        setSortByGrade(null)
+        setSortByCounty(null)
+        setCurrentPage(1)
     }
     
-    // Sort hospital data based on current sort state
-    const sortedHospitalData = useMemo(() => {
-        const entries = Object.entries(hospitalData)
+    const handleGradeSort = () => {
+        if (sortByGrade === null) {
+            setSortByGrade(false) // First click: descending (High-Low)
+        } else if (sortByGrade === false) {
+            setSortByGrade(true) // Second click: ascending (Low-High)
+        } else {
+            setSortByGrade(null) // Third click: no sort
+        }
+        setSortByName(null)
+        setSortByCounty(null)
+        setCurrentPage(1)
+    }
+    
+    const handleCountySort = () => {
+        if (sortByCounty === null) {
+            setSortByCounty(true) // First click: ascending (A-Z)
+        } else if (sortByCounty === true) {
+            setSortByCounty(false) // Second click: descending (Z-A)
+        } else {
+            setSortByCounty(null) // Third click: no sort
+        }
+        setSortByName(null)
+        setSortByGrade(null)
+        setCurrentPage(1)
+    }
+    
+    // Get unique cities and counties for filter dropdowns
+    const uniqueCities = useMemo(() => {
+        const cities = new Set()
+        Object.values(hospitalData).forEach(data => {
+            if (data.hospitalInfo?.city) {
+                cities.add(data.hospitalInfo.city)
+            }
+        })
+        return Array.from(cities).sort()
+    }, [])
+    
+    const uniqueCounties = useMemo(() => {
+        const counties = new Set()
+        Object.values(hospitalData).forEach(data => {
+            if (data.hospitalInfo?.county) {
+                counties.add(data.hospitalInfo.county)
+            }
+        })
+        return Array.from(counties).sort()
+    }, [])
+    
+    // Filter cities and counties based on search within dropdowns
+    const filteredCities = useMemo(() => {
+        if (!cityFilterSearch.trim()) return uniqueCities
+        return uniqueCities.filter(city => 
+            city.toLowerCase().includes(cityFilterSearch.toLowerCase())
+        )
+    }, [uniqueCities, cityFilterSearch])
+    
+    const filteredCounties = useMemo(() => {
+        if (!countyFilterSearch.trim()) return uniqueCounties
+        return uniqueCounties.filter(county => 
+            county.toLowerCase().includes(countyFilterSearch.toLowerCase())
+        )
+    }, [uniqueCounties, countyFilterSearch])
+    
+    // Filter and sort hospital data based on current state
+    const filteredAndSortedHospitalData = useMemo(() => {
+        let entries = Object.entries(hospitalData)
         
-        if (sortByName) {
-            return entries.sort(([, a], [, b]) => {
-                return a.hospitalInfo.name.localeCompare(b.hospitalInfo.name)
+        // Apply search filter
+        if (searchQuery.trim()) {
+            entries = entries.filter(([, data]) => {
+                const name = data.hospitalInfo?.name?.toLowerCase() || ""
+                return name.includes(searchQuery.toLowerCase())
             })
         }
         
-        // Return original order
+        // Apply city filter
+        if (selectedCity) {
+            entries = entries.filter(([, data]) => {
+                return data.hospitalInfo?.city === selectedCity
+            })
+        }
+        
+        // Apply county filter
+        if (selectedCounty) {
+            entries = entries.filter(([, data]) => {
+                return data.hospitalInfo?.county === selectedCounty
+            })
+        }
+        
+        // Apply sorting
+        if (sortByName !== null) {
+            entries = entries.sort(([, a], [, b]) => {
+                const comparison = a.hospitalInfo.name.localeCompare(b.hospitalInfo.name)
+                return sortByName ? comparison : -comparison // true = ascending, false = descending
+            })
+        } else if (sortByGrade !== null) {
+            entries = entries.sort(([, a], [, b]) => {
+                const gradeA = a.finalScore?.Grade_Final ?? 0
+                const gradeB = b.finalScore?.Grade_Final ?? 0
+                return sortByGrade ? gradeA - gradeB : gradeB - gradeA // true = ascending (Low-High), false = descending (High-Low)
+            })
+        } else if (sortByCounty !== null) {
+            entries = entries.sort(([, a], [, b]) => {
+                const countyA = a.hospitalInfo?.county || ""
+                const countyB = b.hospitalInfo?.county || ""
+                const comparison = countyA.localeCompare(countyB)
+                return sortByCounty ? comparison : -comparison // true = ascending, false = descending
+            })
+        }
+        
         return entries
-    }, [sortByName])
+    }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty])
+    
+    // Reset to page 1 when filters or sorting change
+    useEffect(() => {
+        setCurrentPage(1)
+    }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty])
     
     // Calculate pagination
-    const totalPages = Math.ceil(sortedHospitalData.length / itemsPerPage)
+    const totalPages = Math.ceil(filteredAndSortedHospitalData.length / itemsPerPage)
     const startIndex = (currentPage - 1) * itemsPerPage
     const endIndex = startIndex + itemsPerPage
-    const paginatedData = sortedHospitalData.slice(startIndex, endIndex)
+    const paginatedData = filteredAndSortedHospitalData.slice(startIndex, endIndex)
     
     const handlePageChange = (page) => {
         setCurrentPage(page)
@@ -97,42 +237,219 @@ export function Scorecard(){
             <div className={"objective"}>
                 <p>Use this guide to jump start your research, explore avenues of advocacy you may be unfamiliar with,
                     and connect with organizations working in your community.</p>
+                {filteredAndSortedHospitalData.length > 0 && (
+                    <p className="result-count">
+                        Showing {filteredAndSortedHospitalData.length} hospital{filteredAndSortedHospitalData.length !== 1 ? 's' : ''}
+                        {(selectedCity || selectedCounty || searchQuery) && ' (filtered)'}
+                    </p>
+                )}
             </div>
             <div className={"search-box"}>
-                {/* Implement Search Box as seen
-                    - As long as div is here, shadowed rectangle will appear on web page*/}
+                <input
+                    type="text"
+                    placeholder="Search hospitals by name..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="search-input"
+                />
             </div>
             <div className="map-comparison">
                 <Link to="/comparison">
-                <button>
-                            <h6>Compare Hospitals</h6>
-                        </button>
+                    <button>
+                        <h6>Compare Hospitals</h6>
+                    </button>
+                </Link>
+                <Link to="/georgia-map">
+                    <button>
+                        <h6>See Map</h6>
+                    </button>
                 </Link>
             </div>
             <div className={"container"}>
                 <div className={"left"}>
                     <div className={"filter"}>
                         <h5>Filter By</h5>
-                        <button>
-                            <h6>City</h6>
-                        </button>
-                        <button>
-                            <h6>County</h6>
-                        </button>
+                        <div className="filter-dropdown-container" ref={cityDropdownRef}>
+                            <button 
+                                onClick={() => {
+                                    setShowCityDropdown(!showCityDropdown)
+                                    setShowCountyDropdown(false)
+                                }}
+                                className={selectedCity ? "active-filter" : ""}
+                            >
+                                <h6>City {selectedCity ? `(${selectedCity})` : ""}</h6>
+                            </button>
+                            {showCityDropdown && (
+                                <div className="filter-dropdown">
+                                    <div className="filter-search-container">
+                                        <input
+                                            type="text"
+                                            placeholder="Search cities..."
+                                            value={cityFilterSearch}
+                                            onChange={(e) => setCityFilterSearch(e.target.value)}
+                                            className="filter-search-input"
+                                            onClick={(e) => e.stopPropagation()}
+                                        />
+                                    </div>
+                                    <div className="filter-options-list">
+                                        <button 
+                                            className={`filter-option ${!selectedCity ? "selected" : ""}`}
+                                            onClick={() => {
+                                                setSelectedCity("")
+                                                setShowCityDropdown(false)
+                                                setCityFilterSearch("")
+                                            }}
+                                        >
+                                            <h6>All Cities ({uniqueCities.length})</h6>
+                                        </button>
+                                        {filteredCities.length > 0 ? (
+                                            filteredCities.map(city => (
+                                                <button
+                                                    key={city}
+                                                    className={`filter-option ${selectedCity === city ? "selected" : ""}`}
+                                                    onClick={() => {
+                                                        setSelectedCity(city)
+                                                        setShowCityDropdown(false)
+                                                        setCityFilterSearch("")
+                                                    }}
+                                                >
+                                                    <h6>{city}</h6>
+                                                </button>
+                                            ))
+                                        ) : (
+                                            <div className="filter-no-results">
+                                                <h6>No cities found</h6>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                        <div className="filter-dropdown-container" ref={countyDropdownRef}>
+                            <button 
+                                onClick={() => {
+                                    setShowCountyDropdown(!showCountyDropdown)
+                                    setShowCityDropdown(false)
+                                }}
+                                className={selectedCounty ? "active-filter" : ""}
+                            >
+                                <h6>County {selectedCounty ? `(${selectedCounty})` : ""}</h6>
+                            </button>
+                            {showCountyDropdown && (
+                                <div className="filter-dropdown">
+                                    <div className="filter-search-container">
+                                        <input
+                                            type="text"
+                                            placeholder="Search counties..."
+                                            value={countyFilterSearch}
+                                            onChange={(e) => setCountyFilterSearch(e.target.value)}
+                                            className="filter-search-input"
+                                            onClick={(e) => e.stopPropagation()}
+                                        />
+                                    </div>
+                                    <div className="filter-options-list">
+                                        <button 
+                                            className={`filter-option ${!selectedCounty ? "selected" : ""}`}
+                                            onClick={() => {
+                                                setSelectedCounty("")
+                                                setShowCountyDropdown(false)
+                                                setCountyFilterSearch("")
+                                            }}
+                                        >
+                                            <h6>All Counties ({uniqueCounties.length})</h6>
+                                        </button>
+                                        {filteredCounties.length > 0 ? (
+                                            filteredCounties.map(county => (
+                                                <button
+                                                    key={county}
+                                                    className={`filter-option ${selectedCounty === county ? "selected" : ""}`}
+                                                    onClick={() => {
+                                                        setSelectedCounty(county)
+                                                        setShowCountyDropdown(false)
+                                                        setCountyFilterSearch("")
+                                                    }}
+                                                >
+                                                    <h6>{county}</h6>
+                                                </button>
+                                            ))
+                                        ) : (
+                                            <div className="filter-no-results">
+                                                <h6>No counties found</h6>
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                        {(selectedCity || selectedCounty) && (
+                            <div className="active-filters">
+                                {selectedCity && (
+                                    <span className="filter-chip">
+                                        City: {selectedCity}
+                                        <button 
+                                            className="filter-chip-remove"
+                                            onClick={() => setSelectedCity("")}
+                                            aria-label="Remove city filter"
+                                        >
+                                            ×
+                                        </button>
+                                    </span>
+                                )}
+                                {selectedCounty && (
+                                    <span className="filter-chip">
+                                        County: {selectedCounty}
+                                        <button 
+                                            className="filter-chip-remove"
+                                            onClick={() => setSelectedCounty("")}
+                                            aria-label="Remove county filter"
+                                        >
+                                            ×
+                                        </button>
+                                    </span>
+                                )}
+                                <button 
+                                    className="clear-filters"
+                                    onClick={() => {
+                                        setSelectedCity("")
+                                        setSelectedCounty("")
+                                    }}
+                                >
+                                    <h6>Clear All Filters</h6>
+                                </button>
+                            </div>
+                        )}
                     </div>
                     <div className={"sort"}>
                         <h5>Sort By</h5>
                         <button 
                             onClick={handleHospitalNameSort}
-                            className={sortByName ? "active-sort" : ""}
+                            className={sortByName !== null ? "active-sort" : ""}
                         >
-                            <h6>Hospital Name {sortByName ? "(A-Z)" : ""}</h6>
+                            <h6>
+                                Hospital Name 
+                                {sortByName === true && " ↑ (A-Z)"}
+                                {sortByName === false && " ↓ (Z-A)"}
+                            </h6>
                         </button>
-                        <button>
-                            <h6>Grade / Score</h6>
+                        <button
+                            onClick={handleGradeSort}
+                            className={sortByGrade !== null ? "active-sort" : ""}
+                        >
+                            <h6>
+                                Grade / Score 
+                                {sortByGrade === false && " ↓ (High-Low)"}
+                                {sortByGrade === true && " ↑ (Low-High)"}
+                            </h6>
                         </button>
-                        <button>
-                            <h6>County</h6>
+                        <button
+                            onClick={handleCountySort}
+                            className={sortByCounty !== null ? "active-sort" : ""}
+                        >
+                            <h6>
+                                County 
+                                {sortByCounty === true && " ↑ (A-Z)"}
+                                {sortByCounty === false && " ↓ (Z-A)"}
+                            </h6>
                         </button>
                     </div>
                 </div>
@@ -162,11 +479,21 @@ export function Scorecard(){
                                             {info.city}
                                         </td>
                                         <td className={"Grade"}>
-                                            <img src={star} alt="A" className={"ratingStar"}/>
-                                            <img src={star} alt="" className={"ratingStar"}/>
-                                            <img src={star} alt="" className={"ratingStar"}/>
-                                            <img src={star} alt="" className={"ratingStar"}/>
-                                            <img src={star} alt="" className={"ratingStar"}/>
+                                            {(() => {
+                                                const grade = data.finalScore?.Grade_Final ?? 0
+                                                const stars = []
+                                                for (let i = 0; i < 5; i++) {
+                                                    stars.push(
+                                                        <img 
+                                                            key={i} 
+                                                            src={i < grade ? star : dullStar} 
+                                                            alt={i < grade ? "star" : "dull"} 
+                                                            className={"ratingStar"}
+                                                        />
+                                                    )
+                                                }
+                                                return stars
+                                            })()}
                                         </td>
                                         {/* <td className={"Grade"}>A</td> */}
                                         <td>
