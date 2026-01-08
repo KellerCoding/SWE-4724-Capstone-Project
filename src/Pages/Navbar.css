@@ -75,6 +75,11 @@
     color: #999;
 }
 
+.back-to-gwatch{
+    position: absolute;
+    left: 20px;
+}
+
 /* Hamburger menu label */
 label[for='menu'] {
     display: none;
