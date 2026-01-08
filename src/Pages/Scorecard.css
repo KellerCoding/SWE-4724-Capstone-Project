@@ -33,6 +33,7 @@ html, body {
 .banner hr{
     color: #FFFFFF;
     width: 10%;
+    margin: 0 auto;
 }
 .objective{
     top:0;
@@ -46,13 +47,18 @@ html, body {
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .left{
     display: block;
     align-items: center;
-    margin-left: 150px;
+    margin-top:60px;
+    margin-left:50px;
     position: sticky;
     top: 20px;
     align-self: flex-start;
@@ -63,6 +69,8 @@ html, body {
     z-index: 10;
     max-height: calc(100vh - 40px);
     overflow-y: auto;
+    min-width: 240px;
+    flex-shrink: 0;
 }
 
 .left h5{
@@ -133,7 +141,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 200px;
+    width: 100%;
+    max-width: 240px;
     max-height: 50px;
     margin: 10px;
     text-align: center;
@@ -329,8 +338,11 @@ html, body {
 .right{
     justify-content: end;
     margin-top: 50px;
-    margin-right: 100px;
-    float: right;
+    margin-left:300px;
+    margin-right: 0;
+    float: none;
+    flex: 1;
+    max-width: 900px;
 }
 .table, td {
     color: #000000;
@@ -539,12 +551,16 @@ td:last-child {
         padding-top: 20px;
     }
     
+    .container {
+        padding: 0 15px;
+    }
+    
     .left {
-        margin-left: 50px;
+        margin-left: 0;
     }
     
     .right {
-        margin-right: 50px;
+        margin-right: 0;
     }
 }
 

@@ -4,6 +4,8 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "./GeorgiaMap.css";
 import georgiaGeoJson from "../data/georgia.json";
 import testData from "../data/finalData.json";
+import star from "../assets/Images/ratingStar.png";
+import dullStar from "../assets/Images/ratingStarGrey.png";
 
 import { useParams } from "react-router-dom";
 
@@ -17,7 +19,8 @@ export default function GeorgiaMap() {
     zoom: 6,
   });
 
-  const [maskMode, setMaskMode] = useState(true); // toggle true = hole mask
+  // Set to hard crop mode (no mask)
+  const maskMode = false;
 
   // Transform hospital data from finalData.json into locations array
   // Maintains the order from JSON file (Object.entries preserves insertion order)
@@ -33,6 +36,7 @@ export default function GeorgiaMap() {
         city: data.hospitalInfo.city,
         address: data.hospitalInfo.address,
         website: data.hospitalInfo.website,
+        grade: data.finalScore?.Grade_Final ?? 0,
       }));
   }, []);
 
@@ -113,20 +117,6 @@ export default function GeorgiaMap() {
           )}
         </div>
 
-        <div className="mode-toggle">
-          <button
-            onClick={() => setMaskMode(true)}
-            className={maskMode ? "active" : ""}
-          >
-            Hole Mask
-          </button>
-          <button
-            onClick={() => setMaskMode(false)}
-            className={!maskMode ? "active" : ""}
-          >
-            Hard Crop
-          </button>
-        </div>
       </div>
 
       {/* Map */}
@@ -186,8 +176,19 @@ export default function GeorgiaMap() {
             latitude={loc.lat}
             longitude={loc.lng}
             onClick={() => flyToLocation(loc)}
+            style={{ cursor: 'pointer' }}
           >
-            📍
+            <div 
+              onClick={() => flyToLocation(loc)}
+              style={{ 
+                fontSize: '30px', 
+                cursor: 'pointer',
+                filter: 'drop-shadow(0 0 2px rgba(0,0,0,0.3))',
+                userSelect: 'none'
+              }}
+            >
+              📍
+            </div>
           </Marker>
         ))}
 
@@ -203,6 +204,20 @@ export default function GeorgiaMap() {
               <h4>{selected.name}</h4>
               <p>{selected.city}</p>
               {selected.address && <p>{selected.address}</p>}
+              <div style={{ marginTop: "8px", display: "flex", alignItems: "center", gap: "4px" }}>
+                <span style={{ marginRight: "4px", fontSize: "14px", fontWeight: "bold" }}>Rating:</span>
+                {Array.from({ length: 5 }, (_, i) => (
+                  <img
+                    key={i}
+                    src={i < selected.grade ? star : dullStar}
+                    alt={i < selected.grade ? "star" : "dull"}
+                    style={{ width: "16px", height: "16px" }}
+                  />
+                ))}
+                <span style={{ marginLeft: "4px", fontSize: "12px", color: "#666" }}>
+                  ({selected.grade}/5)
+                </span>
+              </div>
             </div>
           </Popup>
         )}
