@@ -107,7 +107,7 @@ export function HospitalScore(){
                             <p>{hospitalInfo.address}<br/>{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
                         </div>
                         
-                        <p className="more-info">More information will go here</p>
+                        <p className="more-info">Pending Hospital Description</p>
                         
                         <button onClick={MapViewClick} className="map-button">See on Map</button>
                     </div>
@@ -133,7 +133,7 @@ export function HospitalScore(){
                         
                         <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('community')}>
-                                <h4>Community Spending Benefits</h4>
+                                <h4>Community Benefits Spending</h4>
                                 <span className="toggle-arrow">{expandedSections.community ? '▲' : '▼'}</span>
                             </div>
                             {expandedSections.community && (
