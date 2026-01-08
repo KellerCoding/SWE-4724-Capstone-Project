@@ -6,16 +6,16 @@ export function Footer(){
                 <nav>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a style={{color:"#F48810"}} href="" className="nav-link">Get Assistance</a>
+                            <a style={{color:"#F48810"}} href="https://georgiawatch.org/get-assistance/" className="nav-link">Get Assistance</a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-link">Support Us</a>
+                            <a href="https://georgiawatch.org/support-us/" className="nav-link">Support Us</a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-link">Site Map</a>
+                            <a href="https://georgiawatch.org/site-map/" className="nav-link">Site Map</a>
                         </li>
                         <li className="nav-item">
-                            <a href="" className="nav-link">Legal/Privacy</a>
+                            <a href="https://georgiawatch.org/legalprivacy/" className="nav-link">Legal/Privacy</a>
                         </li>
                     </ul>
                 </nav>
