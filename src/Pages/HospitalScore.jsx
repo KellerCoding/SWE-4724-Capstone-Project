@@ -2,7 +2,6 @@ import "./HospitalScore.css"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 import { useParams } from "react-router-dom"
-import EmoryHospital from "../assets/Images/hospitalLogos/emoryHealthcareLogo.png"
 // import HospitalData from "../data/testData.json"
 import HospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
@@ -84,25 +83,34 @@ export function HospitalScore(){
         <div className="hospital-score-page">
             
             <div className="banner">
-                <h1><strong>{hospitalInfo.name || "Error Displaying Hospital Name"}</strong></h1>
+                <h1><strong>Georgia Hospital Accountability Scorecard</strong></h1>
             </div>
             
-            {/* First Row - Individual Cards */}
+            {/* First Row - Hospital Name and Final Score */}
             <div className="top-row">
-                <div className="emory-header">
-                    <img className="hospitalLogo" src={EmoryHospital} alt="" />
-                </div>
-                
-                {/* <div className="overall-score-card">
-                    <div className="score-header">Overall Score</div>
-                    <div className="stars">
-                        <span className="star filled">★</span>
-                        <span className="star filled">★</span>
-                        <span className="star filled">★</span>
-                        <span className="star filled">★</span>
-                        <span className="star">★</span>
+                <div className="hospital-header">
+                    <h2 className="hospital-name">{hospitalInfo.name || "Hospital Name"}</h2>
+                    <div className="final-score-display">
+                        <span className="score-label">Final Score:</span>
+                        <div className="stars">
+                            {(() => {
+                                const grade = hospitalData.finalScore?.Grade_Final ?? 0;
+                                const stars = [];
+                                for (let i = 0; i < 5; i++) {
+                                    stars.push(
+                                        <img 
+                                            key={i} 
+                                            src={i < grade ? star : dullStar} 
+                                            alt={i < grade ? "star" : "dull"} 
+                                            className="rating-star-header"
+                                        />
+                                    );
+                                }
+                                return stars;
+                            })()}
+                        </div>
                     </div>
-                </div> */}
+                </div>
             </div>
             
             {/* Second Row - Main Content */}
@@ -163,8 +171,8 @@ export function HospitalScore(){
                                         <span>Endowment Holdings</span>
                                         <div className="star-display">{renderStars(hospitalData.financialTransparency?.Endowment_Holdings)}</div>
                                     </div>
-                                    <div className="score-item">
-                                        <span>Grade - Financial Transparency</span>
+                                    <div className="score-item final-score-item">
+                                        <span>Score - Financial Transparency</span>
                                         <div className="star-display">{renderStars(hospitalData.financialTransparency?.Grade_Financial_Transparency)}</div>
                                     </div>
                                     <p className="description">Measures the availability and clarity of financial information.</p>
@@ -187,8 +195,8 @@ export function HospitalScore(){
                                         <span>QCB Spending Score</span>
                                         <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.QCB_Spending_Score)}</div>
                                     </div>
-                                    <div className="score-item">
-                                        <span>Grade - Community Benefit Spending</span>
+                                    <div className="score-item final-score-item">
+                                        <span>Score - Community Benefit Spending</span>
                                         <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
                                     </div>
                                     <p className="description">Assesses how hospitals' investment in community health programs and services.</p>
@@ -215,8 +223,8 @@ export function HospitalScore(){
                                         <span>Medical Debt Policies</span>
                                         <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
                                     </div>
-                                    <div className="score-item">
-                                        <span>Grade - Healthcare Affordability</span>
+                                    <div className="score-item final-score-item">
+                                        <span>Score - Healthcare Affordability</span>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAffordability?.Grade_Healthcare_Affordability)}</div>
                                     </div>
                                     <p className="description">Measures the hospital's commitment to affordable healthcare and fair billing.</p>
@@ -247,14 +255,11 @@ export function HospitalScore(){
                                         <span>Pay Equity</span>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Pay_Equity)}</div>
                                     </div>
-                                    <div className="score-item">
-                                        <span>Grade - Healthcare Access</span>
+                                    <div className="score-item final-score-item">
+                                        <span>Score - Healthcare Access</span>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Grade_Healthcare_Access)}</div>
                                     </div>
-                                    <div className="score-item">
-                                        <span>Final Grade</span>
-                                        <div className="star-display">{renderStars(hospitalData.finalScore?.Grade_Final)}</div>
-                                    </div>
+
                                     <p className="description">Reflects patient feedback on care quality and experience.</p>
                                 </div>
                             )}

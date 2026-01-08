@@ -1,5 +1,6 @@
 import styles from "./Comparison.module.css";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Tooltip from "../Pages/Tooltip.jsx";
 import HospitalDropdown from "../Pages/Dropdown.jsx";
 import testData from "../data/testData.json";
@@ -41,7 +42,7 @@ export function Comparison() {
 
   // helper: render stars (0-5). Non-numeric or out-of-range shows dashes
   const renderStars = (value) => {
-    if (value === null || value === undefined || value === "NA") return "-";
+    if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
     const num = Number(value);
     if (Number.isNaN(num)) return "-";
     const filled = Math.max(0, Math.min(5, Math.round(num)));
@@ -53,6 +54,31 @@ export function Comparison() {
     return <div className={styles.starRow}>{stars}</div>;
   };
 
+  // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
+  const renderStarsDividedBy4 = (value) => {
+    if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
+    const num = Number(value);
+    if (Number.isNaN(num)) return "-";
+    const dividedValue = num / 4;
+    const filled = Math.max(0, Math.min(5, Math.round(dividedValue)));
+    const stars = [];
+    for (let i = 0; i < 5; i++) {
+      const src = i < filled ? star : dullStar;
+      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={styles.ratingStar} />);
+    }
+    return <div className={styles.starRow}>{stars}</div>;
+  };
+
+  // Helper to get field value with fallback for different naming conventions
+  const getField = (obj, ...fieldNames) => {
+    for (const fieldName of fieldNames) {
+      if (obj?.[fieldName] !== undefined && obj?.[fieldName] !== null) {
+        return obj[fieldName];
+      }
+    }
+    return undefined;
+  };
+
   // Show only 2 hospitals on mobile, 4 on desktop
   const displayedHospitals = isMobile ? selectedHospitals.slice(0, 2) : selectedHospitals;
 
@@ -61,6 +87,14 @@ export function Comparison() {
       <div className={styles.banner}>
         <h1><strong>Hospital Accountability Scores</strong></h1>
         <hr/>
+      </div>
+
+      <div className={styles.navigationButtons}>
+        <Link to="/scorecard">
+          <button className={styles.backButton}>
+            <h6>Back to Scorecard</h6>
+          </button>
+        </Link>
       </div>
 
       <div className={styles.container}>
@@ -143,7 +177,8 @@ export function Comparison() {
               <td className={styles.metricRow}>Financial Transparency - Fiscal Health</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.financialTransparency?.fiscalHealth)}</td>;
+                const value = getField(entry?.financialTransparency, "Fiscal_Health", "fiscalHealth");
+                return <td key={i}>{renderStars(value)}</td>;
               })}
             </tr>
 
@@ -151,15 +186,17 @@ export function Comparison() {
               <td className={styles.metricRow}>Financial Transparency - Endowment Holdings</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.financialTransparency?.endowmentHoldings)}</td>;
+                const value = getField(entry?.financialTransparency, "Endowment_Holdings", "endowmentHoldings");
+                return <td key={i}>{renderStars(value)}</td>;
               })}
             </tr>
 
             <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Financial Transparency - Grade</td>
+              <td className={styles.metricRow}>Financial Transparency - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.financialTransparency?.gradeFinancialTransparency)}</td>;
+                const value = getField(entry?.financialTransparency, "Grade_Financial_Transparency", "gradeFinancialTransparency");
+                return <td key={i}>{renderStars(value)}</td>;
               })}
             </tr>
 
@@ -180,7 +217,7 @@ export function Comparison() {
             </tr>
 
             <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Community Benefit - Grade</td>
+              <td className={styles.metricRow}>Community Benefit - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</td>;
@@ -199,7 +236,7 @@ export function Comparison() {
               <td className={styles.metricRow}>Healthcare Affordability - Charity Care Policies</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.healthcareAffordability?.Charity_Care_Policies)}</td>;
+                return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Charity_Care_Policies)}</td>;
               })}
             </tr>
 
@@ -207,12 +244,12 @@ export function Comparison() {
               <td className={styles.metricRow}>Healthcare Affordability - Medical Debt Policies</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{entry?.healthcareAffordability?.Medical_Debt_Policies ?? "-"}</td>;
+                return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Medical_Debt_Policies)}</td>;
               })}
             </tr>
 
             <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Affordability - Grade</td>
+              <td className={styles.metricRow}>Healthcare Affordability - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAffordability?.Grade_Healthcare_Affordability)}</td>;
@@ -252,7 +289,7 @@ export function Comparison() {
             </tr>
 
             <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - Grade</td>
+              <td className={styles.metricRow}>Healthcare Access - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.Grade_Healthcare_Access)}</td>;
@@ -260,10 +297,11 @@ export function Comparison() {
             </tr>
 
             <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - Final Grade</td>
+              <td className={styles.metricRow}>Final Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.healthcareAccess?.Grade_Final)}</td>;
+                const value = getField(entry?.finalScore, "Grade_Final") || entry?.healthcareAccess?.Grade_Final;
+                return <td key={i}>{renderStars(value)}</td>;
               })}
             </tr>
 
