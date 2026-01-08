@@ -27,7 +27,7 @@ export default function GeorgiaMap() {
   // Limited to first 32 hospitals
   const locations = useMemo(() => {
     return Object.entries(testData)
-      .slice(0, 32) // Only take first 32 hospitals
+      .slice(0, 105) // Only take first 32 hospitals
       .map(([id, data]) => ({
         id: id,
         name: data.hospitalInfo.name,
