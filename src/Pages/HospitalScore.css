@@ -19,13 +19,62 @@
 
 .top-row {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 20px;
+    padding: 30px 20px;
     max-width: 1400px;
     margin: 0 auto;
     background-color: #f5f5f5;
+}
+
+.hospital-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.hospital-name {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+    min-width: 300px;
+}
+
+.final-score-display {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.score-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.final-score-display .stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rating-star-header {
+    width: 30px;
+    height: 30px;
+}
+
+.score-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #666;
+    margin-left: 5px;
 }
 
 .hospital-content {
@@ -53,9 +102,14 @@
 
 .about-card {
     background-color: #e8f5e8;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .hospital-info-card h3,
@@ -114,36 +168,12 @@
 .right-content {
     flex: 1;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
-.emory-header {
-    background-color: #f8f9fa;
-    /* padding: 30px; */
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1;
-}
-
-.emory-header h1 {
-    margin: 0;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #2c5aa0;
-    letter-spacing: 2px;
-}
-
-.emory-header h2 {
-    margin: 5px 0 0 0;
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: #2c5aa0;
-    letter-spacing: 1px;
-}
 
 .overall-score-card {
     background-color: #e8f5e8;
@@ -189,51 +219,118 @@
 
 .score-section {
     border-bottom: 1px solid #e0e0e0;
+    transition: box-shadow 0.2s ease;
+}
+
+.score-section:last-child {
+    border-bottom: none;
+}
+
+/* Subtle shadow on hover for better visual feedback */
+.score-section:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 .section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 22px 30px;
     cursor: pointer;
     background-color: white;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    user-select: none;
 }
 
 .section-header:hover {
     background-color: #f8f9fa;
+    padding-left: 32px;
+}
+
+.section-header:active {
+    background-color: #f0f2f0;
 }
 
 .section-header h4 {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 600;
-    color: #333;
+    color: #2d3e2d;
+    letter-spacing: 0.3px;
 }
 
 .toggle-arrow {
-    font-size: 1rem;
-    color: #666;
-    transition: transform 0.3s ease;
+    font-size: 1.1rem;
+    color: #6fb353;
+    transition: transform 0.3s ease, color 0.2s ease;
+    font-weight: bold;
+}
+
+.section-header:hover .toggle-arrow {
+    color: #5a9845;
 }
 
 .section-content {
-    padding: 20px 30px;
-    background-color: #f8f9fa;
-    border-top: 1px solid #e0e0e0;
+    padding: 24px 30px;
+    background-color: #fafbfa;
+    border-top: 1px solid #e8e8e8;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .score-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.score-item:hover {
+    background-color: rgba(111, 179, 83, 0.05);
 }
 
 .score-item span:first-child {
     font-weight: 500;
     color: #333;
+    font-size: 0.95rem;
+    flex: 1;
+}
+
+/* Final score items - gentle emphasis */
+.final-score-item {
+    background-color: rgba(111, 179, 83, 0.08);
+    border-left: 3px solid #6fb353;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.final-score-item span:first-child {
+    font-weight: 600;
+    color: #2d5a3d;
+    font-size: 1rem;
+}
+
+.final-score-item .star-display {
+    flex-shrink: 0;
+}
+
+.final-score-item .rating-star {
+    width: 22px;
+    height: 22px;
 }
 
 .percentage {
@@ -245,17 +342,23 @@
 .star-display {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .star-row {
     display: flex;
-    gap: 3px;
+    gap: 4px;
     align-items: center;
 }
 
 .rating-star {
     width: 20px;
     height: 20px;
+    transition: transform 0.2s ease;
+}
+
+.star-row:hover .rating-star {
+    transform: scale(1.1);
 }
 
 .progress-bar {
@@ -274,10 +377,13 @@
 }
 
 .description {
-    margin: 0;
+    margin: 24px 0 0 0;
+    padding-top: 20px;
+    border-top: 1px solid #e8e8e8;
     font-size: 0.9rem;
     color: #666;
-    line-height: 1.4;
+    line-height: 1.6;
+    font-style: italic;
 }
 
 /* Responsive design */
@@ -288,10 +394,23 @@
     }
     
     .hospital-info-card,
-    .emory-header,
     .overall-score-card {
         width: 100%;
         max-width: 500px;
+    }
+    
+    .hospital-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    
+    .hospital-name {
+        min-width: auto;
+    }
+    
+    .final-score-display {
+        width: 100%;
     }
     
     .hospital-content {
@@ -312,12 +431,21 @@
         padding: 10px;
     }
     
-    .emory-header h1 {
-        font-size: 2rem;
+    .hospital-name {
+        font-size: 1.8rem;
     }
     
-    .emory-header h2 {
-        font-size: 1.2rem;
+    .score-label {
+        font-size: 1rem;
+    }
+    
+    .rating-star-header {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .score-value {
+        font-size: 1rem;
     }
     
     .hospital-info-card {
@@ -329,12 +457,36 @@
         max-width: none;
     }
     
-    .section-header,
-    .section-content {
-        padding: 15px 20px;
+    .section-header {
+        padding: 18px 20px;
     }
-}
-
-.hospitalLogo{
-    height: 10rem;
+    
+    .section-header:hover {
+        padding-left: 22px;
+    }
+    
+    .section-content {
+        padding: 20px;
+    }
+    
+    .score-item {
+        padding: 10px;
+        margin-bottom: 14px;
+    }
+    
+    .final-score-item {
+        padding: 14px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .final-score-item .rating-star {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .description {
+        margin-top: 20px;
+        padding-top: 16px;
+    }
 }

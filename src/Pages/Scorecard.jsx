@@ -441,7 +441,7 @@ export function Scorecard(){
                                 {sortByGrade === true && " ↑ (Low-High)"}
                             </h6>
                         </button>
-                        <button
+                        {/* <button
                             onClick={handleCountySort}
                             className={sortByCounty !== null ? "active-sort" : ""}
                         >
@@ -450,7 +450,7 @@ export function Scorecard(){
                                 {sortByCounty === true && " ↑ (A-Z)"}
                                 {sortByCounty === false && " ↓ (Z-A)"}
                             </h6>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 
