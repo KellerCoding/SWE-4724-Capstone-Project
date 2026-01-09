@@ -7,7 +7,7 @@ import testData from "../data/finalData.json";
 import star from "../assets/Images/ratingStar.png";
 import dullStar from "../assets/Images/ratingStarGrey.png";
 
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 export default function GeorgiaMap() {
   const { hospitalId } = useParams();
@@ -92,9 +92,19 @@ export default function GeorgiaMap() {
   };
 
   return (
-    <div className="map-container">
-      {/* Sidebar */}
-      <div className="sidebar">
+    <div>
+      {/* Navigation Button */}
+      <div className="navigation-buttons">
+        <Link to="/scorecard">
+          <button className="back-button">
+            <h6>Back to Scorecard</h6>
+          </button>
+        </Link>
+      </div>
+      
+      <div className="map-container">
+        {/* Sidebar */}
+        <div className="sidebar">
         <input
           type="text"
           placeholder="Search location..."
@@ -223,6 +233,7 @@ export default function GeorgiaMap() {
         )}
         </Map>
       </div>
+    </div>
     </div>
   );
 }
