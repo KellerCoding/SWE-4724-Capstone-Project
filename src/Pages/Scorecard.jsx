@@ -235,7 +235,7 @@ export function Scorecard(){
                 <hr/>
             </div>
             <div className={"objective"}>
-                <p>Using data nonprofit hospitals must publicly report under a new law, Georgia Watch and community partners developed a methodology to score hospitals’ performance across a range of factors.</p>
+                <p>Using data nonprofit hospitals must publicly report under a new law, Georgia Watch and community partners developed a methodology to score hospitals' performance across a range of factors.</p>
                 <p>By translating complex financial data into actionable insights, the Scorecard will support a more sustainable healthcare marketplace that better serves patients, employers, and communities across Georgia while also allowing us to better understand the challenges nonprofit hospitals face.</p>
                 {filteredAndSortedHospitalData.length > 0 && (
                     <p className="result-count">
