@@ -308,7 +308,7 @@ export function HospitalScore() {
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Grade_Healthcare_Access)}</div>
                                     </div>
 
-                                    <p className="description">Reflects patient feedback on care quality and experience.</p>
+                                    <p className="description">Reflects care quality and experience.</p>
                                 </div>
                             )}
                         </div>
