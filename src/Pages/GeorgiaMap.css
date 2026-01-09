@@ -1,3 +1,33 @@
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.back-button {
+    background-color: #6fb353;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: MyFont, serif;
+}
+
+.back-button:hover {
+    background-color: #5a9845;
+}
+
+.back-button h6 {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .map-container {
     display: flex;
     gap: 12px;
