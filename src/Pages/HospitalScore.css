@@ -296,12 +296,33 @@
     background-color: #f0f2f0;
 }
 
+.section-header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
 .section-header h4 {
     margin: 0;
     font-size: 1.15rem;
     font-weight: 600;
     color: #2d3e2d;
     letter-spacing: 0.3px;
+}
+
+.header-score {
+    display: flex;
+    align-items: center;
+}
+
+.header-score .star-row {
+    gap: 3px;
+}
+
+.header-score .rating-star {
+    width: 18px;
+    height: 18px;
 }
 
 .toggle-arrow {
@@ -530,6 +551,15 @@
     
     .section-header:hover {
         padding-left: 22px;
+    }
+    
+    .section-header-content {
+        gap: 15px;
+    }
+    
+    .header-score .rating-star {
+        width: 16px;
+        height: 16px;
     }
     
     .section-content {
