@@ -347,6 +347,24 @@ html, body {
     text-align: center;
 }
 
+.export{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.export button h5{
+    margin: 0 10px;
+}
+
+.export button{
+    margin-top: 10px;
+}
+
+.excel h5{
+    color: #000000;
+}
 .right{
     justify-content: end;
     margin-top: 50px;
@@ -401,6 +419,15 @@ td:last-child {
     background-color: #6fb353;
 }
 
+export-buttons{
+    background-color: #6fb353;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 /* Active sort button styling */
 .active-sort {
     background-color: #6fb353 !important;
