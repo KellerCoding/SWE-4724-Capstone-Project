@@ -166,7 +166,10 @@ export function HospitalScore() {
                     <div className="score-sections">
                         <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('financial')}>
-                                <h4>Financial Transparency and Fiscal Health</h4>
+                                <div className="section-header-content">
+                                    <h4>Financial Transparency and Fiscal Health</h4>
+                                    <div className="header-score">{renderStars(hospitalData.financialTransparency?.Grade_Financial_Transparency)}</div>
+                                </div>
                                 <span className="toggle-arrow">{expandedSections.financial ? '▲' : '▼'}</span>
                             </div>
                             {expandedSections.financial && (
@@ -203,7 +206,10 @@ export function HospitalScore() {
 
                         <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('community')}>
-                                <h4>Community Benefits Spending</h4>
+                                <div className="section-header-content">
+                                    <h4>Community Benefits Spending</h4>
+                                    <div className="header-score">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
+                                </div>
                                 <span className="toggle-arrow">{expandedSections.community ? '▲' : '▼'}</span>
                             </div>
                             {expandedSections.community && (
@@ -233,7 +239,10 @@ export function HospitalScore() {
 
                         <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('healthcare')}>
-                                <h4>Healthcare Affordability and Billing Practices</h4>
+                                <div className="section-header-content">
+                                    <h4>Healthcare Affordability and Billing Practices</h4>
+                                    <div className="header-score">{renderStars(hospitalData.healthcareAffordability?.Grade_Healthcare_Affordability)}</div>
+                                </div>
                                 <span className="toggle-arrow">{expandedSections.healthcare ? '▲' : '▼'}</span>
                             </div>
                             {expandedSections.healthcare && (
@@ -270,7 +279,10 @@ export function HospitalScore() {
 
                         <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('accessibility')}>
-                                <h4>Healthcare Accessibility and Social Responsibility</h4>
+                                <div className="section-header-content">
+                                    <h4>Healthcare Accessibility and Social Responsibility</h4>
+                                    <div className="header-score">{renderStars(hospitalData.healthcareAccess?.Grade_Healthcare_Access)}</div>
+                                </div>
                                 <span className="toggle-arrow">{expandedSections.accessibility ? '▲' : '▼'}</span>
                             </div>
                             {expandedSections.accessibility && (
