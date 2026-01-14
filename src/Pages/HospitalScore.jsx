@@ -3,10 +3,12 @@ import { useNavigate } from "react-router-dom"
 import { Link } from "react-router-dom";
 import { useState } from "react"
 import { useParams } from "react-router-dom"
+import ReactComponent from "react"
 // import HospitalData from "../data/testData.json"
 import HospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
+import MapIcon from "../data/location_icon.png"
 
 export function HospitalScore() {
     const { hospitalId } = useParams()
@@ -132,7 +134,7 @@ export function HospitalScore() {
                         <p><strong>County:</strong> {hospitalInfo.county}</p>
                         <p><strong>Beds available:</strong> {hospitalInfo.bedSize}</p>
                         <p><strong>Hospital System:</strong> {hospitalInfo.hospitalSystem === 1 ? hospitalInfo.systemName : "N/A"}</p>
-                        <p><strong>Area Type:</strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
+                        <p><strong><img src={MapIcon} alt="Area Type" height={15} width={15}  /> :</strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
 
                         {/* <div className="services">
                             <p><strong>Services available:</strong></p>
@@ -150,7 +152,7 @@ export function HospitalScore() {
                             <p>{hospitalInfo.address}<br />{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
                         </div>
 
-                        <p className="more-info">More information will go here</p>
+                        {/*<p className="more-info">More information will go here</p>*/}
 
                         <button onClick={MapViewClick} className="map-button">See on Map</button>
                         {/* <button
@@ -207,7 +209,7 @@ export function HospitalScore() {
                         <div className="score-section">
                             <div className="section-header" onClick={() => toggleSection('community')}>
                                 <div className="section-header-content">
-                                    <h4>Community Benefits Spending</h4>
+                                    <h4>Community Benefit Spending</h4>
                                     <div className="header-score">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
                                 </div>
                                 <span className="toggle-arrow">{expandedSections.community ? '▲' : '▼'}</span>
