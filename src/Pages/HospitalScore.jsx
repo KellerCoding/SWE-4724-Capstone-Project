@@ -8,7 +8,7 @@ import ReactComponent from "react"
 import HospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
-import MapIcon from "../data/location_icon.png"
+import MapIcon from "../assets/Images/location_icon.png"
 
 export function HospitalScore() {
     const { hospitalId } = useParams()
@@ -134,7 +134,7 @@ export function HospitalScore() {
                         <p><strong>County:</strong> {hospitalInfo.county}</p>
                         <p><strong>Beds available:</strong> {hospitalInfo.bedSize}</p>
                         <p><strong>Hospital System:</strong> {hospitalInfo.hospitalSystem === 1 ? hospitalInfo.systemName : "N/A"}</p>
-                        <p><strong><img src={MapIcon} alt="Area Type" height={15} width={15}  /> :</strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
+                        <p><strong>📍:</strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
 
                         {/* <div className="services">
                             <p><strong>Services available:</strong></p>
@@ -154,7 +154,7 @@ export function HospitalScore() {
 
                         {/*<p className="more-info">More information will go here</p>*/}
 
-                        <button onClick={MapViewClick} className="map-button">See on Map</button>
+                        <button onClick={MapViewClick} className="map-button"><img src={MapIcon} alt="Area Type" height={30} width={30}  /></button>
                         {/* <button
                             onClick={() => flyToHospital(hospitalId)}
                             className="map-button"
