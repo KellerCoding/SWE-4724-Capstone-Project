@@ -3,9 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import {Scorecard} from "./Pages/Scorecard.jsx";
+import {Comparison} from "./Pages/Comparison.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
+    <App />
   </StrictMode>,
 )

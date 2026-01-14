@@ -13,9 +13,7 @@ import { HealthcareAccess } from "./Pages/HealthcareAccess.jsx"
 
 function App() {
 
-  return ( /*
-  Something pointless
-  */
+  return (
     <Router>
         <div width="100%" style={{ backgroundColor: "#fff" }}>
             <Navbar/>
