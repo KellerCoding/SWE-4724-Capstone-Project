@@ -378,6 +378,12 @@
       .right {
           margin-right: 50px;
       }
+      .ratingStar {
+          width: 15px; /* smaller star width */
+          height: 15px; /* smaller star height */
+          object-fit: contain;
+          vertical-align: middle;
+      }
   }
   
   @media (max-width: 768px) {
@@ -454,7 +460,6 @@
       }
       
       .right::before {
-          content: "Comparing 2 hospitals (Mobile View)";
           display: block;
           text-align: center;
           color: #6fb353;
