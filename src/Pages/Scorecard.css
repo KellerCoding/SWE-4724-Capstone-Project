@@ -37,13 +37,23 @@ html, body {
 }
 .objective{
     top:0;
-    padding-top: 50px;
+    padding: 50px 20px 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .objective p{
-    font-weight: bold;
-    color: #7A7A7A;
-    text-align: center;
-    text-shadow: 2px 2px 4px #f48810;
+    font-weight: 400;
+    color: #555;
+    text-align: left;
+    line-height: 1.7;
+    margin: 0 0 16px 0;
+    font-size: 1rem;
+}
+.objective p:last-of-type {
+    margin-bottom: 0;
+}
+.objective .result-count {
+    text-align: center !important;
 }
 .container{
     display: flex;
@@ -269,10 +279,12 @@ html, body {
 
 .result-count {
     margin-top: 10px;
-    font-size: 14px;
+    margin-bottom: 0;
+    font-size: 12px;
     color: #666;
     font-weight: normal;
     text-shadow: none;
+    text-align: center;
 }
 
 .sort button h6 {

@@ -17,6 +17,36 @@
     font-weight: bold;
 }
 
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.back-button {
+    background-color: #6fb353;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: MyFont, serif;
+}
+
+.back-button:hover {
+    background-color: #5a9845;
+}
+
+.back-button h6 {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .top-row {
     display: flex;
     justify-content: center;
@@ -251,12 +281,33 @@
     background-color: #f0f2f0;
 }
 
+.section-header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
 .section-header h4 {
     margin: 0;
     font-size: 1.15rem;
     font-weight: 600;
     color: #2d3e2d;
     letter-spacing: 0.3px;
+}
+
+.header-score {
+    display: flex;
+    align-items: center;
+}
+
+.header-score .star-row {
+    gap: 3px;
+}
+
+.header-score .rating-star {
+    width: 18px;
+    height: 18px;
 }
 
 .toggle-arrow {
@@ -309,6 +360,27 @@
     flex: 1;
 }
 
+.score-label-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
+.score-label-container > span:first-child {
+    font-weight: 500;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.metric-description {
+    font-size: 0.75rem;
+    color: #666;
+    font-style: italic;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
 /* Final score items - gentle emphasis */
 .final-score-item {
     background-color: rgba(111, 179, 83, 0.08);
@@ -318,6 +390,7 @@
     margin-bottom: 20px;
 }
 
+.final-score-item .score-label-container > span:first-child,
 .final-score-item span:first-child {
     font-weight: 600;
     color: #2d5a3d;
@@ -465,6 +538,15 @@
         padding-left: 22px;
     }
     
+    .section-header-content {
+        gap: 15px;
+    }
+    
+    .header-score .rating-star {
+        width: 16px;
+        height: 16px;
+    }
+    
     .section-content {
         padding: 20px;
     }
@@ -472,6 +554,22 @@
     .score-item {
         padding: 10px;
         margin-bottom: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .score-label-container {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .metric-description {
+        font-size: 0.7rem;
+    }
+    
+    .score-item .star-display {
+        align-self: flex-start;
+        margin-top: 4px;
     }
     
     .final-score-item {
