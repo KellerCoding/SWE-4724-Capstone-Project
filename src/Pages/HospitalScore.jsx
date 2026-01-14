@@ -263,14 +263,16 @@ export function HospitalScore(){
                                         <span>Demographic Alignment</span>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Demographic_Alignment)}</div>
                                     </div>
+                                    <p className="description">Measures the portion of patients who are on Medicaid or are otherwise low-income.</p>
+
                                     <div className="score-item">
                                         <span>MIUR Score</span>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.MIUR_score)}</div>
                                     </div>
-                                    <div className="score-item">
+                                    {/*<div className="score-item">
                                         <span>LIUR Score</span>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.LIUR_score)}</div>
-                                    </div>
+                                    </div>*/}
                                     <p className="description">Measures the ratio of CEO compensation to the average direct patient services salary.</p>
 
                                     <div className="score-item">
