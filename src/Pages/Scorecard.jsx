@@ -436,7 +436,7 @@ export function Scorecard(){
                             className={sortByGrade !== null ? "active-sort" : ""}
                         >
                             <h6>
-                                Grade / Score 
+                                Score
                                 {sortByGrade === false && " ↓ (High-Low)"}
                                 {sortByGrade === true && " ↑ (Low-High)"}
                             </h6>
