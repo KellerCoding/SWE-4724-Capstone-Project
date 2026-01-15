@@ -330,7 +330,7 @@
   .comparison-table th,
   .comparison-table td {
       padding: 12px;
-      border: 1px solid #6fb353;
+      border: 1px solid #000000;
       text-align: center;
   }
 
@@ -469,8 +469,10 @@
       .comparison-table {
           width: 100%;
           font-size: 14px;
+          font: MyFont;
           display: table;
           table-layout: fixed;
+          border: 10px solid #000000;
       }
       
       .comparison-table th,
@@ -557,6 +559,8 @@
       .comparison-table {
           width: 100%;
           font-size: 12px;
+          font: MyFont;
+          border: 15px solid #000000;
       }
       
       .comparison-table th,
@@ -593,6 +597,7 @@
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
+          border: 20px solid #ccc;
       }
       
       .metricRow {
