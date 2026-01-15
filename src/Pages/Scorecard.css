@@ -303,7 +303,7 @@ html, body {
 .right{
     justify-content: end;
     margin-top: 50px;
-    margin-left:300px;
+    margin-left:100px;
     margin-right: 0;
     float: none;
     flex: 1;
@@ -324,15 +324,15 @@ html, body {
 }
 
 .th1{
-    width: 380px;
+    width: 550px;
     text-align: left;
 }
 .th2{
-    width: 160px;
+    width: 225px;
 }
 
 .th3{
-    width: 120px;
+    width: 150px;
     text-align: center;
 }
 
