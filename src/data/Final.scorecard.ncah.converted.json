@@ -1,3 +1,7 @@
+//areaType 0 = urban
+//areaType 1 = rural
+//hospitalSystem 0 = no System
+
 {
   "1": {
     "hospitalInfo": {
@@ -19,6 +23,8 @@
       "Transparency": 0,
       "Fiscal_Health": 1,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
       "Grade_Financial_Transparency": 1
     },
     "commBenefitSpending": {
@@ -63,6 +69,8 @@
       "Transparency": 0,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -105,8 +113,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -149,8 +159,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -193,8 +205,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 2,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -237,9 +251,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 3,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 2,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -281,8 +297,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 2,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -325,8 +343,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -371,6 +391,8 @@
       "Transparency": 0,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -413,8 +435,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -457,8 +481,10 @@
     },
     "financialTransparency": {
       "Transparency": 5,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -501,8 +527,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -545,8 +573,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 4,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -589,9 +619,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -612,7 +644,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "15": {
@@ -633,8 +665,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -679,6 +713,8 @@
       "Transparency": 0,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -723,6 +759,8 @@
       "Transparency": 0,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 2,
+      "Time_To_Fill_Vacancy": 2,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -765,8 +803,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -811,6 +851,8 @@
       "Transparency": 0,
       "Fiscal_Health": 1,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 2,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -853,9 +895,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 2
+      "Vacant_Full_Time_Equivalent": 2,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -897,8 +941,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -941,9 +987,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -985,9 +1033,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1008,7 +1058,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "24": {
@@ -1029,8 +1079,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 3,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1073,8 +1125,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1117,8 +1171,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1161,8 +1217,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1205,8 +1263,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1249,9 +1309,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1293,9 +1355,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 2
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 2,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1337,9 +1401,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 2
+      "Vacant_Full_Time_Equivalent": 2,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1360,7 +1426,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "32": {
@@ -1381,9 +1447,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 2
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 2,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1404,7 +1472,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "33": {
@@ -1425,9 +1493,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1469,9 +1539,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1492,7 +1564,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "35": {
@@ -1513,8 +1585,10 @@
     },
     "financialTransparency": {
       "Transparency": 5,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 2,
+      "Time_To_Fill_Vacancy": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1557,8 +1631,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1601,8 +1677,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 1,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1645,9 +1723,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1689,9 +1769,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -1733,8 +1815,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1777,8 +1861,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1821,8 +1907,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1865,8 +1953,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 3,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1909,8 +1999,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 3,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1953,8 +2045,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 3,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1997,8 +2091,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 3,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2041,8 +2137,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 3,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2085,8 +2183,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2129,8 +2229,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2173,9 +2275,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2196,7 +2300,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "51": {
@@ -2217,8 +2321,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2261,9 +2367,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2305,9 +2413,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 2,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2328,7 +2438,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "54": {
@@ -2349,9 +2459,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2393,9 +2505,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2416,7 +2530,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 3
     }
   },
   "56": {
@@ -2437,9 +2551,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2481,8 +2597,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2525,9 +2643,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2548,7 +2668,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 3
     }
   },
   "59": {
@@ -2569,8 +2689,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2613,8 +2735,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2657,8 +2781,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2701,8 +2827,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2745,9 +2873,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
-      "Grade_Financial_Transparency": 4
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -2768,7 +2898,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 3
     }
   },
   "64": {
@@ -2789,8 +2919,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2833,8 +2965,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -2879,6 +3013,8 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2923,6 +3059,8 @@
       "Transparency": 0,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2967,6 +3105,8 @@
       "Transparency": 0,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -3011,6 +3151,8 @@
       "Transparency": 0,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
+      "Vacant_Full_Time_Equivalent": 3,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -3053,8 +3195,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3097,8 +3241,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3141,9 +3287,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 5,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3185,8 +3333,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3229,8 +3379,10 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
+      "Vacant_Full_Time_Equivalent": 5,
+      "Time_To_Fill_Vacancy": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3273,9 +3425,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3296,7 +3450,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "76": {
@@ -3317,9 +3471,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3340,7 +3496,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "77": {
@@ -3361,9 +3517,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3384,7 +3542,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "78": {
@@ -3405,9 +3563,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3449,9 +3609,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3472,7 +3634,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "80": {
@@ -3493,9 +3655,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3516,7 +3680,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "81": {
@@ -3537,9 +3701,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3581,9 +3747,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3604,7 +3772,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   },
   "83": {
@@ -3625,9 +3793,11 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 5,
+      "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Grade_Financial_Transparency": 3
+      "Vacant_Full_Time_Equivalent": 1,
+      "Time_To_Fill_Vacancy": 1,
+      "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3648,7 +3818,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 2
     }
   }
 }
