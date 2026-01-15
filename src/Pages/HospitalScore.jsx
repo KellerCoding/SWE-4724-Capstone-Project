@@ -8,7 +8,9 @@ import ReactComponent from "react"
 import HospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
-import MapIcon from "../assets/Images/location_icon.png"
+import MapIcon from "../assets/Images/clearmapicon.webp"
+import BedIcon from "../assets/Images/bedicon.png"
+import HospitalIcon from "../assets/Images/HospitalIcon.png"
 
 export function HospitalScore() {
     const { hospitalId } = useParams()
@@ -130,12 +132,22 @@ export function HospitalScore() {
                 <div className="left-sidebar">
                     <div className="about-card">
                         <h3>About</h3>
-                        <p><strong><a href={hospitalInfo.website} target="_blank">View Hospital Transparency Info</a></strong></p>
-                        <p><strong>County:</strong> {hospitalInfo.county}</p>
-                        <p><strong>Beds available:</strong> {hospitalInfo.bedSize}</p>
-                        <p><strong>Hospital System:</strong> {hospitalInfo.hospitalSystem === 1 ? hospitalInfo.systemName : "N/A"}</p>
-                        <p><strong>📍:</strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
+                        <div className="address">
+                            <p><strong>Address:</strong></p>
+                            <p>{hospitalInfo.address}<br />{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
+                        </div>
 
+                        <p> <strong>{hospitalInfo.county} County</strong> </p>
+                        <p><strong><img className="mapicon" src={MapIcon} alt="Area Type" height={25} width={25}  /> </strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
+
+                        {hospitalInfo.bedSize && <p><strong><img className="mapicon" src={BedIcon} alt="Area Type" height={28} width={28}  /> </strong> {hospitalInfo.bedSize} Total Beds</p>}
+                        {hospitalInfo.hospitalSystem===1 && <p><strong><img className="mapicon" src={HospitalIcon} alt="Area Type" height={24} width={28}  />    </strong> {hospitalInfo.systemName}</p>}
+                        <br/>
+                        <p><strong>{hospitalInfo.criticalAccess===1 ? "Critical Access Hospital" : "Non-Critical Access Hospital" }</strong></p>
+
+                        <br/>
+                        <p><strong><a href={hospitalInfo.website} target="_blank">View Hospital Transparency Info</a></strong></p>
+                        <br/>
                         {/* <div className="services">
                             <p><strong>Services available:</strong></p>
                             <ul>
@@ -147,14 +159,11 @@ export function HospitalScore() {
                             </ul>
                         </div> */}
 
-                        <div className="address">
-                            <p><strong>Address:</strong></p>
-                            <p>{hospitalInfo.address}<br />{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
-                        </div>
+
 
                         {/*<p className="more-info">More information will go here</p>*/}
 
-                        <button onClick={MapViewClick} className="map-button"><img src={MapIcon} alt="Area Type" height={30} width={30}  /></button>
+                        <button onClick={MapViewClick} className="map-button">See on Map</button>
                         {/* <button
                             onClick={() => flyToHospital(hospitalId)}
                             className="map-button"

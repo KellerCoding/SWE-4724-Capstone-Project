@@ -25,6 +25,12 @@
     gap: 15px;
 }
 
+.mapicon{
+    position: relative;
+    top: 5px;
+
+}
+
 .back-button {
     background-color: #6fb353;
     color: white;
