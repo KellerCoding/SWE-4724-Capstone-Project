@@ -1097,8 +1097,8 @@
       "bedSize": 304,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "34.2600",
-      "lng": "-85.1789"
+      "lat": 34.2600,
+      "lng": -85.1789
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -1144,8 +1144,8 @@
       "bedSize": 140,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.0898",
-      "lng": "-83.2445"
+      "lat": 33.0898,
+      "lng": -83.2445
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -1191,8 +1191,8 @@
       "bedSize": 446,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "33.8311",
-      "lng": "-84.3308"
+      "lat": 33.8311,
+      "lng": -84.3308
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2084,8 +2084,8 @@
       "bedSize": 332,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "34.23137",
-      "lng": "-84.466667"
+      "lat": 34.23137,
+      "lng": -84.466667
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2178,8 +2178,8 @@
       "bedSize": 388,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "33.96392",
-      "lng": "-84.01746"
+      "lat": 33.96392,
+      "lng": -84.01746
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2225,8 +2225,8 @@
       "bedSize": 691,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "31.59126",
-      "lng": "-84.15842"
+      "lat": 31.59126,
+      "lng": -84.15842
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2272,8 +2272,8 @@
       "bedSize": 76,
       "sizeGroup": "Small",
       "hoursOperation": "Not 24/7",
-      "lat": "32.10195",
-      "lng": "-84.24769"
+      "lat": 32.10195,
+      "lng": -84.24769
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2319,8 +2319,8 @@
       "bedSize": 427,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "34.06419",
-      "lng": "-83.40512"
+      "lat": 34.06419,
+      "lng": -83.40512
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2366,8 +2366,8 @@
       "bedSize": 812,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "33.62389",
-      "lng": "-82.01793"
+      "lat": 33.62389,
+      "lng": -82.01793
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2460,8 +2460,8 @@
       "bedSize": 100,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "32.53474",
-      "lng": "-84.95119"
+      "lat": 32.53474,
+      "lng": -84.95119
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2507,8 +2507,8 @@
       "bedSize": 310,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "33.45278",
-      "lng": "-84.50844"
+      "lat": 33.45278,
+      "lng": -84.50844
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2554,8 +2554,8 @@
       "bedSize": 215,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.51143",
-      "lng": "-84.22714"
+      "lat": 33.51143,
+      "lng": -84.22714
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2601,8 +2601,8 @@
       "bedSize": 643,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": 33.8091461,
-      "lng": -84.3954735
+      "lat": 33.80914,
+      "lng": -84.39547
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2648,8 +2648,8 @@
       "bedSize": 62,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "34.44638",
-      "lng": "-84.44718"
+      "lat": 34.44638,
+      "lng": -84.44718
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2695,8 +2695,8 @@
       "bedSize": 217,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.35808",
-      "lng": "-84.75522"
+      "lat": 33.35808,
+      "lng": -84.75522
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2742,8 +2742,8 @@
       "bedSize": 107,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.60156",
-      "lng": "-83.84784"
+      "lat": 33.60156,
+      "lng": -83.84784
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2789,8 +2789,8 @@
       "bedSize": 161,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.68110",
-      "lng": "-84.00130"
+      "lat": 33.68110,
+      "lng": -84.00130
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2836,8 +2836,8 @@
       "bedSize": 77,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "33.79899",
-      "lng": "-83.75029"
+      "lat": 33.79899,
+      "lng": -83.75029
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2883,8 +2883,8 @@
       "bedSize": 418,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "30.86281",
-      "lng": "-83.28710"
+      "lat": 30.86281,
+      "lng": -83.28710
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2930,8 +2930,8 @@
       "bedSize": 51,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "31.20326",
-      "lng": "-83.23854"
+      "lat": 31.20326,
+      "lng": -83.23854
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -2977,8 +2977,8 @@
       "bedSize": 40,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "30.7319",
-      "lng": "-81.5477"
+      "lat": 30.7319,
+      "lng": -81.5477
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3024,8 +3024,8 @@
       "bedSize": 300,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "31.1490",
-      "lng": "-81.4918"
+      "lat": 31.1490,
+      "lng": -81.4918
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3071,8 +3071,8 @@
       "bedSize": 384,
       "sizeGroup": "Large",
       "hoursOperation": "Not 24/7",
-      "lat": "32.0280",
-      "lng": "-81.0998"
+      "lat": 32.0280,
+      "lng": -81.0998
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -3118,8 +3118,8 @@
       "bedSize": 384,
       "sizeGroup": "Large",
       "hoursOperation": "Not 24/7",
-      "lat": "31.99",
-      "lng": "81.16"
+      "lat": 31.98585,
+      "lng": -81.15541
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3165,8 +3165,8 @@
       "bedSize": 181,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.9509",
-      "lng": "-83.3741"
+      "lat": 33.9509,
+      "lng": -83.3741
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3212,8 +3212,8 @@
       "bedSize": 56,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "34.3607",
-      "lng": "-83.1049"
+      "lat": 34.3607,
+      "lng": -83.1049
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3259,8 +3259,8 @@
       "bedSize": 53,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "33.7319",
-      "lng": "-84.9199"
+      "lat": 33.7319,
+      "lng": -84.9199
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3306,8 +3306,8 @@
       "bedSize": 196,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.5790",
-      "lng": "-85.0767"
+      "lat": 33.5790,
+      "lng": -85.0767
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3353,8 +3353,8 @@
       "bedSize": 45,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "34.8753",
-      "lng": "-83.7600"
+      "lat": 34.8753,
+      "lng": -83.7600
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3400,8 +3400,8 @@
       "bedSize": 52,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "32.8974",
-      "lng": "-84.7672"
+      "lat": 32.8974,
+      "lng": -84.7672
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3447,8 +3447,8 @@
       "bedSize": 52,
       "sizeGroup": "Small",
       "hoursOperation":"Not 24/7",
-      "lat": "32.8974",
-      "lng": "-84.7672"
+      "lat": 32.8974,
+      "lng": -84.7672
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3541,8 +3541,8 @@
       "bedSize": 108,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.7574",
-      "lng": "-84.7471"
+      "lat": 33.7574,
+      "lng": -84.7471
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3635,8 +3635,8 @@
       "bedSize": 478,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "33.4700",
-      "lng": "-82.0109"
+      "lat": 33.4700,
+      "lng": -82.0109
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3729,8 +3729,8 @@
       "bedSize": 294,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.9129",
-      "lng": "-84.9370"
+      "lat": 33.9129,
+      "lng": -84.9370
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3776,8 +3776,8 @@
       "bedSize": 160,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.2424",
-      "lng": "-84.2705"
+      "lat": 33.2424,
+      "lng": -84.2705
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3823,8 +3823,8 @@
       "bedSize": 276,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.0298",
-      "lng": "-85.0269"
+      "lat": 33.0298,
+      "lng": -85.0269
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3870,8 +3870,8 @@
       "bedSize": 55,
       "sizeGroup": "Small",
       "hoursOperation": "Not 24/7",
-      "lat": "33.8993",
-      "lng": "-84.4804"
+      "lat": 33.8993,
+      "lng": -84.4804
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3917,8 +3917,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "32.4072",
-      "lng": "-82.0657"
+      "lat": 32.4072,
+      "lng": -82.0657
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -3966,8 +3966,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.0342",
-      "lng": "-82.7642"
+      "lat": 31.0342,
+      "lng": -82.7642
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4015,8 +4015,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "32.3646",
-      "lng": "-81.3203"
+      "lat": 32.3646,
+      "lng": -81.3203
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4064,8 +4064,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "34.1137",
-      "lng": "-82.8750"
+      "lat": 34.1137,
+      "lng": -82.8750
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4113,8 +4113,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.3145",
-      "lng": "-83.6865"
+      "lat": 33.3145,
+      "lng": -83.6865
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4162,8 +4162,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.8573",
-      "lng": "-82.6070"
+      "lat": 31.8573,
+      "lng": -82.6070
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4211,8 +4211,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.8398",
-      "lng": "-81.6010"
+      "lat": 31.8398,
+      "lng": -81.6010
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4260,8 +4260,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.1778",
-      "lng": "-84.7352"
+      "lat": 31.1778,
+      "lng": -84.7352
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4309,8 +4309,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.0316",
-      "lng": "-83.9454"
+      "lat": 33.0316,
+      "lng": -83.9454
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -4358,8 +4358,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.5691",
-      "lng": "-83.4715"
+      "lat": 33.5691,
+      "lng": -83.4715
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4407,8 +4407,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.7286",
-      "lng": "-82.7427"
+      "lat": 33.7286,
+      "lng": -82.7427
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4456,8 +4456,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "30.7952",
-      "lng": "-83.5591"
+      "lat": 30.7952,
+      "lng": -83.5591
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4505,8 +4505,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.2300",
-      "lng": "-84.2053"
+      "lat": 31.2300,
+      "lng": -84.2053
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4554,8 +4554,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "32.6050",
-      "lng": "-83.7593"
+      "lat": 32.6050,
+      "lng": -83.7593
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4603,8 +4603,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.3359",
-      "lng": "-83.3712"
+      "lat": 33.3359,
+      "lng": -83.3712
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4652,8 +4652,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "34.4629",
-      "lng": "-83.9716"
+      "lat": 34.4629,
+      "lng": -83.9716
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4701,8 +4701,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.5120",
-      "lng": "-83.8402"
+      "lat": 31.5120,
+      "lng": -83.8402
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4750,8 +4750,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.5233",
-      "lng": "-82.5018"
+      "lat": 33.5233,
+      "lng": -82.5018
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4799,8 +4799,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "31.0426",
-      "lng": "-83.0862"
+      "lat": 31.0426,
+      "lng": -83.0862
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4848,8 +4848,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.4816",
-      "lng": "-83.2422"
+      "lat": 33.4816,
+      "lng": -83.2422
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4897,8 +4897,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.7169",
-      "lng": "-85.1448"
+      "lat": 33.7169,
+      "lng": -85.1448
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4946,8 +4946,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "34.9468",
-      "lng": "-83.7538"
+      "lat": 34.9468,
+      "lng": -83.7538
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -4995,8 +4995,8 @@
       "bedSize": "",
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": "33.3039",
-      "lng": "-83.9777"
+      "lat": 33.3039,
+      "lng": -83.9777
     },
     "financialTransparency": {
       "Transparency": 0,
