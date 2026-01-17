@@ -39,10 +39,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -70,31 +70,31 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Vacant_Full_Time_Equivalent": 0,
+      "Time_To_Fill_Vacancy": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "3": {
@@ -137,10 +137,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -165,6 +165,7 @@
       "hoursOperation": "24/7",
       "lat": 31.1809,
       "lng": -83.7869
+
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -186,13 +187,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "5": {
@@ -235,7 +236,7 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
       "Pay_Equity": 1,
       "Grade_Healthcare_Access": 3
@@ -286,7 +287,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -382,9 +383,9 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -413,31 +414,31 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Vacant_Full_Time_Equivalent": 0,
+      "Time_To_Fill_Vacancy": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "10": {
@@ -482,7 +483,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -531,7 +532,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -578,10 +579,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -629,7 +630,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -676,13 +677,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "15": {
@@ -707,31 +708,31 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Vacant_Full_Time_Equivalent": 0,
+      "Time_To_Fill_Vacancy": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "16": {
@@ -776,7 +777,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
@@ -823,13 +824,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "18": {
@@ -872,13 +873,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "19": {
@@ -970,13 +971,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "21": {
@@ -1019,13 +1020,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "22": {
@@ -1070,8 +1071,8 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
@@ -1119,11 +1120,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "24": {
@@ -1166,10 +1167,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -1215,10 +1216,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1264,10 +1265,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1313,10 +1314,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1339,8 +1340,8 @@
       "bedSize": 304,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "34.2600",
-      "lng": "-85.1789"
+      "lat": 34.2600,
+      "lng": -85.1789
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -1362,10 +1363,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1388,8 +1389,8 @@
       "bedSize": 140,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.0898",
-      "lng": "-83.2445"
+      "lat": 33.0898,
+      "lng": -83.2445
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -1411,13 +1412,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "30": {
@@ -1437,8 +1438,8 @@
       "bedSize": 446,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "33.8311",
-      "lng": "-84.3308"
+      "lat": 33.8311,
+      "lng": -84.3308
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -1460,10 +1461,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1509,10 +1510,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1558,13 +1559,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "33": {
@@ -1607,13 +1608,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "34": {
@@ -1656,13 +1657,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "35": {
@@ -1705,10 +1706,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -1754,13 +1755,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "37": {
@@ -1803,13 +1804,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "38": {
@@ -1852,10 +1853,10 @@
       "Grade_Healthcare_Affordability": 5
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1901,13 +1902,13 @@
       "Grade_Healthcare_Affordability": 1
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "40": {
@@ -1950,9 +1951,9 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
@@ -1999,13 +2000,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "42": {
@@ -2048,10 +2049,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2097,10 +2098,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2146,13 +2147,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "45": {
@@ -2195,10 +2196,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2244,13 +2245,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "47": {
@@ -2293,10 +2294,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2342,13 +2343,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "49": {
@@ -2391,13 +2392,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "50": {
@@ -2440,13 +2441,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "51": {
@@ -2466,8 +2467,8 @@
       "bedSize": 388,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "33.96392",
-      "lng": "-84.01746"
+      "lat": 33.96392,
+      "lng": -84.01746
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2489,10 +2490,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2515,8 +2516,8 @@
       "bedSize": 691,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "31.59126",
-      "lng": "-84.15842"
+      "lat": 31.59126,
+      "lng": -84.15842
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2538,13 +2539,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "53": {
@@ -2564,8 +2565,8 @@
       "bedSize": 76,
       "sizeGroup": "Small",
       "hoursOperation": "Not 24/7",
-      "lat": "32.10195",
-      "lng": "-84.24769"
+      "lat": 32.10195,
+      "lng": -84.24769
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2587,13 +2588,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "54": {
@@ -2613,8 +2614,8 @@
       "bedSize": 427,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "34.06419",
-      "lng": "-83.40512"
+      "lat": 34.06419,
+      "lng": -83.40512
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2636,10 +2637,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 3,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2662,8 +2663,8 @@
       "bedSize": 812,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": "33.62389",
-      "lng": "-82.01793"
+      "lat": 33.62389,
+      "lng": -82.01793
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2685,10 +2686,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -2734,10 +2735,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2760,8 +2761,8 @@
       "bedSize": 100,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": "32.53474",
-      "lng": "-84.95119"
+      "lat": 32.53474,
+      "lng": -84.95119
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2783,10 +2784,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 1,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
@@ -2809,8 +2810,8 @@
       "bedSize": 310,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": "33.45278",
-      "lng": "-84.50844"
+      "lat": 33.45278,
+      "lng": -84.50844
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2832,13 +2833,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "59": {
@@ -2858,8 +2859,8 @@
       "bedSize": 215,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": "33.51143",
-      "lng": "-84.22714"
+      "lat": 33.51143,
+      "lng": -84.22714
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2881,13 +2882,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "60": {
@@ -2930,13 +2931,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "61": {
@@ -2979,10 +2980,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3028,10 +3029,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3077,10 +3078,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3126,10 +3127,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3175,10 +3176,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3224,13 +3225,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "67": {
@@ -3273,13 +3274,13 @@
       "Grade_Healthcare_Affordability": 5
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "68": {
@@ -3322,10 +3323,10 @@
       "Grade_Healthcare_Affordability": 5
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3371,10 +3372,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3420,10 +3421,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3469,10 +3470,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 1,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3518,10 +3519,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 4,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3567,7 +3568,7 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
       "Pay_Equity": 1,
       "Grade_Healthcare_Access": 3
@@ -3616,10 +3617,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3665,10 +3666,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3714,10 +3715,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3765,7 +3766,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -3812,10 +3813,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3912,8 +3913,8 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
@@ -4010,11 +4011,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "83": {
@@ -4059,11 +4060,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "84": {
@@ -4206,11 +4207,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "87": {
@@ -4255,8 +4256,8 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
