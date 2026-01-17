@@ -272,13 +272,7 @@ export function Comparison() {
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - LIUR Score</td>
-              {displayedHospitals.map((name, i) => {
-                const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.healthcareAccess?.LIUR_score)}</td>;
-              })}
-            </tr>
+
 
             <tr className={styles.gradeRow}>
               <td className={styles.metricRow}>Healthcare Access - Pay Equity</td>
