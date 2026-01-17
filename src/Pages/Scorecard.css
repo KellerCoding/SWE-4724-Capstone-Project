@@ -28,7 +28,7 @@ html, body {
     padding-top: 30px;
     color: #FFFFFF;
     text-align: center;
-    font-size: xxx-large;
+    font-size: larger;
 }
 .banner hr{
     color: #FFFFFF;
@@ -68,7 +68,7 @@ html, body {
     display: block;
     align-items: center;
     margin-top:60px;
-    margin-left:50px;
+    margin-left:15px;
     position: sticky;
     top: 20px;
     align-self: flex-start;
@@ -156,6 +156,7 @@ html, body {
     max-height: 50px;
     margin: 10px;
     text-align: center;
+    margin-left: 0;
 }
 
 .filter{
@@ -168,7 +169,6 @@ html, body {
 
 .filter-dropdown-container {
     position: relative;
-    margin: 10px 0;
 }
 
 .filter button.active-filter {
@@ -183,7 +183,7 @@ html, body {
 }
 
 .filter-dropdown {
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 0;
     right: 0;
@@ -368,7 +368,7 @@ html, body {
 .right{
     justify-content: end;
     margin-top: 50px;
-    margin-left:300px;
+    margin-left:100px;
     margin-right: 0;
     float: none;
     flex: 1;
@@ -389,15 +389,15 @@ html, body {
 }
 
 .th1{
-    width: 380px;
+    width: 550px;
     text-align: left;
 }
 .th2{
-    width: 160px;
+    width: 225px;
 }
 
 .th3{
-    width: 120px;
+    width: 150px;
     text-align: center;
 }
 
@@ -596,10 +596,14 @@ export-buttons{
     
     .left {
         margin-left: 0;
+        align-self: center;
     }
-    
+
     .right {
-        margin-right: 0;
+        margin-left: 0;
+    }
+    .left button {
+        margin-left: 0;
     }
 }
 
@@ -786,7 +790,7 @@ export-buttons{
     
     .left {
         padding: 0 10px;
-        position: static;
+        position: relative;
         max-height: none;
         overflow-y: visible;
     }
