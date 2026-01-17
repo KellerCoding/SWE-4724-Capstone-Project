@@ -476,6 +476,7 @@
       }
       
       .right::before {
+          content: "Comparing 2 hospitals (Mobile View)";
           display: block;
           text-align: center;
           color: #6fb353;
