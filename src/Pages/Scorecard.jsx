@@ -13,6 +13,7 @@ export function Scorecard(){
     const [sortByName, setSortByName] = useState(null) // null, true (A-Z), false (Z-A)
     const [sortByGrade, setSortByGrade] = useState(null) // null, true (Low-High), false (High-Low)
     const [sortByCounty, setSortByCounty] = useState(null) // null, true (A-Z), false (Z-A)
+    const [sortBySystem, setSortBySystem] = useState(null) // null, true (A-Z), false (Z-A)
     const [currentPage, setCurrentPage] = useState(1)
     const [searchQuery, setSearchQuery] = useState("")
     const [selectedCity, setSelectedCity] = useState("")
@@ -56,6 +57,21 @@ export function Scorecard(){
         }
         setSortByGrade(null)
         setSortByCounty(null)
+        setSortBySystem(null)
+        setCurrentPage(1)
+    }
+
+    const handleHospitalSystemSort = () => {
+        if (sortBySystem === null) {
+            setSortBySystem(true) // First click: ascending (A-Z)
+        } else if (sortBySystem === true) {
+            setSortBySystem(false) // Second click: descending (Z-A)
+        } else {
+            setSortBySystem(null) // Third click: no sort
+        }
+        setSortByName(null)
+        setSortByGrade(null)
+        setSortByCounty(null)
         setCurrentPage(1)
     }
     
@@ -69,6 +85,7 @@ export function Scorecard(){
         }
         setSortByName(null)
         setSortByCounty(null)
+        setSortBySystem(null)
         setCurrentPage(1)
     }
     
@@ -82,6 +99,7 @@ export function Scorecard(){
         }
         setSortByName(null)
         setSortByGrade(null)
+        setSortBySystem(null)
         setCurrentPage(1)
     }
     
@@ -153,6 +171,16 @@ export function Scorecard(){
                 const comparison = a.hospitalInfo.name.localeCompare(b.hospitalInfo.name)
                 return sortByName ? comparison : -comparison // true = ascending, false = descending
             })
+        } else if (sortBySystem !== null) {
+            entries = entries.sort(([, a], [, b]) => {
+                // Get system name, treating "0", null, undefined, or "N/A" as empty string for sorting
+                const systemA = a.hospitalInfo?.systemName || ""
+                const systemB = b.hospitalInfo?.systemName || ""
+                const systemNameA = (systemA === "0" || systemA === "N/A" || !systemA) ? "" : systemA
+                const systemNameB = (systemB === "0" || systemB === "N/A" || !systemB) ? "" : systemB
+                const comparison = systemNameA.localeCompare(systemNameB)
+                return sortBySystem ? comparison : -comparison // true = ascending, false = descending
+            })
         } else if (sortByGrade !== null) {
             entries = entries.sort(([, a], [, b]) => {
                 const gradeA = a.finalScore?.Grade_Final ?? 0
@@ -169,12 +197,12 @@ export function Scorecard(){
         }
         
         return entries
-    }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty])
+    }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty, sortBySystem])
     
     // Reset to page 1 when filters or sorting change
     useEffect(() => {
         setCurrentPage(1)
-    }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty])
+    }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty, sortBySystem])
     
     // Calculate pagination
     const totalPages = Math.ceil(filteredAndSortedHospitalData.length / itemsPerPage)
@@ -431,6 +459,16 @@ export function Scorecard(){
                                 {sortByName === false && " ↓ (Z-A)"}
                             </h6>
                         </button>
+                        <button 
+                            onClick={handleHospitalSystemSort}
+                            className={sortBySystem !== null ? "active-sort" : ""}
+                        >
+                            <h6>
+                                Hospital System 
+                                {sortBySystem === true && " ↑ (A-Z)"}
+                                {sortBySystem === false && " ↓ (Z-A)"}
+                            </h6>
+                        </button>
                         <button
                             onClick={handleGradeSort}
                             className={sortByGrade !== null ? "active-sort" : ""}
@@ -441,6 +479,7 @@ export function Scorecard(){
                                 {sortByGrade === true && " ↑ (Low-High)"}
                             </h6>
                         </button>
+
                         {/* <button
                             onClick={handleCountySort}
                             className={sortByCounty !== null ? "active-sort" : ""}
