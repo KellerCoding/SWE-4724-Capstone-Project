@@ -552,7 +552,7 @@ export function Scorecard(){
                             <tr>
                                 <th className={"th0"}></th>
                                 <th className={"th1"}>Hospital</th>
-                                <th className={"th2"}>Grade</th>
+                                <th className={"th2"}>Score</th>
                                 <th className={"th3"}>Details</th>
                             </tr>
                         </thead>
