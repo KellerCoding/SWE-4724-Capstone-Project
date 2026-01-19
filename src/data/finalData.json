@@ -2321,7 +2321,7 @@
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
       "lat": 34.23137,
-      "lng": -84.466667
+      "lng": -84.46667
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2908,8 +2908,8 @@
       "bedSize": 643,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": 33.8091461,
-      "lng": -84.3954735
+      "lat": 33.80914,
+      "lng": -84.39547
     },
     "financialTransparency": {
       "Transparency": 5,

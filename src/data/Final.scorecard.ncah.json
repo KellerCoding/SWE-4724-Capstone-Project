@@ -14,14 +14,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 64,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.7767,
+      "lng": -82.3441
+      
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 1,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 3,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -36,10 +39,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -60,35 +63,37 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 40,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.08365,
+      "lng": -82.01269
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Staffing_Responsiveness": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "3": {
@@ -106,14 +111,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 82,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.4861,
+      "lng": -82.8608
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -128,10 +135,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -152,14 +159,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 155,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 31.1809,
+      "lng": -83.7869
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -174,13 +183,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "5": {
@@ -198,14 +207,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 211,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 31.9606,
+      "lng": -83.7769
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -220,7 +231,7 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
       "Pay_Equity": 1,
       "Grade_Healthcare_Access": 3
@@ -244,14 +255,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 94,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.3366,
+      "lng": -83.1782
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -268,7 +281,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -290,14 +303,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 61,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.0716,
+      "lng": -84.1749
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -336,14 +351,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 75,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.69757,
+      "lng": -83.25998
     },
     "financialTransparency": {
       "Transparency": 3,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -358,9 +375,9 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -382,35 +399,37 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 142,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 32.41484,
+      "lng": -81.77016
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Staffing_Responsiveness": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "10": {
@@ -428,14 +447,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 88,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 32.64343,
+      "lng": -82.40880
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -452,7 +473,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -474,14 +495,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 49,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 32.16609,
+      "lng": -81.89886
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -498,7 +521,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -520,14 +543,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 255,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.79021,
+      "lng": -84.98415
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -542,10 +567,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -566,14 +591,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 34,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 31.60351,
+      "lng": -83.25106
     },
     "financialTransparency": {
       "Transparency": 2,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -590,7 +617,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -612,14 +639,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 37,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.04597,
+      "lng": -82.38048
     },
     "financialTransparency": {
       "Transparency": 3,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -634,13 +663,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "15": {
@@ -658,35 +687,37 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 70,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 32.20870,
+      "lng": -82.37460
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Staffing_Responsiveness": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "16": {
@@ -704,14 +735,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 187,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 30.90270,
+      "lng": -84.55251
     },
     "financialTransparency": {
       "Transparency": 2,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -728,7 +761,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
@@ -750,14 +783,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 152,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.81015,
+      "lng": -84.39360
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -772,13 +807,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "18": {
@@ -796,14 +831,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 96,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 33.81015,
+      "lng": -84.39360
     },
     "financialTransparency": {
       "Transparency": 1,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 3,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -818,13 +855,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "19": {
@@ -842,14 +879,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 151,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 32.29655,
+      "lng": -83.48414
     },
     "financialTransparency": {
       "Transparency": 2,
       "Fiscal_Health": 1,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -888,14 +927,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 181,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 31.47167,
+      "lng": -83.49190
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -910,13 +951,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "21": {
@@ -934,14 +975,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 115,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 31.47173,
+      "lng": -83.49097
     },
     "financialTransparency": {
       "Transparency": 1,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -956,13 +999,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "22": {
@@ -980,14 +1023,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 104,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 32.88940,
+      "lng": -84.68300
     },
     "financialTransparency": {
       "Transparency": 3,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1004,8 +1049,8 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
@@ -1026,15 +1071,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 56,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 32.99613,
+      "lng": -82.80385
     },
     "financialTransparency": {
       "Transparency": 3,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 4
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1050,8 +1097,8 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
@@ -1072,14 +1119,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 90,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.60135,
+      "lng": -81.89953
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1094,10 +1143,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -1118,14 +1167,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 60,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 30.86397,
+      "lng": -84.19916
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1140,10 +1191,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1164,14 +1215,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 264,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 30.82519,
+      "lng": -83.97217
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1186,10 +1239,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1210,14 +1263,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 637,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 32.8381,
+      "lng": -83.6324
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -1232,10 +1287,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1256,14 +1311,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 304,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 34.2600,
+      "lng": -85.1789
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1278,10 +1335,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1302,14 +1359,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 140,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.0898,
+      "lng": -83.2445
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1324,13 +1383,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "30": {
@@ -1348,14 +1407,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 446,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.8311,
+      "lng": -84.3308
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -1370,10 +1431,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1394,14 +1455,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 319,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 33.9213,
+      "lng": -84.3544
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -1416,10 +1479,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1440,15 +1503,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 451,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.7910,
+      "lng": -84.2829
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1462,13 +1527,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "33": {
@@ -1486,15 +1551,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 100,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 33.7060,
+      "lng": -84.1480
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1508,10 +1575,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -1532,14 +1599,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 110,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.0669,
+      "lng": -84.1764
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1554,13 +1623,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "35": {
@@ -1578,14 +1647,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 50,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.7776,
+      "lng": -84.2930
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1600,10 +1671,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -1624,14 +1695,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 410,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.9270,
+      "lng": -84.3278
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1646,13 +1719,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "37": {
@@ -1670,15 +1743,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 853,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.7914,
+      "lng": -84.3195
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1692,13 +1767,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "38": {
@@ -1716,15 +1791,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 529,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.7688,
+      "lng": -84.3862
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1738,10 +1815,10 @@
       "Grade_Healthcare_Affordability": 5
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1762,14 +1839,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 120,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.8262,
+      "lng": -84.2485
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1784,13 +1863,13 @@
       "Grade_Healthcare_Affordability": 1
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "40": {
@@ -1808,14 +1887,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 45,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 32.4596,
+      "lng": -83.7101
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1830,9 +1911,9 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
@@ -1854,14 +1935,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 237,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 32.6177,
+      "lng": -83.6311
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1876,13 +1959,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "42": {
@@ -1900,14 +1983,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 24,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.7540,
+      "lng": -84.3820
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1922,10 +2007,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1946,14 +2031,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 953,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.7522,
+      "lng": -84.3824
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1968,10 +2055,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -1992,14 +2079,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 137,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.5814,
+      "lng": -83.5371
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2014,13 +2103,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "45": {
@@ -2038,14 +2127,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 987,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 34.3138,
+      "lng": -83.8174
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2060,10 +2151,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2084,15 +2175,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 56,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 34.0084,
+      "lng": -83.7078
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
-      "Grade_Financial_Transparency": 4
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -2106,13 +2199,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "47": {
@@ -2130,14 +2223,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 685,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.91023,
+      "lng": -84.35443
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2152,10 +2247,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2176,14 +2271,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 332,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 34.23137,
+      "lng": -84.46667
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2198,13 +2295,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "49": {
@@ -2222,14 +2319,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 122,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.0005,
+      "lng": -84.1636
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2244,13 +2343,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "50": {
@@ -2268,14 +2367,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 407,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.90901,
+      "lng": -84.35394
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2290,13 +2391,13 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "51": {
@@ -2314,14 +2415,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 388,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 33.96392,
+      "lng": -84.01746
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2336,10 +2439,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2360,14 +2463,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 691,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 31.59126,
+      "lng": -84.15842
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2382,13 +2487,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "53": {
@@ -2406,14 +2511,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 76,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "Not 24/7",
+      "lat": 32.10195,
+      "lng": -84.24769
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2428,13 +2535,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "54": {
@@ -2452,14 +2559,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 427,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 34.06419,
+      "lng": -83.40512
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2474,10 +2583,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 3,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2498,14 +2607,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 812,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.62389,
+      "lng": -82.01793
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2520,10 +2631,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -2544,14 +2655,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 225,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 32.4603,
+      "lng": -84.9877
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2566,10 +2679,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -2590,14 +2703,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 100,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 32.53474,
+      "lng": -84.95119
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2612,10 +2727,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 1,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
@@ -2636,14 +2751,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 310,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 33.45278,
+      "lng": -84.50844
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2658,13 +2775,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "59": {
@@ -2682,14 +2799,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 215,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.51143,
+      "lng": -84.22714
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2704,13 +2823,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "60": {
@@ -2728,14 +2847,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 643,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.80914,
+      "lng": -84.39547
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2750,13 +2871,13 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "61": {
@@ -2774,14 +2895,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 62,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 34.44638,
+      "lng": -84.44718
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2796,10 +2919,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -2820,14 +2943,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 217,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.35808,
+      "lng": -84.75522
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2842,10 +2967,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 2,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -2866,14 +2991,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 107,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.60156,
+      "lng": -83.84784
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2888,10 +3015,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -2912,14 +3039,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 161,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+       "hoursOperation": "24/7",
+      "lat": 33.68110,
+      "lng": -84.00130
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2934,10 +3063,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -2958,14 +3087,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 77,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 33.79899,
+      "lng": -83.75029
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2980,10 +3111,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3004,14 +3135,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 418,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 30.86281,
+      "lng": -83.28710
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3026,13 +3159,13 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "67": {
@@ -3050,14 +3183,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 51,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 31.20326,
+      "lng": -83.23854
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3072,13 +3207,13 @@
       "Grade_Healthcare_Affordability": 5
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "68": {
@@ -3096,14 +3231,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 40,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 30.7319,
+      "lng": -81.5477
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3118,10 +3255,10 @@
       "Grade_Healthcare_Affordability": 5
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3142,14 +3279,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 300,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 31.1490,
+      "lng": -81.4918
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3164,10 +3303,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 3,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3188,14 +3327,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 384,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "Not 24/7",
+      "lat": 32.0280,
+      "lng": -81.0998
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3210,10 +3351,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3234,14 +3375,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 384,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "Not 24/7",
+      "lat": 31.98749,
+      "lng": 81.15573
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3256,10 +3399,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 4,
       "MIUR_score": 1,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3280,14 +3423,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 181,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.9509,
+      "lng": -83.3741
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3302,10 +3447,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 4,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Grade_Healthcare_Access": 3
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3326,14 +3471,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 56,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 34.3607,
+      "lng": -83.1049
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3348,7 +3495,7 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 2,
       "MIUR_score": 5,
       "Pay_Equity": 1,
       "Grade_Healthcare_Access": 3
@@ -3372,15 +3519,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 53,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 33.7319,
+      "lng": -84.9199
     },
     "financialTransparency": {
       "Transparency": 3,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3394,10 +3543,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 3,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3418,15 +3567,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 196,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.5790,
+      "lng": -85.0767
     },
     "financialTransparency": {
       "Transparency": 3,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3440,10 +3591,10 @@
       "Grade_Healthcare_Affordability": 4
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 4,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 2
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5
     },
     "finalScore": {
       "Grade_Final": 4
@@ -3464,14 +3615,16 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 45,
-      "sizeGroup": "Very Small"
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 34.8753,
+      "lng": -83.7600
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3486,10 +3639,10 @@
       "Grade_Healthcare_Affordability": 3
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
       "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3510,14 +3663,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 52,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 32.88808,
+      "lng": -84.69211
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3534,7 +3689,7 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
+      "Pay_Equity": 2,
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
@@ -3556,14 +3711,16 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 52,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation":"Not 24/7",
+      "lat": 32.89004,
+      "lng": -84.68990
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3578,10 +3735,10 @@
       "Grade_Healthcare_Affordability": 2
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
+      "Demographic_Alignment": 5,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
       "Grade_Final": 3
@@ -3602,15 +3759,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 382,
-      "sizeGroup": "Large"
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 33.85756,
+      "lng": -84.60452
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3648,15 +3807,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 108,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.7574,
+      "lng": -84.7471
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
@@ -3672,11 +3833,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "81": {
@@ -3694,15 +3855,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 166,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.96946,
+      "lng": -84.55214
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3722,7 +3885,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "82": {
@@ -3740,15 +3903,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 478,
-      "sizeGroup": "Extra Large"
+      "sizeGroup": "Extra Large",
+      "hoursOperation": "24/7",
+      "lat": 33.4700,
+      "lng": -82.0109
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -3764,11 +3929,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "83": {
@@ -3786,15 +3951,17 @@
       "hospitalAuthority": 0,
       "criticalAccess": 0,
       "bedSize": 202,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.06328,
+      "lng": -84.3205
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
@@ -3810,11 +3977,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "84": {
@@ -3832,15 +3999,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 294,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.9129,
+      "lng": -84.9370
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3860,7 +4029,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "85": {
@@ -3878,15 +4047,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 160,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.2424,
+      "lng": -84.2705
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3906,7 +4077,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "86": {
@@ -3924,15 +4095,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 276,
-      "sizeGroup": "Medium"
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 33.0298,
+      "lng": -85.0269
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
@@ -3948,11 +4121,11 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "87": {
@@ -3970,15 +4143,17 @@
       "hospitalAuthority": 1,
       "criticalAccess": 0,
       "bedSize": 55,
-      "sizeGroup": "Small"
+      "sizeGroup": "Small",
+      "hoursOperation": "Not 24/7",
+      "lat": 33.8993,
+      "lng": -84.4804
     },
     "financialTransparency": {
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -3994,8 +4169,8 @@
     "healthcareAccess": {
       "Demographic_Alignment": 1,
       "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
     },
     "finalScore": {
       "Grade_Final": 2
