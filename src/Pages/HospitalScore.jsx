@@ -132,6 +132,7 @@ export function HospitalScore() {
                 <div className="left-sidebar">
                     <div className="about-card">
                         <h3>About</h3>
+                        {hospitalData.finalScore?.Grade_Final===0 && <h3>There is insufficient data from this facility. Scores will be updated when it is available</h3>}
                         <div className="address">
                             <p><strong>Address:</strong></p>
                             <p>{hospitalInfo.address}<br />{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
