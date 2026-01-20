@@ -70,31 +70,31 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Vacant_Full_Time_Equivalent": 0,
+      "Time_To_Fill_Vacancy": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "3": {
@@ -414,31 +414,31 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Vacant_Full_Time_Equivalent": 0,
+      "Time_To_Fill_Vacancy": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "10": {
@@ -708,31 +708,31 @@
     },
     "financialTransparency": {
       "Transparency": 0,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 2
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Vacant_Full_Time_Equivalent": 0,
+      "Time_To_Fill_Vacancy": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 1
+      "Grade_Final": 0
     }
   },
   "16": {
@@ -2321,7 +2321,7 @@
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
       "lat": 34.23137,
-      "lng": -84.46667
+      "lng": -84.466667
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2908,8 +2908,8 @@
       "bedSize": 643,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": 33.80914,
-      "lng": -84.39547
+      "lat": 33.8091461,
+      "lng": -84.3954735
     },
     "financialTransparency": {
       "Transparency": 5,
