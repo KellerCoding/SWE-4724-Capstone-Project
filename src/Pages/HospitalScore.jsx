@@ -139,7 +139,7 @@ export function HospitalScore() {
                         </div>
 
                         <p> <strong>{hospitalInfo.county} County</strong> </p>
-                        <p><strong><img className="mapicon" src={MapIcon} alt="Area Type" height={25} width={25}  /> </strong> {hospitalInfo.areaType === 0 ? "Rural" : "Urban"} </p>
+                        <p><strong><img className="mapicon" src={MapIcon} alt="Area Type" height={25} width={25}  /> </strong> {hospitalInfo.areaType === 1 ? "Rural" : "Urban"} </p>
 
                         {hospitalInfo.bedSize && <p><strong><img className="mapicon" src={BedIcon} alt="Area Type" height={28} width={28}  /> </strong> {hospitalInfo.bedSize} Total Beds</p>}
                         {hospitalInfo.hospitalSystem===1 && <p><strong><img className="mapicon" src={HospitalIcon} alt="Area Type" height={24} width={28}  />    </strong> {hospitalInfo.systemName}</p>}
