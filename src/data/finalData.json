@@ -18,13 +18,13 @@
       "hoursOperation": "24/7",
       "lat": 31.7767,
       "lng": -82.3441
+
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 1,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 3,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -72,8 +72,7 @@
       "Transparency": 0,
       "Fiscal_Health": 0,
       "Endowment_Holdings": 0,
-      "Vacant_Full_Time_Equivalent": 0,
-      "Time_To_Fill_Vacancy": 0,
+      "Staffing_Responsiveness": 0,
       "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
@@ -121,8 +120,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -165,14 +163,12 @@
       "hoursOperation": "24/7",
       "lat": 31.1809,
       "lng": -83.7869
-
     },
     "financialTransparency": {
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -220,8 +216,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -269,8 +264,7 @@
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -318,8 +312,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -367,8 +360,7 @@
       "Transparency": 3,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -389,7 +381,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "9": {
@@ -416,8 +408,7 @@
       "Transparency": 0,
       "Fiscal_Health": 0,
       "Endowment_Holdings": 0,
-      "Vacant_Full_Time_Equivalent": 0,
-      "Time_To_Fill_Vacancy": 0,
+      "Staffing_Responsiveness": 0,
       "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
@@ -465,8 +456,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -487,7 +477,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "11": {
@@ -514,8 +504,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -563,8 +552,7 @@
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -612,8 +600,7 @@
       "Transparency": 2,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 2,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -634,7 +621,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "14": {
@@ -661,8 +648,7 @@
       "Transparency": 3,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -710,8 +696,7 @@
       "Transparency": 0,
       "Fiscal_Health": 0,
       "Endowment_Holdings": 0,
-      "Vacant_Full_Time_Equivalent": 0,
-      "Time_To_Fill_Vacancy": 0,
+      "Staffing_Responsiveness": 0,
       "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
@@ -759,8 +744,7 @@
       "Transparency": 2,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -808,8 +792,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -857,8 +840,7 @@
       "Transparency": 1,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 3,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -906,8 +888,7 @@
       "Transparency": 2,
       "Fiscal_Health": 1,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 2
     },
     "commBenefitSpending": {
@@ -955,8 +936,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1004,8 +984,7 @@
       "Transparency": 1,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -1053,8 +1032,7 @@
       "Transparency": 3,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1075,7 +1053,7 @@
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "23": {
@@ -1102,9 +1080,8 @@
       "Transparency": 3,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 4
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1151,8 +1128,7 @@
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1200,8 +1176,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1222,7 +1197,7 @@
       "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "26": {
@@ -1249,8 +1224,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1271,7 +1245,7 @@
       "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "27": {
@@ -1298,8 +1272,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -1347,8 +1320,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 3,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1396,8 +1368,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1445,8 +1416,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -1494,8 +1464,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -1516,7 +1485,7 @@
       "Grade_Healthcare_Access": 5
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "32": {
@@ -1543,9 +1512,8 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1592,9 +1560,8 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1614,7 +1581,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 3
     }
   },
   "34": {
@@ -1641,8 +1608,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1690,8 +1656,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1712,7 +1677,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "36": {
@@ -1739,8 +1704,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1788,9 +1752,8 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1837,9 +1800,8 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -1886,8 +1848,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 4,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1935,8 +1896,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -1984,8 +1944,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2033,8 +1992,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2082,8 +2040,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2131,8 +2088,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2180,8 +2136,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2229,9 +2184,8 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
-      "Grade_Financial_Transparency": 4
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
@@ -2278,8 +2232,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2327,8 +2280,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2376,8 +2328,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2425,8 +2376,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2474,8 +2424,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2523,8 +2472,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2572,8 +2520,7 @@
       "Transparency": 5,
       "Fiscal_Health": 4,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -2621,8 +2568,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2670,8 +2616,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2719,8 +2664,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2768,8 +2712,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2790,7 +2733,7 @@
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "58": {
@@ -2817,8 +2760,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2866,8 +2808,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2915,8 +2856,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2964,8 +2904,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -2986,7 +2925,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "62": {
@@ -3013,8 +2952,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3035,7 +2973,7 @@
       "Grade_Healthcare_Access": 3
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "63": {
@@ -3062,8 +3000,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3084,7 +3021,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "64": {
@@ -3111,8 +3048,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3133,7 +3069,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 4
     }
   },
   "65": {
@@ -3160,8 +3096,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3209,8 +3144,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3231,7 +3165,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 3
     }
   },
   "67": {
@@ -3258,8 +3192,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3307,8 +3240,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3329,7 +3261,7 @@
       "Grade_Healthcare_Access": 4
     },
     "finalScore": {
-      "Grade_Final": 4
+      "Grade_Final": 5
     }
   },
   "69": {
@@ -3356,8 +3288,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3405,8 +3336,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3454,8 +3384,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3503,8 +3432,7 @@
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3552,8 +3480,7 @@
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3601,9 +3528,8 @@
       "Transparency": 3,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3650,9 +3576,8 @@
       "Transparency": 3,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
@@ -3699,8 +3624,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivalent": 2,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -3748,8 +3672,7 @@
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3797,8 +3720,7 @@
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -3846,8 +3768,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -3868,7 +3789,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "80": {
@@ -3895,8 +3816,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -3917,7 +3837,7 @@
       "Grade_Healthcare_Access": 2
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "81": {
@@ -3944,8 +3864,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -3966,7 +3885,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "82": {
@@ -3993,8 +3912,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4042,8 +3960,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4091,8 +4008,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4113,7 +4029,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "85": {
@@ -4140,8 +4056,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4162,7 +4077,7 @@
       "Grade_Healthcare_Access": 1
     },
     "finalScore": {
-      "Grade_Final": 2
+      "Grade_Final": 3
     }
   },
   "86": {
@@ -4189,8 +4104,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4238,8 +4152,7 @@
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivalent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4265,160 +4178,13 @@
   },
   "88": {
     "hospitalInfo": {
-      "ID": 4,
-      "name": "Bacon County Hospital",
-      "website": "https://www.baconcountyhospital.com/getpage.php?name=Price_Transparency&sub=Price+Transparency",
-      "city": "Alma",
-      "address": "302 S Wayne St",
-      "zipcode": 31510,
-      "county": "Bacon",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 0,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 31.53958,
-      "lng": -82.45880
-    },
-    "financialTransparency": {
-      "Transparency": 0,
-      "Fiscal_Health": 0,
-      "Endowment_Holdings": 0,
-      "Vacant_Full_Time_Equivlent": 0,
-      "Time_To_Fill_Vacancy": 0,
-      "Grade_Financial_Transparency": 0
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 1
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 1
-    },
-    "finalScore": {
-      "Grade_Final": 1
-    }
-  },
-  "89": {
-    "hospitalInfo": {
-      "ID": 7,
-      "name": "Candler County Hospital",
-      "website": "https://www.candlercountyhospital.com/about/financial-transparency/",
-      "city": "Metter",
-      "address": "400 Cedar St",
-      "zipcode": 30439,
-      "county": "Candler",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 32.4072,
-      "lng": -82.0657
-    },
-    "financialTransparency": {
-      "Transparency": 3,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 3,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 2
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 3,
-      "MIUR_score": 2,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 3
-    },
-    "finalScore": {
-      "Grade_Final": 2
-    }
-  },
-  "90": {
-    "hospitalInfo": {
-      "ID": 13,
-      "name": "Clinch Memorial Hospital",
-      "website": "https://clinchmh.org/organizational-financial-information/",
-      "city": "Homerville",
-      "address": "1050 Valdosta Hwy",
-      "zipcode": 31634,
-      "county": "Clinch",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 31.0342,
-      "lng": -82.7642
-    },
-    "financialTransparency": {
-      "Transparency": 5,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 4,
-      "Time_To_Fill_Vacancy": 4,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 5,
-      "Charity_Care_Policies": 5,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 4
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 5,
-      "MIUR_score": 5,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 4
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "91": {
-    "hospitalInfo": {
       "ID": 21,
       "name": "Effingham Health System",
       "website": "https://www.effinghamhealth.org/financial-transparency/",
       "city": "Springfield",
+      "county": "Effingham",
       "address": "459 GA-119",
       "zipcode": 31329,
-      "county": "Effingham",
       "hospitalSystem": 0,
       "systemName": "0",
       "areaType": 1,
@@ -4434,8 +4200,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -4459,15 +4224,15 @@
       "Grade_Final": 4
     }
   },
-  "92": {
+  "89": {
     "hospitalInfo": {
       "ID": 22,
       "name": "Elbert Memorial Hospital",
       "website": "https://emhcare.net/organizational-and-financial-information/",
       "city": "Elberton",
+      "county": "Elbert",
       "address": "4 Medical Dr",
       "zipcode": 30635,
-      "county": "Elbert",
       "hospitalSystem": 0,
       "systemName": "0",
       "areaType": 1,
@@ -4483,8 +4248,7 @@
       "Transparency": 4,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivlent": 1,
-      "Time_To_Fill_Vacancy": 1,
+      "Staffing_Responsiveness": 1,
       "Grade_Financial_Transparency": 3
     },
     "commBenefitSpending": {
@@ -4508,358 +4272,15 @@
       "Grade_Final": 4
     }
   },
-  "93": {
-    "hospitalInfo": {
-      "ID": 44,
-      "name": "Jasper Memorial Hospital",
-      "website": "https://www.jaspermemorialhospital.org/transparency.php",
-      "city": "Monticello",
-      "address": "898 College St",
-      "zipcode": 31064,
-      "county": "Jasper",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 17,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 33.3145,
-      "lng": -83.6865
-    },
-    "financialTransparency": {
-      "Transparency": 4,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 2,
-      "QCB_Spending_Score": 2,
-      "Grade_Comm_Benefit_Spending": 2
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 5,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 3
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 2,
-      "MIUR_score": 1,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 2
-    },
-    "finalScore": {
-      "Grade_Final": 2
-    }
-  },
-  "94": {
-    "hospitalInfo": {
-      "ID": 45,
-      "name": "Jeff Davis Hospital",
-      "website": "http://www.jeffdavishospital.org/getpage.php?name=transparency",
-      "city": "Hazlehurst",
-      "address": "163 S Tallahassee St",
-      "zipcode": 31539,
-      "county": "Jeff Davis",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 31.8573,
-      "lng": -82.6070
-    },
-    "financialTransparency": {
-      "Transparency": 3,
-      "Fiscal_Health": 4,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 4,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 3,
-      "Medical_Debt_Policies": 4,
-      "Grade_Healthcare_Affordability": 3
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 5,
-      "MIUR_score": 5,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 4
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "95": {
-    "hospitalInfo": {
-      "ID": 48,
-      "name": "Liberty Regional Medical Center",
-      "website": "http://www.libertyregional.org/getpage.php?name=os ",
-      "city": "Hinesville",
-      "address": "462 Elma G Miles Pkwy",
-      "zipcode": 31313,
-      "county": "Liberty",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 0,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 31.8398,
-      "lng": -81.6010
-    },
-    "financialTransparency": {
-      "Transparency": 5,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 4,
-      "Time_To_Fill_Vacancy": 4,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 5,
-      "Grade_Healthcare_Affordability": 3
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 5,
-      "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 4
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "96": {
-    "hospitalInfo": {
-      "ID": 51,
-      "name": "Miller County Hospital",
-      "website": "https://www.millercountyhospital.com/hospital-transparency-information/",
-      "city": "Colquitt",
-      "address": "208 N Cuthbert St",
-      "zipcode": 39837,
-      "county": "Miller",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 31.1778,
-      "lng": -84.7352
-    },
-    "financialTransparency": {
-      "Transparency": 5,
-      "Fiscal_Health": 4,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 4,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 5,
-      "Charity_Care_Policies": 5,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 4
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 3,
-      "MIUR_score": 5,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "97": {
-    "hospitalInfo": {
-      "ID": 53,
-      "name": "Monroe County Hospital",
-      "website": "https://www.monroehospital.org/about/financial-organizational-info/",
-      "city": "Forsyth",
-      "address": "88 Martin Luther King Jr Dr",
-      "zipcode": 31029,
-      "county": "Monroe",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 33.0316,
-      "lng": -83.9454
-    },
-    "financialTransparency": {
-      "Transparency": 2,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 3,
-      "Time_To_Fill_Vacancy": 4,
-      "Grade_Financial_Transparency": 3
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 3,
-      "Charity_Care_Policies": 1,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 2
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 3,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 2
-    },
-    "finalScore": {
-      "Grade_Final": 2
-    }
-  },
-  "98": {
-    "hospitalInfo": {
-      "ID": 54,
-      "name": "Morgan Medical Center",
-      "website": "https://morganmedical.org/organizational-financial-information-2024/",
-      "city": "Madison",
-      "address": "1740 Lions Club Rd",
-      "zipcode": 30650,
-      "county": "Morgan",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 33.5691,
-      "lng": -83.4715
-    },
-    "financialTransparency": {
-      "Transparency": 5,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 2,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 4,
-      "Charity_Care_Policies": 2,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 3
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 5,
-      "MIUR_score": 2,
-      "Pay_Equity": 1,
-      "Grade_Healthcare_Access": 3
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "99": {
-    "hospitalInfo": {
-      "ID": 113,
-      "name": "Wills Memorial Hospital",
-      "website": "https://www.willsmemorialhospital.com/organizational-financial-information/",
-      "city": "Washington",
-      "address": "120 Gordon St",
-      "zipcode": 30673,
-      "county": "Wilkes",
-      "hospitalSystem": 0,
-      "systemName": "0",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 33.7286,
-      "lng": -82.7427
-    },
-    "financialTransparency": {
-      "Transparency": 4,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 4,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 5,
-      "Charity_Care_Policies": 5,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 4
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 2,
-      "MIUR_score": 5,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 3
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "100": {
+  "90": {
     "hospitalInfo": {
       "ID": 5,
       "name": "Brooks County Hospital",
       "website": "Organizational & Financial Information | Medical Services Thomasville, GA",
       "city": "Quitman",
+      "county": "Brooks",
       "address": "903 N Court St",
       "zipcode": 31643,
-      "county": "Brooks",
       "hospitalSystem": 1,
       "systemName": "Archbold",
       "areaType": 1,
@@ -4875,8 +4296,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivlent": 2,
-      "Time_To_Fill_Vacancy": 4,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -4900,15 +4320,15 @@
       "Grade_Final": 4
     }
   },
-  "101": {
+  "91": {
     "hospitalInfo": {
       "ID": 52,
       "name": "Mitchell County Hospital",
       "website": "Organizational & Financial Information | Medical Services Thomasville, GA",
       "city": "Camilla",
+      "county": "Mitchell",
       "address": "90 E Stephens St",
       "zipcode": 31730,
-      "county": "Mitchell",
       "hospitalSystem": 1,
       "systemName": "Archbold",
       "areaType": 1,
@@ -4924,8 +4344,7 @@
       "Transparency": 5,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 4,
-      "Vacant_Full_Time_Equivlent": 2,
-      "Time_To_Fill_Vacancy": 4,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -4949,113 +4368,15 @@
       "Grade_Final": 4
     }
   },
-  "102": {
-    "hospitalInfo": {
-      "ID": 2,
-      "name": "Atrium Health Navicent Peach",
-      "website": "https://navicenthealth.org/ourhospital",
-      "city": "Byron",
-      "address": "1960 GA-247CONN",
-      "zipcode": 31008,
-      "county": "Peach",
-      "hospitalSystem": 1,
-      "systemName": "Atrium Health",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 32.6050,
-      "lng": -83.7593
-    },
-    "financialTransparency": {
-      "Transparency": 5,
-      "Fiscal_Health": 4,
-      "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 5,
-      "Grade_Financial_Transparency": 5
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 3,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 2
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 3,
-      "Medical_Debt_Policies": 2,
-      "Grade_Healthcare_Affordability": 2
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 5,
-      "MIUR_score": 5,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 4
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "103": {
-    "hospitalInfo": {
-      "ID": 79,
-      "name": "Putnam General Hospital",
-      "website": "https://www.putnamgeneral.com/getpage.php?name=House_Bill",
-      "city": "Eatonton",
-      "address": "101 Lake Oconee Pkwy",
-      "zipcode": 31024,
-      "county": "Putnam",
-      "hospitalSystem": 1,
-      "systemName": "Atrium Health",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 33.3359,
-      "lng": -83.3712
-    },
-    "financialTransparency": {
-      "Transparency": 3,
-      "Fiscal_Health": 2,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 1,
-      "Time_To_Fill_Vacancy": 4,
-      "Grade_Financial_Transparency": 3
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 1,
-      "QCB_Spending_Score": 1,
-      "Grade_Comm_Benefit_Spending": 1
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 4,
-      "Charity_Care_Policies": 3,
-      "Medical_Debt_Policies": 2,
-      "Grade_Healthcare_Affordability": 3
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 3,
-      "MIUR_score": 4,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 3
-    },
-    "finalScore": {
-      "Grade_Final": 2
-    }
-  },
-  "104": {
+  "92": {
     "hospitalInfo": {
       "ID": 58,
       "name": "Northeast Georgia Medical Center Lumpkin",
       "website": "https://www.nghs.com/hospital-transparency/",
       "city": "Dahlonega",
+      "county": "Lumpkin",
       "address": "495 Highway 400",
       "zipcode": 30533,
-      "county": "Lumpkin",
       "hospitalSystem": 1,
       "systemName": "Northeast Georgia Medical Center",
       "areaType": 1,
@@ -5071,8 +4392,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 4,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -5096,15 +4416,15 @@
       "Grade_Final": 4
     }
   },
-  "105": {
+  "93": {
     "hospitalInfo": {
       "ID": 65,
       "name": "Phoebe Worth Medical Center",
       "website": "https://phoebehealth.com/patients-and-visitors/organizational-financial-information/",
       "city": "Sylvester",
+      "county": "Worth",
       "address": "807 S Isabella St",
       "zipcode": 31791,
-      "county": "Worth",
       "hospitalSystem": 1,
       "systemName": "Phoebe Putney Health System",
       "areaType": 1,
@@ -5120,8 +4440,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -5145,64 +4464,15 @@
       "Grade_Final": 4
     }
   },
-  "106": {
-    "hospitalInfo": {
-      "ID": 73,
-      "name": "Piedmont McDuffie",
-      "website": "https://www.universityhealth.org/georgia-transparency-docs/ ",
-      "city": "Thomson",
-      "address": "2460 Washington Rd",
-      "zipcode": 30824,
-      "county": "McDuffie",
-      "hospitalSystem": 1,
-      "systemName": "Piedmont Healthcare",
-      "areaType": 1,
-      "hospitalAuthority": 1,
-      "criticalAccess": 1,
-      "bedSize": 25,
-      "sizeGroup": "Very Small",
-      "hoursOperation": "24/7",
-      "lat": 33.5233,
-      "lng": -82.5018
-    },
-    "financialTransparency": {
-      "Transparency": 5,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 2,
-      "Grade_Financial_Transparency": 4
-    },
-    "commBenefitSpending": {
-      "CB_Spending_Score": 2,
-      "QCB_Spending_Score": 2,
-      "Grade_Comm_Benefit_Spending": 2
-    },
-    "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 4,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 2
-    },
-    "healthcareAccess": {
-      "Demographic_Alignment": 5,
-      "MIUR_score": 3,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 4
-    },
-    "finalScore": {
-      "Grade_Final": 3
-    }
-  },
-  "107": {
+  "94": {
     "hospitalInfo": {
       "ID": 86,
       "name": "South Georgia Medical Center Lanier Campus",
       "website": "https://www.sgmc.org/financial-and-organizational-information-regarding-our-hospitals/",
       "city": "Lakeland",
+      "county": "Lanier",
       "address": "116 W Thigpen Ave",
       "zipcode": 31635,
-      "county": "Lanier",
       "hospitalSystem": 1,
       "systemName": "South Georgia Medical Center",
       "areaType": 1,
@@ -5218,8 +4488,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 5
     },
     "commBenefitSpending": {
@@ -5243,15 +4512,15 @@
       "Grade_Final": 4
     }
   },
-  "108": {
+  "95": {
     "hospitalInfo": {
       "ID": 91,
       "name": "St. Mary's Good Samaritan Hospital",
       "website": "https://www.stmaryshealthcaresystem.org/about-us/financial-and-organizational-information#ht",
       "city": "Greensboro",
+      "county": "Greene",
       "address": "5401 Lake Oconee Pwky",
       "zipcode": 30642,
-      "county": "Greene",
       "hospitalSystem": 1,
       "systemName": "St. Mary's Healthcare System",
       "areaType": 1,
@@ -5267,8 +4536,7 @@
       "Transparency": 4,
       "Fiscal_Health": 2,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 4,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 5,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -5292,15 +4560,15 @@
       "Grade_Final": 4
     }
   },
-  "109": {
+  "96": {
     "hospitalInfo": {
       "ID": 40,
       "name": "Higgins General Hospital",
       "website": "https://www.tanner.org/hospital-transparency",
       "city": "Bremen",
+      "county": "Haralson",
       "address": "200 Allen Memorial Dr",
       "zipcode": 30110,
-      "county": "Haralson",
       "hospitalSystem": 1,
       "systemName": "Tanner Health",
       "areaType": 1,
@@ -5316,8 +4584,7 @@
       "Transparency": 3,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 5,
-      "Time_To_Fill_Vacancy": 2,
+      "Staffing_Responsiveness": 4,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -5341,15 +4608,639 @@
       "Grade_Final": 4
     }
   },
+  "97": {
+    "hospitalInfo": {
+      "ID": 13,
+      "name": "Clinch Memorial Hospital",
+      "website": "https://clinchmh.org/organizational-financial-information/",
+      "city": "Homerville",
+      "county": "Clinch",
+      "address": "1050 Valdosta Hwy",
+      "zipcode": 31634,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 31.0342,
+      "lng": -82.7642
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 5,
+      "Charity_Care_Policies": 5,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 4
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "MIUR_score": 5,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "98": {
+    "hospitalInfo": {
+      "ID": 45,
+      "name": "Jeff Davis Hospital",
+      "website": "http://www.jeffdavishospital.org/getpage.php?name=transparency",
+      "city": "Hazlehurst",
+      "county": "Jeff Davis",
+      "address": "163 S Tallahassee St",
+      "zipcode": 31539,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 31.8573,
+      "lng": -82.6070
+    },
+    "financialTransparency": {
+      "Transparency": 3,
+      "Fiscal_Health": 4,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 4,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "MIUR_score": 5,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "99": {
+    "hospitalInfo": {
+      "ID": 48,
+      "name": "Liberty Regional Medical Center",
+      "website": "http://www.libertyregional.org/getpage.php?name=os ",
+      "city": "Hinesville",
+      "county": "Liberty",
+      "address": "462 Elma G Miles Pkwy",
+      "zipcode": 31313,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 0,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 31.8398,
+      "lng": -81.6010
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 2,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 1,
+      "Medical_Debt_Policies": 5,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "MIUR_score": 5,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 4
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "100": {
+    "hospitalInfo": {
+      "ID": 51,
+      "name": "Miller County Hospital",
+      "website": "https://www.millercountyhospital.com/hospital-transparency-information/",
+      "city": "Colquitt",
+      "county": "Miller",
+      "address": "208 N Cuthbert St",
+      "zipcode": 39837,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 31.1778,
+      "lng": -84.7352
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 4,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 5,
+      "Charity_Care_Policies": 5,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 4
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 3,
+      "MIUR_score": 5,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 3
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "101": {
+    "hospitalInfo": {
+      "ID": 54,
+      "name": "Morgan Medical Center",
+      "website": "https://morganmedical.org/organizational-financial-information-2024/",
+      "city": "Madison",
+      "county": "Morgan",
+      "address": "1740 Lions Club Rd",
+      "zipcode": 30650,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.5691,
+      "lng": -83.4715
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 4,
+      "Charity_Care_Policies": 2,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "MIUR_score": 2,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 3
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "102": {
+    "hospitalInfo": {
+      "ID": 113,
+      "name": "Wills Memorial Hospital",
+      "website": "https://www.willsmemorialhospital.com/organizational-financial-information/",
+      "city": "Washington",
+      "county": "Wilkes",
+      "address": "120 Gordon St",
+      "zipcode": 30673,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.7286,
+      "lng": -82.7427
+    },
+    "financialTransparency": {
+      "Transparency": 4,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 5,
+      "Charity_Care_Policies": 5,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 4
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 2,
+      "MIUR_score": 5,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "103": {
+    "hospitalInfo": {
+      "ID": 2,
+      "name": "Atrium Health Navicent Peach",
+      "website": "https://navicenthealth.org/ourhospital",
+      "city": "Byron",
+      "county": "Peach",
+      "address": "1960 GA-247CONN",
+      "zipcode": 31008,
+      "hospitalSystem": 1,
+      "systemName": "Atrium Health",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 32.6050,
+      "lng": -83.7593
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 4,
+      "Endowment_Holdings": 5,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 5
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 3,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 2
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "MIUR_score": 5,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "104": {
+    "hospitalInfo": {
+      "ID": 73,
+      "name": "Piedmont McDuffie",
+      "website": "https://www.universityhealth.org/georgia-transparency-docs/ ",
+      "city": "Thomson",
+      "county": "McDuffie",
+      "address": "2460 Washington Rd",
+      "zipcode": 30824,
+      "hospitalSystem": 1,
+      "systemName": "Piedmont Healthcare",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.5233,
+      "lng": -82.5018
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 2,
+      "QCB_Spending_Score": 2,
+      "Grade_Comm_Benefit_Spending": 2
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 4,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "MIUR_score": 3,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "105": {
+    "hospitalInfo": {
+      "ID": 110,
+      "name": "WellStar Sylvan Grove Medical Center",
+      "website": "https://www.wellstar.org/hospital-transparency",
+      "city": "Jackson",
+      "county": "Butts",
+      "address": "1050 McDonough Rd",
+      "zipcode": 30233,
+      "hospitalSystem": 1,
+      "systemName": "Wellstar",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.3039,
+      "lng": -83.9777
+    },
+    "financialTransparency": {
+      "Transparency": 4,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 5,
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 5,
+      "Grade_Comm_Benefit_Spending": 5
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 2,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 1,
+      "MIUR_score": 1,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "106": {
+    "hospitalInfo": {
+      "ID": 7,
+      "name": "Candler County Hospital",
+      "website": "https://www.candlercountyhospital.com/about/financial-transparency/",
+      "city": "Metter",
+      "county": "Candler",
+      "address": "400 Cedar St",
+      "zipcode": 30439,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 32.4072,
+      "lng": -82.0657
+    },
+    "financialTransparency": {
+      "Transparency": 3,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 3,
+      "MIUR_score": 2,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
+    },
+    "finalScore": {
+      "Grade_Final": 2
+    }
+  },
+  "107": {
+    "hospitalInfo": {
+      "ID": 44,
+      "name": "Jasper Memorial Hospital",
+      "website": "https://www.jaspermemorialhospital.org/transparency.php",
+      "city": "Monticello",
+      "county": "Jasper",
+      "address": "898 College St",
+      "zipcode": 31064,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 17,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.3145,
+      "lng": -83.6865
+    },
+    "financialTransparency": {
+      "Transparency": 4,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 3
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 2,
+      "QCB_Spending_Score": 2,
+      "Grade_Comm_Benefit_Spending": 2
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 5,
+      "Charity_Care_Policies": 1,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 2,
+      "MIUR_score": 1,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
+    },
+    "finalScore": {
+      "Grade_Final": 2
+    }
+  },
+  "108": {
+    "hospitalInfo": {
+      "ID": 53,
+      "name": "Monroe County Hospital",
+      "website": "https://www.monroehospital.org/about/financial-organizational-info/",
+      "city": "Forsyth",
+      "county": "Monroe",
+      "address": "88 Martin Luther King Jr Dr",
+      "zipcode": 31029,
+      "hospitalSystem": 0,
+      "systemName": "0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.0316,
+      "lng": -83.9454
+    },
+    "financialTransparency": {
+      "Transparency": 2,
+      "Fiscal_Health": 2,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 3
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 3,
+      "Charity_Care_Policies": 1,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 1,
+      "MIUR_score": 3,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2
+    },
+    "finalScore": {
+      "Grade_Final": 2
+    }
+  },
+  "109": {
+    "hospitalInfo": {
+      "ID": 79,
+      "name": "Putnam General Hospital",
+      "website": "https://www.putnamgeneral.com/getpage.php?name=House_Bill",
+      "city": "Eatonton",
+      "county": "Putnam",
+      "address": "101 Lake Oconee Pkwy",
+      "zipcode": 31024,
+      "hospitalSystem": 1,
+      "systemName": "Atrium Health",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.3359,
+      "lng": -83.3712
+    },
+    "financialTransparency": {
+      "Transparency": 3,
+      "Fiscal_Health": 2,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 3,
+      "Grade_Financial_Transparency": 3
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 4,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 3,
+      "MIUR_score": 4,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3
+    },
+    "finalScore": {
+      "Grade_Final": 2
+    }
+  },
   "110": {
     "hospitalInfo": {
       "ID": 9,
       "name": "Chatuge Regional Hospital",
       "website": "https://uniongeneralhealthsystem.com/organizational-financial-information/",
       "city": "Hiawassee",
+      "county": "Towns",
       "address": "110 S Main St",
       "zipcode": 30546,
-      "county": "Towns",
       "hospitalSystem": 1,
       "systemName": "Union General Health System",
       "areaType": 1,
@@ -5365,8 +5256,7 @@
       "Transparency": 5,
       "Fiscal_Health": 3,
       "Endowment_Holdings": 2,
-      "Vacant_Full_Time_Equivlent": 1,
-      "Time_To_Fill_Vacancy": 5,
+      "Staffing_Responsiveness": 3,
       "Grade_Financial_Transparency": 4
     },
     "commBenefitSpending": {
@@ -5392,51 +5282,50 @@
   },
   "111": {
     "hospitalInfo": {
-      "ID": 110,
-      "name": "WellStar Sylvan Grove Medical Center",
-      "website": "https://www.wellstar.org/hospital-transparency",
-      "city": "Jackson",
-      "address": "1050 McDonough Rd",
-      "zipcode": 30233,
-      "county": "Butts",
-      "hospitalSystem": 1,
-      "systemName": "Wellstar",
+      "ID": 4,
+      "name": "Bacon County Hospital",
+      "website": "https://www.baconcountyhospital.com/getpage.php?name=Price_Transparency&sub=Price+Transparency",
+      "city": "Alma",
+      "county": "Bacon",
+      "address": "302 S Wayne St",
+      "zipcode": 31510,
+      "hospitalSystem": 0,
+      "systemName": "0",
       "areaType": 1,
-      "hospitalAuthority": 1,
+      "hospitalAuthority": 0,
       "criticalAccess": 1,
       "bedSize": 25,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": 33.3039,
-      "lng": -83.9777
+      "lat": 31.53958,
+      "lng": -82.45880
     },
     "financialTransparency": {
-      "Transparency": 4,
-      "Fiscal_Health": 3,
-      "Endowment_Holdings": 5,
-      "Vacant_Full_Time_Equivlent": 1,
-      "Time_To_Fill_Vacancy": 1,
-      "Grade_Financial_Transparency": 3
+      "Transparency": 0,
+      "Fiscal_Health": 0,
+      "Endowment_Holdings": 0,
+      "Staffing_Responsiveness": 0,
+      "Grade_Financial_Transparency": 0
     },
     "commBenefitSpending": {
-      "CB_Spending_Score": 5,
-      "QCB_Spending_Score": 5,
-      "Grade_Comm_Benefit_Spending": 5
+      "CB_Spending_Score": 0,
+      "QCB_Spending_Score": 0,
+      "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
-      "Financial_Burden": 1,
-      "Charity_Care_Policies": 2,
-      "Medical_Debt_Policies": 1,
-      "Grade_Healthcare_Affordability": 2
+      "Financial_Burden": 0,
+      "Charity_Care_Policies": 0,
+      "Medical_Debt_Policies": 0,
+      "Grade_Healthcare_Affordability": 0
     },
     "healthcareAccess": {
-      "Demographic_Alignment": 1,
-      "MIUR_score": 1,
-      "Pay_Equity": 2,
-      "Grade_Healthcare_Access": 2
+      "Demographic_Alignment": 0,
+      "MIUR_score": 0,
+      "Pay_Equity": 0,
+      "Grade_Healthcare_Access": 0
     },
     "finalScore": {
-      "Grade_Final": 3
+      "Grade_Final": 0
     }
   }
 }
