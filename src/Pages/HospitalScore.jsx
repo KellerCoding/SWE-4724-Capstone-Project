@@ -235,7 +235,7 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
-                                            <span>Quality Community Benefit Spending</span>
+                                            <span>Direct Community Benefit Spending</span>
                                             <span className="metric-description">Measures the rate of community benefit spending that has a direct impact on the community and is equal to community benefit spending without Medicaid Shortfall, Research, and Physician training</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.QCB_Spending_Score)}</div>
