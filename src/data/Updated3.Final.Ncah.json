@@ -243,7 +243,7 @@
     "hospitalInfo": {
       "ID": 47,
       "name": "John D. Archbold Memorial Hospital",
-      "website": "https://www.archbold.org/about/marketing-public-relations/financial-and-organizational-information/archbold-memorial/",
+      "website": "Organizational & Financial Information | Medical Services Thomasville, GA",
       "city": "Thomasville",
       "county": "Thomas",
       "address": "915 Gordon Ave",
@@ -483,7 +483,7 @@
     "hospitalInfo": {
       "ID": 5,
       "name": "Brooks County Hospital",
-      "website": "https://www.archbold.org/about/marketing-public-relations/financial-and-organizational-information/archbold-brooks/",
+      "website": "Organizational & Financial Information | Medical Services Thomasville, GA",
       "city": "Quitman",
       "county": "Brooks",
       "address": "903 N Court St",
@@ -5328,3 +5328,4 @@
     }
   }
 }
+
