@@ -209,7 +209,7 @@ export function Comparison() {
             </tr>
 
             <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Community Benefit - QCB Spending Score</td>
+              <td className={styles.metricRow}>Community Benefit - DCB Spending Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.commBenefitSpending?.QCB_Spending_Score)}</td>;
