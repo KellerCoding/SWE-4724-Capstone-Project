@@ -1,0 +1,14 @@
+---
+description: GAWatch React/Vite stack and styling conventions
+globs: src/**/*.{js,jsx,css}
+alwaysApply: false
+---
+
+# GAWatch Stack
+
+- Stack: React 19 + Vite + react-router-dom (HashRouter) + Bootstrap/react-bootstrap + Mapbox.
+- Validate with repository scripts: npm run lint, npm test, npm run build.
+- Keep page styles in src/index.css. Keep separate: Navbar.css, SubNavbar.css, Dropdown.module.css.
+- Prefer existing component patterns under src/Pages/. Do not invent parallel style systems.
+- Data lives in src/data/ JSON. Do not call production APIs in routine tests.
+- Smallest complete change. Match local naming and class conventions.

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import Map, { Marker, Popup, Source, Layer } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import georgiaGeoJson from "../data/georgia.json";
@@ -8,62 +8,82 @@ import dullStar from "../assets/Images/ratingStarGrey.png";
 
 import { useParams, Link } from "react-router-dom";
 
+const DEFAULT_VIEW = {
+  latitude: 32.1656,
+  longitude: -82.9001,
+  zoom: 6,
+};
+const HOSPITAL_ZOOM = 12;
+
 export default function GeorgiaMap() {
   const { hospitalId } = useParams();
-  const [selected, setSelected] = useState(null);
+  const mapRef = useRef(null);
   const [search, setSearch] = useState("");
-  const [viewState, setViewState] = useState({
-    latitude: 32.1656,
-    longitude: -82.9001,
-    zoom: 6,
-  });
-
   // Set to hard crop mode (no mask)
   const maskMode = false;
 
-  // Transform hospital data from finalData.json into locations array
-  // Maintains the order from JSON file (Object.entries preserves insertion order)
-  // Limited to first 32 hospitals
+  // Build locations from finalData; keep JSON insertion order
   const locations = useMemo(() => {
-    return Object.entries(testData)
-      .slice(0, 105) // Only take first 32 hospitals
-      .map(([id, data]) => ({
-        id: id,
-        name: data.hospitalInfo.name,
-        lat: data.hospitalInfo.lat,
-        lng: data.hospitalInfo.lng,
-        city: data.hospitalInfo.city,
-        address: data.hospitalInfo.address,
-        website: data.hospitalInfo.website,
-        grade: data.finalScore?.Grade_Final ?? 0,
-      }));
+    return Object.entries(testData).map(([id, data]) => ({
+      id: String(id),
+      name: data.hospitalInfo.name,
+      lat: data.hospitalInfo.lat,
+      lng: data.hospitalInfo.lng,
+      city: data.hospitalInfo.city,
+      address: data.hospitalInfo.address,
+      website: data.hospitalInfo.website,
+      grade: data.finalScore?.Grade_Final ?? 0,
+    }));
   }, []);
 
-  // Automatically fly to hospital if hospitalId is in the URL
-  useEffect(() => {
-    if (!hospitalId) return;
-    const hospital = locations.find((loc) => loc.id === hospitalId);
-    if (!hospital) return;
-
-    setSelected(hospital);
-    setViewState({
-      latitude: hospital.lat,
-      longitude: hospital.lng,
-      zoom: 12,
-    });
+  const hospitalFromRoute = useMemo(() => {
+    if (!hospitalId) return null;
+    return locations.find((loc) => loc.id === String(hospitalId)) || null;
   }, [hospitalId, locations]);
+
+  const [selected, setSelected] = useState(hospitalFromRoute);
+  const [viewState, setViewState] = useState(() =>
+    hospitalFromRoute
+      ? {
+          latitude: hospitalFromRoute.lat,
+          longitude: hospitalFromRoute.lng,
+          zoom: HOSPITAL_ZOOM,
+        }
+      : DEFAULT_VIEW
+  );
+
+  // Fly camera to hospital; sync selected + controlled viewState
+  const focusHospital = useCallback((loc, event) => {
+    event?.originalEvent?.stopPropagation?.();
+    event?.stopPropagation?.();
+    if (!loc) return;
+
+    setSelected(loc);
+    setViewState({
+      latitude: loc.lat,
+      longitude: loc.lng,
+      zoom: HOSPITAL_ZOOM,
+    });
+
+    mapRef.current?.flyTo({
+      center: [loc.lng, loc.lat],
+      zoom: HOSPITAL_ZOOM,
+      duration: 800,
+    });
+  }, []);
+
+  // Honor /georgia-map/:hospitalId from Hospital Score "See on Map"
+  useEffect(() => {
+    if (!hospitalFromRoute) return;
+    focusHospital(hospitalFromRoute);
+  }, [hospitalFromRoute, focusHospital]);
 
   const filteredLocations = locations.filter((loc) =>
     loc.name.toLowerCase().includes(search.toLowerCase())
   );
 
-  const flyToLocation = (loc) => {
-    setSelected(loc);
-    setViewState({
-      latitude: loc.lat,
-      longitude: loc.lng,
-      zoom: 12,
-    });
+  const flyToLocation = (loc, event) => {
+    focusHospital(loc, event);
   };
 
   // Create a “hole mask” GeoJSON combining world & Georgia
@@ -131,10 +151,12 @@ export default function GeorgiaMap() {
       {/* Map */}
       <div className="map-wrapper">
         <Map
+          ref={mapRef}
           {...viewState}
           onMove={(evt) => setViewState(evt.viewState)}
-          transitionDuration={800}
-          transitionEasing={(t) => t * (2 - t)}
+          onLoad={() => {
+            if (hospitalFromRoute) focusHospital(hospitalFromRoute);
+          }}
           style={{ width: "100%", height: "500px", borderRadius: "12px" }}
           mapStyle="mapbox://styles/mapbox/streets-v11"
           mapboxAccessToken={import.meta.env.VITE_MAPBOX_TOKEN}
@@ -184,13 +206,13 @@ export default function GeorgiaMap() {
             key={loc.id}
             latitude={loc.lat}
             longitude={loc.lng}
-            onClick={() => flyToLocation(loc)}
+            onClick={(e) => flyToLocation(loc, e)}
             style={{ cursor: 'pointer' }}
           >
-            <div 
-              onClick={() => flyToLocation(loc)}
-              style={{ 
-                fontSize: '30px', 
+            <div
+              onClick={(e) => flyToLocation(loc, e)}
+              style={{
+                fontSize: '30px',
                 cursor: 'pointer',
                 filter: 'drop-shadow(0 0 2px rgba(0,0,0,0.3))',
                 userSelect: 'none'
@@ -204,9 +226,11 @@ export default function GeorgiaMap() {
         {/* Popup */}
         {selected && (
           <Popup
+            key={selected.id}
             latitude={selected.lat}
             longitude={selected.lng}
             anchor="top"
+            closeOnClick={false}
             onClose={() => setSelected(null)}
           >
             <div>
