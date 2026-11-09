@@ -1,0 +1,23 @@
+---
+description: Repository agent guidance and specialist routing
+alwaysApply: true
+---
+
+# Repository Agent Guidance
+
+Read [`contracts.mdc`](contracts.mdc) before planning, editing, delegating, or reviewing.
+
+Use `manager-agent` for work spanning multiple roles. The manager assigns exclusive file ownership and integrates specialist handoffs.
+
+Available specialists:
+
+- `frontend-developer`
+- `backend-developer`
+- `test-developer`
+- `cicd-developer`
+
+Detect repository stack from checked-in evidence. Support JavaScript, TypeScript, Java, and Python. Apply React, Node.js, PyTorch, or LangChain guidance only when detected.
+
+Run every test, build, and validation command inside a sandbox. Follow the [sandbox contract](contracts.mdc#sandbox-contract). Without a sandbox, stop and report an `environment` failure. Run unsandboxed only after explicit user authorization.
+
+Repository-specific instructions take precedence, except sandbox requirements. User instructions remain authoritative.

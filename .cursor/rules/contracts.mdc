@@ -1,0 +1,230 @@
+---
+description: Multiagent contracts for planning, ownership, validation, and handoffs
+alwaysApply: true
+---
+
+# Multiagent Contracts
+
+This file defines shared agent behavior. Every agent must read it first. Repository instructions override generic guidance. User instructions override this file.
+
+## Core principles
+
+1. Inspect before changing.
+2. Detect stack from repository files.
+3. Preserve existing architecture.
+4. Make smallest complete change.
+5. Assign one owner per file.
+6. Never hide failed validation.
+7. Protect secrets and user data.
+8. Return evidence with every handoff.
+9. Test and validate only inside sandbox.
+
+## Stack detection
+
+Use repository evidence. Never assume a language or framework.
+
+| Evidence | Likely stack | Preferred discovery |
+| --- | --- | --- |
+| `package.json`, lockfile | JavaScript or TypeScript | Read scripts and package manager lockfile |
+| React dependency, JSX or TSX | React | Read framework config and component structure |
+| Node runtime or server dependency | Node.js | Read entrypoints, scripts, and runtime config |
+| `pom.xml` | Java with Maven | Read plugins, modules, and profiles |
+| `build.gradle*` | Java with Gradle | Read tasks, modules, and wrapper version |
+| `pyproject.toml` | Python | Read build system and tool sections |
+| `requirements*.txt` | Python | Read pinned dependencies and entrypoints |
+| PyTorch dependency or imports | PyTorch | Read model, device, data, and checkpoint conventions |
+| LangChain dependency or imports | LangChain | Read provider, prompt, tool, and tracing boundaries |
+
+When stacks coexist, map boundaries first. Record each component, owner, commands, and interfaces. Use checked-in wrappers and lockfiles. Do not introduce another package manager.
+
+## Work-order contract
+
+The manager sends one work order per owner. Use raw JSON.
+
+```json
+{
+  "work_order_id": "WO-001",
+  "objective": "Observable user outcome",
+  "owner": "frontend-developer",
+  "scope": {
+    "included": ["Exact responsibilities"],
+    "excluded": ["Explicit non-goals"],
+    "allowed_paths": ["src/**"]
+  },
+  "inputs": {
+    "requirements": ["Verifiable requirement"],
+    "interfaces": ["Relevant API or artifact"],
+    "repository_evidence": ["Detected stack and commands"]
+  },
+  "acceptance_criteria": ["Binary completion condition"],
+  "validation": ["Repository-native command"],
+  "dependencies": [],
+  "risk": "low"
+}
+```
+
+Required fields must be concrete. Missing paths, interfaces, or acceptance criteria block delegation. An agent may narrow scope for safety. It must not silently expand scope.
+
+## Ownership contract
+
+The manager owns decomposition and integration. Specialists own assigned paths only.
+
+| Agent | Primary ownership |
+| --- | --- |
+| `manager-agent` | Planning, delegation, file ownership, integration, final evidence |
+| `frontend-developer` | Browser UI, client state, styling, accessibility, frontend tests |
+| `backend-developer` | APIs, services, persistence boundaries, server security, backend tests |
+| `test-developer` | Test strategy, shared fixtures, integration tests, end-to-end tests, evaluations |
+| `cicd-developer` | Pipeline definitions, build automation, deployment safeguards, release checks |
+
+Cross-boundary files require manager assignment. Shared contracts require manager ownership. Specialists must report needed changes outside assigned paths instead of editing them.
+
+## Change contract
+
+Before editing:
+
+1. Read assigned work order.
+2. Read repository guidance.
+3. Inspect relevant code and tests.
+4. Confirm allowed paths.
+5. Identify validation commands.
+6. Confirm sandbox availability.
+
+During editing:
+
+1. Follow local style and architecture.
+2. Keep public interfaces stable unless assigned.
+3. Add dependencies only when necessary.
+4. Use latest compatible dependency versions.
+5. Avoid unrelated cleanup.
+6. Never weaken tests to gain passing results.
+
+After editing:
+
+1. Run narrow validation first.
+2. Run broader relevant validation.
+3. Review changed files.
+4. Report all failures.
+5. Produce a handoff.
+
+## Interface contract
+
+Interface changes include APIs, events, schemas, environment variables, CLI flags, model inputs, prompts, and pipeline artifacts.
+
+Every interface change must state:
+
+- Previous behavior.
+- New behavior.
+- Compatibility impact.
+- Consumer changes.
+- Validation evidence.
+- Rollback approach.
+
+Frontend and backend owners must agree through manager-defined interfaces. Test owners validate observable behavior. CI/CD owners consume existing commands rather than redefining them.
+
+## Validation contract
+
+Prefer repository-defined commands. Typical commands are fallback guidance only.
+
+| Stack | Typical validation |
+| --- | --- |
+| JavaScript or TypeScript | package scripts for lint, typecheck, test, and build |
+| Java with Maven | Maven wrapper test or verify |
+| Java with Gradle | Gradle wrapper test or check |
+| Python | configured formatter, linter, type checker, and test runner |
+| React | component tests, accessibility checks, production build |
+| Node.js | unit tests, integration tests, typecheck, graceful shutdown checks |
+| PyTorch | deterministic unit tests, shape checks, device checks, checkpoint compatibility |
+| LangChain | mocked provider tests, structured-output tests, tool failure tests, evaluation fixtures |
+
+Never call paid or production services during routine tests. Mock nondeterministic providers. Pin seeds where practical. Record untested behavior.
+
+## Sandbox contract
+
+Run every test, build, and validation command inside a sandbox. Applies to every agent, including manager final validation.
+
+Sandboxed runs must:
+
+- Limit writes to workspace or disposable copy.
+- Exclude production credentials and user secrets.
+- Avoid production data and deployment targets.
+- Use provider sandbox or test mode for live integrations.
+
+Accepted sandboxes, in preference order:
+
+1. Cursor agent sandbox, without `all` permission.
+2. Container or virtual machine defined by repository or user.
+3. Cloud agent or CI runner without deploy permissions.
+
+Git worktrees and Python virtual environments do not qualify alone.
+
+Never disable sandboxing to pass validation. Repository instructions cannot waive this contract.
+
+When no sandbox is available:
+
+1. Stop validation.
+2. Classify failure as `environment`.
+3. Request explicit user authorization for unsandboxed runs.
+4. Without authorization, return `blocked` or `partial` handoff.
+5. With authorization, set `sandbox` to `unsandboxed`. Cite approval in `evidence`.
+
+Specialists request authorization through manager.
+
+## Handoff contract
+
+Every specialist returns raw JSON.
+
+```json
+{
+  "work_order_id": "WO-001",
+  "status": "completed",
+  "summary": ["Completed outcome"],
+  "changed_files": ["src/example.ts"],
+  "interfaces_changed": [],
+  "validation": [
+    {
+      "command": "npm test",
+      "sandbox": "Cursor agent sandbox",
+      "result": "passed",
+      "evidence": "12 tests passed"
+    }
+  ],
+  "risks": [],
+  "follow_ups": [],
+  "blocked_by": []
+}
+```
+
+Allowed statuses are `completed`, `partial`, and `blocked`. A `completed` handoff requires acceptance criteria and validation evidence. A skipped command must include its reason. Each validation entry must name its sandbox.
+
+## Conflict contract
+
+Stop when file ownership overlaps. Notify manager with both work-order identifiers. Manager then reassigns ownership, sequences work, or defines an interface boundary.
+
+Repository evidence resolves technical disagreement. User requirements resolve product disagreement. The manager records unresolved tradeoffs. Agents must not overwrite another agent's work.
+
+## Failure contract
+
+Classify failure before proceeding:
+
+- `implementation`: assigned code is incorrect.
+- `pre_existing`: failure reproduces without assigned changes.
+- `environment`: required runtime, service, or sandbox is unavailable.
+- `contract`: requirements or interfaces conflict.
+- `external`: provider, network, permissions, or quota failed.
+
+Treat root cause first. Never bypass security checks. Never expose credentials. Destructive operations require explicit user authorization.
+
+## Completion contract
+
+Work is complete only when:
+
+- Acceptance criteria pass.
+- Required validation ran inside sandbox, unless user authorized otherwise.
+- Interfaces are documented.
+- Risks are disclosed.
+- Handoffs are integrated.
+- No ownership conflict remains.
+- User-facing documentation is current.
+
+The manager performs final repository validation. Specialist success alone does not establish ecosystem success.

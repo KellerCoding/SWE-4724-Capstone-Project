@@ -1,4 +1,3 @@
-import "./Scorecard.css"
 import { useNavigate } from "react-router-dom"
 import { useState, useMemo, useEffect, useRef } from "react"
 // import hospitalData from "../data/testData.json"

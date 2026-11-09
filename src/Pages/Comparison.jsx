@@ -1,4 +1,3 @@
-import styles from "./Comparison.module.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Tooltip from "../Pages/Tooltip.jsx";
@@ -49,9 +48,9 @@ export function Comparison() {
     const stars = [];
     for (let i = 0; i < 5; i++) {
       const src = i < filled ? star : dullStar;
-      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={styles.ratingStar} />);
+      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="ratingStar" />);
     }
-    return <div className={styles.starRow}>{stars}</div>;
+    return <div className="starRow">{stars}</div>;
   };
 
   // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
@@ -64,9 +63,9 @@ export function Comparison() {
     const stars = [];
     for (let i = 0; i < 5; i++) {
       const src = i < filled ? star : dullStar;
-      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={styles.ratingStar} />);
+      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="ratingStar" />);
     }
-    return <div className={styles.starRow}>{stars}</div>;
+    return <div className="starRow">{stars}</div>;
   };
 
   // Helper to get field value with fallback for different naming conventions
@@ -83,23 +82,23 @@ export function Comparison() {
   const displayedHospitals = isMobile ? selectedHospitals.slice(0, 2) : selectedHospitals;
 
   return (
-    <div className={styles["comparison-page"]}>
-      <div className={styles.banner}>
+    <div className="comparison-page">
+      <div className="banner">
         <h1><strong>Hospital Accountability Scores</strong></h1>
         <hr/>
       </div>
 
-      <div className={styles.navigationButtons}>
+      <div className="navigationButtons">
         <Link to="/scorecard">
-          <button className={styles.backButton}>
+          <button className="backButton">
             <h6>Back to Scorecard</h6>
           </button>
         </Link>
       </div>
 
-      <div className={styles.container}>
-        <div className={styles.right}>
-          <table className={styles["comparison-table"]}>
+      <div className="container">
+        <div className="right">
+          <table className="comparison-table">
             <thead>
               <tr>
                 <th>Metrics</th>
@@ -116,16 +115,16 @@ export function Comparison() {
 
             <tbody>
               <tr>
-                <td className={styles.metricRow}>Hospital Name</td>
+                <td className="metricRow">Hospital Name</td>
                 {displayedHospitals.map((name, i) => (
-                  <td key={i} className={styles.gradeRow}>
+                  <td key={i} className="gradeRow">
                     {name || "-"}
                   </td>
                 ))}
               </tr>
 
               <tr>
-                <td className={styles.metricRow}>City</td>
+                <td className="metricRow">City</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);
                   return <td key={i}>{entry?.hospitalInfo?.city || "-"}</td>;
@@ -133,7 +132,7 @@ export function Comparison() {
               </tr>
 
               <tr>
-                <td className={styles.metricRow}>County</td>
+                <td className="metricRow">County</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);
                   return <td key={i}>{entry?.hospitalInfo?.county || "-"}</td>;
@@ -141,7 +140,7 @@ export function Comparison() {
               </tr>
 
               <tr>
-                <td className={styles.metricRow}>Bed Size</td>
+                <td className="metricRow">Bed Size</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);
                   return <td key={i}>{entry?.hospitalInfo?.bedSize || "-"}</td>;
@@ -149,7 +148,7 @@ export function Comparison() {
               </tr>
 
             <tr>
-              <td className={styles.metricRow}>Area Type</td>
+              <td className="metricRow">Area Type</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 const data = entry?.hospitalInfo || {};
@@ -165,16 +164,16 @@ export function Comparison() {
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Financial Transparency - Transparency</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Financial Transparency - Transparency</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.financialTransparency?.Transparency)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Financial Transparency - Fiscal Health</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Financial Transparency - Fiscal Health</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 const value = getField(entry?.financialTransparency, "Fiscal_Health", "fiscalHealth");
@@ -182,8 +181,8 @@ export function Comparison() {
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Financial Transparency - Endowment Holdings</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Financial Transparency - Endowment Holdings</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 const value = getField(entry?.financialTransparency, "Endowment_Holdings", "endowmentHoldings");
@@ -191,8 +190,8 @@ export function Comparison() {
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Financial Transparency - Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Financial Transparency - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 const value = getField(entry?.financialTransparency, "Grade_Financial_Transparency", "gradeFinancialTransparency");
@@ -200,104 +199,104 @@ export function Comparison() {
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Community Benefit - CB Spending Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Community Benefit - CB Spending Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.commBenefitSpending?.CB_Spending_Score)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Community Benefit - QCB Spending Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Community Benefit - QCB Spending Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.commBenefitSpending?.QCB_Spending_Score)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Community Benefit - Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Community Benefit - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Affordability - Financial Burden</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Affordability - Financial Burden</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAffordability?.Financial_Burden)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Affordability - Charity Care Policies</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Affordability - Charity Care Policies</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Charity_Care_Policies)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Affordability - Medical Debt Policies</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Affordability - Medical Debt Policies</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Medical_Debt_Policies)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Affordability - Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Affordability - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAffordability?.Grade_Healthcare_Affordability)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - Demographic Alignment</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Access - Demographic Alignment</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.Demographic_Alignment)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - MIUR Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Access - MIUR Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.MIUR_score)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - LIUR Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Access - LIUR Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.LIUR_score)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - Pay Equity</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Access - Pay Equity</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.Pay_Equity)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Healthcare Access - Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Healthcare Access - Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.Grade_Healthcare_Access)}</td>;
               })}
             </tr>
 
-            <tr className={styles.gradeRow}>
-              <td className={styles.metricRow}>Final Score</td>
+            <tr className="gradeRow">
+              <td className="metricRow">Final Score</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 const value = getField(entry?.finalScore, "Grade_Final") || entry?.healthcareAccess?.Grade_Final;
