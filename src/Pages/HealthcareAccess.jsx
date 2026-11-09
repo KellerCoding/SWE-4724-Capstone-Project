@@ -1,4 +1,3 @@
-import "./HealthcareAccess.css"
 import { Link } from "react-router-dom"
 
 export function HealthcareAccess() {

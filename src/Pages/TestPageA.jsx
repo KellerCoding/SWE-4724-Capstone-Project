@@ -1,4 +1,3 @@
-import "./Scorecard.css"
 
 export function TestPageA(){
     return (
