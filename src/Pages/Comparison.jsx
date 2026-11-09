@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Tooltip from "../Pages/Tooltip.jsx";
 import HospitalDropdown from "../Pages/Dropdown.jsx";
 import testData from "../data/testData.json";
 import finalData from "../data/finalData.json";
@@ -40,26 +39,11 @@ export function Comparison() {
   };
 
   // helper: render stars (0-5). Non-numeric or out-of-range shows dashes
-  const renderStars = (value) => {
+  const renderStars = (value, divisor = 1) => {
     if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
     const num = Number(value);
     if (Number.isNaN(num)) return "-";
-    const filled = Math.max(0, Math.min(5, Math.round(num)));
-    const stars = [];
-    for (let i = 0; i < 5; i++) {
-      const src = i < filled ? star : dullStar;
-      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="ratingStar" />);
-    }
-    return <div className="starRow">{stars}</div>;
-  };
-
-  // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
-  const renderStarsDividedBy4 = (value) => {
-    if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
-    const num = Number(value);
-    if (Number.isNaN(num)) return "-";
-    const dividedValue = num / 4;
-    const filled = Math.max(0, Math.min(5, Math.round(dividedValue)));
+    const filled = Math.max(0, Math.min(5, Math.round(num / divisor)));
     const stars = [];
     for (let i = 0; i < 5; i++) {
       const src = i < filled ? star : dullStar;
@@ -235,7 +219,7 @@ export function Comparison() {
               <td className="metricRow">Healthcare Affordability - Charity Care Policies</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Charity_Care_Policies)}</td>;
+                return <td key={i}>{renderStars(entry?.healthcareAffordability?.Charity_Care_Policies, 4)}</td>;
               })}
             </tr>
 
@@ -243,7 +227,7 @@ export function Comparison() {
               <td className="metricRow">Healthcare Affordability - Medical Debt Policies</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Medical_Debt_Policies)}</td>;
+                return <td key={i}>{renderStars(entry?.healthcareAffordability?.Medical_Debt_Policies, 4)}</td>;
               })}
             </tr>
 

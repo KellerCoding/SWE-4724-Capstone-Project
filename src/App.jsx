@@ -2,7 +2,6 @@ import { Navbar } from "./Pages/Navbar.jsx"
 import { Search } from "./Pages/Search.jsx"
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import { SubNavbar } from "./Pages/SubNavbar.jsx"
-import { Homepage } from "./Pages/Homepage.jsx"
 import { Scorecard } from "./Pages/Scorecard.jsx"
 import { ResourceDirectory } from "./Pages/ResourceDirectory.jsx"
 import {Footer} from "./Pages/Footer.jsx"
@@ -19,7 +18,7 @@ function App() {
             <Navbar/>
             <SubNavbar/>
             <Routes>
-                <Route path="/" element={<Homepage/>}/>
+                <Route path="/" element={<Scorecard/>}/>
                 <Route path="/resource-directory" element={<ResourceDirectory/>}/>
                 <Route path="/scorecard" element={<Scorecard/>}/>
                 <Route path="/search" element={<Search/>}/>
