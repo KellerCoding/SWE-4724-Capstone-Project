@@ -80,7 +80,7 @@
 
 //     beforeEach(() => {
 //         // Set environment variable for Mapbox token
-//         import.meta.env.VITE_MAPBOX_TOKEN = 'test-token';
+//         import.meta..env.VITE_MAPBOX_TOKEN = 'test-token';
 //     });
 
 //     describe('Component Rendering', () => {
