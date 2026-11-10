@@ -317,8 +317,8 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
-                                            <span>Patient Payer Mix (MIUR Score)</span>
-                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are otherwise low-income</span>
+                                            <span>Patient Payer Mix</span>
+                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are uninsured/underinsured</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.MIUR_score)}</div>
                                     </div>
@@ -332,7 +332,7 @@ export function HospitalScore() {
                                     <div className="score-item">
                                         <div className="score-label-container">
                                             <span>Pay Equity</span>
-                                            <span className="metric-description">Measures the ratio of CEO compensation to the average direct patient services salary</span>
+                                            <span className="metric-description">Measures the ratio of CEO compensation to the average nurse salary</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Pay_Equity)}</div>
                                     </div>

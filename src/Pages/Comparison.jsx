@@ -264,7 +264,7 @@ export function Comparison() {
             </tr>
 
             <tr className={"gradeRow"}>
-              <td className={"metricRow"}>Healthcare Access - MIUR Score</td>
+              <td className={"metricRow"}>Healthcare Access - Patient Payer Mix</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
                 return <td key={i}>{renderStars(entry?.healthcareAccess?.MIUR_score)}</td>;
