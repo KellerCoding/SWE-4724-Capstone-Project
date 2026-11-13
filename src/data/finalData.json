@@ -39,7 +39,7 @@
     },
     "healthcareAccess": {
       "Demographic_Alignment": 4,
-      "Patient_Payer_Mix": 4.5,
+      "Patient_Payer_Mix": 5,
       "Pay_Equity": 5,
       "Grade_Healthcare_Access": 5
     },

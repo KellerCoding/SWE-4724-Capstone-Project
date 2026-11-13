@@ -5,6 +5,7 @@ import hospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 import { Link } from "react-router-dom"
+import halfstar from "../assets/Images/Half_Star.png"
 
 export function Scorecard(){
     const navigate = useNavigate()
