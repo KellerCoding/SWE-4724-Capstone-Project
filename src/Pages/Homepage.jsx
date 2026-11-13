@@ -1,4 +1,5 @@
 import { Carousel } from 'react-bootstrap'
+import "./Homepage.css"
 import gwatchLogo from "../assets/Images/gwatchlogo.png"
 import gwatchSlide1 from "../assets/Images/homepage/gwatchslide1.png"
 
@@ -11,7 +12,7 @@ export function Homepage(){
     return (
         <div >
           <div className="homepage-header">
-            <h1>Welcome to Georgia Watch</h1>
+            {/* <h1>Welcome to Georgia Watch</h1> */}
             <p>Protecting consumers since 2002</p>
             </div>
             <Carousel controls={true} indicators={false} interval={3000}>

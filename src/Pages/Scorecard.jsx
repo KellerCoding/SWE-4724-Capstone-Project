@@ -1,3 +1,4 @@
+import "./Scorecard.css"
 import { useNavigate } from "react-router-dom"
 import { useState, useMemo, useEffect, useRef } from "react"
 // import hospitalData from "../data/testData.json"
@@ -25,7 +26,7 @@ export function Scorecard(){
     const itemsPerPage = 30
     const cityDropdownRef = useRef(null)
     const countyDropdownRef = useRef(null)
-    
+
     // Close dropdowns when clicking outside
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -36,13 +37,13 @@ export function Scorecard(){
                 setShowCountyDropdown(false)
             }
         }
-        
+
         document.addEventListener('mousedown', handleClickOutside)
         return () => {
             document.removeEventListener('mousedown', handleClickOutside)
         }
     }, [])
-    
+
     const hospitalViewClick = (hospitalId) => {
         navigate(`/hospital-score/${hospitalId}`) 
     }
@@ -88,7 +89,7 @@ export function Scorecard(){
         setSortBySystem(null)
         setCurrentPage(1)
     }
-    
+
     const handleCountySort = () => {
         if (sortByCounty === null) {
             setSortByCounty(true) // First click: ascending (A-Z)
@@ -102,7 +103,7 @@ export function Scorecard(){
         setSortBySystem(null)
         setCurrentPage(1)
     }
-    
+
     // Get unique cities and counties for filter dropdowns
     const uniqueCities = useMemo(() => {
         const cities = new Set()
@@ -113,7 +114,7 @@ export function Scorecard(){
         })
         return Array.from(cities).sort()
     }, [])
-    
+
     const uniqueCounties = useMemo(() => {
         const counties = new Set()
         Object.values(hospitalData).forEach(data => {
@@ -123,26 +124,26 @@ export function Scorecard(){
         })
         return Array.from(counties).sort()
     }, [])
-    
+
     // Filter cities and counties based on search within dropdowns
     const filteredCities = useMemo(() => {
         if (!cityFilterSearch.trim()) return uniqueCities
-        return uniqueCities.filter(city => 
+        return uniqueCities.filter(city =>
             city.toLowerCase().includes(cityFilterSearch.toLowerCase())
         )
     }, [uniqueCities, cityFilterSearch])
-    
+
     const filteredCounties = useMemo(() => {
         if (!countyFilterSearch.trim()) return uniqueCounties
-        return uniqueCounties.filter(county => 
+        return uniqueCounties.filter(county =>
             county.toLowerCase().includes(countyFilterSearch.toLowerCase())
         )
     }, [uniqueCounties, countyFilterSearch])
-    
+
     // Filter and sort hospital data based on current state
     const filteredAndSortedHospitalData = useMemo(() => {
         let entries = Object.entries(hospitalData)
-        
+
         // Apply search filter
         if (searchQuery.trim()) {
             entries = entries.filter(([, data]) => {
@@ -150,21 +151,21 @@ export function Scorecard(){
                 return name.includes(searchQuery.toLowerCase())
             })
         }
-        
+
         // Apply city filter
         if (selectedCity) {
             entries = entries.filter(([, data]) => {
                 return data.hospitalInfo?.city === selectedCity
             })
         }
-        
+
         // Apply county filter
         if (selectedCounty) {
             entries = entries.filter(([, data]) => {
                 return data.hospitalInfo?.county === selectedCounty
             })
         }
-        
+
         // Apply sorting
         if (sortByName !== null) {
             entries = entries.sort(([, a], [, b]) => {
@@ -195,7 +196,7 @@ export function Scorecard(){
                 return sortByCounty ? comparison : -comparison // true = ascending, false = descending
             })
         }
-        
+
         return entries
     }, [searchQuery, selectedCity, selectedCounty, sortByName, sortByGrade, sortByCounty, sortBySystem])
     
@@ -256,15 +257,63 @@ export function Scorecard(){
         return pages
     }
 
+    // Helper to convert array of objects to CSV
+    const toCSV = (arr) => {
+        if (!arr || arr.length === 0) return ''
+        const keys = Object.keys(arr[0])
+        const escape = (val) => {
+            if (val === null || val === undefined) return ''
+            const s = String(val)
+            if (s.includes('"') || s.includes(',') || s.includes('\n')) {
+                return '"' + s.replace(/"/g, '""') + '"'
+            }
+            return s
+        }
+        const header = keys.join(',')
+        const rows = arr.map(obj => keys.map(k => escape(obj[k])).join(','))
+        return [header, ...rows].join('\r\n')
+    }
+
+    // Flatten hospital entry into a simple object for CSV export
+    const flattenHospital = ([id, data]) => {
+        return {
+            ID: id,
+            Name: data.hospitalInfo?.name || '',
+            City: data.hospitalInfo?.city || '',
+            County: data.hospitalInfo?.county || '',
+            Zipcode: data.hospitalInfo?.zipcode || '',
+            Final_Grade: data.finalScore?.Grade_Final ?? ''
+        }
+    }
+
+    // Export current dataset to CSV
+    const exportCSV = () => {
+        try {
+            const dataArray = Object.entries(hospitalData).map(flattenHospital)
+            const csvString = toCSV(dataArray)
+            const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' })
+            const url = URL.createObjectURL(blob)
+            const a = document.createElement('a')
+            a.href = url
+            a.download = 'hospitals.csv'
+            document.body.appendChild(a)
+            a.click()
+            a.remove()
+            URL.revokeObjectURL(url)
+        } catch (err) {
+            console.error('Export CSV failed', err)
+        }
+    }
+
     return (
         <div className="Scorecard">
-            <div className={"banner"}>
+            {/* <div className={"banner"}>
                 <h1><strong>Georgia Hospital Accountability Scorecard</strong></h1>
                 <hr/>
-            </div>
+            </div> */}
             <div className={"objective"}>
-                <p>Using data nonprofit hospitals must publicly report under a new law, Georgia Watch and community partners developed a methodology to score hospitals' performance across a range of factors.</p>
-                <p>By translating complex financial data into actionable insights, the Scorecard will support a more sustainable healthcare marketplace that better serves patients, employers, and communities across Georgia while also allowing us to better understand the challenges nonprofit hospitals face.</p>
+                {/* <p>Using data nonprofit hospitals must publicly report under a new law, Georgia Watch and community partners developed a methodology to score hospitals' performance across a range of factors.</p> */}
+                {/* <p>By translating complex financial data into actionable insights, the Scorecard will support a more sustainable healthcare marketplace that better serves patients, employers, and communities across Georgia while also allowing us to better understand the challenges nonprofit hospitals face.</p> */}
                 {filteredAndSortedHospitalData.length > 0 && (
                     <p className="result-count">
                         Showing {filteredAndSortedHospitalData.length} hospital{filteredAndSortedHospitalData.length !== 1 ? 's' : ''}
@@ -292,13 +341,17 @@ export function Scorecard(){
                         <h6>See Map</h6>
                     </button>
                 </Link>
+                <button
+                    onClick={exportCSV}
+                    className={"export-btn csv"}
+                    aria-label="Download CSV">Download Excel File</button>
             </div>
             <div className={"container"}>
                 <div className={"left"}>
                     <div className={"filter"}>
                         <h5>Filter By</h5>
                         <div className="filter-dropdown-container" ref={cityDropdownRef}>
-                            <button 
+                            <button
                                 onClick={() => {
                                     setShowCityDropdown(!showCityDropdown)
                                     setShowCountyDropdown(false)
@@ -320,7 +373,7 @@ export function Scorecard(){
                                         />
                                     </div>
                                     <div className="filter-options-list">
-                                        <button 
+                                        <button
                                             className={`filter-option ${!selectedCity ? "selected" : ""}`}
                                             onClick={() => {
                                                 setSelectedCity("")
@@ -354,7 +407,7 @@ export function Scorecard(){
                             )}
                         </div>
                         <div className="filter-dropdown-container" ref={countyDropdownRef}>
-                            <button 
+                            <button
                                 onClick={() => {
                                     setShowCountyDropdown(!showCountyDropdown)
                                     setShowCityDropdown(false)
@@ -376,7 +429,7 @@ export function Scorecard(){
                                         />
                                     </div>
                                     <div className="filter-options-list">
-                                        <button 
+                                        <button
                                             className={`filter-option ${!selectedCounty ? "selected" : ""}`}
                                             onClick={() => {
                                                 setSelectedCounty("")
@@ -414,7 +467,7 @@ export function Scorecard(){
                                 {selectedCity && (
                                     <span className="filter-chip">
                                         City: {selectedCity}
-                                        <button 
+                                        <button
                                             className="filter-chip-remove"
                                             onClick={() => setSelectedCity("")}
                                             aria-label="Remove city filter"
@@ -426,7 +479,7 @@ export function Scorecard(){
                                 {selectedCounty && (
                                     <span className="filter-chip">
                                         County: {selectedCounty}
-                                        <button 
+                                        <button
                                             className="filter-chip-remove"
                                             onClick={() => setSelectedCounty("")}
                                             aria-label="Remove county filter"
@@ -435,7 +488,7 @@ export function Scorecard(){
                                         </button>
                                     </span>
                                 )}
-                                <button 
+                                <button
                                     className="clear-filters"
                                     onClick={() => {
                                         setSelectedCity("")
@@ -449,22 +502,22 @@ export function Scorecard(){
                     </div>
                     <div className={"sort"}>
                         <h5>Sort By</h5>
-                        <button 
+                        <button
                             onClick={handleHospitalNameSort}
                             className={sortByName !== null ? "active-sort" : ""}
                         >
                             <h6>
-                                Hospital Name 
+                                Hospital Name
                                 {sortByName === true && " ↑ (A-Z)"}
                                 {sortByName === false && " ↓ (Z-A)"}
                             </h6>
                         </button>
-                        <button 
+                        <button
                             onClick={handleHospitalSystemSort}
                             className={sortBySystem !== null ? "active-sort" : ""}
                         >
                             <h6>
-                                Hospital System 
+                                Hospital System
                                 {sortBySystem === true && " ↑ (A-Z)"}
                                 {sortBySystem === false && " ↓ (Z-A)"}
                             </h6>
@@ -485,7 +538,7 @@ export function Scorecard(){
                             className={sortByCounty !== null ? "active-sort" : ""}
                         >
                             <h6>
-                                County 
+                                County
                                 {sortByCounty === true && " ↑ (A-Z)"}
                                 {sortByCounty === false && " ↓ (Z-A)"}
                             </h6>
@@ -498,7 +551,7 @@ export function Scorecard(){
                     <table className={"table"}>
                         <thead className={"thead"}>
                             <tr>
-                                <th className={"th0"}>Rank</th>
+                                <th className={"th0"}></th>
                                 <th className={"th1"}>Hospital</th>
                                 <th className={"th2"}>Score</th>
                                 <th className={"th3"}>Details</th>
@@ -523,10 +576,10 @@ export function Scorecard(){
                                                 const stars = []
                                                 for (let i = 0; i < 5; i++) {
                                                     stars.push(
-                                                        <img 
-                                                            key={i} 
-                                                            src={i < grade ? star : dullStar} 
-                                                            alt={i < grade ? "star" : "dull"} 
+                                                        <img
+                                                            key={i}
+                                                            src={i < grade ? star : dullStar}
+                                                            alt={i < grade ? "star" : "dull"}
                                                             className={"ratingStar"}
                                                         />
                                                     )

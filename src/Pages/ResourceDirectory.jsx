@@ -1,3 +1,4 @@
+import "./ResourceDirectory.css"
 import { useNavigate } from "react-router-dom"
 import GWatchTab1 from "../assets/Images/resourceDirectory/gwatchtab1.png"
 import GWatchTab2 from "../assets/Images/resourceDirectory/gwatchtab2.png"
@@ -15,10 +16,10 @@ export function ResourceDirectory(){
 
     return(
         <div className="resource-directory">
-            <div className="resource-header">
+            {/* <div className="resource-header">
                 <h1>Resource Directory</h1>
                 <div className="header-line"></div>
-            </div>
+            </div> */}
             
             <div className="resource-description">
                 <p>Use this guide to jumpstart your research, explore avenues of advocacy you may be unfamiliar with, and connect with organizations working in your community.</p>

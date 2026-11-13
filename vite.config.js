@@ -6,6 +6,7 @@ import {configDefaults} from "vitest/config";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/scorecard-tool/',
   plugins: [react()],
   test: {
     include: ['**/__tests__/**/*.{test,spec}.{js,jsx}'],
