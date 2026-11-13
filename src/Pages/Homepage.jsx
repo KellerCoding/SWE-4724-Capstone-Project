@@ -11,7 +11,7 @@ export function Homepage(){
     return (
         <div >
           <div className="homepage-header">
-            {/* <h1>Welcome to Georgia Watch</h1> */}
+            <h1>Welcome to Georgia Watch</h1>
             <p>Protecting consumers since 2002</p>
             </div>
             <Carousel controls={true} indicators={false} interval={3000}>
