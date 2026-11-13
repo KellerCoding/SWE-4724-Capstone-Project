@@ -64,7 +64,7 @@
       "bedSize": 25,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": 31.2300,
+      "lat": 31.23,
       "lng": -84.2053
     },
     "financialTransparency": {
@@ -208,7 +208,7 @@
       "bedSize": 384,
       "sizeGroup": "Large",
       "hoursOperation": "Not 24/7",
-      "lat": 32.0280,
+      "lat": 32.028,
       "lng": -81.0998
     },
     "financialTransparency": {
@@ -304,7 +304,7 @@
       "bedSize": 25,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": 31.5120,
+      "lat": 31.512,
       "lng": -83.8402
     },
     "financialTransparency": {
@@ -736,7 +736,7 @@
       "bedSize": 196,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": 33.5790,
+      "lat": 33.579,
       "lng": -85.0767
     },
     "financialTransparency": {
@@ -880,8 +880,8 @@
       "bedSize": 24,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": 33.7540,
-      "lng": -84.3820
+      "lat": 33.754,
+      "lng": -84.382
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -1072,7 +1072,7 @@
       "bedSize": 300,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": 31.1490,
+      "lat": 31.149,
       "lng": -81.4918
     },
     "financialTransparency": {
@@ -1120,7 +1120,7 @@
       "bedSize": 304,
       "sizeGroup": "Large",
       "hoursOperation": "24/7",
-      "lat": 34.2600,
+      "lat": 34.26,
       "lng": -85.1789
     },
     "financialTransparency": {
@@ -1649,7 +1649,7 @@
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
       "lat": 33.81015,
-      "lng": -84.39360
+      "lng": -84.3936
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -1697,7 +1697,7 @@
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
       "lat": 31.47167,
-      "lng": -83.49190
+      "lng": -83.4919
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2128,7 +2128,7 @@
       "bedSize": 451,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": 33.7910,
+      "lat": 33.791,
       "lng": -84.2829
     },
     "financialTransparency": {
@@ -2162,7 +2162,7 @@
   "46": {
     "hospitalInfo": {
       "ID": 41,
-      "name": "Houston Healthcare - Perry ",
+      "name": "Houston Healthcare - Perry",
       "website": "https://www.emoryhealthcare.org/about/financial-information",
       "city": "Perry",
       "county": "Houston",
@@ -2225,7 +2225,7 @@
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
       "lat": 34.1137,
-      "lng": -82.8750
+      "lng": -82.875
     },
     "financialTransparency": {
       "Transparency": 4,
@@ -2368,7 +2368,7 @@
       "bedSize": 25,
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
-      "lat": 32.6050,
+      "lat": 32.605,
       "lng": -83.7593
     },
     "financialTransparency": {
@@ -2464,8 +2464,8 @@
       "bedSize": 161,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": 33.68110,
-      "lng": -84.00130
+      "lat": 33.6811,
+      "lng": -84.0013
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2608,8 +2608,8 @@
       "bedSize": 100,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": 33.7060,
-      "lng": -84.1480
+      "lat": 33.706,
+      "lng": -84.148
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2657,7 +2657,7 @@
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
       "lat": 33.7776,
-      "lng": -84.2930
+      "lng": -84.293
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2753,7 +2753,7 @@
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
       "lat": 30.86281,
-      "lng": -83.28710
+      "lng": -83.2871
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -2848,7 +2848,7 @@
       "bedSize": 410,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": 33.9270,
+      "lat": 33.927,
       "lng": -84.3278
     },
     "financialTransparency": {
@@ -3233,7 +3233,7 @@
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
       "lat": 31.8573,
-      "lng": -82.6070
+      "lng": -82.607
     },
     "financialTransparency": {
       "Transparency": 3,
@@ -3377,7 +3377,7 @@
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
       "lat": 34.8753,
-      "lng": -83.7600
+      "lng": -83.76
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -3615,9 +3615,9 @@
       "criticalAccess": 0,
       "bedSize": 52,
       "sizeGroup": "Small",
-      "hoursOperation":"Not 24/7",
+      "hoursOperation": "Not 24/7",
       "lat": 32.89004,
-      "lng": -84.68990
+      "lng": -84.6899
     },
     "financialTransparency": {
       "Transparency": 4,
@@ -3713,7 +3713,7 @@
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
       "lat": 31.8398,
-      "lng": -81.6010
+      "lng": -81.601
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -3952,7 +3952,7 @@
       "bedSize": 478,
       "sizeGroup": "Extra Large",
       "hoursOperation": "24/7",
-      "lat": 33.4700,
+      "lat": 33.47,
       "lng": -82.0109
     },
     "financialTransparency": {
@@ -4000,7 +4000,7 @@
       "bedSize": 96,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": 34.59290,
+      "lat": 34.5929,
       "lng": -83.34798
     },
     "financialTransparency": {
@@ -4097,7 +4097,7 @@
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
       "lat": 33.9129,
-      "lng": -84.9370
+      "lng": -84.937
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -4370,7 +4370,7 @@
   "92": {
     "hospitalInfo": {
       "ID": 104,
-      "name": "Wellstar Douglas Medical Center ",
+      "name": "Wellstar Douglas Medical Center",
       "website": "https://www.wellstar.org/hospital-transparency",
       "city": "Douglasville",
       "county": "Douglas",
@@ -4673,7 +4673,7 @@
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
       "lat": 32.64343,
-      "lng": -82.40880
+      "lng": -82.4088
     },
     "financialTransparency": {
       "Transparency": 5,
@@ -4864,8 +4864,8 @@
       "bedSize": 104,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": 32.88940,
-      "lng": -84.68300
+      "lat": 32.8894,
+      "lng": -84.683
     },
     "financialTransparency": {
       "Transparency": 3,
@@ -5056,7 +5056,7 @@
       "bedSize": 187,
       "sizeGroup": "Medium",
       "hoursOperation": "24/7",
-      "lat": 30.90270,
+      "lat": 30.9027,
       "lng": -84.55251
     },
     "financialTransparency": {
@@ -5248,8 +5248,8 @@
       "bedSize": 70,
       "sizeGroup": "Small",
       "hoursOperation": "24/7",
-      "lat": 32.20870,
-      "lng": -82.37460
+      "lat": 32.2087,
+      "lng": -82.3746
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -5297,7 +5297,7 @@
       "sizeGroup": "Very Small",
       "hoursOperation": "24/7",
       "lat": 31.53958,
-      "lng": -82.45880
+      "lng": -82.4588
     },
     "financialTransparency": {
       "Transparency": 0,
@@ -5325,6 +5325,582 @@
     },
     "finalScore": {
       "Grade_Final": 0
+    }
+  },
+  "112": {
+    "hospitalInfo": {
+      "ID": 114,
+      "name": "AdventHealth Gordon",
+      "website": "https://www.adventhealth.com/hospital/adventhealth-gordon/organizational-and-financial-information",
+      "city": "Calhoun",
+      "county": "Gordon",
+      "address": "1035 Red Bud Rd NE",
+      "zipcode": 30701,
+      "hospitalSystem": 1,
+      "systemName": "AdventHealth",
+      "areaType": 1,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 69,
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 34.51176,
+      "lng": -84.92058
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 5,
+      "Grade_Comm_Benefit_Spending": 5
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 5,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 2,
+      "Pay_Equity": 4,
+      "Grade_Healthcare_Access": 4,
+      "Patient_Payer_Mix": 5
+    },
+    "finalScore": {
+      "Grade_Final": 4
+    }
+  },
+  "113": {
+    "hospitalInfo": {
+      "ID": 115,
+      "name": "AdventHealth Murray",
+      "website": "https://www.adventhealth.com/hospital/adventhealth-murray/organizational-and-financial-information",
+      "city": "Chatsworth",
+      "county": "Murray",
+      "address": "707 Old Dalton Ellijay Road",
+      "zipcode": 30705,
+      "hospitalSystem": 1,
+      "systemName": "AdventHealth",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 42,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 34.78018,
+      "lng": -84.78285
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 5,
+      "Grade_Comm_Benefit_Spending": 5
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 5,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 1,
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 3,
+      "Patient_Payer_Mix": 2
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
+    }
+  },
+  "114": {
+    "hospitalInfo": {
+      "ID": 116,
+      "name": "Advent Health Redmond",
+      "website": "https://www.adventhealth.com/hospital/adventhealth-redmond/organizational-and-financial-information",
+      "city": "Rome",
+      "county": "Floyd",
+      "address": "01 Redmond Road",
+      "zipcode": 30165,
+      "hospitalSystem": 1,
+      "systemName": "AdventHealth",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 230,
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.27815,
+      "lng": -85.19333
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 4,
+      "Grade_Comm_Benefit_Spending": 5
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 5,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 3
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 2,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 2,
+      "Patient_Payer_Mix": 2
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
+    }
+  },
+  "115": {
+    "hospitalInfo": {
+      "ID": 117,
+      "name": "Atrium Health Polk Medical Center",
+      "website": "https://www.floyd.org/about-floyd/Pages/financial_and_organizational_information.aspx",
+      "city": "Cedartown",
+      "county": "Polk",
+      "address": "2360 Rockmart Highway",
+      "zipcode": 30125,
+      "hospitalSystem": 1,
+      "systemName": "Atrium Health",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 34.01429,
+      "lng": -85.1962
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 2,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 3,
+      "Grade_Financial_Transparency": 3
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 4,
+      "Grade_Comm_Benefit_Spending": 4.5
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 4,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 2.5
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 3,
+      "Pay_Equity": 3,
+      "Grade_Healthcare_Access": 3,
+      "Patient_Payer_Mix": 1
+    },
+    "finalScore": {
+      "Grade_Final": 3
+    }
+  },
+  "116": {
+    "hospitalInfo": {
+      "ID": 118,
+      "name": "Bleckley Memorial Hospital",
+      "website": "https://bleckleymemorial.com/transparency.php",
+      "city": "Cochran",
+      "county": "Bleckely",
+      "address": "145 Peacock St Suite 3",
+      "zipcode": 31034,
+      "hospitalSystem": 0,
+      "systemName": "0.0",
+      "areaType": 1,
+      "hospitalAuthority": 1,
+      "criticalAccess": 1,
+      "bedSize": 25,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 32.38383,
+      "lng": -83.34684
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 2,
+      "Grade_Financial_Transparency": 3
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 5,
+      "Charity_Care_Policies": 2,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2.5
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 1,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 2,
+      "Patient_Payer_Mix": 3
+    },
+    "finalScore": {
+      "Grade_Final": 2
+    }
+  },
+  "117": {
+    "hospitalInfo": {
+      "ID": 119,
+      "name": "City of Hope Cancer Center",
+      "website": "https://www.cancercenter.com/locations/atlanta/financial-information",
+      "city": "Newnan",
+      "county": "Coweta",
+      "address": "600 Celebrate Life Parkwa",
+      "zipcode": 30265,
+      "hospitalSystem": 0,
+      "systemName": "0.0",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 50,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 33.38499,
+      "lng": -84.75799
+    },
+    "financialTransparency": {
+      "Transparency": 4,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 5,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 3
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 2,
+      "Pay_Equity": 1,
+      "Grade_Healthcare_Access": 2,
+      "Patient_Payer_Mix": 1
+    },
+    "finalScore": {
+      "Grade_Final": 2.5
+    }
+  },
+  "118": {
+    "hospitalInfo": {
+      "ID": 120,
+      "name": "Fannin Regional Hospital",
+      "website": "https://www.blueridgemc.org/organizational-financial-information",
+      "city": "Blue Ridge",
+      "county": "Fannin",
+      "address": "2855 Old Highway 5, North",
+      "zipcode": 30513,
+      "hospitalSystem": 0,
+      "systemName": "Piedmont Healthcare",
+      "areaType": 1,
+      "hospitalAuthority": 0,
+      "criticalAccess": 1,
+      "bedSize": 50,
+      "sizeGroup": "Very Small",
+      "hoursOperation": "24/7",
+      "lat": 34.91607,
+      "lng": -84.37463
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 2,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 1,
+      "Grade_Financial_Transparency": 2.5
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 1,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 1
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 1,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 1
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 4,
+      "Patient_Payer_Mix": 5
+    },
+    "finalScore": {
+      "Grade_Final": 2
+    }
+  },
+  "119": {
+    "hospitalInfo": {
+      "ID": 121,
+      "name": "Piedmont Cartersville",
+      "website": "https://www.piedmont.org/policies-and-disclosures/hospital-transparency",
+      "city": "Cartersville",
+      "county": "Bartow",
+      "address": "960 Joe Frank Harris Parkway",
+      "zipcode": 30078,
+      "hospitalSystem": 1,
+      "systemName": "Piedmont Healthcare",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 139,
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 34.19974,
+      "lng": -84.79521
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 4,
+      "QCB_Spending_Score": 4,
+      "Grade_Comm_Benefit_Spending": 4
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 1,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 3,
+      "Pay_Equity": 3,
+      "Grade_Healthcare_Access": 3,
+      "Patient_Payer_Mix": 3
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
+    }
+  },
+  "120": {
+    "hospitalInfo": {
+      "ID": 122,
+      "name": "Piedmont Eastside",
+      "website": "https://www.piedmont.org/policies-and-disclosures/hospital-transparency",
+      "city": "Snellville",
+      "county": "Gwinnett",
+      "address": "1700 Medical Way",
+      "zipcode": 30120,
+      "hospitalSystem": 1,
+      "systemName": "Piedmont Healthcare",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 305,
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 33.87758,
+      "lng": -84.01973
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 3,
+      "QCB_Spending_Score": 2,
+      "Grade_Comm_Benefit_Spending": 3
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 5,
+      "Patient_Payer_Mix": 4
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
+    }
+  },
+  "121": {
+    "hospitalInfo": {
+      "ID": 123,
+      "name": "Piedmont Macon",
+      "website": "https://www.piedmont.org/policies-and-disclosures/hospital-transparency",
+      "city": "Macon",
+      "county": "Bibb",
+      "address": "350 Hospital Drive",
+      "zipcode": 31217,
+      "hospitalSystem": 1,
+      "systemName": "Piedmont Healthcare",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 310,
+      "sizeGroup": "Large",
+      "hoursOperation": "24/7",
+      "lat": 32.84593,
+      "lng": -83.61802
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 4,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 5,
+      "Grade_Comm_Benefit_Spending": 5
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "Pay_Equity": 3,
+      "Grade_Healthcare_Access": 4,
+      "Patient_Payer_Mix": 3
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
+    }
+  },
+  "122": {
+    "hospitalInfo": {
+      "ID": 124,
+      "name": "Piedmont Macon North",
+      "website": "https://www.piedmont.org/policies-and-disclosures/hospital-transparency",
+      "city": "Macon",
+      "county": "Bibb",
+      "address": "400 Charter Boulevard",
+      "zipcode": 31210,
+      "hospitalSystem": 1,
+      "systemName": "Piedmont Healthcare",
+      "areaType": 0,
+      "hospitalAuthority": 0,
+      "criticalAccess": 0,
+      "bedSize": 103,
+      "sizeGroup": "Medium",
+      "hoursOperation": "24/7",
+      "lat": 32.86758,
+      "lng": -83.69331
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 3,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 3,
+      "Grade_Financial_Transparency": 4
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 4,
+      "QCB_Spending_Score": 4,
+      "Grade_Comm_Benefit_Spending": 4
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 1,
+      "Charity_Care_Policies": 3,
+      "Medical_Debt_Policies": 2,
+      "Grade_Healthcare_Affordability": 2
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 5,
+      "Pay_Equity": 2,
+      "Grade_Healthcare_Access": 3,
+      "Patient_Payer_Mix": 2
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
+    }
+  },
+  "123": {
+    "hospitalInfo": {
+      "ID": 125,
+      "name": "Atrium Navicent Health Rehabilitation Hospital",
+      "website": "https://navicenthealth.org/ourhospital",
+      "city": "Macon",
+      "county": "Bibb",
+      "address": "3351 Northside Drive",
+      "zipcode": 31210,
+      "hospitalSystem": 1,
+      "systemName": "Atrium Health",
+      "areaType": 0,
+      "hospitalAuthority": 1,
+      "criticalAccess": 0,
+      "bedSize": 58,
+      "sizeGroup": "Small",
+      "hoursOperation": "24/7",
+      "lat": 32.89362,
+      "lng": -83.68291
+    },
+    "financialTransparency": {
+      "Transparency": 5,
+      "Fiscal_Health": 2,
+      "Endowment_Holdings": 2,
+      "Staffing_Responsiveness": 2,
+      "Grade_Financial_Transparency": 3
+    },
+    "commBenefitSpending": {
+      "CB_Spending_Score": 5,
+      "QCB_Spending_Score": 1,
+      "Grade_Comm_Benefit_Spending": 3
+    },
+    "healthcareAffordability": {
+      "Financial_Burden": 5,
+      "Charity_Care_Policies": 4,
+      "Medical_Debt_Policies": 5,
+      "Grade_Healthcare_Affordability": 5
+    },
+    "healthcareAccess": {
+      "Demographic_Alignment": 4,
+      "Pay_Equity": 5,
+      "Grade_Healthcare_Access": 4,
+      "Patient_Payer_Mix": 3
+    },
+    "finalScore": {
+      "Grade_Final": 3.5
     }
   }
 }

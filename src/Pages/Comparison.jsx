@@ -6,6 +6,7 @@ import testData from "../data/testData.json";
 import finalData from "../data/finalData.json";
 import star from "../assets/Images/ratingStar.png";
 import dullStar from "../assets/Images/ratingStarGrey.png";
+import halfStar from "../assets/Images/Half_Star.png";
 
 export function Comparison() {
   const dataSource = { ...testData, ...finalData };
@@ -39,18 +40,33 @@ export function Comparison() {
     return hospital || null;
   };
 
-  // helper: render stars (0-5). Non-numeric or out-of-range shows dashes
+  // Helper function to render stars (0-5). Non-numeric or out-of-range shows dashes
   const renderStars = (value) => {
     if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
     const num = Number(value);
     if (Number.isNaN(num)) return "-";
-    const filled = Math.max(0, Math.min(5, Math.round(num)));
+
+    const clamped = Math.max(0, Math.min(5, num));
+    const fullStars = Math.floor(clamped);
+    const hasHalf = clamped - fullStars >= 0.5;
+
     const stars = [];
     for (let i = 0; i < 5; i++) {
-      const src = i < filled ? star : dullStar;
-      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={"ratingStar"} />);
+      let src, alt;
+      if (i < fullStars) {
+        src = star;
+        alt = "star";
+      } else if (i === fullStars && hasHalf) {
+        src = halfStar;
+        alt = "half star";
+      } else {
+        src = dullStar;
+        alt = "dull";
+      }
+      stars.push(<img key={i} src={src} alt={alt} className="rating-star" />);
     }
-    return <div className={"starRow"}>{stars}</div>;
+
+    return <div className="star-row">{stars}</div>;
   };
 
   // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
