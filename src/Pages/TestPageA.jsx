@@ -1,11 +1,12 @@
+import "./Scorecard.css"
 
 export function TestPageA(){
     return (
         <div className="Scorecard">
-            <div className={"banner"}>
+            {/* <div className={"banner"}>
                 <h1><strong>Hospital Accountability Scorecard</strong></h1>
                 <hr/>
-            </div>
+            </div> */}
             <div className={"objective"}>
                 <p>Use this guide to jump start your research, explore avenues of advocacy you may be unfamiliar with,
                     and connect with organizations working in your community.</p>

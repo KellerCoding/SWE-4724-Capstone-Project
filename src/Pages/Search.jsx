@@ -1,3 +1,4 @@
+import "./Search.css"
 
 export function Search(){
 
@@ -28,7 +29,7 @@ export function Search(){
     return(
         <>
             <div className={"SearchHead"}>
-                <h1>Georgia Watch</h1>
+                {/* <h1>Georgia Watch</h1> */}
 
                 <div className={"buttonset"}>
                     <PageButtons/>

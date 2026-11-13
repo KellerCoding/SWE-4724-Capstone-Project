@@ -1,0 +1,141 @@
+.footer-1 {
+    background-color: #6fb353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.footer-2 {
+    background-color: #6fb353;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    gap: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    color: #666;
+    font-size: 16px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #333;
+    font-size: 14px;
+    width: 200px;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .footer-1 {
+        padding: 15px 10px;
+        height: auto;
+    }
+    
+    .footer-2 {
+        padding: 20px 15px;
+        height: auto;
+    }
+    
+    .footer-2 p {
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .nav-item {
+        width: 100%;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-1 {
+        padding: 12px 8px;
+    }
+    
+    .footer-2 {
+        padding: 15px 10px;
+    }
+    
+    .footer-2 p {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    
+    .nav-link {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}

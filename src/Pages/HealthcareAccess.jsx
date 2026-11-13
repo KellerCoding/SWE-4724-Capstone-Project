@@ -1,3 +1,4 @@
+import "./HealthcareAccess.css"
 import { Link } from "react-router-dom"
 
 export function HealthcareAccess() {
@@ -7,7 +8,7 @@ export function HealthcareAccess() {
             <div className="healthcare-banner">
                 <div className="banner-content">
                     <div className="banner-text">
-                        <h1 className="banner-title">Healthcare Access</h1>
+                        {/* <h1 className="banner-title">Healthcare Access</h1> */}
                         <p className="banner-description">
                             Getting affordable healthcare is a challenge for many Georgians—especially those without insurance, 
                             living in rural areas, earning low incomes, or facing language barriers. But we believe in a Georgia 

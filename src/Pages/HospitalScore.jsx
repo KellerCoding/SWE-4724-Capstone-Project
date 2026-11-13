@@ -1,3 +1,4 @@
+import "./HospitalScore.css"
 import { useNavigate } from "react-router-dom"
 import { Link } from "react-router-dom";
 import { useState } from "react"
@@ -52,8 +53,7 @@ export function HospitalScore() {
         return <div className="star-row">{stars}</div>;
     };
 
-    // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4) [Deprecated]
-    /*
+    // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
     const renderStarsDividedBy4 = (value) => {
         if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
         const num = Number(value);
@@ -67,8 +67,6 @@ export function HospitalScore() {
         }
         return <div className="star-row">{stars}</div>;
     };
-
-     */
 
     // In parent component
     // const flyToHospital = (hospitalId) => {
@@ -89,9 +87,9 @@ export function HospitalScore() {
     return (
         <div className="hospital-score-page">
 
-            <div className="banner">
+            {/* <div className="banner">
                 <h1><strong>Georgia Hospital Accountability Scorecard</strong></h1>
-            </div>
+            </div> */}
 
             {/* Navigation Button */}
             <div className="navigation-buttons">
@@ -209,13 +207,6 @@ export function HospitalScore() {
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.financialTransparency?.Endowment_Holdings)}</div>
                                     </div>
-                                    <div className="score-item">
-                                        <div className="score-label-container">
-                                            <span>Staffing Responsiveness</span>
-                                            <span className="metric-description">Measures the effectiveness of scheduled staff to the demands of hospital service and efficient labor expense</span>
-                                        </div>
-                                        <div className="star-display">{renderStars(hospitalData.financialTransparency?.Staffing_Responsiveness)}</div>
-                                    </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Financial Transparency</span>
                                         <div className="star-display">{renderStars(hospitalData.financialTransparency?.Grade_Financial_Transparency)}</div>
@@ -280,14 +271,14 @@ export function HospitalScore() {
                                             <span>Charity Care Policies</span>
                                             <span className="metric-description">Measures the generosity of charity care policies based on eligibility criteria, the effectiveness of screening, and other implementation strategies</span>
                                         </div>
-                                        <div className="star-display">{renderStars(hospitalData.healthcareAffordability?.Charity_Care_Policies)}</div>
+                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Charity_Care_Policies)}</div>
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
                                             <span>Medical Debt Policies</span>
                                             <span className="metric-description">Measures the quality of debt collection practices</span>
                                         </div>
-                                        <div className="star-display">{renderStars(hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
+                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Healthcare Affordability</span>
@@ -317,8 +308,8 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
-                                            <span>Patient Payer Mix</span>
-                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are uninsured/underinsured</span>
+                                            <span>Patient Payer Mix (MIUR Score)</span>
+                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are otherwise low-income</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.MIUR_score)}</div>
                                     </div>
@@ -332,7 +323,7 @@ export function HospitalScore() {
                                     <div className="score-item">
                                         <div className="score-label-container">
                                             <span>Pay Equity</span>
-                                            <span className="metric-description">Measures the ratio of CEO compensation to the average nurse salary</span>
+                                            <span className="metric-description">Measures the ratio of CEO compensation to the average direct patient services salary</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Pay_Equity)}</div>
                                     </div>
