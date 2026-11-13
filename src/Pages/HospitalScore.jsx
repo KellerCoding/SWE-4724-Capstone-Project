@@ -7,6 +7,7 @@ import ReactComponent from "react"
 import HospitalData from "../data/finalData.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
+import halfStar from "../assets/Images/Half_Star.png"
 import MapIcon from "../assets/Images/clearmapicon.webp"
 import BedIcon from "../assets/Images/bedicon.png"
 import HospitalIcon from "../assets/Images/HospitalIcon.png"
@@ -43,12 +44,27 @@ export function HospitalScore() {
         if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
         const num = Number(value);
         if (Number.isNaN(num)) return "-";
-        const filled = Math.max(0, Math.min(5, Math.round(num)));
+
+        const clamped = Math.max(0, Math.min(5, num));
+        const fullStars = Math.floor(clamped);
+        const hasHalf = clamped - fullStars >= 0.5;
+
         const stars = [];
         for (let i = 0; i < 5; i++) {
-            const src = i < filled ? star : dullStar;
-            stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="rating-star" />);
+            let src, alt;
+            if (i < fullStars) {
+                src = star;
+                alt = "star";
+            } else if (i === fullStars && hasHalf) {
+                src = halfStar;
+                alt = "half star";
+            } else {
+                src = dullStar;
+                alt = "dull";
+            }
+            stars.push(<img key={i} src={src} alt={alt} className="rating-star" />);
         }
+
         return <div className="star-row">{stars}</div>;
     };
 
@@ -317,10 +333,10 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
-                                            <span>Patient Payer Mix</span>
-                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are uninsured/underinsured</span>
+                                            <span>Patient Payer Mix (MIUR Score)</span>
+                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are otherwise low-income</span>
                                         </div>
-                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.MIUR_score)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Patient_Payer_Mix)}</div>
                                     </div>
                                     {/* <div className="score-item">
                                         <div className="score-label-container">
