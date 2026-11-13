@@ -255,6 +255,13 @@ export function HospitalScore() {
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.QCB_Spending_Score)}</div>
                                     </div>
+                                    <div className="score-item">
+                                        <div className="score-label-container">
+                                            <span>Community Health Needs Assessment</span>
+                                            <span className="metric-description">Measures the depth of input sought, breadth of input sought, and implementation plans of the CHNAs that nonprofit hospitals are required to complete every three years</span>
+                                        </div>
+                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.QCB_Spending_Score)}</div>
+                                    </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Community Benefit Spending</span>
                                         <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
@@ -323,8 +330,8 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
-                                            <span>Patient Payer Mix (MIUR Score)</span>
-                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are otherwise low-income</span>
+                                            <span>Patient Payer Mix</span>
+                                            <span className="metric-description">Measures the portion of patients who are on Medicaid or are uninsured/underinsured</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Patient_Payer_Mix)}</div>
                                     </div>
@@ -338,7 +345,7 @@ export function HospitalScore() {
                                     <div className="score-item">
                                         <div className="score-label-container">
                                             <span>Pay Equity</span>
-                                            <span className="metric-description">Measures the ratio of CEO compensation to the average direct patient services salary</span>
+                                            <span className="metric-description">Measures the ratio of CEO compensation to the average nurse salary</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Pay_Equity)}</div>
                                     </div>
