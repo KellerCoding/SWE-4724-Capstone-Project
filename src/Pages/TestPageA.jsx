@@ -1,5 +1,3 @@
-import "./Scorecard.css"
-
 export function TestPageA(){
     return (
         <div className="Scorecard">

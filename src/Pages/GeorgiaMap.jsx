@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import Map, { Marker, Popup, Source, Layer } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import "./GeorgiaMap.css";
 import georgiaGeoJson from "../data/georgia.json";
 import testData from "../data/finalData.json";
 import star from "../assets/Images/ratingStar.png";

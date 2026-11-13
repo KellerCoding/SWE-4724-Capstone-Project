@@ -1,5 +1,4 @@
 import { Carousel } from 'react-bootstrap'
-import "./Homepage.css"
 import gwatchLogo from "../assets/Images/gwatchlogo.png"
 import gwatchSlide1 from "../assets/Images/homepage/gwatchslide1.png"
 
