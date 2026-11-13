@@ -29,6 +29,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -77,6 +78,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -125,6 +127,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -173,6 +176,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -221,6 +225,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -269,6 +274,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -317,6 +323,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -365,6 +372,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -413,6 +421,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -461,6 +470,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -509,6 +519,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -557,6 +568,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -605,6 +617,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -653,6 +666,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -701,6 +715,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -749,6 +764,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -797,6 +813,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -845,6 +862,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -893,6 +911,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -941,6 +960,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -989,6 +1009,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -1037,6 +1058,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -1085,6 +1107,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -1133,6 +1156,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -1181,6 +1205,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -1229,6 +1254,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -1277,6 +1303,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -1325,6 +1352,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -1373,6 +1401,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -1421,6 +1450,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -1469,6 +1499,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -1517,6 +1548,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -1565,6 +1597,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -1613,6 +1646,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -1661,6 +1695,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -1709,6 +1744,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -1757,6 +1793,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -1805,6 +1842,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -1853,6 +1891,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -1901,6 +1940,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -1949,6 +1989,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -1997,6 +2038,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2045,6 +2087,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -2093,6 +2136,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -2141,6 +2185,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2189,6 +2234,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -2237,6 +2283,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -2285,6 +2332,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -2333,6 +2381,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -2381,6 +2430,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2429,6 +2479,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2477,6 +2528,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2525,6 +2577,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -2573,6 +2626,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2621,6 +2675,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2669,6 +2724,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2717,6 +2773,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -2765,6 +2822,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -2813,6 +2871,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -2861,6 +2920,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -2909,6 +2969,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -2957,6 +3018,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3005,6 +3067,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -3053,6 +3116,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -3101,6 +3165,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3149,6 +3214,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -3197,6 +3263,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3245,6 +3312,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3293,6 +3361,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3341,6 +3410,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -3389,6 +3459,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3437,6 +3508,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3485,6 +3557,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3533,6 +3606,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -3581,6 +3655,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3629,6 +3704,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3677,6 +3753,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -3725,6 +3802,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3773,6 +3851,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3821,6 +3900,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -3869,6 +3949,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -3917,6 +3998,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -3965,6 +4047,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -4013,6 +4096,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4061,6 +4145,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -4109,6 +4194,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -4157,6 +4243,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -4205,6 +4292,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4253,6 +4341,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4301,6 +4390,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -4349,6 +4439,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -4397,6 +4488,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -4445,6 +4537,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4493,6 +4586,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4541,6 +4635,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4589,6 +4684,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4637,6 +4733,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4685,6 +4782,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4733,6 +4831,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4781,6 +4880,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4829,6 +4929,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 2
     },
     "healthcareAffordability": {
@@ -4877,6 +4978,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -4925,6 +5027,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 2,
       "QCB_Spending_Score": 3,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -4973,6 +5076,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -5021,6 +5125,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -5069,6 +5174,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -5117,6 +5223,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -5165,6 +5272,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 0,
       "QCB_Spending_Score": 0,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
@@ -5213,6 +5321,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 0,
       "QCB_Spending_Score": 0,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
@@ -5261,6 +5370,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 0,
       "QCB_Spending_Score": 0,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
@@ -5309,6 +5419,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 0,
       "QCB_Spending_Score": 0,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 0
     },
     "healthcareAffordability": {
@@ -5357,6 +5468,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -5405,6 +5517,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -5453,6 +5566,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -5501,6 +5615,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4.5
     },
     "healthcareAffordability": {
@@ -5549,6 +5664,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -5597,6 +5713,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -5645,6 +5762,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 1,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 1
     },
     "healthcareAffordability": {
@@ -5693,6 +5811,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -5741,6 +5860,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 3,
       "QCB_Spending_Score": 2,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {
@@ -5789,6 +5909,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 5,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
@@ -5837,6 +5958,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 4,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 4
     },
     "healthcareAffordability": {
@@ -5885,6 +6007,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 5,
       "QCB_Spending_Score": 1,
+      "CHNA_Score": null,
       "Grade_Comm_Benefit_Spending": 3
     },
     "healthcareAffordability": {

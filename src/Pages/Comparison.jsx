@@ -232,6 +232,14 @@ export function Comparison() {
               </tr>
 
               <tr className={"gradeRow"}>
+                <td className={"metricRow"}>Community Benefit - CHNA Score</td>
+                {displayedHospitals.map((name, i) => {
+                  const entry = getHospitalEntry(name);
+                  return <td key={i}>{renderStars(entry?.commBenefitSpending?.CHNA_Score)}</td>;
+                })}
+              </tr>
+
+              <tr className={"gradeRow"}>
                 <td className={"metricRow"}>Community Benefit - Score</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);

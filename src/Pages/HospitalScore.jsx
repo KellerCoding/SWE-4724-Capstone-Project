@@ -260,7 +260,7 @@ export function HospitalScore() {
                                             <span>Community Health Needs Assessment</span>
                                             <span className="metric-description">Measures the depth of input sought, breadth of input sought, and implementation plans of the CHNAs that nonprofit hospitals are required to complete every three years</span>
                                         </div>
-                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.QCB_Spending_Score)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.CHNA_Score)}</div>
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Community Benefit Spending</span>
