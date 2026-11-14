@@ -40,43 +40,45 @@ export function HospitalScore() {
     const [selected, setSelected] = useState(null);
 
     // Helper function to render stars (0-5). Non-numeric or out-of-range shows dashes
-    const renderStars = (value) => {
-        if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
-        const num = Number(value);
-        if (Number.isNaN(num))
-            return "-";
+    const renderStars = (value, value2) => {
+        {
+            if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
+            const num = Number(value);
+            if (Number.isNaN(num))
+                return "-";
 
-        const clamped = Math.max(0, Math.min(5, num));
-        const fullStars = Math.floor(clamped);
-        const hasHalf = clamped - fullStars >= 0.5;
+            const clamped = Math.max(0, Math.min(5, num));
+            const fullStars = Math.floor(clamped);
+            const hasHalf = clamped - fullStars >= 0.5;
 
-        const stars = [];
-        for (let i = 0; i < 5; i++) {
-            let src, alt;
-            if (i < fullStars) {
-                src = star;
-                alt = "star";
-            } else if (i === fullStars && hasHalf) {
-                src = halfStar;
-                alt = "half star";
-            } else {
-                src = dullStar;
-                alt = "dull";
+            const stars = [];
+            for (let i = 0; i < 5; i++) {
+                let src, alt;
+                if (i < fullStars) {
+                    src = star;
+                    alt = "star";
+                } else if (i === fullStars && hasHalf) {
+                    src = halfStar;
+                    alt = "half star";
+                } else {
+                    src = dullStar;
+                    alt = "dull";
+                }
+                stars.push(<img key={i} src={src} alt={alt} className="rating-star"/>);
             }
-            stars.push(<img key={i} src={src} alt={alt} className="rating-star" />);
-        }
 
-        return <div className="star-row">{stars}</div>;
+            return <div className="star-row">{stars}</div>;
+        }
     };
 
-    // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
-    const renderStarsDividedBy4 = (value) => {
+    // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 3)
+    const renderStarsDividedBy3 = (value) => {
         if (value === null || value === undefined || value === "NA" || value === "N/A")
             return "-";
         const num = Number(value);
         if (Number.isNaN(num))
             return "-";
-        const dividedValue = num / 4;
+        const dividedValue = num / 3;
         const clamped = Math.max(0, Math.min(5, dividedValue));
         const filled = Math.max(0, Math.floor(clamped));
         const stars = [];
@@ -297,14 +299,14 @@ export function HospitalScore() {
                                             <span>Charity Care Policies</span>
                                             <span className="metric-description">Measures the generosity of charity care policies based on eligibility criteria, the effectiveness of screening, and other implementation strategies</span>
                                         </div>
-                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Charity_Care_Policies)}</div>
+                                        <div className="star-display">{renderStarsDividedBy3(hospitalData.healthcareAffordability?.Charity_Care_Policies)}</div>
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
                                             <span>Medical Debt Policies</span>
                                             <span className="metric-description">Measures the quality of debt collection practices</span>
                                         </div>
-                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
+                                        <div className="star-display">{renderStarsDividedBy3(hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Healthcare Affordability</span>

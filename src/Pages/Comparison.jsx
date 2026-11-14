@@ -69,19 +69,22 @@ export function Comparison() {
     return <div className="starRow">{stars}</div>;
   };
 
-  // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
-  const renderStarsDividedBy4 = (value) => {
-    if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
+  // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 3)
+  const renderStarsDividedBy3 = (value) => {
+    if (value === null || value === undefined || value === "NA" || value === "N/A")
+      return "-";
     const num = Number(value);
-    if (Number.isNaN(num)) return "-";
-    const dividedValue = num / 4;
-    const filled = Math.max(0, Math.min(5, Math.round(dividedValue)));
+    if (Number.isNaN(num))
+      return "-";
+    const dividedValue = num / 3;
+    const clamped = Math.max(0, Math.min(5, dividedValue));
+    const filled = Math.max(0, Math.floor(clamped));
     const stars = [];
     for (let i = 0; i < 5; i++) {
       const src = i < filled ? star : dullStar;
-      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className={"ratingStar"} />);
+      stars.push(<img key={i} src={src} alt={i < filled ? "star" : "dull"} className="rating-star" />);
     }
-    return <div className={"starRow"}>{stars}</div>;
+    return <div className="star-row">{stars}</div>;
   };
 
   // Helper to get field value with fallback for different naming conventions
@@ -259,7 +262,7 @@ export function Comparison() {
                 <td className={"metricRow"}>Healthcare Affordability - Charity Care Policies</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);
-                  return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Charity_Care_Policies)}</td>;
+                  return <td key={i}>{renderStarsDividedBy3(entry?.healthcareAffordability?.Charity_Care_Policies)}</td>;
                 })}
               </tr>
 
@@ -267,7 +270,7 @@ export function Comparison() {
                 <td className={"metricRow"}>Healthcare Affordability - Medical Debt Policies</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);
-                  return <td key={i}>{renderStarsDividedBy4(entry?.healthcareAffordability?.Medical_Debt_Policies)}</td>;
+                  return <td key={i}>{renderStarsDividedBy3(entry?.healthcareAffordability?.Medical_Debt_Policies)}</td>;
                 })}
               </tr>
 
