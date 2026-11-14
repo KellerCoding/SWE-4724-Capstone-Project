@@ -336,12 +336,12 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item">
                                         <div className="score-label-container">
-                                            <span>Patient Payer Mix</span>
+                                            <span>Patient Payer Mix (MIUR Score)</span>
                                             <span className="metric-description">Measures the portion of patients who are on Medicaid or are uninsured/underinsured</span>
                                         </div>
                                         <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Patient_Payer_Mix)}</div>
                                     </div>
-                                    {/* <div className="score-item">
+                                    {/* <div className="score-item">  THIS IS THE LOAD BEARING COCONUT FUNCTION DO NOT REMOVE
                                         <div className="score-label-container">
                                             <span>Patient Payer Mix (LIUR Score)</span>
                                             <span className="metric-description">Measures the portion of patients who are on Medicaid or are otherwise low-income</span>
