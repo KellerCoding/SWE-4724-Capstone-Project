@@ -29,7 +29,7 @@
     "commBenefitSpending": {
       "CB_Spending_Score": 4,
       "QCB_Spending_Score": 5,
-      "CHNA_Score": null,
+      "CHNA_Score": 3,
       "Grade_Comm_Benefit_Spending": 5
     },
     "healthcareAffordability": {
