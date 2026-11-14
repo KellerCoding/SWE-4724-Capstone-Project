@@ -43,7 +43,8 @@ export function HospitalScore() {
     const renderStars = (value) => {
         if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
         const num = Number(value);
-        if (Number.isNaN(num)) return "-";
+        if (Number.isNaN(num))
+            return "-";
 
         const clamped = Math.max(0, Math.min(5, num));
         const fullStars = Math.floor(clamped);
@@ -70,11 +71,14 @@ export function HospitalScore() {
 
     // Special function for Charity_Care_Policies and Medical_Debt_Policies (divide by 4)
     const renderStarsDividedBy4 = (value) => {
-        if (value === null || value === undefined || value === "NA" || value === "N/A") return "-";
+        if (value === null || value === undefined || value === "NA" || value === "N/A")
+            return "-";
         const num = Number(value);
-        if (Number.isNaN(num)) return "-";
+        if (Number.isNaN(num))
+            return "-";
         const dividedValue = num / 4;
-        const filled = Math.max(0, Math.min(5, Math.round(dividedValue)));
+        const clamped = Math.max(0, Math.min(5, dividedValue));
+        const filled = Math.max(0, Math.floor(clamped));
         const stars = [];
         for (let i = 0; i < 5; i++) {
             const src = i < filled ? star : dullStar;
