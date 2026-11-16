@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 import Map, { Marker, Popup, Source, Layer } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import georgiaGeoJson from "../data/georgia.json";
-import testData from "../data/finalData.json";
+import testData from "../data/finalDataV2.json";
 import star from "../assets/Images/ratingStar.png";
 import dullStar from "../assets/Images/ratingStarGrey.png";
 
@@ -21,7 +21,7 @@ export default function GeorgiaMap() {
   // Set to hard crop mode (no mask)
   const maskMode = false;
 
-  // Transform hospital data from finalData.json into locations array
+  // Transform hospital data from finalDataV2.json into locations array
   // Maintains the order from JSON file (Object.entries preserves insertion order)
   // Limited to first 32 hospitals
   const locations = useMemo(() => {
@@ -35,7 +35,7 @@ export default function GeorgiaMap() {
         city: data.hospitalInfo.city,
         address: data.hospitalInfo.address,
         website: data.hospitalInfo.website,
-        grade: data.finalScore?.Grade_Final ?? 0,
+        grade: data.finalScore?.Stars ?? 0,
       }));
   }, []);
 

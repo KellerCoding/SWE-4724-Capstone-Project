@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Tooltip from "../Pages/Tooltip.jsx";
 import HospitalDropdown from "../Pages/Dropdown.jsx";
 import testData from "../data/testData.json";
-import finalData from "../data/finalData.json";
+import finalData from "../data/finalDataV2.json";
 import star from "../assets/Images/ratingStar.png";
 import dullStar from "../assets/Images/ratingStarGrey.png";
 import halfStar from "../assets/Images/Half_Star.png";
@@ -294,7 +294,7 @@ export function Comparison() {
               <td className={"metricRow"}>Healthcare Access - Patient Payer Mix (MIUR Score)</td>
               {displayedHospitals.map((name, i) => {
                 const entry = getHospitalEntry(name);
-                return <td key={i}>{renderStars(entry?.healthcareAccess?.Patient_Payer_Mix)}</td>;
+                return <td key={i}>{renderStars(entry?.healthcareAccess?.MIUR_score)}</td>;
               })}
             </tr>
 
@@ -320,7 +320,7 @@ export function Comparison() {
                 <td className={"metricRow"}>Final Score</td>
                 {displayedHospitals.map((name, i) => {
                   const entry = getHospitalEntry(name);
-                  const value = getField(entry?.finalScore, "Grade_Final") || entry?.healthcareAccess?.Grade_Final;
+                  const value = getField(entry?.finalScore, "Stars") || entry?.finalScore?.Stars;
                   return <td key={i}>{renderStars(value)}</td>;
                 })}
               </tr>

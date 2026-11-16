@@ -4,7 +4,7 @@ import { useState } from "react"
 import { useParams } from "react-router-dom"
 import ReactComponent from "react"
 // import HospitalData from "../data/testData.json"
-import HospitalData from "../data/finalData.json"
+import HospitalData from "../data/finalDataV2.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 import halfStar from "../assets/Images/Half_Star.png"
@@ -192,19 +192,7 @@ export function HospitalScore() {
                         <span className="score-label">Final Score:</span>
                         <div className="stars">
                             {(() => {
-                                const grade = hospitalData.finalScore?.Grade_Final ?? 0;
-                                const stars = [];
-                                for (let i = 0; i < 5; i++) {
-                                    stars.push(
-                                        <img
-                                            key={i}
-                                            src={i < grade ? star : dullStar}
-                                            alt={i < grade ? "star" : "dull"}
-                                            className="rating-star-header"
-                                        />
-                                    );
-                                }
-                                return stars;
+                                return renderStars(hospitalData.finalScore?.Stars);
                             })()}
                         </div>
                     </div>
@@ -216,7 +204,7 @@ export function HospitalScore() {
                 <div className="left-sidebar">
                     <div className="about-card">
                         <h3>About</h3>
-                        {hospitalData.finalScore?.Grade_Final===0 && <h3>There is insufficient data from this facility. Scores will be updated when it is available</h3>}
+                        {hospitalData.finalScore?.Stars===0 && <h3>There is insufficient data from this facility. Scores will be updated when it is available</h3>}
                         <div className="address">
                             <p><strong>Address:</strong></p>
                             <p>{hospitalInfo.address}<br />{hospitalInfo.city}, GA, {hospitalInfo.zipcode}</p>
@@ -264,7 +252,7 @@ export function HospitalScore() {
                             <div className="section-header" onClick={() => toggleSection('financial')}>
                                 <div className="section-header-content">
                                     <h4>Financial Transparency and Fiscal Health</h4>
-                                    <div className="header-score">{renderStarsDividedBy4(hospitalData.financialTransparency?.Transparency+hospitalData.financialTransparency?.Fiscal_Health+hospitalData.financialTransparency?.Endowment_Holdings+hospitalData.financialTransparency?.Staffing_Responsiveness)}</div>
+                                    <div className="header-score">{renderStars(hospitalData.financialTransparency?.Grade_Financial_Transparency)}</div>
                                 </div>
                                 <span className="toggle-arrow">{expandedSections.financial ? '▲' : '▼'}</span>
                             </div>
@@ -300,7 +288,7 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Financial Transparency</span>
-                                        <div className="star-display">{renderStarsDividedBy4(hospitalData.financialTransparency?.Transparency+hospitalData.financialTransparency?.Fiscal_Health+hospitalData.financialTransparency?.Endowment_Holdings+hospitalData.financialTransparency?.Staffing_Responsiveness)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.financialTransparency?.Grade_Financial_Transparency)}</div>
                                     </div>
                                     <p className="description">Measures the availability and clarity of financial information.</p>
                                 </div>
@@ -311,7 +299,7 @@ export function HospitalScore() {
                             <div className="section-header" onClick={() => toggleSection('community')}>
                                 <div className="section-header-content">
                                     <h4>Community Benefit Spending</h4>
-                                    <div className="header-score">{renderStarsDividedBy3(hospitalData.commBenefitSpending?.CB_Spending_Score+hospitalData.commBenefitSpending?.QCB_Spending_Score+hospitalData.commBenefitSpending?.CHNA_Score)}</div>
+                                    <div className="header-score">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
                                 </div>
                                 <span className="toggle-arrow">{expandedSections.community ? '▲' : '▼'}</span>
                             </div>
@@ -340,7 +328,7 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Community Benefit Spending</span>
-                                        <div className="star-display">{renderStarsDividedBy3(hospitalData.commBenefitSpending?.CB_Spending_Score+hospitalData.commBenefitSpending?.QCB_Spending_Score+hospitalData.commBenefitSpending?.CHNA_Score)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.commBenefitSpending?.Grade_Comm_Benefit_Spending)}</div>
                                     </div>
                                     <p className="description">Assesses how hospitals' investment in community health programs and services.</p>
                                 </div>
@@ -351,7 +339,7 @@ export function HospitalScore() {
                             <div className="section-header" onClick={() => toggleSection('healthcare')}>
                                 <div className="section-header-content">
                                     <h4>Healthcare Affordability and Billing Practices</h4>
-                                    <div className="header-score">{renderStarsDividedBy3(hospitalData.healthcareAffordability?.Financial_Burden+hospitalData.healthcareAffordability?.Charity_Care_Policies+hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
+                                    <div className="header-score">{renderStars(hospitalData.healthcareAffordability?.Grade_Healthcare_Affordability)}</div>
                                 </div>
                                 <span className="toggle-arrow">{expandedSections.healthcare ? '▲' : '▼'}</span>
                             </div>
@@ -380,7 +368,7 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Healthcare Affordability</span>
-                                        <div className="star-display">{renderStarsDividedBy3(hospitalData.healthcareAffordability?.Financial_Burden+hospitalData.healthcareAffordability?.Charity_Care_Policies+hospitalData.healthcareAffordability?.Medical_Debt_Policies)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAffordability?.Grade_Healthcare_Affordability)}</div>
                                     </div>
                                     <p className="description">Measures the hospital's commitment to affordable healthcare and fair billing.</p>
                                 </div>
@@ -391,7 +379,7 @@ export function HospitalScore() {
                             <div className="section-header" onClick={() => toggleSection('accessibility')}>
                                 <div className="section-header-content">
                                     <h4>Healthcare Accessibility and Social Responsibility</h4>
-                                    <div className="header-score">{renderStarsDividedBy3(hospitalData.healthcareAccess?.Demographic_Alignment+hospitalData.healthcareAccess?.Patient_Payer_Mix+hospitalData.healthcareAccess?.Pay_Equity)}</div>
+                                    <div className="header-score">{renderStars(hospitalData.healthcareAccess?.Grade_Healthcare_Access)}</div>
                                 </div>
                                 <span className="toggle-arrow">{expandedSections.accessibility ? '▲' : '▼'}</span>
                             </div>
@@ -409,7 +397,7 @@ export function HospitalScore() {
                                             <span>Patient Payer Mix (MIUR Score)</span>
                                             <span className="metric-description">Measures the portion of patients who are on Medicaid or are uninsured/underinsured</span>
                                         </div>
-                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Patient_Payer_Mix)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.MIUR_score)}</div>
                                     </div>
                                     {/* <div className="score-item">  THIS IS THE LOAD BEARING COCONUT FUNCTION DO NOT REMOVE
                                         <div className="score-label-container">
@@ -427,7 +415,7 @@ export function HospitalScore() {
                                     </div>
                                     <div className="score-item final-score-item">
                                         <span>Score - Healthcare Access</span>
-                                        <div className="star-display">{renderStarsDividedBy3(hospitalData.healthcareAccess?.Demographic_Alignment+hospitalData.healthcareAccess?.Patient_Payer_Mix+hospitalData.healthcareAccess?.Pay_Equity)}</div>
+                                        <div className="star-display">{renderStars(hospitalData.healthcareAccess?.Grade_Healthcare_Access)}</div>
                                     </div>
 
                                     <p className="description">Reflects care quality and experience.</p>
