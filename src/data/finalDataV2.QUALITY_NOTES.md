@@ -25,6 +25,9 @@ Changes applied while building/cleaning [`finalDataV2.json`](finalDataV2.json). 
   - Grady General Hospital (`110121`)
   - John D. Archbold Memorial Hospital (`110038`)
 - Stripped trailing NBSP (`\xa0`) from dirty website/name strings (e.g. Liberty Regional URL; Emory Hospital Perry; Wellstar Douglas)
+- Upgraded `http://` → `https://` for:
+  - Liberty Regional Medical Center
+  - Warm Springs Medical Center
 
 ### Text / address cleanup
 - Bleckley Memorial: county `Bleckely` → `Bleckley`
@@ -61,11 +64,6 @@ Likely missing data encoded as `0` (grades left unchanged):
 - **Irwin County Hospital** — Fiscal_Health, Endowment_Holdings, CB_Spending_Score, QCB_Spending_Score = 0; `Grade_Final` 1.5, `Stars` 1.5
 - **CB + QCB both 0:** Fannin Regional; South Georgia Medical Center Lanier Campus; Irwin County; Southern Regional Medical Center; South Georgia Medical Center; South Georgia Medical Center - Berrien Campus
 - **Endowment_Holdings = 0:** 61 of 120 hospitals
-
-## HTTP (not HTTPS) websites (kept)
-
-- Liberty Regional Medical Center — `http://www.libertyregional.org/getpage.php?name=os`
-- Warm Springs Medical Center — `http://www.warmspringsmc.org/transparency.html`
 
 ## Brand / URL / naming quirks (kept)
 

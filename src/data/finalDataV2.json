@@ -503,7 +503,7 @@
     "hospitalInfo": {
       "ID": "111335",
       "name": "Liberty Regional Medical Center",
-      "website": "http://www.libertyregional.org/getpage.php?name=os",
+      "website": "https://www.libertyregional.org/getpage.php?name=os",
       "city": "Hinesville",
       "county": "Liberty",
       "address": "462 Elma G Miles Pkwy",
@@ -2403,7 +2403,7 @@
     "hospitalInfo": {
       "ID": "111316",
       "name": "Warm Springs Medical Center",
-      "website": "http://www.warmspringsmc.org/transparency.html",
+      "website": "https://www.warmspringsmc.org/transparency.html",
       "city": "Warm Springs",
       "county": "Meriwether",
       "address": "5995 Spring St",
