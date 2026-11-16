@@ -47,14 +47,18 @@ export function HospitalScore() {
             if (Number.isNaN(num))
                 return "-";
 
-            const filled = Math.max(0, Math.min(5, Math.round(num)));
+            const filled = Math.max(0, Math.min(5, Math.floor(num)));
+            const remainder = num-filled;
             const stars = [];
             for (let i = 0; i < 5; i++) {
                 let src, alt;
                 if (i < filled) {
                     src = star;
                     alt = "star";
-                }  else {
+                } else if (remainder && i < filled+1) {
+                    src = halfStar;
+                    alt = "half star";
+                } else {
                     src = dullStar;
                     alt = "dull";
                 }
