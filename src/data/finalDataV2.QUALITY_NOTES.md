@@ -31,7 +31,7 @@ Changes applied while building and cleaning [`finalDataV2.json`](finalDataV2.jso
 - St. Mary's Good Samaritan: address `Pwky` → `Pkwy`
 - Atrium Health Navicent Peach: address `GA-247CONN` → `GA-247 CONN`
 - **Wellstar Sylvan Grove Medical Center** (ID `111319`): spelling `WellStar` → `Wellstar` to match other Wellstar facilities and `systemName`
-- **Blue Ridge Medical Center** (ID `110189`): display name `Fannin Regional Hospital` → `Blue Ridge Medical Center` to match current public brand; kept `blueridgemc.org` website and independent (`systemName: null`)
+- **Blue Ridge Medical Center** (was ID `110189`): display name `Fannin Regional Hospital` → `Blue Ridge Medical Center` to match current public brand; kept `blueridgemc.org` website and independent (`systemName: null`)
 
 ## Field / type normalization
 - Independent `systemName` placeholder `"0.0"` → `null` (36 hospitals)
@@ -43,24 +43,31 @@ Changes applied while building and cleaning [`finalDataV2.json`](finalDataV2.jso
 - App reads `finalDataV2.json`; final display/sort/map uses `Stars`; pillar headers use `Grade_*` fields
 
 ## Reference data (CCN verification)
-- CMS Certification Number (CCN) reference export: `F:\Hospital_General_Information_2.csv` (CMS Hospital General Information)
+- CMS Certification Number (CCN) reference export: [`Hospital_General_Information_2.csv`](Hospital_General_Information_2.csv) (also `F:\Hospital_General_Information_2.csv`)
 - Join key: JSON `hospitalInfo.ID` ↔ CSV `Facility ID` (this is the CCN)
-- Useful CSV columns for review: Facility Name, Address, City/Town, State, ZIP Code, County/Parish, Hospital Type
+- Useful CSV columns: Facility Name, Address, City/Town, State, ZIP Code, County/Parish, Hospital Type
 - Filter Georgia with `State = GA` (Georgia CCNs typically start with `11`)
-- **Policy:** CCNs / `hospitalInfo.ID` values in `finalDataV2.json` are **not modified** from this reference (review only)
+- **Policy:** wrong or retired CCNs are corrected from this CSV when Facility Name + address match
+
+## CCN corrections (from CMS CSV)
+- **Blue Ridge Medical Center:** `110189` → `111338` (Critical Access Hospitals)
+- **Irwin County Hospital:** `110130` → `110779` (Rural Emergency Hospital)
+- **Taylor Regional Hospital:** `110135` → `110256` (Acute Care Hospitals)
+- **Southeast Georgia Health System-Brunswick Campus** (`110025`): city/address/ZIP/county corrected from CSV (`Brunswick` / `2415 Parkwood Drive` / `31520` / `Glynn`); CCN unchanged; lat/lng already correct
+- **Shared CCN `110079`:** Hughes Spalding and Grady Memorial both correctly use `110079` (Hughes Spalding bills under Grady’s Medicare number). Not remapped. Lookups by ID can still collide — prefer name key in UI.
 
 ---
 
 # Known Quirks
 
-Remaining open issues. Scores were not changed for these items. **CCNs are frozen** — including known ID quirks below — pending a future business decision; use `F:\Hospital_General_Information_2.csv` to review only.
+Remaining open issues. Scores were not changed for these items.
 
 ## Classification and identity
-- **Atrium Health Floyd Medical Center** is tagged as a **Critical Access Hospital (CAH)** but has about **227 beds**. CAH status is meant for small rural hospitals (typically ~25 beds). This looks misclassified and needs confirmation against the official CAH list / Hospital Type in the CMS CSV.
-- **Other possible CAH mismatches** (tagged CAH with more than 25 beds): City of Hope Cancer Center (50), Blue Ridge Medical Center (50; formerly Fannin Regional), AdventHealth Murray (29). Verify each against CMS Hospital Type (do not change CCNs).
-- **Duplicate hospital ID `110079`:** both Children's Healthcare of Atlanta at Hughes Spalding and Grady Memorial Hospital use the same ID. Lookups by ID can collide. CCN left unchanged.
-- **Blue Ridge Medical Center** keeps CCN `110189` (former Fannin Regional ID); CMS may list a newer active Facility ID — documented for review only; CCN not updated.
-- **Hughes Spalding dual affiliation:** the hospital is named **Children's Healthcare of Atlanta (CHOA)** but `systemName` is Grady. In reality it is Grady-owned and CHOA-managed; the product needs a clear rule for which system label to show. Transparency docs currently point at Grady’s site.
+- **Atrium Health Floyd Medical Center** is tagged as a **Critical Access Hospital (CAH)** but has about **227 beds**. CMS CSV lists it as Acute Care Hospitals (`110054`). Needs `criticalAccess` retag.
+- **Other CAH vs CSV Hospital Type mismatches:** City of Hope (`110233`, Acute Care), AdventHealth Murray (`110050`, Acute Care), NGMC Lumpkin (`110237`, Acute Care), Piedmont McDuffie (`110111`, Acute Care) tagged CAH in JSON; Warm Springs (`111316`) is CAH in CSV but `criticalAccess=0` in JSON.
+- **Shared CCN `110079`:** Children's Healthcare of Atlanta at Hughes Spalding and Grady Memorial Hospital both use `110079` by design (verified against CMS / state AHQ). ID-only lookups collide.
+- **Hughes Spalding dual affiliation:** named **Children's Healthcare of Atlanta (CHOA)** but `systemName` is Grady. Grady-owned and CHOA-managed; product needs a clear system-label rule.
+- **Not in Hospital General Information CSV** (specialty / LTACH / IRF / campus types; CCNs kept from other CMS sources): Shepherd Center (`112003`), Emory Long Term Acute Care (`112006`), Roosevelt LTAC (`112000`), Wellstar Windy Hill (`112007`), Roosevelt Warm Springs Rehab (`113028`), Atrium Navicent Rehab (`113029`), Emory Hospital Perry (`110153`).
 
 ## Brand, naming, and URLs
 - **Piedmont McDuffie** and **Piedmont Augusta** still use old `universityhealth.org` transparency URLs while other Piedmont hospitals use `piedmont.org`.
@@ -75,12 +82,11 @@ Remaining open issues. Scores were not changed for these items. **CCNs are froze
 
 # Next Steps
 
-Prioritized actions for review and follow-up (do not change scores without a source decision; **do not change CCNs** unless explicitly approved later):
+Prioritized actions for review and follow-up (do not change scores without a source decision):
 
-1. **Review against CMS CSV** — Compare `finalDataV2.json` IDs to `F:\Hospital_General_Information_2.csv` (`Facility ID`) for name/city/Hospital Type mismatches; produce a review report if needed, without editing JSON IDs.
-2. **Verify CAH tags** — Check Floyd and the other oversized Critical Access Hospital (CAH) rows against CMS Hospital Type / official CAH list; retag `criticalAccess` if wrong (CCNs stay as-is unless separately approved).
-3. **Decide policy for duplicate ID `110079`** — Unique IDs vs documented affiliate/shared-ID rule (no CCN edit until decided).
-4. **Decide Hughes Spalding system label** — Choose Grady (ownership) vs Children's Healthcare of Atlanta (CHOA) (brand/management) for `systemName`, and document the decision.
-5. **Update Piedmont transparency URLs** — Point Piedmont McDuffie and Piedmont Augusta to current `piedmont.org` hospital-transparency pages.
-6. **Normalize Navicent display names** — Use the official “Atrium Health Navicent …” pattern for Baldwin, The Medical Center, and Rehabilitation Hospital.
-7. **Decide zero vs missing scores** — Before changing sparse hospitals, set a policy for whether `0` means scored zero or “not available,” especially for endowment and community-benefit components.
+1. **Retag `criticalAccess` from CMS Hospital Type** — Floyd, City of Hope, Murray, Lumpkin, McDuffie → not CAH; Warm Springs → CAH.
+2. **ID-safe lookups for shared `110079`** — Prefer hospital name (or composite key) where Grady and Hughes Spalding must not collide.
+3. **Decide Hughes Spalding system label** — Grady (ownership) vs Children's Healthcare of Atlanta (CHOA) (brand/management) for `systemName`.
+4. **Update Piedmont transparency URLs** — Point Piedmont McDuffie and Piedmont Augusta to current `piedmont.org` hospital-transparency pages.
+5. **Normalize Navicent display names** — Use the official “Atrium Health Navicent …” pattern for Baldwin, The Medical Center, and Rehabilitation Hospital.
+6. **Decide zero vs missing scores** — Before changing sparse hospitals, set a policy for whether `0` means scored zero or “not available,” especially for endowment and community-benefit components.

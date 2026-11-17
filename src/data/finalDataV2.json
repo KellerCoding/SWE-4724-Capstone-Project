@@ -351,7 +351,7 @@
   },
   "8": {
     "hospitalInfo": {
-      "ID": "110189",
+      "ID": "111338",
       "name": "Blue Ridge Medical Center",
       "website": "https://www.blueridgemc.org/organizational-financial-information",
       "city": "Blue Ridge",
@@ -2001,7 +2001,7 @@
   },
   "41": {
     "hospitalInfo": {
-      "ID": "110130",
+      "ID": "110779",
       "name": "Irwin County Hospital",
       "website": "https://www.irwincntyhospital.com/about/financial-transparency/2024-archived-organizational-financial-information",
       "city": "Ocilla",
@@ -2251,7 +2251,7 @@
   },
   "46": {
     "hospitalInfo": {
-      "ID": "110135",
+      "ID": "110256",
       "name": "Taylor Regional Hospital",
       "website": "https://taylorregional.org/transparency.php",
       "city": "Hawkinsville",
@@ -5054,10 +5054,10 @@
       "ID": "110025",
       "name": "Southeast Georgia Health System-Brunswick Campus",
       "website": "https://www.sghs.org/About-Us/Hospital-Transparency-Information.aspx",
-      "city": "Thomson",
-      "county": "McDuffie",
-      "address": "2460 Washington Rd",
-      "zipcode": 30824,
+      "city": "Brunswick",
+      "county": "Glynn",
+      "address": "2415 Parkwood Drive",
+      "zipcode": 31520,
       "hospitalSystem": 1,
       "systemName": "Southeast Georgia Health System",
       "areaType": 0,
