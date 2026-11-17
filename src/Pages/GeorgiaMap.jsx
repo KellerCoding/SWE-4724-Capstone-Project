@@ -23,10 +23,9 @@ export default function GeorgiaMap() {
 
   // Transform hospital data from finalDataV2.json into locations array
   // Maintains the order from JSON file (Object.entries preserves insertion order)
-  // Limited to first 32 hospitals
+  // Includes every hospital in the file (no cap)
   const locations = useMemo(() => {
     return Object.entries(testData)
-      .slice(0, 105) // Only take first 32 hospitals
       .map(([id, data]) => ({
         id: id,
         name: data.hospitalInfo.name,
