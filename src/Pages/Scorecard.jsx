@@ -1,11 +1,12 @@
-import "./Scorecard.css"
+
 import { useNavigate } from "react-router-dom"
 import { useState, useMemo, useEffect, useRef } from "react"
 // import hospitalData from "../data/testData.json"
-import hospitalData from "../data/finalData.json"
+import hospitalData from "../data/finalDataV2.json"
 import star from "../assets/Images/ratingStar.png"
 import dullStar from "../assets/Images/ratingStarGrey.png"
 import { Link } from "react-router-dom"
+import halfstar from "../assets/Images/Half_Star.png"
 
 export function Scorecard(){
     const navigate = useNavigate()
@@ -183,8 +184,8 @@ export function Scorecard(){
             })
         } else if (sortByGrade !== null) {
             entries = entries.sort(([, a], [, b]) => {
-                const gradeA = a.finalScore?.Grade_Final ?? 0
-                const gradeB = b.finalScore?.Grade_Final ?? 0
+                const gradeA = a.finalScore?.Stars ?? 0
+                const gradeB = b.finalScore?.Stars ?? 0
                 return sortByGrade ? gradeA - gradeB : gradeB - gradeA // true = ascending (Low-High), false = descending (High-Low)
             })
         } else if (sortByCounty !== null) {
@@ -281,7 +282,7 @@ export function Scorecard(){
             City: data.hospitalInfo?.city || '',
             County: data.hospitalInfo?.county || '',
             Zipcode: data.hospitalInfo?.zipcode || '',
-            Final_Grade: data.finalScore?.Grade_Final ?? ''
+            Stars: data.finalScore?.Stars ?? ''
         }
     }
 
@@ -571,14 +572,27 @@ export function Scorecard(){
                                         </td>
                                         <td className={"Grade"}>
                                             {(() => {
-                                                const grade = data.finalScore?.Grade_Final ?? 0
+                                                const grade = data.finalScore?.Stars ?? 0
+                                                const num = Number(grade)
+                                                const clamped = Number.isNaN(num) ? 0 : Math.max(0, Math.min(5, num))
+                                                const fullStars = Math.floor(clamped)
+                                                const hasHalf = clamped - fullStars >= 0.5
                                                 const stars = []
                                                 for (let i = 0; i < 5; i++) {
+                                                    let src = dullStar
+                                                    let alt = "dull"
+                                                    if (i < fullStars) {
+                                                        src = star
+                                                        alt = "star"
+                                                    } else if (i === fullStars && hasHalf) {
+                                                        src = halfstar
+                                                        alt = "half star"
+                                                    }
                                                     stars.push(
                                                         <img
                                                             key={i}
-                                                            src={i < grade ? star : dullStar}
-                                                            alt={i < grade ? "star" : "dull"}
+                                                            src={src}
+                                                            alt={alt}
                                                             className={"ratingStar"}
                                                         />
                                                     )

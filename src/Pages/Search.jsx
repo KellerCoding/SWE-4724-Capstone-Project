@@ -1,5 +1,3 @@
-import "./Search.css"
-
 export function Search(){
 
     function PageButtons() {

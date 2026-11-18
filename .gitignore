@@ -150,3 +150,6 @@ package-lock.json
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# local .idea folder
+.idea/

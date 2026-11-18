@@ -1,4 +1,4 @@
-import "./ResourceDirectory.css"
+
 import { useNavigate } from "react-router-dom"
 import GWatchTab1 from "../assets/Images/resourceDirectory/gwatchtab1.png"
 import GWatchTab2 from "../assets/Images/resourceDirectory/gwatchtab2.png"
